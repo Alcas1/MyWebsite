@@ -40,7 +40,7 @@
       <file leaf-file-name="betatesters.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/betatesters.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="33" selection-start="243" selection-end="367" vertical-scroll-proportion="0.0">
+            <state line="21" column="33" selection-start="243" selection-end="367" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -49,7 +49,7 @@
       <file leaf-file-name="applets.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/applets.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="16" selection-start="655" selection-end="655" vertical-scroll-proportion="-6.875">
+            <state line="11" column="16" selection-start="655" selection-end="655" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -58,7 +58,7 @@
       <file leaf-file-name="music0.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/music0.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="8" selection-start="2334" selection-end="2334" vertical-scroll-proportion="0.45714286">
+            <state line="182" column="15" selection-start="7227" selection-end="7227" vertical-scroll-proportion="0.875">
               <folding />
             </state>
           </provider>
@@ -85,7 +85,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="66" />
+    <option name="x" value="993" />
     <option name="y" value="52" />
     <option name="width" value="927" />
     <option name="height" value="1028" />
@@ -116,7 +116,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -165,14 +164,15 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager">
     <list size="0" />
@@ -205,14 +205,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="66" y="52" width="927" height="1028" extended-state="4" />
-    <editor active="false" />
+    <frame x="993" y="52" width="927" height="1028" extended-state="4" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16419612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16875713" sideWeight="0.9515924" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -352,7 +352,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/betatesters.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="33" selection-start="243" selection-end="367" vertical-scroll-proportion="0.0">
+        <state line="21" column="33" selection-start="243" selection-end="367" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -380,14 +380,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/applets.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="16" selection-start="655" selection-end="655" vertical-scroll-proportion="-6.875">
+        <state line="11" column="16" selection-start="655" selection-end="655" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/music0.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="8" selection-start="2334" selection-end="2334" vertical-scroll-proportion="0.45714286">
+        <state line="182" column="15" selection-start="7227" selection-end="7227" vertical-scroll-proportion="0.875">
           <folding />
         </state>
       </provider>
