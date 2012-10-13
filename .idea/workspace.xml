@@ -19,37 +19,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="34" selection-start="568" selection-end="568" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="music13.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/views/music13.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="122" column="55" selection-start="3925" selection-end="3925" vertical-scroll-proportion="0.33951333">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="applets.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/applets.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="16" selection-start="689" selection-end="689" vertical-scroll-proportion="-7.5">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="music0.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/music0.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="183" column="17" selection-start="7232" selection-end="7232" vertical-scroll-proportion="-31.25">
+            <state line="183" column="6" selection-start="7161" selection-end="7161" vertical-scroll-proportion="-26.875">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="music1.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/music1.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="44" column="200" selection-start="2573" selection-end="2573" vertical-scroll-proportion="0.31292516">
               <folding />
             </state>
           </provider>
@@ -71,8 +53,9 @@
       <list>
         <option value="$PROJECT_DIR$/views/timeline.erb" />
         <option value="$PROJECT_DIR$/views/music13.erb" />
-        <option value="$PROJECT_DIR$/views/music0.erb" />
         <option value="$PROJECT_DIR$/views/applets.erb" />
+        <option value="$PROJECT_DIR$/views/music0.erb" />
+        <option value="$PROJECT_DIR$/views/music1.erb" />
       </list>
     </option>
   </component>
@@ -80,7 +63,7 @@
     <option name="x" value="993" />
     <option name="y" value="52" />
     <option name="width" value="927" />
-    <option name="height" value="1028" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -108,6 +91,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -156,15 +140,14 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager">
     <list size="0" />
@@ -197,14 +180,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="993" y="52" width="927" height="1028" extended-state="4" />
+    <frame x="993" y="52" width="927" height="900" extended-state="4" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16875713" sideWeight="0.9515924" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17331813" sideWeight="0.9515924" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -272,13 +255,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/views/betatesters.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="33" selection-start="243" selection-end="367" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="34" selection-start="568" selection-end="568" vertical-scroll-proportion="0.0">
@@ -302,9 +278,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/betatesters.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="33" selection-start="243" selection-end="367" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="6" column="33" selection-start="243" selection-end="367" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.rb">
@@ -316,9 +290,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/betatesters.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="33" selection-start="243" selection-end="367" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="6" column="33" selection-start="243" selection-end="367" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.rb">
@@ -330,9 +302,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/betatesters.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="91" selection-start="413" selection-end="413" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="10" column="91" selection-start="413" selection-end="413" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.rb">
@@ -342,23 +312,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.rb">
+    <entry file="file://$PROJECT_DIR$/views/betatesters.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="34" selection-start="568" selection-end="568" vertical-scroll-proportion="0.0">
+        <state line="21" column="33" selection-start="243" selection-end="367" vertical-scroll-proportion="0.19642857" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/music13.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="122" column="55" selection-start="3925" selection-end="3925" vertical-scroll-proportion="0.53061223">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/music0.erb">
+    <entry file="file://$PROJECT_DIR$/main.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="183" column="17" selection-start="7232" selection-end="7232" vertical-scroll-proportion="-31.25">
+        <state line="33" column="34" selection-start="568" selection-end="568" vertical-scroll-proportion="0.019430052">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/applets.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="16" selection-start="689" selection-end="689" vertical-scroll-proportion="-7.5">
+        <state line="8" column="16" selection-start="569" selection-end="569" vertical-scroll-proportion="0.12244898">
           <folding />
         </state>
       </provider>
@@ -370,16 +345,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/betatesters.erb">
+    <entry file="file://$PROJECT_DIR$/views/music0.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="33" selection-start="243" selection-end="367" vertical-scroll-proportion="0.19642857">
+        <state line="183" column="6" selection-start="7161" selection-end="7161" vertical-scroll-proportion="-26.875">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/music13.erb">
+    <entry file="file://$PROJECT_DIR$/views/music1.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="122" column="55" selection-start="3925" selection-end="3925" vertical-scroll-proportion="0.33951333">
+        <state line="44" column="200" selection-start="2573" selection-end="2573" vertical-scroll-proportion="0.31292516">
           <folding />
         </state>
       </provider>
