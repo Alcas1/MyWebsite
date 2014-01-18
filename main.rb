@@ -289,7 +289,7 @@ class Main < Sinatra::Base
     Pony.mail(
         :from => params[:name] + "<" + params[:email] + ">",
         :to => 'jonathanwu70@gmail.com',
-        :subject => params[:name] + " has contacted you",
+        :subject => params[:name] + " has contacted you from " + params[:email],
         :headers => { 'Content-Type' => 'text/html'},
         :body => params[:body],
         :port => '587',
