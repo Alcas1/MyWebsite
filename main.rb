@@ -285,7 +285,7 @@ class Main < Sinatra::Base
     name = params[:name]
     email = params[:email]
     body = params[:body]
-    #message=params[:message]
+    message=params[:message]
     Pony.mail(
         :from => params[:name] + "<" + params[:email] + ">",
         :to => 'jonathanwu70@gmail.com',
