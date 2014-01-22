@@ -38,13 +38,17 @@
 		  // Replace the 'ytplayer' element with an <iframe> and
 		  // YouTube player after the API code downloads.
 		  var player;
-		  function onYouTubePlayerAPIReady() {
-		    player = new YT.Player('ytplayer', {
-		      height: '390',
-		      width: '640',
-		      videoId: 'WP2sjVnaZxg'
-		    });
-		  }
+			function onYouTubeIframeAPIReady() {
+			  player = new YT.Player('player', {
+			    height: '390',
+			    width: '640',
+			    videoId: 'M7lc1UVf-VE',
+			    events: {
+			      'onReady': onPlayerReady,
+			      'onStateChange': onPlayerStateChange
+			    }
+			  });
+			}
 		</script>
     <p>
       <a onclick="document.getElementById('content1').style.display=(document.getElementById('content1').style.display=='none')?'block':'none'"><strong>Awesome To The Max-Ephixa</strong></a>
