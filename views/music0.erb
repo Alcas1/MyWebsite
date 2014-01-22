@@ -28,24 +28,24 @@
   <div style=padding-top:10px;>
     <div id="ytplayer"></div>
 
-<script>
-  // Load the IFrame Player API code asynchronously.
-  var tag = document.createElement('script');
-  tag.src = "https://www.youtube.com/player_api";
-  var firstScriptTag = document.getElementsByTagName('script')[0];
-  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-
-  // Replace the 'ytplayer' element with an <iframe> and
-  // YouTube player after the API code downloads.
-  var player;
-  function onYouTubePlayerAPIReady() {
-    player = new YT.Player('ytplayer', {
-      height: '390',
-      width: '640',
-      videoId: 'M7lc1UVf-VE'
-    });
-  }
-</script>
+		<script>
+		  // Load the IFrame Player API code asynchronously.
+		  var tag = document.createElement('script');
+		  tag.src = "http://www.youtube.com/embed?listType=playlist&list=FLsFKsBJ1OJSv9goHzWqJjyA";
+		  var firstScriptTag = document.getElementsByTagName('script')[0];
+		  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+		
+		  // Replace the 'ytplayer' element with an <iframe> and
+		  // YouTube player after the API code downloads.
+		  var player;
+		  function onYouTubePlayerAPIReady() {
+		    player = new YT.Player('ytplayer', {
+		      height: '390',
+		      width: '640',
+		      videoId: 'M7lc1UVf-VE'
+		    });
+		  }
+		</script>
     <p>
       <a onclick="document.getElementById('content1').style.display=(document.getElementById('content1').style.display=='none')?'block':'none'"><strong>Awesome To The Max-Ephixa</strong></a>
     <div id='content1' style='display: none'>
