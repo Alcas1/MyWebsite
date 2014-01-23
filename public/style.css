@@ -1,8 +1,9 @@
 body {
-    margin: 35px auto;
+    margin: auto;
     width: 900px;
     font-family: Blue;
     font-size:110%;
+    
     font-stretch: semi-expanded;
     background-image: url(background.jpeg);
 }
