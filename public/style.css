@@ -1,5 +1,7 @@
 body {
-    margin: auto;
+    margin: 35px auto;
+    margin-left:auto;
+    margin-right:auto;
     width: 900px;
     font-family: Blue;
     font-size:110%;
