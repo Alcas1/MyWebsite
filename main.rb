@@ -328,6 +328,16 @@ class Main < Sinatra::Base
     redirect'/about'
 
   end
+
+  get '/2014' do
+    @year_number='2014'
+    @my_age='19'
+    @grade='University Freshman'
+    @school='Lehigh University'
+    @second_title='Jonathan Wu'
+    erb :year2014
+  end
+  
   get '/2013' do
     @year_number='2013'
     @my_age='18'
