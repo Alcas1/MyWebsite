@@ -20,7 +20,12 @@ require 'pony'
 #end
 
 #DataMapper.finalize.auto_upgrade!
+
 class Main < Sinatra::Base
+  
+  set :public_folder, 'public'
+  
+  
   get '/' do
     @title= 'Jonathan Wu'
     @year_number='Welcome'
@@ -329,7 +334,7 @@ class Main < Sinatra::Base
   end
 
   get '/tapgame' do
-    erb :index
+    redirect '/tapgame/index.html'
   end
 
 
