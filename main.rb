@@ -329,9 +329,7 @@ class Main < Sinatra::Base
   end
 
   get '/tapgame' do
-    
-    
-    erb:tapgame
+    File.read(File.join('public','tapgame/index.html'))
   end
 
 
