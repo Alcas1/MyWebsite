@@ -329,7 +329,7 @@ class Main < Sinatra::Base
   end
 
   get '/tapgame' do
-    send_file File.read(File.join(settings.public_folder,'tapgame/index.html'))
+    send_file File.read(File.join('public','tapgame/index.html'))
   end
 
 
