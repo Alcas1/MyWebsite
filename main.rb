@@ -329,7 +329,7 @@ class Main < Sinatra::Base
   end
 
   get '/tapgame' do
-    erb :index
+    html :index
   end
 
 
