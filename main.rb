@@ -326,8 +326,15 @@ class Main < Sinatra::Base
 
   post '/tictactoe' do
     redirect'/about'
-
   end
+
+  get '/tapgame' do
+    
+    
+    erb:tapgame
+  end
+
+
 
   get '/2014' do
     @year_number='2014'
