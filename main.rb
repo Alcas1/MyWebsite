@@ -438,7 +438,7 @@ class Main < Sinatra::Base
   
   post '/resume' do
     
-    redirect '/resume.pdf'
+    redirect '/resume.html'
   end
   error 400..510 do
     @title='Error'
