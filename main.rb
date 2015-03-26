@@ -436,7 +436,7 @@ class Main < Sinatra::Base
 
   end
   
-  post '/resume' do
+  get '/resume' do
     
     redirect '/resume.html'
   end
