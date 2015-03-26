@@ -435,6 +435,11 @@ class Main < Sinatra::Base
   post '/2007-1995' do
 
   end
+  
+  post '/resume' do
+    
+    redirect '/resume.pdf'
+  end
   error 400..510 do
     @title='Error'
     @year_number='Error'
