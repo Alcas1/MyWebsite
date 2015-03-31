@@ -4,6 +4,7 @@ require 'sinatra/base'
 require 'pony'
 #require 'data_mapper'
 
+
 #DataMapper::setup(:default, "sqlite3://#{Dir.pwd}/main.db")
 #configure do
 #  set :currentYear,nil
@@ -32,6 +33,7 @@ class Main < Sinatra::Base
     @second_title='to my Site'
     erb :start
   end
+
 
   post '/' do
     redirect '/about'
