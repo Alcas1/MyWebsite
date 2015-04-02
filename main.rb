@@ -4,7 +4,6 @@ require 'sinatra/base'
 require 'pony'
 #require 'data_mapper'
 
-
 #DataMapper::setup(:default, "sqlite3://#{Dir.pwd}/main.db")
 #configure do
 #  set :currentYear,nil
