@@ -2,10 +2,13 @@
 body {
    
 	vertical-align: middle;
-    width: 800px;
     font-family: Blue;
     font-size:110%;
-    
+    border: 0px;
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	width: 100%;
     font-stretch: semi-expanded;
     background-color:#EEEEEE; 
     /*background-image: url(background.jpeg);*/
