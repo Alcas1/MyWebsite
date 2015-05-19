@@ -163,14 +163,15 @@ span.new
 }
 
 #topnav
-{   border-radius: 10px;
+{   /*border-radius: 10px;
     background-image: url(background.gif);
+    */
+    background-color:#eeeeee;
     background-repeat:repeat;
     margin-top:5px;
     margin-bottom:5px;
-    background-color:#eeeeee;
     background-position:bottom;
-    background-repeat:repeat-x
+    background-repeat:repeat-x;
 
 }
 
