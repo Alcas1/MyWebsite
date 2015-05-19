@@ -15,8 +15,8 @@ header {
     width: 100%;
 	/*height: 870px;*/
 	height: 100%;
-	background-color: #191919;
-	min-height:100%;
+	background-color:blue;
+	
 }
 
 header h1 {
@@ -115,11 +115,11 @@ h2.left
     padding-top:0px;
     font-weight:bold;
 }
-a.topnav:link,a.topnav:visited {color:#555555;text-decoration:none;}
-a.topnav:hover,a.topnav:active {color: #4646ff;text-decoration:none;}
+a.topnav:link,a.topnav:visited {color:#EEEEEE;text-decoration:none;}
+a.topnav:hover,a.topnav:active {color:#EEEEEE;text-decoration:none;}
 
-a:link,a:visited {color: #d3f3ff;text-decoration:none;}
-a:hover,a:active {color: #97a1ff;text-decoration:none;}
+a:link,a:visited {color: #EEEEEE;text-decoration:none;}
+a:hover,a:active {color: #EEEEEE;text-decoration:none;}
 
 a.header:link,a.header:visited {text-decoration:none;color:black;background-color:transparent}
 a.header:hover,a.header:active {text-decoration:underline;color:black;background-color:transparent}
