@@ -14,10 +14,13 @@ body {
     /*background-image: url(background.jpeg);*/
 }
 
+
 header {
     width: 100%;
 	/*height: 870px;*/
 	height: 100%;	
+	background-color:#42a5f5;
+
 }
 
 #headerAlign{
@@ -121,11 +124,11 @@ h2.left
     padding-top:0px;
     font-weight:bold;
 }
-a.topnav:link,a.topnav:visited {color:#EEEEEE;text-decoration:none;}
-a.topnav:hover,a.topnav:active {color:#EEEEEE;text-decoration:none;}
+a.topnav:link,a.topnav:visited {color:#ffffff;text-decoration:none;}
+a.topnav:hover,a.topnav:active {color:#ffffff;text-decoration:none;}
 
-a:link,a:visited {color: #EEEEEE;text-decoration:none;}
-a:hover,a:active {color: #EEEEEE;text-decoration:none;}
+a:link,a:visited {color: #ffffff;text-decoration:none;}
+a:hover,a:active {color: #ffffff;text-decoration:none;}
 
 a.header:link,a.header:visited {text-decoration:none;color:black;background-color:transparent}
 a.header:hover,a.header:active {text-decoration:underline;color:black;background-color:transparent}
@@ -178,8 +181,6 @@ span.new
     */
     background-color:#42a5f5;
     background-repeat:repeat;
-    margin-top:1px;
-    margin-bottom:1px;
     background-position:bottom;
     background-repeat:repeat-x;
 
