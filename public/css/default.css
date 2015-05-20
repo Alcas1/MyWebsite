@@ -26,7 +26,7 @@ body, html { font-size: 100%; padding: 0; margin: 0;}
 body {
 	font-family: 'Lato', Calibri, Arial, sans-serif;
 	color: #fff;
-	background: #FFFFFF;
+	background: #fff;
 	font-weight: 300;
 }
 
@@ -53,7 +53,7 @@ a:hover {
 }
 
 .side {
-	position:absolute;
+	float: right;
 	width: 10%;
 	padding-right: 20px;
 	min-width: 320px;
