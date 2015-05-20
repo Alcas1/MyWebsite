@@ -72,7 +72,7 @@ a:hover {
 .container > header {
 	padding: 2.875em 1.875em 2.875em;
 	text-align: center;
-	background: rgba(0,0,0,0.02);
+	/*background: rgba(0,0,0,0.02);*/
 }
 
 .container > header h1 {
