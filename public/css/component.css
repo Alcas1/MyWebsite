@@ -184,28 +184,32 @@
 	margin-right: 15px;
 }
 
-.dr-icon-bullhorn:before {
-	content: "\e000";
+.dr-icon-checklist:before {
+	content: "\e001";
 }
 
-.dr-icon-camera:before {
+.dr-icon-calender:before {
 	content: "\e002";
 }
 
-.dr-icon-heart:before {
+.dr-icon-folder:before {
 	content: "\e003";
 }
 
-.dr-icon-settings:before {
+.dr-icon-music:before {
 	content: "\e004";
 }
 
-.dr-icon-switch:before {
+.dr-icon-users:before {
 	content: "\e005";
 }
 
-.dr-icon-download:before {
+.dr-icon-messages:before {
 	content: "\e006";
+}
+
+.dr-icon-profile:before {
+	content: "\e007";
 }
 
 .dr-icon-user:before {
