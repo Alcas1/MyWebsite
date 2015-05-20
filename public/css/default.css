@@ -67,8 +67,7 @@ a:hover {
 }
 
 .main {
-	
-	max-width: 100%;
+	position:relative;
 	min-height: 600px;
 }
 
