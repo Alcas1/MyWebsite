@@ -49,7 +49,15 @@ body {
 .left_bar{
 	position:relative;
 	float:left;
-	width:230px;
+	width:200px;
+	min-height:800px;
+	height:100%;
+}
+
+.right_bar{
+	position:relative;
+	float:right;
+	width:200px;
 	min-height:800px;
 	height:100%;
 }
