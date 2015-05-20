@@ -51,7 +51,7 @@
 }
 
 .dr-menu > div .dr-icon:after {
-	content: "\e008";
+	content: "\e009";
 	position: absolute;
 	font-size: 50%;
 	line-height: 3.25;
@@ -209,11 +209,11 @@
 }
 
 .dr-icon-user:before {
-	content: "\e001";
+	content: "\e000";
 }
 
 .dr-icon-menu:before {
-	content: "\e007";
+	content: "\e008";
 }
 
 
