@@ -73,10 +73,9 @@
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	line-height: 2.75;
-	-webkit-transition: opacity 0s ease-in-out;
-	-moz-transition: opacity 0s ease-in-out;
-	transition:opacity 0s ease-in-out;
-	opacity: 1;
+	-webkit-transition: opacity 0s linear 0s;
+	-moz-transition: opacity 0s linear 0s;
+	transition: opacity 0s linear 0s;
 }
 
 .dr-menu.dr-menu-open > div .dr-label {
@@ -153,9 +152,15 @@
 }
 
 .dr-menu.dr-menu-open ul li:nth-child(7) {
-	-webkit-transition-delay: 205ms;
-	-moz-transition-delay: 205ms;
-	transition-delay: 205ms;
+	-webkit-transition-delay: 210ms;
+	-moz-transition-delay: 210ms;
+	transition-delay: 210ms;
+}
+
+.dr-menu.dr-menu-open ul li:nth-child(8) {
+	-webkit-transition-delay: 240ms;
+	-moz-transition-delay: 240ms;
+	transition-delay: 240ms;
 }
 
 .dr-menu ul li a {
