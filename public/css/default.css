@@ -35,19 +35,19 @@ html { font-size: 62.5%; }
 body { font-size: 1em;}
 
 @media (max-width: 300px) {
-    body { font-size: 70%; }
+    middle { font-size: 70%; }
 }
 
 @media (min-width: 500px) {
-    body { font-size: 80%; }
+    middle { font-size: 80%; }
 }
 
 @media (min-width: 700px) {
-    body { font-size: 120%; }
+    middle { font-size: 120%; }
 }
 
 @media (min-width: 1200px) {
-    body { font-size: 200%; }
+    middle { font-size: 200%; }
 }
 
 .top{
