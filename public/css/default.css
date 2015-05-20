@@ -46,6 +46,12 @@ body {
 	
 }
 
+.left_bar{
+	
+	position:relative;
+	float:left;
+	width:230px;
+}
 
 
 a {
