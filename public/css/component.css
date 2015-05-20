@@ -36,9 +36,9 @@
 	font-size: 150%;
 	line-height: 1.6;
 	padding: 0 10px;
-	-webkit-transition: all 0.2s ease;
-	-moz-transition: all 0.2s ease;
-	transition: all 0.2s ease;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	transition: all 0.4s ease;
 }
 
 .dr-menu.dr-menu-open > div .dr-icon {
@@ -79,9 +79,9 @@
 }
 
 .dr-menu.dr-menu-open > div .dr-label {
-	-webkit-transform: translateY(-90%);
-	-moz-transform: translateY(-90%);
-	-ms-transform: translateY(-90%);
+	-webkit-transform: translateX(-15%);
+	-moz-transform: translateX(-15%);
+	-ms-transform: translateX(-15%);
 	transform: translateX(-15%);
 }
 
