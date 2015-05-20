@@ -15,7 +15,7 @@ html { font-size: 100%;max-width:100%;width:100%;overflow-x: hidden;}
 }
 
 /* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
-.clearfix:before,
+/*.clearfix:before,
 .clearfix:after {
 	content: " ";
 	display: table;
@@ -24,7 +24,7 @@ html { font-size: 100%;max-width:100%;width:100%;overflow-x: hidden;}
 .clearfix:after {
 	clear: both;
 }
-
+*/
 body {
 	font-family: 'Lato', Calibri, Arial, sans-serif;
 	color: #fff;
