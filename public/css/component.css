@@ -36,9 +36,9 @@
 	font-size: 150%;
 	line-height: 1.6;
 	padding: 0 10px;
-	-webkit-transition: all 0.3s ease;
-	-moz-transition: all 0.3s ease;
-	transition: all 0.3s ease;
+	-webkit-transition: all 0.25s ease;
+	-moz-transition: all 0.25s ease;
+	transition: all 0.25s ease;
 }
 
 .dr-menu.dr-menu-open > div .dr-icon {
