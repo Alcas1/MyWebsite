@@ -160,11 +160,11 @@
 .dr-menu ul li a {
 	display: inline-block;
 	padding: 0 20px;
-	color: #fff;
+	color: #1976d2;
 }
 
 .dr-menu ul li a:hover {
-	color: #FFFFFF;
+	color: #90caf9;
 }
 
 .dr-icon:before, 
