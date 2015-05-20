@@ -27,7 +27,7 @@ header {
 header h1 {
     display: inline;
     font-size: 32px;
-    color: rgba(80, 84, 255, 0.95)
+    color: #ffffff
 }
 
 header h1 a:link, header h1 a:visited {
@@ -37,7 +37,6 @@ header h1 a:link, header h1 a:visited {
 
 header h2 {
     font-size: 16px;
-    font-style: italic;
     color: ##FFFFFF;
 }
 
