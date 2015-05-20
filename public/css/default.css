@@ -50,6 +50,7 @@ body {
 	position:relative;
 	float:left;
 	width:230px;
+	min-height:800px;
 	height:100%;
 }
 
