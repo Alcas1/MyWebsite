@@ -73,16 +73,16 @@
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	line-height: 2.75;
-	-webkit-transition: opacity 0s linear 0s;
-	-moz-transition: opacity 0s linear 0s;
-	transition: opacity 0s linear 0s;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	transition: all 0.2s ease;
 }
 
 .dr-menu.dr-menu-open > div .dr-label {
 	-webkit-transform: translateY(-90%);
 	-moz-transform: translateY(-90%);
 	-ms-transform: translateY(-90%);
-	transform: translateY(-90%);
+	transform: translateX(-15%);
 }
 
 .dr-menu ul {
@@ -94,9 +94,9 @@
 	position: relative;
 	z-index: 0;
 	pointer-events: none;
-	-webkit-transition: opacity 0s linear 205ms;
-	-moz-transition: opacity 0s linear 205ms;
-	transition: opacity 0s linear 205ms;
+	-webkit-transition: opacity 0s linear 240ms;
+	-moz-transition: opacity 0s linear 240ms;
+	transition: opacity 0s linear 240ms;
 }
 
 .dr-menu.dr-menu-open ul {
