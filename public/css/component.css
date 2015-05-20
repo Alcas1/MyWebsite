@@ -51,7 +51,7 @@
 }
 
 .dr-menu > div .dr-icon:after {
-	content: "\e009";
+	content: "\e008";
 	position: absolute;
 	font-size: 50%;
 	line-height: 3.25;
