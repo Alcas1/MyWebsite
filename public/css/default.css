@@ -46,13 +46,11 @@ body {
 	
 	
 }
-
-
-#leftcolumn
-{
-    margin-left:1px;
-    padding-right:40px;
+.middle{
+	padding-left: 250px;
 }
+
+
 
 a {
 	color: #f0f0f0;
