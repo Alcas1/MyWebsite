@@ -51,6 +51,7 @@ body {
 #leftcolumn a:hover,#leftcolumn a:active {text-decoration:underline;color: #6671ff;background-color:transparent}
 #leftcolumn
 {
+	float:right;
     margin-left:1px;
     padding-left:40px;
     padding-right:40px;
