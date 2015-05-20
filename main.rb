@@ -441,6 +441,8 @@ class Main < Sinatra::Base
     
     redirect '/JonathanWuResume.pdf'
   end
+  
+  
   error 400..510 do
     @title='Error'
     @year_number='Error'
