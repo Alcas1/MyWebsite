@@ -11,9 +11,9 @@
 
 .dr-menu {
 	width: 100%;
-	/*max-width: 230px;*/
-	min-width: 230px;
-	position: absolute;
+	max-width: 230px;
+	/*min-width: 230px;*/
+	position: relative;
 	top: 0px;
 	left: 20px;
 	font-size: 1.3em;
