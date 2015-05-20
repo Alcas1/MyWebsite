@@ -75,6 +75,7 @@ a:hover {
 .main,
 .container > header {
 	width: 100%;
+	max-width:500px;
 	margin: 0 auto;
 	padding: 0 1.875em 3.125em 1.875em;
 }
