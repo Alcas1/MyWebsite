@@ -32,23 +32,23 @@ body {
 
 
 .main_content{
-	font-size:3;
+	
 }
 
 @media (max-width: 300px) {
-    .main_content { font-size: 70%; }
+    .main_content { font-size: 40%; }
 }
 
 @media (min-width: 500px) {
-    .main_content { font-size: 80%; }
+    .main_content { font-size: 50%; }
 }
 
 @media (min-width: 700px) {
-    .main_content { font-size: 120%; }
+    .main_content { font-size: 100%; }
 }
 
 @media (min-width: 1200px) {
-    .main_content { font-size: 200%; }
+    .main_content { font-size: 150%; }
 }
 
 .top{
