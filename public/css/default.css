@@ -138,7 +138,7 @@ a:hover {
 
 .codrops-top span.right a {
 	float: left;
-	display: block;
+	display:block;
 }
 
 @media screen and (max-width: 66.9375em) {
