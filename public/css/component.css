@@ -189,15 +189,15 @@
 }
 
 .dr-icon-camera:before {
-	content: "\e920";
+	content: "\e002";
 }
 
 .dr-icon-heart:before {
-	content: "\e920";
+	content: "\e003";
 }
 
 .dr-icon-settings:before {
-	content: "\e920";
+	content: "\e004";
 }
 
 .dr-icon-switch:before {
