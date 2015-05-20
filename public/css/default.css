@@ -30,6 +30,13 @@ body {
 	font-weight: 300;
 }
 
+top{
+	width: 100%;
+	position:absolute;
+	background: #90caf9;
+}
+
+
 a {
 	color: #f0f0f0;
 	text-decoration: none;
