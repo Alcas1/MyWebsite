@@ -34,19 +34,19 @@ body {
 
 
 @media (max-width: 300px) {
-    middle { font-size: 70%; }
+    .main_content { font-size: 70%; }
 }
 
 @media (min-width: 500px) {
-    middle { font-size: 80%; }
+    .main_content { font-size: 80%; }
 }
 
 @media (min-width: 700px) {
-    middle { font-size: 120%; }
+    .main_content { font-size: 120%; }
 }
 
 @media (min-width: 1200px) {
-    middle { font-size: 200%; }
+    .main_content { font-size: 200%; }
 }
 
 .top{
