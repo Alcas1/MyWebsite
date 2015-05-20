@@ -42,7 +42,7 @@
 }
 
 .dr-menu.dr-menu-open > div .dr-icon {
-	color: #60a773;
+	color: #FFFFFF;
 	left: 100%;
 	-webkit-transform: translateX(-100%);
 	-moz-transform: translateX(-100%);
@@ -67,7 +67,7 @@
 	padding-left: 3em;
 	position: absolute;
 	display: block;
-	color: #FFFFFF;
+	color: #1976d2;
 	font-size: 0.9em;
 	font-weight: 700;
 	letter-spacing: 1px;
@@ -76,6 +76,7 @@
 	-webkit-transition: opacity 3s ease-in-out;
 	-moz-transition: opacity 3s ease-in-out;
 	transition:opacity 3s ease-in-out;
+	opacity: 1;
 }
 
 .dr-menu.dr-menu-open > div .dr-label {
@@ -163,7 +164,7 @@
 }
 
 .dr-menu ul li a:hover {
-	color: #60a773;
+	color: #FFFFFF;
 }
 
 .dr-icon:before, 
