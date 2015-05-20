@@ -185,11 +185,11 @@
 }
 
 .dr-icon-bullhorn:before {
-	content: "\e001";
+	content: "\e002";
 }
 
 .dr-icon-camera:before {
-	content: "\e002";
+	content: "\e000";
 }
 
 .dr-icon-heart:before {
