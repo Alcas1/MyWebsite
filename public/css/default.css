@@ -104,7 +104,8 @@ a:hover {
 .container > header span {
 	display: block;
 	font-size: 60%;
-	color: rgba(255,255,255,0.7);
+	/*color: rgba(255,255,255,0.7);*/
+	color:#1607A8;
 	padding: 0 0 0.6em 0.1em;
 }
 
