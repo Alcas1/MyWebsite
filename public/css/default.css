@@ -42,7 +42,7 @@ body {
 }
 
 @media (min-width: 500px) {
-    .main_content { font-size: 80%;}
+    .main_content { font-size: 100%;}
     .p1 > p {width:80%;}
 }
 
@@ -120,6 +120,7 @@ body {
 
 a {
 	color: #1976d2;
+	padding: 0 20px;
 }
 
 a:hover {
