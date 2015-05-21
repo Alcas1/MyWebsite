@@ -58,14 +58,14 @@
 	opacity:0;
 	color: #2196f3;
 	font-size: 35px;
-	-webkit-animation: fadein 1.5s; /* Safari, Chrome and Opera > 12.1 */
-	-moz-animation: fadein 1.5s; /* Firefox < 16 */
-	-ms-animation: fadein 1.5s;  /*Internet Explorer */
-	animation: fadein 1.5s;
-	-webkit-animation-delay: 1.75s;
-	-moz-animation-delay: 1.75s;
-	-ms-animation-delay: 1.75s;
-	animation-delay: 1.75s;
+	-webkit-animation: fadein 1.0s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 1.0s; /* Firefox < 16 */
+	-ms-animation: fadein 1.0s;  /*Internet Explorer */
+	animation: fadein 1.0s;
+	-webkit-animation-delay: 2s;
+	-moz-animation-delay: 2s;
+	-ms-animation-delay: 2s;
+	animation-delay: 2s;
 	animation-fill-mode: forwards; 
 }
 
