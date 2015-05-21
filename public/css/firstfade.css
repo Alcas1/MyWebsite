@@ -10,7 +10,6 @@
 
 
 .profession {
-	opacity:0;
 	color: #2196f3;
 	font-size: 40px;
 	-webkit-animation: fadein 2.5s; /* Safari, Chrome and Opera > 12.1 */
@@ -25,7 +24,20 @@
 	animation-fill-mode: forwards; 
 }
 
-
+.work {
+	color: #2196f3;
+	font-size: 40px;
+	-webkit-animation: fadein 2.0s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 2.0s; /* Firefox < 16 */
+	-ms-animation: fadein 2.0s;  /*Internet Explorer */
+	animation: fadein 2.0s;
+	-webkit-animation-delay: 1s;
+	-moz-animation-delay: 1s;
+	-ms-animation-delay: 1s;
+	-o-animation-delay: 1s;
+	animation-delay: 1s;
+	animation-fill-mode: forwards; 
+}
 
 
 
