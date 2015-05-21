@@ -48,7 +48,7 @@ body {
 
 @media (min-width: 700px) {
     .main_content { font-size: 100%;}
-    .p1 > p {width:75%;}
+    .p1 > p {width:70%;}
 }
 
 @media (min-width: 1200px) {
@@ -90,7 +90,7 @@ body {
 	width: 165px;
 	height: 425px;
 	background:#FFFFFF;
- 	box-shadow: 1px 1px 3px #888888;
+ 	box-shadow: 1px 1px 2px #888888;
 }
 
 /*.right_bar{
