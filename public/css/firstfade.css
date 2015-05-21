@@ -10,6 +10,7 @@
 
 
 .profession {
+	opacity:0;
 	color: #2196f3;
 	font-size: 40px;
 	-webkit-animation: fadein 2.5s; /* Safari, Chrome and Opera > 12.1 */
@@ -25,6 +26,7 @@
 }
 
 .work {
+	opacity:0;
 	color: #2196f3;
 	font-size: 40px;
 	-webkit-animation: fadein 2.0s; /* Safari, Chrome and Opera > 12.1 */
