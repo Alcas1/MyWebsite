@@ -22,10 +22,10 @@
 
 .p1:nth-child(2){	
 	
-	-webkit-animation: slide 1.8s; 
-	-moz-animation: slide 1.8s; 
-	-ms-animation: slide 1.8s; 
-	animation: slide 1.8s;
+	-webkit-animation: slide 1.9s; 
+	-moz-animation: slide 1.9s; 
+	-ms-animation: slide 1.9s; 
+	animation: slide 1.9s;
 	
 	
 	-webkit-animation-delay: 1.0s;
@@ -41,10 +41,10 @@
 }
 .p1:nth-child(3){	
 	
-	-webkit-animation: slide 1.6s; 
-	-moz-animation: slide 1.6s; 
-	-ms-animation: slide 1.6s; 
-	animation: slide 1.6s;
+	-webkit-animation: slide 1.8s; 
+	-moz-animation: slide 1.8s; 
+	-ms-animation: slide 1.8s; 
+	animation: slide 1.8s;
 	
 	
 	-webkit-animation-delay: 1.6s;
@@ -58,6 +58,28 @@
 	animation-fill-mode: forwards;
 
 }
+
+.p1:nth-child(4){	
+	
+	-webkit-animation: slide 1.6s; 
+	-moz-animation: slide 1.6s; 
+	-ms-animation: slide 1.6s; 
+	animation: slide 1.6s;
+	
+	
+	-webkit-animation-delay: 2s;
+	-moz-animation-delay:2s;
+	-ms-animation-delay:2s;
+    animation-delay: 2s;
+    
+    -webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-ms-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+
+}
+
+
 @-moz-keyframes slide {
     0% {
 	   -moz-transform: translateX(0);
