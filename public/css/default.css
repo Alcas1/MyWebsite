@@ -44,7 +44,7 @@ body {
 }
 
 @media (min-width: 700px) {
-    .main_content { font-size: 100%;max-width: 50%}
+    .main_content { font-size: 100%;max-width: 345px}
 }
 
 @media (min-width: 1200px) {
