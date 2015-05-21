@@ -44,6 +44,7 @@ body {
 @media (min-width: 500px) {
     .main_content { font-size: 50%;
     background:#67EEFF;
+    width:inherit;
 	box-shadow: 3px 3px 15px #888888; }
 }
 
