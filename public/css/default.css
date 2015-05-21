@@ -106,12 +106,20 @@ body {
 	height: 100%;
 }
 
-.mat_cards > .p1 > p {
-	width:60%;
+.p1 > p {
+	width:80%;
 	
 }
-
 .p1{
+	width:100%;
+	box-shadow: 1px 1px 2px #888888; 
+}
+
+.p2 > p {
+	width:80%;
+	
+}
+.p2{
 	width:100%;
 	box-shadow: 1px 1px 2px #888888; 
 }
