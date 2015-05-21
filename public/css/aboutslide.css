@@ -28,6 +28,9 @@
 	-moz-transition-delay:1s;
 	-ms-transition-delay:1s;
 	transition-delay:1s;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	transition: all 0.5s ease;
 }
 	
 
