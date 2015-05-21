@@ -6,11 +6,16 @@
 
 .p1:nth-child(1){	
 	
+	
 	-webkit-animation: slide 2.0s; 
 	-moz-animation: slide 2.0s; 
 	-ms-animation: slide 2.0s; 
 	animation: slide 2.0s;
 
+    -webkit-animation-delay: 10ms;
+	-moz-animation-delay:10ms;
+	-ms-animation-delay:10ms;
+    animation-delay: 10ms;
     
     -webkit-animation-fill-mode: forwards;
 	-moz-animation-fill-mode: forwards;
