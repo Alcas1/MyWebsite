@@ -37,20 +37,23 @@ body {
 
 @media (max-width: 300px) {
     .main_content { font-size: 40%;}
+    .p1 > p {width:80%;}
     
 }
 
 @media (min-width: 500px) {
     .main_content { font-size: 50%;}
+    .p1 > p {width:80%;}
 }
 
 @media (min-width: 700px) {
     .main_content { font-size: 100%;}
-    .mat_cards > p { width : 70%; }
+    .p1 > p {width:75%;}
 }
 
 @media (min-width: 1200px) {
     .main_content { font-size: 150%;}
+    .p1 > p {width:750px;}
 }
 
 
@@ -106,23 +109,12 @@ body {
 	height: 100%;
 }
 
-.p1 > p {
-	width:80%;
-	
-}
+
 .p1{
 	width:100%;
 	box-shadow: 1px 1px 2px #888888; 
 }
 
-.p2 > p {
-	width:80%;
-	
-}
-.p2{
-	width:100%;
-	box-shadow: 1px 1px 2px #888888; 
-}
 
 
 
