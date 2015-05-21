@@ -55,7 +55,7 @@
 }
 
 .enter_btn {
-	padding-top:50px;
+	padding-top:70px;
 	opacity:0;
 	color: #2196f3;
 	font-size: 35px;
@@ -72,7 +72,7 @@
 
 
 .btn {
-	font-size: 30px;
+	font-size: 25px;
 	position: relative;
 	padding: 10px 40px;
 	border: 0px none;
