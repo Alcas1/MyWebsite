@@ -17,10 +17,10 @@
 	-moz-animation: fadein 2.5s; /* Firefox < 16 */
 	-ms-animation: fadein 2.5s;  /*Internet Explorer */
 	animation: fadein 2.5s;
-	-webkit-animation-delay: .5s;
-	-moz-animation-delay: .5s;
-	-ms-animation-delay: .5s;
-	animation-delay: .5s;
+	-webkit-animation-delay: .75s;
+	-moz-animation-delay: .75s;
+	-ms-animation-delay: .75s;
+	animation-delay: .75s;
 	animation-fill-mode: forwards; 
 }
 
@@ -32,10 +32,10 @@
 	-moz-animation: fadein 2.0s; /* Firefox < 16 */
 	-ms-animation: fadein 2.0s;  /*Internet Explorer */
 	animation: fadein 2.0s;
-	-webkit-animation-delay: 1.5s;
-	-moz-animation-delay: 1.5s;
-	-ms-animation-delay: 1.5s;
-	animation-delay: 1.5s;
+	-webkit-animation-delay: 1.25s;
+	-moz-animation-delay: 1.25s;
+	-ms-animation-delay: 1.25s;
+	animation-delay: 1.25s;
 	animation-fill-mode: forwards; 
 }
 
@@ -47,10 +47,10 @@
 	-moz-animation: fadein 1.5s; /* Firefox < 16 */
 	-ms-animation: fadein 1.5s;  /*Internet Explorer */
 	animation: fadein 1.5s;
-	-webkit-animation-delay: 2s;
-	-moz-animation-delay: 2s;
-	-ms-animation-delay: 2s;
-	animation-delay: 2s;
+	-webkit-animation-delay: 1.75s;
+	-moz-animation-delay: 1.75s;
+	-ms-animation-delay: 1.75s;
+	animation-delay: 1.75s;
 	animation-fill-mode: forwards; 
 }
 
