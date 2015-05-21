@@ -130,6 +130,7 @@
 
 .p2:nth-child(5) {
 
+	font-size: 30px;
 	margin-top: 20px;
 	-webkit-animation: slide 7.s;
 	-moz-animation: slide .7s;
@@ -147,7 +148,7 @@
 
 .p2:nth-child(6) {
 	
-	font-size: 35px;
+	font-size: 30px;
 	margin-top: 20px;
 	-webkit-animation: slide .7s;
 	-moz-animation: slide .7s;
