@@ -86,13 +86,13 @@ body {
  	box-shadow: 1px 1px 3px #888888;
 }
 
-.right_bar{
+/*.right_bar{
 	position:relative;
 	float:right;
 	width:150px;
 	min-height:800px;
 	height:100%;
-}
+}*/
 
 .full{
 	position:absolute;
