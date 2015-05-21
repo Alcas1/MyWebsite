@@ -3,10 +3,8 @@
 
 .mat_cards .p1{
 	
-	-webkit-transition-duration: 1s;
-	-moz-transition-duration:1s;
-	-ms-transition-duration:1;
-    transition-duration: 1s;
+	-webkit-transition-duration: 600ms;
+    transition-duration: 600ms;
 }
 
 
