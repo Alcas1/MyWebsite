@@ -51,24 +51,6 @@ body {
     .main_content { font-size: 150%; }
 }
 
-.youtube_embed {
-  max-width: 480px;
-  margin: 0px auto;
-}
-
-.youtube_embed > div {
-  position: relative;
-  padding-bottom: 80%;
-  height: 0px;
-}
-
-.youtube_embed iframe {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  height: 100%;
-}
 
 
 .top{
