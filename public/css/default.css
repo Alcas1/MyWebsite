@@ -79,8 +79,8 @@ body {
 
 .left_line{
 	position:absolute;
-	top:50px;
-	left:180px;
+	top:35px;
+	left:150px;
 	width: 1px;
 	height: 350px;
 	background: #1976d2;
