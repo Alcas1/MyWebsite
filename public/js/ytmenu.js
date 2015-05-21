@@ -12,14 +12,30 @@ var YTMenu = (function() {
 				icon = trigger.querySelector( 'span.dr-icon-menu' ),
 				open = false;
 
-			trigger.addEventListener( 'click', function( event ) {
+			// trigger.addEventListener( 'click', function( event ) {
+				// if( !open ) {
+					// el.className += ' dr-menu-open';
+					// open = true;
+				// }
+			// }, false );
+// 
+			// icon.addEventListener( 'click', function( event ) {
+				// if( open ) {
+					// event.stopPropagation();
+					// open = false;
+					// el.className = el.className.replace(/\bdr-menu-open\b/,'');
+					// return false;
+				// }
+			// }, false );
+			
+			trigger.addEventListener( 'mouseover', function( event ) {
 				if( !open ) {
 					el.className += ' dr-menu-open';
 					open = true;
 				}
 			}, false );
 
-			icon.addEventListener( 'click', function( event ) {
+			icon.addEventListener( 'mouseout', function( event ) {
 				if( open ) {
 					event.stopPropagation();
 					open = false;
@@ -27,6 +43,8 @@ var YTMenu = (function() {
 					return false;
 				}
 			}, false );
+			
+			
 
 		} );
 
