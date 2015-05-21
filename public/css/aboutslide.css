@@ -7,7 +7,7 @@
 	
 
 
-.p1:nth-child(2):enabled{	
+.p1:nth-child(2){	
 	
 
 	
@@ -22,4 +22,19 @@
 	transform: translateX(100%);
 }
 	
+.mat_cards > .p1:nth-child(2) {
+	top: 0;
+	left: 0;
+	position: relative;
+	-webkit-transition: all 0.25s ease;
+	-moz-transition: all 0.25s ease;
+	transition: all 0.25s ease;
+}
 
+.mat_cards > .p1:nth-child(2) {
+	left: 100%;
+	-webkit-transform: translateX(-100%);
+	-moz-transform: translateX(-100%);
+	-ms-transform: translateX(-100%);
+	transform: translateX(-100%);
+}
