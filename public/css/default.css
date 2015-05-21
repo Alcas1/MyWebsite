@@ -106,9 +106,8 @@ body {
 	height: 100%;
 }
 
-.mat_cards > p {
+.mat_cards > .p1 > p {
 	width:60%;
-
 	
 }
 
