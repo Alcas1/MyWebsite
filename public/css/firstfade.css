@@ -1,8 +1,8 @@
 .welcome {
 	
 	
-	color:"#1976d2";
-    font-size: 30px;
+	color:#1976d2;
+    font-size: 100px;
     text-align: center;
 
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
