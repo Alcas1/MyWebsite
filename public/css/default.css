@@ -42,7 +42,7 @@ body {
 }
 
 @media (min-width: 500px) {
-    .main_content { font-size: 50%;}
+    .main_content { font-size: 80%;}
     .p1 > p {width:80%;}
 }
 
@@ -52,7 +52,7 @@ body {
 }
 
 @media (min-width: 1200px) {
-    .main_content { font-size: 120%;}
+    .main_content { font-size: 130%;}
     .p1 > p {width:750px;}
 }
 
