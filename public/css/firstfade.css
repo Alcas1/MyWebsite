@@ -72,12 +72,12 @@
 
 
 .btn {
-	font-size: 25px;
+	font-size: 30px;
 	position: relative;
-	padding: 8px 30px;
+	padding: 10px 40px;
 	border: 0px none;
 	cursor: pointer;
-	border-radius: 4px;
+	border-radius: 5px;
 	text-transform: uppercase;
 	text-decoration: none;
 	transition: box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1) 0s;
