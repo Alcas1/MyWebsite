@@ -18,7 +18,7 @@
 	-webkit-transform: translateX(100%);
 	-moz-transform: translateX(100%);
 	-ms-transform: translateX(100%);
-	transform: translateX(100%);
+	transform: translateX(50%);
 	-webkit-transition-duration: 1s;
 	-moz-transition-duration:1s;
 	-ms-transition-duration:1s;
