@@ -1,17 +1,13 @@
 
 
 
-.mat_cards .p1{
-	
-	-webkit-transition-duration: 600ms;
-    transition-duration: 600ms;
-}
 
-
-.mat_cards .p1:nth-child(2){
+.mat_cards .p1:nth-child(2){	
 	
-	
-	
+	-webkit-transition-duration: 1s;
+	-moz-transition-duration:1s;
+	-ms-transition-duration:1s;
+    transition-duration: 1s;
 	-webkit-transform: translateX(100%);
 	-moz-transform: translateX(100%);
 	-ms-transform: translateX(100%);
