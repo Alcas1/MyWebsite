@@ -110,6 +110,8 @@
 
 .dr-menu ul li {
 	display: block;
+	position:relative;
+	z-index:400;
 	margin: 0 0 0px 0;
 	opacity: 0;
 	-webkit-transition: opacity 0.3s ease;
