@@ -37,6 +37,7 @@ body {
 
 @media (max-width: 300px) {
     .main_content { font-size: 40%;}
+    
 }
 
 @media (min-width: 500px) {
@@ -45,6 +46,7 @@ body {
 
 @media (min-width: 700px) {
     .main_content { font-size: 100%;}
+    .mat_cards > p { width : 70%; }
 }
 
 @media (min-width: 1200px) {
