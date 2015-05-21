@@ -52,13 +52,13 @@ body {
 }
 
 .youtube_embed {
-  max-width: 420px;
+  max-width: 900px;
   margin: 0px auto;
 }
 
 .youtube_embed > div {
   position: relative;
-  padding-bottom: 75%;
+  padding-bottom: 60%;
   height: 0px;
 }
 
