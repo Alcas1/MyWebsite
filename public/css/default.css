@@ -36,27 +36,19 @@ body {
 }
 
 @media (max-width: 300px) {
-    .main_content { font-size: 40%;
-    background:#FFFFFF;
-	box-shadow: 3px 3px 15px #888888; }
+    .main_content { font-size: 40%;}
 }
 
 @media (min-width: 500px) {
-    .main_content { font-size: 50%;
-    background:#FFFFFF;
-	box-shadow: 3px 3px 15px #888888; }
+    .main_content { font-size: 50%;}
 }
 
 @media (min-width: 700px) {
-    .main_content { font-size: 100%; 
-    background:#FFFFFF;
-	box-shadow: 3px 3px 15px #888888;}
+    .main_content { font-size: 100%;}
 }
 
 @media (min-width: 1200px) {
-    .main_content { font-size: 150%;
-    background:#FFFFFF;
-	box-shadow: 3px 3px 15px #888888; }
+    .main_content { font-size: 150%;}
 }
 
 
@@ -111,8 +103,9 @@ body {
 }
 
 .mat_cards {
-	
-display: inline-block
+display: inline-block;
+background:#FFFFFF;
+	box-shadow: 3px 3px 15px #888888; 
 }
 
 
