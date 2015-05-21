@@ -103,8 +103,9 @@ body {
 }
 
 .mat_cards > p {
-	white-space: nowrap;
+	display: inline;
 	background:#67EEFF;
+	
 }
 
 
