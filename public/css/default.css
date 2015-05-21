@@ -79,10 +79,10 @@ body {
 
 .left_line{
 	position:absolute;
-	top:25px;
+	top:20px;
 	left:160px;
 	width: 1px;
-	height: 400px;
+	height: 395px;
 	background: #1976d2;
 }
 
