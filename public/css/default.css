@@ -119,12 +119,11 @@ body {
 
 
 a {
-	color: #f0f0f0;
-	text-decoration: none;
+	color: #1976d2;
 }
 
 a:hover {
-	color: #fff;
+	color: #90caf9;
 }
 
 .main,
