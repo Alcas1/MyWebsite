@@ -77,6 +77,15 @@ body {
 	height:100%;
 }
 
+.left_line{
+	position:absolute;
+	top:80px;
+	left:201px;
+	width: 2px;
+	height: 300px;
+	background: #1976d2;
+}
+
 .right_bar{
 	position:relative;
 	float:right;
