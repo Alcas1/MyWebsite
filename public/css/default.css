@@ -104,6 +104,7 @@ body {
 
 .mat_cards > p {
 	display: inline;
+	white-space: nowrap;
 	background:#67EEFF;
 }
 
