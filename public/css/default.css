@@ -105,7 +105,7 @@ body {
 }
 
 .mat_cards > p {
-	width=100%;
+	width:100%;
 	background:#FFFFFF;
 	box-shadow: 1px 1px 2px #888888; 
 }
