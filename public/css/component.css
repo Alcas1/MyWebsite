@@ -164,6 +164,7 @@
 }
 
 .dr-menu ul li a {
+	position:absolute;
 	display: inline-block;
 	padding: 0 20px;
 	color: #1976d2;
