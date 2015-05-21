@@ -92,7 +92,7 @@
 	list-style: none;
 	opacity: 0;
 	position: relative;
-	z-index: 200;
+	z-index: 300;
 	pointer-events: none;
 	-webkit-transition: opacity 0s linear 240ms;
 	-moz-transition: opacity 0s linear 240ms;
