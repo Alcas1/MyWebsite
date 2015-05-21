@@ -1,6 +1,7 @@
 
 
 .mat_cards .p1:nth-child(2){	
+	position: relative;
 	-webkit-transform: translateX(100%);
 	-moz-transform: translateX(100%);
 	-ms-transform: translateX(100%);
