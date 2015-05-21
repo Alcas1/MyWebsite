@@ -23,10 +23,10 @@
 	-moz-transform: translateX(100%);
 	-ms-transform: translateX(100%);
 	transform: translateX(100%);
-	-webkit-transition-delay:1s;
+	/*-webkit-transition-delay:1s;
 	-moz-transition-delay:1s;
 	-ms-transition-delay:1s;
-	transition-delay:1s;
+	transition-delay:1s;*/
 }
 	
 
