@@ -30,7 +30,7 @@ class Main < Sinatra::Base
     @title= 'Jonathan Wu'
     @year_number='Welcome'
     @second_title='to my Site'
-    redirect '/about'
+    redirect '/start.html'
   end
 
 
@@ -38,6 +38,11 @@ class Main < Sinatra::Base
     redirect '/about'
 
   end
+
+  post '/start.html' do
+    redirect '/about'
+  end
+
 
   get '/about' do
 
