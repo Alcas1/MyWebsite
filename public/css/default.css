@@ -80,9 +80,9 @@ body {
 .left_line{
 	position:absolute;
 	top:20px;
-	left:160px;
-	width: 1px;
-	height: 395px;
+	left:0px;
+	width: 161px;
+	height: 390px;
 	background: #1976d2;
 }
 
