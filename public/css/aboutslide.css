@@ -4,10 +4,42 @@
 
 
 
+.p1:nth-child(1){	
 	
+	-webkit-animation: slide 1.0s; 
+	-moz-animation: slide 1.0s; 
+	-ms-animation: slide 1.0s; 
+	animation: slide 1.0s;
+
+    
+    -webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-ms-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+
+}
 
 
 .p1:nth-child(2){	
+	
+	-webkit-animation: slide 1.0s; 
+	-moz-animation: slide 1.0s; 
+	-ms-animation: slide 1.0s; 
+	animation: slide 1.0s;
+	
+	
+	-webkit-animation-delay: 1.0s;
+	-moz-animation-delay:1.0s;
+	-ms-animation-delay:1.0s;
+    animation-delay: 1.0s;
+    
+    -webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-ms-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+
+}
+.p1:nth-child(3){	
 	
 	-webkit-animation: slide 1.0s; 
 	-moz-animation: slide 1.0s; 
