@@ -12,10 +12,10 @@
 	-ms-animation: slide 2.0s; 
 	animation: slide 2.0s;
 
-    -webkit-animation-delay: 10ms;
-	-moz-animation-delay:10ms;
-	-ms-animation-delay:10ms;
-    animation-delay: 10ms;
+    -webkit-animation-delay: 100ms;
+	-moz-animation-delay:100ms;
+	-ms-animation-delay:100ms;
+    animation-delay: 100ms;
     
     -webkit-animation-fill-mode: forwards;
 	-moz-animation-fill-mode: forwards;
