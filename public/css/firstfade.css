@@ -54,13 +54,39 @@
 	animation-fill-mode: forwards; 
 }
 
+.enter_btn {
+	opacity:0;
+	color: #2196f3;
+	font-size: 35px;
+	-webkit-animation: fadein 1.5s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 1.5s; /* Firefox < 16 */
+	-ms-animation: fadein 1.5s;  /*Internet Explorer */
+	animation: fadein 1.5s;
+	-webkit-animation-delay: 1.75s;
+	-moz-animation-delay: 1.75s;
+	-ms-animation-delay: 1.75s;
+	animation-delay: 1.75s;
+	animation-fill-mode: forwards; 
+}
 
 
 .btn {
-    background-color: #FF4081;
-    border-color: #CCC;
-    color: #FFF;
+	position: relative;
+	padding: 8px 30px;
+	border: 0px none;
+	margin: 10px 1px;
+	cursor: pointer;
+	border-radius: 2px;
+	text-transform: uppercase;
+	text-decoration: none;
+	transition: box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+	outline: 0px none !important;
+	background-color: #FF4081;
+	border-color: #CCC;
+	color: #FFF;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.4);
 }
+
 
 
 
