@@ -1,5 +1,5 @@
 
-.mat_cards .p1:nth-child(1){	
+/*.mat_cards .p1:nth-child(1){	
 	
 	-webkit-transition-duration: 2s;
 	-moz-transition-duration:2s;
@@ -10,7 +10,7 @@
 	-ms-transform: translateX(100%);
 	transform: translateX(100%);
 }
-	
+	*/
 
 
 .mat_cards .p1:nth-child(2){	
