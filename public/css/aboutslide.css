@@ -9,32 +9,52 @@
 
 .p1:nth-child(2){	
 	
+	-webkit-animation: slide 1.0s; 
+	-moz-animation: slide 1.0s; 
+	-ms-animation: slide 1.0s; 
+	animation: slide 1.0s;
+	
+	
+	-webkit-animation-delay: 1.8s;
+	-moz-animation-delay:1.8s;
+	-ms-animation-delay:1.8s;
+    animation-delay: 1.8s;
+    
+    -webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-ms-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
 
-	
-	
-	-webkit-transition-duration: 1.8s;
-	-moz-transition-duration:1.8s;
-	-ms-transition-duration:1.8s;
-    transition-duration: 1.8s;
-	-webkit-transform: translateX(100%);
-	-moz-transform: translateX(100%);
-	-ms-transform: translateX(100%);
-	transform: translateX(100%);
 }
-	
-.mat_cards > .p1:nth-child(2) {
-	top: 0;
-	left: 0;
-	position: relative;
-	-webkit-transition: all 0.25s ease;
-	-moz-transition: all 0.25s ease;
-	transition: all 0.25s ease;
+@-moz-keyframes slide {
+    0% {
+	   -moz-transform: translateX(100%);
+    }
+    100% {
+        -moz-transform: translateX(0);
+    }
 }
-
-.mat_cards > .p1:nth-child(2) {
-	left: 100%;
-	-webkit-transform: translateX(-100%);
-	-moz-transform: translateX(-100%);
-	-ms-transform: translateX(-100%);
-	transform: translateX(-100%);
+@-webkit-keyframes slide {
+    0% {
+        -webkit-transform: translateX(100%);
+    }
+    100% {
+        -webkit-transform: translateX(0);
+    }
+}
+@-ms-keyframes slide {
+    0% {
+        -ms-transform: translateX(100%);
+    }
+    100% {
+        -ms-transform: translateX(0);
+    }
+}
+@keyframes slide {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
 }
