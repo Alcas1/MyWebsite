@@ -31,7 +31,7 @@
 	   -moz-transform: translateX(0);
     }
     100% {
-        -moz-transform: translateX(-100%);
+        -moz-transform: translateX(100%);
     }
 }
 @-webkit-keyframes slide {
@@ -39,7 +39,7 @@
         -webkit-transform: translateX(0);
     }
     100% {
-        -webkit-transform: translateX(-100%);
+        -webkit-transform: translateX(100%);
     }
 }
 @-ms-keyframes slide {
@@ -47,7 +47,7 @@
         -ms-transform: translateX(0);
     }
     100% {
-        -ms-transform: translateX(-100%);
+        -ms-transform: translateX(100%);
     }
 }
 @keyframes slide {
@@ -55,6 +55,6 @@
         transform: translateX(0);
     }
     100% {
-        transform: translateX(-100%);
+        transform: translateX(100%);
     }
 }
