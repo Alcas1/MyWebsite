@@ -38,25 +38,28 @@ body {
 @media (max-width: 300px) {
     .main_content { font-size: 40%;
     background:#FFFFFF;
+    display: inline-block
 	box-shadow: 3px 3px 15px #888888; }
 }
 
 @media (min-width: 500px) {
     .main_content { font-size: 50%;
     background:#FFFFFF;
-    width:inherit;
+    display: inline-block
 	box-shadow: 3px 3px 15px #888888; }
 }
 
 @media (min-width: 700px) {
     .main_content { font-size: 100%; 
     background:#FFFFFF;
+    display: inline-block
 	box-shadow: 3px 3px 15px #888888;}
 }
 
 @media (min-width: 1200px) {
     .main_content { font-size: 150%;
     background:#FFFFFF;
+    display: inline-block
 	box-shadow: 3px 3px 15px #888888; }
 }
 
