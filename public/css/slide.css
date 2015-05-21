@@ -114,10 +114,10 @@
 .p2:nth-child(4) {
 
 	margin-top: 20px;
-	-webkit-animation: slide .7s;
-	-moz-animation: slide .7s;
-	-ms-animation: slide .7s;
-	animation: slide .7s;
+	-webkit-animation: slide .8s;
+	-moz-animation: slide .8s;
+	-ms-animation: slide .8s;
+	animation: slide .8s;
 	-webkit-animation-delay: 1.4s;
 	-moz-animation-delay: 1.4s;
 	-ms-animation-delay: 1.4s;
@@ -131,10 +131,10 @@
 .p2:nth-child(5) {
 
 	margin-top: 20px;
-	-webkit-animation: slide .6s;
-	-moz-animation: slide .6s;
-	-ms-animation: slide .6s;
-	animation: slide .6s;
+	-webkit-animation: slide 7.s;
+	-moz-animation: slide .7s;
+	-ms-animation: slide .7s;
+	animation: slide .7s;
 	-webkit-animation-delay: 1.8s;
 	-moz-animation-delay: 1.8s;
 	-ms-animation-delay: 1.8s;
@@ -147,12 +147,12 @@
 
 .p2:nth-child(6) {
 	
-	font-size: 20px;
+	font-size: 35px;
 	margin-top: 20px;
-	-webkit-animation: slide .5s;
-	-moz-animation: slide .5s;
-	-ms-animation: slide .5s;
-	animation: slide .5s;
+	-webkit-animation: slide .7s;
+	-moz-animation: slide .7s;
+	-ms-animation: slide .7s;
+	animation: slide .7s;
 	-webkit-animation-delay: 2s;
 	-moz-animation-delay: 2s;
 	-ms-animation-delay: 2s;
