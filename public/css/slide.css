@@ -63,6 +63,7 @@
 
 .p2:nth-child(1) {
 
+	font-size: 30px;
 	margin-top: 20px;
 	-webkit-animation: slide 1.0s;
 	-moz-animation: slide 1.0s;
@@ -80,6 +81,7 @@
 
 .p2:nth-child(2) {
 
+	font-size: 30px;
 	margin-top: 20px;
 	-webkit-animation: slide .9s;
 	-moz-animation: slide .9s;
@@ -96,6 +98,7 @@
 }
 .p2:nth-child(3) {
 
+	font-size: 30px;
 	margin-top: 20px;
 	-webkit-animation: slide .8s;
 	-moz-animation: slide .8s;
@@ -113,6 +116,7 @@
 
 .p2:nth-child(4) {
 
+	font-size: 30px;
 	margin-top: 20px;
 	-webkit-animation: slide .8s;
 	-moz-animation: slide .8s;
