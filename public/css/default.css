@@ -102,6 +102,11 @@ body {
 	height: 100%;
 }
 
+.mat_cards > p {
+	background:#67EEFF;
+	
+}
+
 
 
 a {
