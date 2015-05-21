@@ -36,19 +36,19 @@ body {
 }
 
 @media (max-width: 300px) {
-    .main_content { font-size: 40%;max-width: 40%}
+    .main_content { font-size: 40%;max-width: 70%}
 }
 
 @media (min-width: 500px) {
-    .main_content { font-size: 50%;max-width: 40%}
+    .main_content { font-size: 50%;max-width: 70%}
 }
 
 @media (min-width: 700px) {
-    .main_content { font-size: 100%;max-width: 40%}
+    .main_content { font-size: 100%;max-width: 70%}
 }
 
 @media (min-width: 1200px) {
-    .main_content { font-size: 150%;max-width: 40%}
+    .main_content { font-size: 150%;max-width: 70%}
 }
 
 
