@@ -79,11 +79,11 @@ body {
 
 .left_line{
 	position:absolute;
-	top:20px;
+	top:10px;
 	left:0px;
 	width: 161px;
 	height: 390px;
- 	box-shadow: 3px 3px 15px #888888;
+ 	box-shadow: 2px 2px 5px #888888;
 }
 
 .right_bar{
