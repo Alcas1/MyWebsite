@@ -103,6 +103,7 @@ body {
 }
 
 .mat_cards > p {
+	width:auto;
 	background:#67EEFF;
 	
 }
