@@ -7,10 +7,9 @@
 	
 
 
-.mat_cards .p1:nth-child(2){	
+.p1:nth-child(2){	
 	
-	left:0;
-	
+
 	
 	
 	-webkit-transition-duration: 1.8s;
@@ -24,10 +23,3 @@
 }
 	
 
-.p1 {
-    position: relative;
-    transition: all 2s ease-in-out;
-    -webkit-transition: all 2s ease-in-out; /** Chrome & Safari **/
-    -moz-transition: all 2s ease-in-out; /** Firefox **/
-    -o-transition: all 2s ease-in-out; /** Opera **/
-}
