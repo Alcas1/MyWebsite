@@ -69,13 +69,13 @@ body {
 	
 }
 
-.left_bar{
+/*.left_bar{
 	position:relative;
 	float:left;
 	width:200px;
 	min-height:1400px;
 	height:100%;
-}
+}*/
 
 .left_line{
 	position:absolute;
