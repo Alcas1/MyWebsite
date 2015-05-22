@@ -18,7 +18,8 @@ var YTMenu = (function() {
 					
 					el.className += ' dr-menu-open';
 					open = true;
-					shade(open);
+					 alert("Hello! I am an alert box!!");
+					//shade(open);
 				}
 			}, false );
 
@@ -28,7 +29,7 @@ var YTMenu = (function() {
 					event.stopPropagation();
 					open = false;
 					el.className = el.className.replace(/\bdr-menu-open\b/,'');
-					shade(open);
+					//shade(open);
 					return false;
 				}
 			}, false );
