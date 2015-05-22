@@ -9,15 +9,10 @@
   background:#FFF;
   padding:50px 50px 50px;
 }
-h2       { 
+.contact_disp     { 
   color:#0268DD;
   display:block;
   font-family:'Roboto';
-}
-h2 small { 
-  font-weight:normal; 
-  color:#888; 
-  display:block; 
 }
 
 /* form starting stylings ------------------------------- */
