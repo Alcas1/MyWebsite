@@ -40,10 +40,10 @@ var YTMenu = (function() {
 	
 	function shade(check)
 	{
-		var cover=document.getElementById("cover");
+		var cover=document.getElementById('cover');
 		if(check)
 		{
-			alert("hello");
+			alert(cover.style.opacity);
 			cover.style.opacity=.2;
 		}
 		else
