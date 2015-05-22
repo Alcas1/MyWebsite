@@ -65,10 +65,10 @@
 
 	font-size: 30px;
 	margin-top: 20px;
-	-webkit-animation: slide 1.0s;
-	-moz-animation: slide 1.0s;
-	-ms-animation: slide 1.0s;
-	animation: slide 1.0s;
+	-webkit-animation: slideMore 1.0s;
+	-moz-animation: slideMore 1.0s;
+	-ms-animation: slideMore 1.0s;
+	animation: slideMore 1.0s;
 	-webkit-animation-delay: 100ms;
 	-moz-animation-delay: 100ms;
 	-ms-animation-delay: 100ms;
@@ -83,10 +83,10 @@
 
 	font-size: 30px;
 	margin-top: 20px;
-	-webkit-animation: slide .9s;
-	-moz-animation: slide .9s;
-	-ms-animation: slide .9s;
-	animation: slide .9s;
+	-webkit-animation: slideMore .9s;
+	-moz-animation: slideMore .9s;
+	-ms-animation: slideMore .9s;
+	animation: slideMore .9s;
 	-webkit-animation-delay: .6s;
 	-moz-animation-delay: .6s;
 	-ms-animation-delay: .6s;
@@ -100,10 +100,10 @@
 
 	font-size: 30px;
 	margin-top: 20px;
-	-webkit-animation: slide .8s;
-	-moz-animation: slide .8s;
-	-ms-animation: slide .8s;
-	animation: slide .8s;
+	-webkit-animation: slideMore .8s;
+	-moz-animation: slideMore .8s;
+	-ms-animation: slideMore .8s;
+	animation: slideMore .8s;
 	-webkit-animation-delay: 1s;
 	-moz-animation-delay: 1s;
 	-ms-animation-delay: 1s;
@@ -118,10 +118,10 @@
 
 	font-size: 30px;
 	margin-top: 20px;
-	-webkit-animation: slide .8s;
-	-moz-animation: slide .8s;
-	-ms-animation: slide .8s;
-	animation: slide .8s;
+	-webkit-animation: slideMore .8s;
+	-moz-animation: slideMore .8s;
+	-ms-animation: slideMore .8s;
+	animation: slideMore .8s;
 	-webkit-animation-delay: 1.4s;
 	-moz-animation-delay: 1.4s;
 	-ms-animation-delay: 1.4s;
@@ -136,10 +136,10 @@
 
 	font-size: 30px;
 	margin-top: 20px;
-	-webkit-animation: slide 7 .s;
-	-moz-animation: slide .7s;
-	-ms-animation: slide .7s;
-	animation: slide .7s;
+	-webkit-animation: slideMore 7 .s;
+	-moz-animation: slideMore .7s;
+	-ms-animation: slideMore .7s;
+	animation: slideMore .7s;
 	-webkit-animation-delay: 1.8s;
 	-moz-animation-delay: 1.8s;
 	-ms-animation-delay: 1.8s;
@@ -154,10 +154,10 @@
 
 	font-size: 30px;
 	margin-top: 20px;
-	-webkit-animation: slide .7s;
-	-moz-animation: slide .7s;
-	-ms-animation: slide .7s;
-	animation: slide .7s;
+	-webkit-animation: slideMore .7s;
+	-moz-animation: slideMore .7s;
+	-ms-animation: slideMore .7s;
+	animation: slideMore .7s;
 	-webkit-animation-delay: 2s;
 	-moz-animation-delay: 2s;
 	-ms-animation-delay: 2s;
