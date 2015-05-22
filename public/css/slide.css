@@ -168,6 +168,11 @@
 	animation-fill-mode: forwards;
 }
 
+
+
+
+
+
 @-moz-keyframes slide {
 0% {
 -moz-transform: translateX(0);
