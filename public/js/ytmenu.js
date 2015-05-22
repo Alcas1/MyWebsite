@@ -43,6 +43,7 @@ var YTMenu = (function() {
 		var cover=document.getElementById("cover");
 		if(check)
 		{
+			alert("hello");
 			cover.style.opacity=.2;
 		}
 		else
