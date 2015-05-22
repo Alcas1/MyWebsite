@@ -41,7 +41,6 @@ var YTMenu = (function() {
 	function shade(check)
 	{
 		var cover=document.getElementById("cover");
-		cover=cover.innerHTML;
 		if(check)
 		{
 			cover.style.opacity=.2;
