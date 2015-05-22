@@ -136,7 +136,7 @@
 
 	font-size: 30px;
 	margin-top: 20px;
-	-webkit-animation: slide 7.s;
+	-webkit-animation: slide 7 .s;
 	-moz-animation: slide .7s;
 	-ms-animation: slide .7s;
 	animation: slide .7s;
@@ -151,7 +151,7 @@
 }
 
 .p2:nth-child(6) {
-	
+
 	font-size: 30px;
 	margin-top: 20px;
 	-webkit-animation: slide .7s;
@@ -168,9 +168,22 @@
 	animation-fill-mode: forwards;
 }
 
+.dr-menu.dr-menu-open ul #left_line {
 
+	-webkit-animation: slide 1.0s;
+	-moz-animation: slide 1.0s;
+	-ms-animation: slide 1.0s;
+	animation: slide 1.0s;
+	-webkit-animation-delay: 100ms;
+	-moz-animation-delay: 100ms;
+	-ms-animation-delay: 100ms;
+	animation-delay: 100ms;
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-ms-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
 
-
+}
 
 
 @-moz-keyframes slide {
