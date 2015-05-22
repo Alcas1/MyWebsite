@@ -6,6 +6,15 @@ var YTMenu = (function() {
 
 	function init() {
 		
+		var fHeight;
+		 object.onload=function(){var body = document.body,
+    		html = document.documentElement;
+
+			fHeight = Math.max( body.scrollHeight, body.offsetHeight, 
+           html.clientHeight, html.scrollHeight, html.offsetHeight );};
+
+		
+		
 		
 		[].slice.call( document.querySelectorAll( '.dr-menu' ) ).forEach( function( el, i ) {
 
@@ -20,11 +29,7 @@ var YTMenu = (function() {
 					el.className += ' dr-menu-open';
 					open = true;
 					var body = document.body,
-    				html = document.documentElement;
-
-					var fHeight = Math.max( body.scrollHeight, body.offsetHeight, 
-                       html.clientHeight, html.scrollHeight, html.offsetHeight );
-					document.getElementById('left_line').style.height=fHeight;
+    									document.getElementById('left_line').style.height=fHeight;
 					shade(open);
 				}
 			}, false );
