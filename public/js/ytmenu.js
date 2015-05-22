@@ -15,6 +15,7 @@ var YTMenu = (function() {
 
 			trigger.addEventListener( 'click', function( event ) {
 				if( !open ) {
+					shade(open);
 					el.className += ' dr-menu-open';
 					open = true;
 				}
@@ -22,6 +23,7 @@ var YTMenu = (function() {
 
 			icon.addEventListener( 'click', function( event ) {
 				if( open ) {
+					shade(open);
 					event.stopPropagation();
 					open = false;
 					el.className = el.className.replace(/\bdr-menu-open\b/,'');
@@ -34,13 +36,17 @@ var YTMenu = (function() {
 
 	}
 	
-	function shade()
+	function shade(check)
 	{
-		var body=document.body;
-		body.style.opacity=".2";
-		
-		
-		
+		var cover=document.getElementsByClassName("cover");
+		if(!check)
+		{
+			cover.style.opacity=.2;
+		}
+		else
+		{
+			cover.style.opacity=0;
+		}
 	}
 	
 	
