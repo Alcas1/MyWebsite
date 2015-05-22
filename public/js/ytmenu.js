@@ -24,7 +24,7 @@ var YTMenu = (function() {
 					open = true;
 					var fHeight=document.documentElement.scrollHeight;
     				document.getElementById('left_line').style.height=(fHeight-53)+"px";
-					shade(open);
+					shade(open,el,event);
 				}
 			}, false );
 
@@ -43,7 +43,7 @@ var YTMenu = (function() {
 
 	}
 	
-	function shade(check)
+	function shade(check,el,event)
 	{
 		var cover=document.getElementById('cover');
 		
@@ -59,7 +59,7 @@ var YTMenu = (function() {
 					el.className = el.className.replace(/\bdr-menu-open\b/,'');
 					cover.style.opacity="0";
 					cover.style.zIndex="-1";
-					alert("omg")
+					alert("omg");
 					return false;
 				
 				
