@@ -448,6 +448,7 @@ class Main < Sinatra::Base
   end
   
   get '/construction' do
+    @title='Under Construction'
     @year_number='UNDER CONSTRUCTION'
     @second_title='Jonathan Wu'
     erb :construction
