@@ -76,7 +76,7 @@ input:focus ~ label, input:valid ~ label,textarea:focus ~ label,textarea:valid ~
 }
 
 /* active state */
-input:focus ~ .bar:before, input:focus ~ .bar:after {
+input:focus ~ .bar:before, input:focus ~ .bar:after,textarea:focus ~ .bar:before,textarea:focus ~ .bar:after {
   width:50%;
 }
 
@@ -92,7 +92,7 @@ input:focus ~ .bar:before, input:focus ~ .bar:after {
 }
 
 /* active state */
-input:focus ~ .highlight {
+input:focus ~ .highlight ,textarea:focus ~ .highlight{
   -webkit-animation:inputHighlighter 0.3s ease;
   -moz-animation:inputHighlighter 0.3s ease;
   animation:inputHighlighter 0.3s ease;
