@@ -11,7 +11,6 @@
 }
 h2       { 
   color:#0268DD;
-  text-align:center; 
   margin-bottom:50px; 
 }
 h2 small { 
@@ -36,7 +35,7 @@ textarea,input  {
 
 
 textarea{
-	height:50px;
+	height:100px;
 	
 }
 
