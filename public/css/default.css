@@ -61,7 +61,7 @@ body {
 	}
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1200px) { 
 	.main_content {
 		font-size: 130%;
 	}
@@ -70,7 +70,7 @@ body {
 	}
 }
 
-.top {
+#top {
 	position: absolute;
 	z-index:998;
 	top: 0px;
