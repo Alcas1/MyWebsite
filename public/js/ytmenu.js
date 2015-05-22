@@ -6,8 +6,11 @@ var YTMenu = (function() {
 
 	function init() {
 		
-		var fHeight=document.height;
-		var fWidth=document.width;
+		var body = document.body,
+    	html = document.documentElement;
+
+		var height = Math.max( body.scrollHeight, body.offsetHeight, 
+                       html.clientHeight, html.scrollHeight, html.offsetHeight );
 		[].slice.call( document.querySelectorAll( '.dr-menu' ) ).forEach( function( el, i ) {
 
 			var trigger = el.querySelector( 'div.dr-trigger' ),
@@ -20,7 +23,7 @@ var YTMenu = (function() {
 					
 					el.className += ' dr-menu-open';
 					open = true;
-					
+					document.getElementById('left_line').style.height=height;
 					shade(open);
 				}
 			}, false );
@@ -43,7 +46,7 @@ var YTMenu = (function() {
 	function shade(check)
 	{
 		var cover=document.getElementById('cover');
-		document.getElementById('left_line').style.height=cover.style.height;
+		
 		if(check)
 		{
 			cover.style.opacity=".2";
