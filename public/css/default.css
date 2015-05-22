@@ -16,6 +16,11 @@ body, html {
 	box-sizing: border-box;
 }
 
+p{
+	
+	color:#1607A8;
+	
+}
 /* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
 /*.clearfix:before,
  .clearfix:after {
