@@ -61,7 +61,7 @@ var YTMenu = (function() {
 		
 		if(check)
 		{
-			cover.style.opacity=".2";
+			cover.style.opacity="1";
 			cover.style.zIndex="2";
 		}
 		else
