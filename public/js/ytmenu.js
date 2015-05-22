@@ -15,9 +15,10 @@ var YTMenu = (function() {
 
 			trigger.addEventListener( 'click', function( event ) {
 				if( !open ) {
-					//shade(open);
+					
 					el.className += ' dr-menu-open';
 					open = true;
+					shade(open);
 				}
 			}, false );
 
