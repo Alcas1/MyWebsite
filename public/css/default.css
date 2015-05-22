@@ -122,7 +122,7 @@ body {
 
 .cover {
 	position: absolute;
-	z-index: 100;
+	z-index: 1;
 	top: -1px;
 	left: -50px;
 	width: 100%;
