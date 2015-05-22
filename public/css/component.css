@@ -165,9 +165,12 @@
 	transition-delay: 240ms;
 }
 
-.dr-menu ul #left_line {
+.dr-menu.dr-menu-open ul #left_line {
 
-
+	-webkit-transform: translateX(-15%);
+	-moz-transform: translateX(-15%);
+	-ms-transform: translateX(-15%);
+	transform: translateX(-15%);
 
 }
 
