@@ -59,7 +59,6 @@ var YTMenu = (function() {
 					el.className = el.className.replace(/\bdr-menu-open\b/,'');
 					cover.style.opacity="0";
 					cover.style.zIndex="-1";
-					alert("omg");
 					return false;
 				
 				
