@@ -224,6 +224,8 @@ input {
 }
 
 #type {
+	font-size:14px;
+	width:180px;
 	transition: width 200ms ease 0s;
 	height: 24px;
 	color: #E7EAF6;
