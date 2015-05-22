@@ -22,7 +22,7 @@ var YTMenu = (function() {
 					
 					el.className += ' dr-menu-open';
 					open = true;
-					var fHeight = (document.height !== undefined) ? document.height : document.body.offsetHeight;
+					var fHeight=document.documentElement.scrollHeight;
     				document.getElementById('left_line').style.height=fHeight+"px";
 					shade(open);
 				}
