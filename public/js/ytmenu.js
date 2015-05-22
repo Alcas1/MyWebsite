@@ -40,11 +40,11 @@ var YTMenu = (function() {
 	
 	function shade(check)
 	{
-		var cover=document.getElementById('cover').innerHTML;
+		var cover=document.getElementById('cover');
 		if(check)
 		{
-			alert(cover.style.opacity);
-			cover.style.opacity=.2;
+			alert(cover.opacity);
+			cover.opacity=.2;
 		}
 		else
 		{
