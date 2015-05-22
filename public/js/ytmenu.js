@@ -23,7 +23,7 @@ var YTMenu = (function() {
 					el.className += ' dr-menu-open';
 					open = true;
 					var fHeight=document.documentElement.scrollHeight;
-    				document.getElementById('left_line').style.height=fHeight+"px";
+    				document.getElementById('left_line').style.height=(fHeight-53)+"px";
 					shade(open);
 				}
 			}, false );
