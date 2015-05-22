@@ -172,17 +172,6 @@ a:hover {
 	text-decoration: none;
 }
 
-input {
-	width: 90%;
-	/*padding: 10px 5%;*/
-	font-size: 14px;
-	margin-bottom: 15px;
-	border-radius: 5px;
-	/*background-color: transparent;*/
-	font-family: "Roboto", sans-serif;
-	color: #000;
-	font-weight: 500;
-}
 
 .main, .container > header {
 	width: 100%;
