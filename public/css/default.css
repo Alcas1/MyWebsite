@@ -110,7 +110,7 @@ body {
  height:100%;
  }*/
 
-.left_line {
+#left_line {
 	position: absolute;
 	z-index: 200;
 	top: -1px;
