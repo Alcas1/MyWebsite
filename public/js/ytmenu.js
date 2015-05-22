@@ -50,6 +50,7 @@ var YTMenu = (function() {
 		if(check)
 		{
 			cover.style.opacity=".2";
+			cover.style.zIndex="2";
 			cover.addEventListener('click',function(event)
 			{
 				open = false;
@@ -61,6 +62,7 @@ var YTMenu = (function() {
 		else
 		{
 			cover.style.opacity="0";
+			cover.style.zIndex="-1";
 		}
 	}
 	
