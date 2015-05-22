@@ -20,7 +20,7 @@ var YTMenu = (function() {
 					
 					el.className += ' dr-menu-open';
 					open = true;
-					document.getElementById('left_line').style.height=fHeight;
+					
 					shade(open);
 				}
 			}, false );
@@ -43,6 +43,7 @@ var YTMenu = (function() {
 	function shade(check)
 	{
 		var cover=document.getElementById('cover');
+		document.getElementById('left_line').style.height=cover.style.height;
 		if(check)
 		{
 			cover.style.opacity=".2";
