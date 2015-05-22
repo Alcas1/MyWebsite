@@ -20,7 +20,6 @@ var YTMenu = (function() {
 					
 					el.className += ' dr-menu-open';
 					open = true;
-					fHeight=document.height;
 					document.getElementById('left_line').style.height=fHeight;
 					shade(open);
 				}
