@@ -36,11 +36,8 @@ var YTMenu = (function() {
 	
 	function shade()
 	{
-		
-		
-		
-		
-		
+		var body=document.body;
+		body.style.opacity=".2";
 		
 		
 		
@@ -48,7 +45,7 @@ var YTMenu = (function() {
 	
 	
 	
-
+	shade();
 	init();
 
 })();
