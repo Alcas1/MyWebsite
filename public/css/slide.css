@@ -170,10 +170,10 @@
 
 .dr-menu.dr-menu-open ul #left_line {
 
-	-webkit-animation: slide 1.0s;
-	-moz-animation: slide 1.0s;
-	-ms-animation: slide 1.0s;
-	animation: slide 1.0s;
+	-webkit-animation: slide .25s;
+	-moz-animation: slide .25s;
+	-ms-animation: slide .25s;
+	animation: slide .25s;
 	-webkit-animation-delay: 0ms;
 	-moz-animation-delay: 0ms;
 	-ms-animation-delay: 0ms;
