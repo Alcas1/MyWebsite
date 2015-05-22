@@ -19,7 +19,7 @@ body, html {
 p{
 	
 	color:#1565C0;
-	
+	size:10px;
 }
 /* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
 /*.clearfix:before,
