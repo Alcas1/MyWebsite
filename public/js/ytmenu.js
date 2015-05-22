@@ -43,8 +43,8 @@ var YTMenu = (function() {
 		var cover=document.getElementById('cover');
 		if(check)
 		{
-			alert(cover.opacity);
-			cover.opacity=.2;
+			alert(cover.style.opacity);
+			cover.style.opacity='.2';
 		}
 		else
 		{
