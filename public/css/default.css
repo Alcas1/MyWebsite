@@ -154,6 +154,7 @@ body {
 }
 
 .p1 {
+	margin:0 -100%;
 	width: 80%;
 	/*padding-top: 1px;*/
 	/*padding-bottom: 1px;*/
