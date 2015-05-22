@@ -38,7 +38,19 @@ var YTMenu = (function() {
 				}
 			}, false );
 			
-			
+			cover.addEventListener('click',function(event)
+			{
+				if(open)
+				{
+					event.stopPropagation();
+					open = false;
+					el.className = el.className.replace(/\bdr-menu-open\b/,'');
+					cover.style.opacity="0";
+					cover.style.zIndex="-1";
+					return falsel
+				}
+				
+			},false);
 		} );
 
 	}
@@ -51,17 +63,6 @@ var YTMenu = (function() {
 		{
 			cover.style.opacity=".2";
 			cover.style.zIndex="2";
-			cover.addEventListener('click',function(event)
-			{
-				
-					event.stopPropagation();
-					open = false;
-					el.className = el.className.replace(/\bdr-menu-open\b/,'');
-					cover.style.opacity="0";
-					cover.style.zIndex="-1";
-				 
-				
-			},false);
 		}
 		else
 		{
