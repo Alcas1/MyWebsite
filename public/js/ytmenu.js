@@ -18,10 +18,9 @@ var YTMenu = (function() {
 			trigger.addEventListener( 'click', function( event ) {
 				if( !open ) {
 					fHeight=document.height;
-					document.getElementById('left_line').style.height=fHeight;
 					el.className += ' dr-menu-open';
 					open = true;
-					 
+					document.getElementById('left_line').style.height=fHeight;
 					shade(open);
 				}
 			}, false );
