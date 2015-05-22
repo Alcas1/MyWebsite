@@ -165,14 +165,7 @@
 	transition-delay: 240ms;
 }
 
-.dr-menu.dr-menu-open ul #left_line {
 
-	-webkit-transform: translateX(-15%);
-	-moz-transform: translateX(-15%);
-	-ms-transform: translateX(-15%);
-	transform: translateX(-15%);
-
-}
 
 .dr-menu ul li a {
 	display: inline-block;
