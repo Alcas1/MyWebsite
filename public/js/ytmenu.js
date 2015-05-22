@@ -28,6 +28,7 @@ var YTMenu = (function() {
 					event.stopPropagation();
 					open = false;
 					el.className = el.className.replace(/\bdr-menu-open\b/,'');
+					shade(open);
 					return false;
 				}
 			}, false );
