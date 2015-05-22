@@ -115,7 +115,7 @@ body {
 	top:-1px;
 	left:-50px;
 	width: 1000px;
-	height: 1000px;
+	height: 100%;
 	opacity: .2;
 	background:#000000;
 }
