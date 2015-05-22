@@ -6,13 +6,7 @@ var YTMenu = (function() {
 
 	function init() {
 		
-		var fHeight;
-		 object.onload=function(){var body = document.body,
-    		html = document.documentElement;
-
-			fHeight = Math.max( body.scrollHeight, body.offsetHeight, 
-           html.clientHeight, html.scrollHeight, html.offsetHeight );};
-
+		
 		
 		
 		
@@ -28,7 +22,7 @@ var YTMenu = (function() {
 					
 					el.className += ' dr-menu-open';
 					open = true;
-    				document.getElementById('left_line').style.height=fHeight;
+    				document.getElementById('left_line').style.height="600px";
 					shade(open);
 				}
 			}, false );
