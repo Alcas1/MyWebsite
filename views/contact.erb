@@ -30,14 +30,28 @@ come up with something."</p>
 			<form action='/contact'  id='contact' method='post'>
 
 				<div class="group">
-					<input type="text" required>
+					<input name="name" type="text" required>
 					<span class="highlight"></span>
 					<span class="bar"></span>
 					<label>Name</label>
 				</div>
 
 				<div class="group">
-					<input type="text" required>
+					<input name="email" type="text" required>
+					<span class="highlight"></span>
+					<span class="bar"></span>
+					<label>Email</label>
+				</div>
+				
+				<div class="group">
+					<input name="subject" type="text" required>
+					<span class="highlight"></span>
+					<span class="bar"></span>
+					<label>Subject</label>
+				</div>
+				
+				<div class="Body">
+					<textarea name="body" placeholder="Message&hellip;"></textarea>
 					<span class="highlight"></span>
 					<span class="bar"></span>
 					<label>Email</label>
