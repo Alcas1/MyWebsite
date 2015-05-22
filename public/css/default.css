@@ -111,7 +111,7 @@ body {
  }*/
 
 #left_line {
-	margin:0 -130%;
+	margin:0 -215px;
 	position: absolute;
 	z-index: 200;
 	top: -1px;
