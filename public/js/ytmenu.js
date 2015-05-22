@@ -37,7 +37,7 @@ var YTMenu = (function() {
 					return false;
 				}
 			}, false );
-			
+			var cover=document.getElementById('cover');
 			cover.addEventListener('click',function(event)
 			{
 				if(open)
@@ -47,7 +47,7 @@ var YTMenu = (function() {
 					el.className = el.className.replace(/\bdr-menu-open\b/,'');
 					cover.style.opacity="0";
 					cover.style.zIndex="-1";
-					return falsel
+					return false;
 				}
 				
 			},false);
