@@ -17,9 +17,10 @@ var YTMenu = (function() {
 
 			trigger.addEventListener( 'click', function( event ) {
 				if( !open ) {
-					fHeight=document.height;
+					
 					el.className += ' dr-menu-open';
 					open = true;
+					fHeight=document.height;
 					document.getElementById('left_line').style.height=fHeight;
 					shade(open);
 				}
