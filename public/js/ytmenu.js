@@ -50,8 +50,6 @@ var YTMenu = (function() {
 	}
 	
 	
-	
-	shade();
 	init();
 
 })();
