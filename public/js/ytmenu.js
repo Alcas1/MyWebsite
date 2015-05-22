@@ -33,6 +33,21 @@ var YTMenu = (function() {
 		} );
 
 	}
+	
+	function shade()
+	{
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+	
 
 	init();
 
