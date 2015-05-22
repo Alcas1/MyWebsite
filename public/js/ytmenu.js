@@ -22,7 +22,8 @@ var YTMenu = (function() {
 					
 					el.className += ' dr-menu-open';
 					open = true;
-    				document.getElementById('left_line').style.height="600px";
+					var fHeight = (document.height !== undefined) ? document.height : document.body.offsetHeight;
+    				document.getElementById('left_line').style.height=fHeight;
 					shade(open);
 				}
 			}, false );
