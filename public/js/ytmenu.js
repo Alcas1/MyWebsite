@@ -19,18 +19,16 @@ var YTMenu = (function() {
 					el.className += ' dr-menu-open';
 					open = true;
 					 
-					//shade(open);
+					shade(open);
 				}
 			}, false );
 
 			icon.addEventListener( 'click', function( event ) {
 				if( open ) {
-					//shade(open);
 					event.stopPropagation();
 					open = false;
 					el.className = el.className.replace(/\bdr-menu-open\b/,'');
-					//shade(open);
-					alert("Hello! I am an alert box!!");
+					shade(open);
 					return false;
 				}
 			}, false );
@@ -44,7 +42,7 @@ var YTMenu = (function() {
 	{
 		var cover=document.getElementById("cover");
 		cover=cover.innerHTML;
-		if(!check)
+		if(check)
 		{
 			cover.style.opacity=.2;
 		}
