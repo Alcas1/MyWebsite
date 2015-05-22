@@ -53,8 +53,7 @@ var YTMenu = (function() {
 			cover.style.zIndex="2";
 			cover.addEventListener('click',function(event)
 			{
-				alert("omg");
-				if( !check ) {
+				
 					event.stopPropagation();
 					open = false;
 					el.className = el.className.replace(/\bdr-menu-open\b/,'');
@@ -62,7 +61,7 @@ var YTMenu = (function() {
 					cover.style.zIndex="-1";
 					
 					return false;
-				}
+				
 				
 			},false);
 		}
