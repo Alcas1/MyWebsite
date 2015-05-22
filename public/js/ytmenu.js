@@ -6,6 +6,8 @@ var YTMenu = (function() {
 
 	function init() {
 		
+		var fHeight=document.height;
+		var fWidth=document.width;
 		[].slice.call( document.querySelectorAll( '.dr-menu' ) ).forEach( function( el, i ) {
 
 			var trigger = el.querySelector( 'div.dr-trigger' ),
@@ -15,7 +17,8 @@ var YTMenu = (function() {
 
 			trigger.addEventListener( 'click', function( event ) {
 				if( !open ) {
-					
+					fHeight=document.height;
+					document.getElementById('left_line').style.height=fHeight;
 					el.className += ' dr-menu-open';
 					open = true;
 					 
