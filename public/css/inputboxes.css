@@ -35,7 +35,7 @@ textarea,input  {
 
 textarea{
 	height:75px;
-	
+	font-family: 'Roboto';
 }
 
 input:focus,textarea:focus    { outline:none; }
