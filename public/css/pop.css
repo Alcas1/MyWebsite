@@ -1,7 +1,7 @@
 .youtube_embed {
-	-webkit-animation: pop-in 0.5s;
-	-moz-animation: pop-in 0.5s;
-	animation: pop-in 0.5s;
+	-webkit-animation: pop-in 1s;
+	-moz-animation: pop-in 1s;
+	animation: pop-in 1s;
 }
 
 @-webkit-keyframes pop-in {
