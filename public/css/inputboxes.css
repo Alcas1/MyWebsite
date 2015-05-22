@@ -34,9 +34,7 @@ textarea,input  {
   border-bottom:1px solid #757575;
 }
 
-textarea{
-	height:200px;
-}
+textarea{}
 
 
 input:focus,textarea:focus    { outline:none; }
