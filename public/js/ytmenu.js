@@ -44,7 +44,7 @@ var YTMenu = (function() {
 		if(check)
 		{
 			cover.style.opacity=".2";
-						alert(cover.style.opacity);
+			//alert(cover.style.opacity);
 
 		}
 		else
