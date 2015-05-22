@@ -110,10 +110,10 @@
 }
 
 .contained .group  {
-	-webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
-	-moz-animation: fadein 3s; /* Firefox < 16 */
-	-ms-animation: fadein 3s; /* Internet Explorer */
-	animation: fadein 3s;
+	-webkit-animation: fadein 1.5s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 1.5s; /* Firefox < 16 */
+	-ms-animation: fadein 1.5s; /* Internet Explorer */
+	animation: fadein 1.5s;
 	-webkit-animation-fill-mode: forwards;
 	-moz-animation-fill-mode: forwards;
 	-ms-animation-fill-mode: forwards;
