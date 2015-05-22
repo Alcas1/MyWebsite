@@ -43,12 +43,13 @@ var YTMenu = (function() {
 		var cover=document.getElementById('cover');
 		if(check)
 		{
-			alert(cover.style.opacity);
-			cover.style.opacity='.2';
+			cover.style.opacity=".2";
+						alert(cover.style.opacity);
+
 		}
 		else
 		{
-			cover.style.opacity=0;
+			cover.style.opacity="0";
 		}
 	}
 	
