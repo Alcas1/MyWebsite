@@ -15,7 +15,7 @@ var YTMenu = (function() {
 
 			trigger.addEventListener( 'click', function( event ) {
 				if( !open ) {
-					shade(open);
+					//shade(open);
 					el.className += ' dr-menu-open';
 					open = true;
 				}
@@ -23,7 +23,7 @@ var YTMenu = (function() {
 
 			icon.addEventListener( 'click', function( event ) {
 				if( open ) {
-					shade(open);
+					//shade(open);
 					event.stopPropagation();
 					open = false;
 					el.className = el.className.replace(/\bdr-menu-open\b/,'');
