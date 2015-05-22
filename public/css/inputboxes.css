@@ -11,7 +11,8 @@
 }
 h2       { 
   color:#0268DD;
-  display
+  display:block;
+  font-family:'Roboto';
   margin-bottom:50px; 
 }
 h2 small { 
@@ -36,7 +37,7 @@ textarea,input  {
 
 
 textarea{
-	height:100px;
+	height:75px;
 	
 }
 
