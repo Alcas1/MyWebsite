@@ -28,8 +28,7 @@ var YTMenu = (function() {
 					
 					el.className += ' dr-menu-open';
 					open = true;
-					var body = document.body,
-    									document.getElementById('left_line').style.height=fHeight;
+    				document.getElementById('left_line').style.height=fHeight;
 					shade(open);
 				}
 			}, false );
