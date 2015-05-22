@@ -60,7 +60,7 @@ label                {
 input:focus ~ label, input:valid ~ label,textarea:focus ~ label,textarea:valid ~ label    {
   top:-20px;
   font-size:14px;
-  color:#5264AE;
+  color:#1565C0;
 }
 
 /* BOTTOM BARS ================================= */
@@ -71,7 +71,7 @@ input:focus ~ label, input:valid ~ label,textarea:focus ~ label,textarea:valid ~
   width:0;
   bottom:1px; 
   position:absolute;
-  background:#5264AE; 
+  background:#1565C0; 
   transition:0.2s ease all; 
   -moz-transition:0.2s ease all; 
   -webkit-transition:0.2s ease all;
@@ -108,14 +108,14 @@ input:focus ~ .highlight ,textarea:focus ~ .highlight{
 
 /* ANIMATIONS ================ */
 @-webkit-keyframes inputHighlighter {
-    from { background:#5264AE; }
+    from { background:#1565C0; }
   to    { width:0; background:transparent; }
 }
 @-moz-keyframes inputHighlighter {
-    from { background:#5264AE; }
+    from { background:#1565C0; }
   to    { width:0; background:transparent; }
 }
 @keyframes inputHighlighter {
-    from { background:#5264AE; }
+    from { background:#1565C0; }
   to    { width:0; background:transparent; }
 }
