@@ -447,6 +447,16 @@ class Main < Sinatra::Base
     redirect '/JonathanWuResume.pdf'
   end
   
+  get '/construction' do
+    @year_number='UNDER CONSTRUCTION'
+    @second_title='Jonathan Wu'
+    erb :construction
+  end
+  
+  post '/construction' do
+    redirect
+  end
+  
   
   error 400..510 do
     @title='Error'
