@@ -11,7 +11,9 @@
 }
 .contact_disp     { 
   color:#0268DD;
+ font-size:30px;
   display:block;
+  padding-top: 50px;
   font-family:'Roboto';
 }
 
