@@ -39,6 +39,12 @@ class Main < Sinatra::Base
 
   end
 
+  get '/start.html' do
+    @title= 'Jonathan Wu'
+    @year_number='Welcome'
+    @second_title='to my Site'
+  end
+
   post '/start.html' do
     redirect '/about'
   end
