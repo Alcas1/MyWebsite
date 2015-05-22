@@ -50,7 +50,13 @@ var YTMenu = (function() {
 		if(check)
 		{
 			cover.style.opacity=".2";
-
+			cover.addEventListener('click',function(event)
+			{
+				open = false;
+				el.className = el.className.replace(/\bdr-menu-open\b/,'');
+				cover.style.opacity="0";
+				
+			},false);
 		}
 		else
 		{
