@@ -45,6 +45,7 @@ var YTMenu = (function() {
 					event.stopPropagation();
 					open = false;
 					el.className = el.className.replace(/\bdr-menu-open\b/,'');
+					(cover.style.overflow-y)="auto";
 					cover.style.opacity="0";
 					cover.style.zIndex="-1";
 					return false;
@@ -61,11 +62,13 @@ var YTMenu = (function() {
 		
 		if(check)
 		{
+			(cover.style.overflow-y)="hidden";
 			cover.style.opacity=".5";
 			cover.style.zIndex="2";
 		}
 		else
 		{
+			(cover.style.overflow-y)="auto";
 			cover.style.opacity="0";
 			cover.style.zIndex="-1";
 		}
