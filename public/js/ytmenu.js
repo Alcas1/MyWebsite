@@ -62,13 +62,13 @@ var YTMenu = (function() {
 		
 		if(check)
 		{
-			(cover.style.overflow)="hidden";
+			(cover.style.overflow-y)="hidden";
 			cover.style.opacity=".5";
 			cover.style.zIndex="2";
 		}
 		else
 		{
-			(cover.style.overflow)="auto";
+			(cover.style.overflow-y)="auto";
 			cover.style.opacity="0";
 			cover.style.zIndex="-1";
 		}
