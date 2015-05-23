@@ -19,7 +19,7 @@ body, html {
 p{
 	
 	color:#000000;
-	size:55px;
+	
 }
 /* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
 /*.clearfix:before,
@@ -93,7 +93,7 @@ body {
 		width: 750px;
 	}
 	.about_text{
-		font-size: 1px;
+		font-size: 15px;
 	}
 	.mat_cards > p{
 		font-size:130%;
