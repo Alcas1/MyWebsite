@@ -43,6 +43,7 @@ body {
 		font-size: 40%;
 	}
 	.p1 > p {
+		font-size:40%;
 		width: 80%;
 	}
 
@@ -50,7 +51,7 @@ body {
 		font-size: 40%;
 	}
 	.mat_cards >div> p{
-		font-size:40%;
+		
 	}
 
 }
@@ -60,13 +61,14 @@ body {
 		font-size: 100%;
 	}
 	.p1 > p {
+		font-size:100%;
 		width: 80%;
 	}
 	.about_text{
 		font-size: 100%;
 	}
 	.mat_cards >div> .p1{
-		font-size:100%;
+		
 	}
 }
 
@@ -75,13 +77,14 @@ body {
 		font-size: 110%;
 	}
 	.p1 > p {
+		font-size:110%;
 		width: 70%;
 	}
 	.about_text{
 		font-size: 20px;
 	}
 	.mat_cards >div> .p1{
-		font-size:110%;
+		
 	}
 }
 
@@ -90,13 +93,14 @@ body {
 		font-size: 130%;
 	}
 	.p1 > p {
+		font-size:130%;
 		width: 750px;
 	}
 	.about_text{
 		font-size: 15px;
 	}
 	.mat_cards >div> .p1{
-		font-size:130%;
+		
 	}
 	
 }
