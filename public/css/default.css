@@ -49,7 +49,7 @@ body {
 	.about_text{
 		font-size: 40%;
 	}
-	.mat_cards > p{
+	.mat_cards >div> p{
 		font-size:40%;
 	}
 
@@ -65,7 +65,7 @@ body {
 	.about_text{
 		font-size: 100%;
 	}
-	.mat_cards > .p1{
+	.mat_cards >div> .p1{
 		font-size:100%;
 	}
 }
@@ -80,7 +80,7 @@ body {
 	.about_text{
 		font-size: 20px;
 	}
-	.mat_cards > .p1{
+	.mat_cards >div> .p1{
 		font-size:110%;
 	}
 }
@@ -95,7 +95,7 @@ body {
 	.about_text{
 		font-size: 15px;
 	}
-	.mat_cards > .p1{
+	.mat_cards >div> .p1{
 		font-size:130%;
 	}
 	
