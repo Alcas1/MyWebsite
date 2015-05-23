@@ -18,7 +18,7 @@ body, html {
 
 p{
 	
-	color:#1565C0;
+	color:#000000;
 	size:55px;
 }
 /* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
@@ -154,7 +154,7 @@ body {
 }
 
 .p1 {
-	color:#000000;
+
 	width: 80%;
 	/*padding-top: 1px;*/
 	/*padding-bottom: 1px;*/
