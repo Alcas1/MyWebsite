@@ -178,11 +178,15 @@ body {
 .p1 {
 
 	width: 80%;
-	
-	margin-top:20px;
-	margin-bottom:20px;
+
 	box-shadow: 0px 1px 3px #888888;
 }
+
+.p1 p{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
 
 .p2 {
 	width: 80%;
