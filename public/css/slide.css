@@ -136,7 +136,7 @@
 
 	font-size: 30px;
 	margin-top: 20px;
-	-webkit-animation: slideMore 7 .s;
+	-webkit-animation: slideMore 7.s;
 	-moz-animation: slideMore .7s;
 	-ms-animation: slideMore .7s;
 	animation: slideMore .7s;
