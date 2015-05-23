@@ -50,9 +50,7 @@ body {
 	.about_text{
 		font-size: 40%;
 	}
-	.mat_cards >div> p{
-		
-	}
+
 
 }
 
@@ -67,9 +65,7 @@ body {
 	.about_text{
 		font-size: 100%;
 	}
-	.mat_cards >div> .p1{
-		
-	}
+
 }
 
 @media (min-width: 700px) {
@@ -83,9 +79,7 @@ body {
 	.about_text{
 		font-size: 20px;
 	}
-	.mat_cards >div> .p1{
-		
-	}
+
 }
 
 @media (min-width: 1200px) { 
@@ -99,9 +93,7 @@ body {
 	.about_text{
 		font-size: 15px;
 	}
-	.mat_cards >div> .p1{
-		
-	}
+
 	
 }
 
