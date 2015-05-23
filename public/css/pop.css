@@ -5,9 +5,9 @@
 }
 
 .about_text{
-	-webkit-animation: pop-in 2s;
-	-moz-animation: pop-in 2s;
-	animation: pop-in 2s;
+	-webkit-animation: pop-in .75s;
+	-moz-animation: pop-in .75s;
+	animation: pop-in .75s;
 }
 
 @-webkit-keyframes pop-in {
