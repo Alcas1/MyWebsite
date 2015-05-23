@@ -76,10 +76,10 @@ body {
 
 @media (min-width: 1200px) { 
 	.main_content {
-		font-size: 130%;
+		font-size: 100%;
 	}
 	.p1 > p {
-		font-size:130%;
+		font-size:100%;
 		width: 750px;
 	}
 	.about_text{
