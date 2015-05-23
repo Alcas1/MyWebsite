@@ -4,6 +4,12 @@
 	animation: pop-in 1s;
 }
 
+.about_text{
+	-webkit-animation: pop-in 1s;
+	-moz-animation: pop-in 1s;
+	animation: pop-in 1s;
+}
+
 @-webkit-keyframes pop-in {
 0% { opacity: 0; -webkit-transform: scale(0.5); }
 100% { opacity: 1; -webkit-transform: scale(1); }
