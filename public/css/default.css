@@ -68,6 +68,7 @@ body {
 		font-size:110%;
 		width: 100%;
 	}
+	
 	.about_text{
 		font-size: 20px;
 	}
@@ -81,6 +82,9 @@ body {
 	.p1 > p {
 		font-size:100%;
 		width: 750px;
+	}
+	.p1{
+	width:750px;
 	}
 	.about_text{
 		font-size: 15px;
