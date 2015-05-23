@@ -46,6 +46,10 @@ body {
 		width: 80%;
 	}
 
+	.about_text{
+		font-size: 40%;
+	}
+
 }
 
 @media (min-width: 500px) {
@@ -54,6 +58,9 @@ body {
 	}
 	.p1 > p {
 		width: 80%;
+	}
+	.about_text{
+		font-size: 100%;
 	}
 }
 
@@ -64,6 +71,9 @@ body {
 	.p1 > p {
 		width: 70%;
 	}
+	.about_text{
+		font-size: 20px;
+	}
 }
 
 @media (min-width: 1200px) { 
@@ -72,6 +82,9 @@ body {
 	}
 	.p1 > p {
 		width: 750px;
+	}
+	.about_text{
+		font-size: 25px;
 	}
 }
 
