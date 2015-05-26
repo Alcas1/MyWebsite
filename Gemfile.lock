@@ -55,7 +55,7 @@ PLATFORMS
 
 DEPENDENCIES
   heroku
-  pony!
+  pony
   sinatra
   thin
   web
