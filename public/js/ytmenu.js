@@ -1,4 +1,4 @@
-var YTMenu = (function() {
+window.onload = (function() {
 
 	function init() {
 
