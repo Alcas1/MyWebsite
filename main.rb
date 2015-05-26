@@ -312,7 +312,6 @@ class Main < Sinatra::Base
         :subject => params[:subject],
         :headers => { 'Content-Type' => 'text/html'},
         :body => params[:name] + " has contacted you from " + params[:email]+ "\r\n" + params[:body],
-        :port => '587',
         :via => :smtp,
         :via_options => {
             :address              => 'smtp.gmail.com',
