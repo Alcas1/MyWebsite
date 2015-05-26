@@ -32,10 +32,11 @@
 .dr-menu > div .dr-icon {
 	top: 0;
 	left: 0;
-	position: absolute;
+	position: fixed;
 	font-size: 150%;
 	line-height: 1.6;
 	padding: 0 10px;
+	padding-left:20px;
 	-webkit-transition: all 0.25s ease;
 	-moz-transition: all 0.25s ease;
 	transition: all 0.25s ease;
@@ -43,16 +44,16 @@
 
 .dr-menu.dr-menu-open > div .dr-icon {
 	color: #1976d2;
-	left: 100%;
-	-webkit-transform: translateX(-100%);
-	-moz-transform: translateX(-100%);
-	-ms-transform: translateX(-100%);
-	transform: translateX(-100%);
+	/*left: 100%;*/
+	-webkit-transform: translateX(205px);
+	-moz-transform: translateX(205px);
+	-ms-transform: translateX(205px);
+	transform: translateX(205px);
 }
 
 .dr-menu > div .dr-icon:after {
 	content: "\e009";
-	position: absolute;
+	position: fixed;
 	font-size: 50%;
 	line-height: 3.25;
 	left: -10%;
@@ -65,7 +66,7 @@
 
 .dr-menu > div .dr-label {
 	padding-left: 3em;
-	position: absolute;
+	position: fixed;
 	display: block;
 	color: #1976d2;
 	font-size: 0.9em;
@@ -94,6 +95,7 @@
 	position: relative;
 	z-index: 800;
 	pointer-events: none;
+	
 	-webkit-transition: opacity 0s linear 240ms;
 	-moz-transition: opacity 0s linear 240ms;
 	transition: opacity 0s linear 240ms;
@@ -110,56 +112,67 @@
 
 .dr-menu ul li {
 	display: block;
-	position:relative;
+	position:fixed;
 	z-index:900;
-	margin: 0 0 0px 0;
+	margin-top:-100px;
 	opacity: 0;
-	-webkit-transition: opacity 0.3s ease;
-	-moz-transition: opacity 0.3s ease;
-	transition: opacity 0.3s ease;
+	-webkit-transition: opacity 0.3s ease-in;
+	-moz-transition: opacity 0.3s ease-in;
+	transition: opacity 0.3s ease-in;
 }
 
 .dr-menu.dr-menu-open ul li {
 	opacity: 1;
 }
 
+.dr-menu.dr-menu-open ul li:nth-child(1) {
+	margin-top:0px;
+}
+
 .dr-menu.dr-menu-open ul li:nth-child(2) {
+	margin-top:60px;
 	-webkit-transition-delay: 35ms;
 	-moz-transition-delay: 35ms;
 	transition-delay: 35ms;
 }
 
 .dr-menu.dr-menu-open ul li:nth-child(3) {
+	margin-top:120px;
 	-webkit-transition-delay: 70ms;
 	-moz-transition-delay: 70ms;
 	transition-delay: 70ms;
 }
 
 .dr-menu.dr-menu-open ul li:nth-child(4) {
+	margin-top:180px;
 	-webkit-transition-delay: 105ms;
 	-moz-transition-delay: 105ms;
 	transition-delay: 105ms;
 }
 
 .dr-menu.dr-menu-open ul li:nth-child(5) {
+	margin-top:240px;
 	-webkit-transition-delay: 140ms;
 	-moz-transition-delay: 140ms;
 	transition-delay: 140ms;
 }
 
 .dr-menu.dr-menu-open ul li:nth-child(6) {
+	margin-top:300px;
 	-webkit-transition-delay: 175ms;
 	-moz-transition-delay: 175ms;
 	transition-delay: 175ms;
 }
 
 .dr-menu.dr-menu-open ul li:nth-child(7) {
+	margin-top:360px;
 	-webkit-transition-delay: 210ms;
 	-moz-transition-delay: 210ms;
 	transition-delay: 210ms;
 }
 
 .dr-menu.dr-menu-open ul li:nth-child(8) {
+	margin-top:420px;
 	-webkit-transition-delay: 240ms;
 	-moz-transition-delay: 240ms;
 	transition-delay: 240ms;

@@ -4,10 +4,11 @@
 .contained      { 
   font-family:'Roboto';
   width:400px; 
-  margin:0px auto 0; 
+  margin:0px auto ; 
   display:block; 
   background:#FFF;
-  padding:10px 50px 50px;
+  padding:0px 50px 50px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.26);
 }
 .contact_disp     { 
   color:#1976D2;
