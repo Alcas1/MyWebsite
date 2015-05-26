@@ -35,7 +35,6 @@ GEM
       http-cookie (>= 1.0.2, < 2.0)
       mime-types (>= 1.16, < 3.0)
       netrc (~> 0.7)
-    rspec (3.2.0)  
     rubyzip (1.1.7)
     sinatra (1.4.6)
       rack (~> 1.4)
@@ -57,7 +56,8 @@ PLATFORMS
 DEPENDENCIES
   heroku
   pony
+  rake
+  rspec
   sinatra
   thin
   web
-  rspec
