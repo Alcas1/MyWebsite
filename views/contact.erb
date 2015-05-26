@@ -18,7 +18,7 @@ come up with something."</p>
 </p>
 </div>
 -->
-<link rel="stylesheet" type="text/css" href="css/fade.css"/>
+<!-- <link rel="stylesheet" type="text/css" href="css/fade.css"/>
 
 <link rel="stylesheet" type="text/css" href="css/inputboxes.css"/>
 
@@ -65,4 +65,54 @@ come up with something."</p>
 		</form>
 	</div>
 
+</div> -->
+
+<link rel="stylesheet" type="text/css" href="css/pop.css"/>
+<link rel="stylesheet" type="text/css" href="css/fade.css"/>
+<link rel="stylesheet" type="text/css" href="css/slide.css"/>
+<link rel="stylesheet" type="text/css" href="css/inputboxes.css"/>
+
+<div class="success" id="success"><p><font color="#1976D2">Success!</font></p></div>
+<div class="contact" style="padding-top: 60px">
+	<div id="contained2">
+	<div id="contained" class="contained">
+
+		<div class="contact_disp">
+			<strong>Contact Me</strong>
+		</div>
+	<form action='/contact'  id='contact' method='post'>
+		<div class="group">
+			<input name="name" type="text" required>
+			<span class="highlight"></span>
+			<span class="bar"></span>
+			<label>Name</label>
+		</div>
+
+		<div class="group">
+			<input name="email" type="text" required>
+			<span class="highlight"></span>
+			<span class="bar"></span>
+			<label>Email</label>
+		</div>
+
+		<div class="group">
+			<input name="subject" type="text" required>
+			<span class="highlight"></span>
+			<span class="bar"></span>
+			<label>Subject</label>
+		</div>
+
+		<div class="group">
+			<textarea name="body" type="text" required></textarea>
+			<span class="highlight"></span>
+			<span class="bar"></span>
+			<label>Message</label>
+		</div>
+		
+			<input id="btn2" value="Contact Me" class="btn2" type="submit">
+			</input>
+		</form>
+	</div>
+	</div>
+	 <!-- <script src="js/contact_js.js"></script>  -->
 </div>
