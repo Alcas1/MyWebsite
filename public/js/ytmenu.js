@@ -19,7 +19,6 @@ window.onload = (function() {
 						height = Math.max(B.scrollHeight, B.offsetHeight, H.clientHeight, H.scrollHeight, H.offsetHeight);
 					}
 					var fHeight=height;
-					alert("omg");
 					document.getElementById('left_line').style.height = (fHeight - 54) + "px";
 					shade(open, el, event);
 				}
