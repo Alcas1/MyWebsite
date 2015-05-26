@@ -14,7 +14,7 @@ window.onload = (function() {
 					var B = document.body, H = document.documentElement, height;
 
 					if ( typeof document.height !== 'undefined') {
-						height = document.height; // For webkit browsers
+						height = document.height; 
 					} else {
 						height = Math.max(B.scrollHeight, B.offsetHeight, H.clientHeight, H.scrollHeight, H.offsetHeight);
 					}
@@ -39,7 +39,6 @@ window.onload = (function() {
 					event.stopPropagation();
 					open = false;
 					el.className = el.className.replace(/\bdr-menu-open\b/, '');
-					//(cover.style.overflow-y)="auto";
 					cover.style.opacity = "0";
 					cover.style.zIndex = "-1";
 					return false;
