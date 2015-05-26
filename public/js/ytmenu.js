@@ -11,8 +11,11 @@ window.onload = (function() {
 
 					el.className += ' dr-menu-open';
 					open = true;
-
-					var fHeight = Math.max(document.documentElement["clientHeight"], document.body["scrollHeight"], document.documentElement["scrollHeight"], document.body["offsetHeight"], document.documentElement["offsetWidth"]);
+					var actualHeight = window.innerHeight ||
+                      document.documentElement.clientHeight ||
+                      document.body.clientHeight ||
+                      document.body.offsetHeight;
+					var fHeight = actualHeight;
 					document.getElementById('left_line').style.height = (fHeight - 54) + "px";
 					shade(open, el, event);
 				}
