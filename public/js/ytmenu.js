@@ -11,9 +11,8 @@ window.onload = (function() {
 
 					el.className += ' dr-menu-open';
 					open = true;
-					var body = document.body, html = document.documentElement;
 
-					var fHeight = Math.max(body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight);
+					var fHeight = Math.max(document.documentElement["clientHeight"], document.body["scrollHeight"], document.documentElement["scrollHeight"], document.body["offsetHeight"], document.documentElement["offsetWidth"]);
 					document.getElementById('left_line').style.height = (fHeight - 54) + "px";
 					shade(open, el, event);
 				}
