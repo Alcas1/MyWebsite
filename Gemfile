@@ -5,5 +5,4 @@ gem 'heroku'
 gem 'web'
 gem 'thin'
 gem 'pony'
-gem 'rspec'
-gem 'rake'
+

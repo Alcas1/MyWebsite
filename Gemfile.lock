@@ -56,8 +56,6 @@ PLATFORMS
 DEPENDENCIES
   heroku
   pony
-  rake
-  rspec
   sinatra
   thin
   web
