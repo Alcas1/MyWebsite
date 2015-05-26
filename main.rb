@@ -25,6 +25,9 @@ class Main < Sinatra::Base
   
   set :public_folder, 'public'
   
+  configure do
+    @@error_return = '/about'
+  end
   
   get '/' do
     @title= 'Jonathan Wu'
