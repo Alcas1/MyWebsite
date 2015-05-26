@@ -464,7 +464,20 @@ class Main < Sinatra::Base
     redirect
   end
   
+    error 500 do
+    @title='Enter An Email'
+    @year_number='Enter An Email'
+    @second_title='Enter An Email'
+    @error_message='Please Enter An Email'
+    # @@error_return='/contact'
+    erb :error
+  end
   
+  # get '/error' do
+    # redirect @@error_return
+  # end
+  
+    
   error 400..510 do
     @title='Error'
     @year_number='Error'
