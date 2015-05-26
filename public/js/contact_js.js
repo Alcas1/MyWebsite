@@ -10,7 +10,7 @@ function init() {
         document.getElementById('success').className ='success_animate';
         setTimeout(function() {
             form.submit();
-        }, 1000); // 3 seconds
+        }, 900); // 3 seconds
         return false;
     };
 };
