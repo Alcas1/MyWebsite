@@ -11,8 +11,14 @@ window.onload = (function() {
 
 					el.className += ' dr-menu-open';
 					open = true;
-					var D = document;
-					var fHeight =Math.max(D.body.scrollHeight, D.documentElement.scrollHeight, D.body.offsetHeight, D.documentElement.offsetHeight, D.body.clientHeight, D.documentElement.clientHeight);
+					var B = document.body, H = document.documentElement, height;
+
+					if ( typeof document.height !== 'undefined') {
+						height = document.height; // For webkit browsers
+					} else {
+						height = Math.max(B.scrollHeight, B.offsetHeight, H.clientHeight, H.scrollHeight, H.offsetHeight);
+					}
+					var fHeight=height;
 					document.getElementById('left_line').style.height = (fHeight - 54) + "px";
 					shade(open, el, event);
 				}
