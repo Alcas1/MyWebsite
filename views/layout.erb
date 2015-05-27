@@ -1,81 +1,104 @@
-
 <!------------------------------------------>
 <!--  YO YOU. Yea YOU get outta here lol  -->
 <!--									  -->
 <!------------------------------------------>
 
-
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf8">
-  <title><%= @title %></title>
-  <!-- <link href="reset.css" rel="stylesheet" type="text/css"> -->
-  <!-- <link href="style.css" rel="stylesheet" type="text/css"> -->
-  <link rel="shortcut icon" href="../favicon.ico"> 
-  <link rel="stylesheet" type="text/css" href="css/slide.css" />
-  <link rel="stylesheet" type="text/css" href="css/default.css" />
-  <link rel="stylesheet" type="text/css" href="css/component.css" />
-  <script src="js/modernizr.custom.js"></script>
-</head>
-<div id="top">
-    	<div class="top-text" style="line-height:1.2">
-    		<p><Strong><font color="#ffffff" size="4.5"><%= @year_number %></font></Strong></p>
-    	</div>
-</div>
-<div class="left_bar"></div>	
-<div class="right_bar"></div>	
-<div id="cover"></div>
-<header>
-  <hgroup>
-    <!--<h1><%= @year_numbere %></h1>
-    <h2><%= @second_title%></h2>
-    -->
-    <div class="container">	
-			<!-- 
-			<header class="clearfix">
-			</header> -->
-			<div class="sidebar">
-				<p></p>
-				<div class="side">
-					<nav class="dr-menu">
-						<div class="dr-trigger"><span class="dr-icon dr-icon-menu"></span><a class="dr-label">Jonathan Wu</a></div>
-						<ul>
-							<li><a class="dr-icon dr-icon-user" href="/about">About Me</a></li>
-							<li><a class="dr-icon dr-icon-checklist" href="/goals">Goals</a></li>
-							<li><a class="dr-icon dr-icon-calender" href="/construction">Timeline</a></li>
-							<li><a class="dr-icon dr-icon-folder" href="/construction">Works</a></li>
-							<li><a class="dr-icon dr-icon-music" href="/music0">Music</a></li>
-							<li><a class="dr-icon dr-icon-users" href="/construction">Mentors</a></li>
-							<li><a class="dr-icon dr-icon-messages" href="/contact">Contact</a></li>
-							<li><a class="dr-icon dr-icon-profile" href="/resume">Resume</a></li>
-							<div id="left_line"></div>
-
-						</ul>
-					</nav>
-				</div>
+	<head>
+		<meta charset="utf8">
+		<title><%= @title %></title>
+		<!-- <link href="reset.css" rel="stylesheet" type="text/css"> -->
+		<!-- <link href="style.css" rel="stylesheet" type="text/css"> -->
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/slide.css" />
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<div id="top">
+		<p>
+			<div class="top-text" style="line-height:1.2">
+				<Strong><font color="#ffffff" size="4.5"><%= @year_number %></font></Strong>
 			</div>
-		</div><!-- /container -->
-		<script src="js/ytmenu.js"></script>
-  </hgroup>
-</header>
+		</p>
+	</div>
+	<div class="left_bar"></div>
+	<div class="right_bar"></div>
+	<div id="cover"></div>
+	<header>
+		<hgroup>
+			<!--<h1><%= @year_numbere %></h1>
+			<h2><%= @second_title%></h2>
+			-->
+			<div class="container">
+				<!--
+				<header class="clearfix">
+				</header> -->
+				<div class="sidebar">
+					<p></p>
+					<div class="side">
+						<nav class="dr-menu">
+							<div class="dr-trigger">
+								<span class="dr-icon dr-icon-menu"></span><a class="dr-label">Jonathan Wu</a>
+							</div>
+							<ul>
+								<li>
+									<a class="dr-icon dr-icon-user" href="/about">About Me</a>
+								</li>
+								<li>
+									<a class="dr-icon dr-icon-checklist" href="/goals">Goals</a>
+								</li>
+								<li>
+									<a class="dr-icon dr-icon-calender" href="/construction">Timeline</a>
+								</li>
+								<li>
+									<a class="dr-icon dr-icon-folder" href="/construction">Works</a>
+								</li>
+								<li>
+									<a class="dr-icon dr-icon-music" href="/music0">Music</a>
+								</li>
+								<li>
+									<a class="dr-icon dr-icon-users" href="/construction">Mentors</a>
+								</li>
+								<li>
+									<a class="dr-icon dr-icon-messages" href="/contact">Contact</a>
+								</li>
+								<li>
+									<a class="dr-icon dr-icon-profile" href="/resume">Resume</a>
+								</li>
+								<div id="left_line"></div>
 
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div><!-- /container -->
+			<script src="js/ytmenu.js"></script>
+		</hgroup>
+	</header>
 
-<div id="main">
-  <%= yield %>
-</div>
+	<div id="main">
+		<%= yield %>
+	</div>
 
-<footer>
- <!-- <SPAN style="position:fixed;left:5px;top:800px;">
-  <a href="/betatesters">Made by Jonathan Wu Version 1.94</a>
-</SPAN> -->
-</footer>
+	<footer>
+		<!-- <SPAN style="position:fixed;left:5px;top:800px;">
+		<a href="/betatesters">Made by Jonathan Wu Version 1.94</a>
+		</SPAN> -->
+	</footer>
 </html>
 <!-- Histats.com  START (hidden counter)-->
 <script type="text/javascript">document.write(unescape("%3Cscript src=%27http://s10.histats.com/js15.js%27 type=%27text/javascript%27%3E%3C/script%3E"));</script>
-<a href="http://www.histats.com" target="_blank" title="free invisible hit counter" ><script  type="text/javascript" >
-try {Histats.start(1,2044997,4,0,0,0,"");
-Histats.track_hits();} catch(err){};
+<a href="http://www.histats.com" target="_blank" title="free invisible hit counter" >
+<script  type="text/javascript" >
+	try {
+		Histats.start(1, 2044997, 4, 0, 0, 0, "");
+		Histats.track_hits();
+	} catch(err) {
+	};
 </script></a>
-<noscript><a href="http://www.histats.com" target="_blank"><img  src="http://sstatic1.histats.com/0.gif?2044997&101" alt="free invisible hit counter" border="0"></a></noscript>
+<noscript>
+	<a href="http://www.histats.com" target="_blank"><img  src="http://sstatic1.histats.com/0.gif?2044997&101" alt="free invisible hit counter" border="0"></a>
+</noscript>
 <!-- Histats.com  END  -->

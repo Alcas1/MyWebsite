@@ -51,7 +51,6 @@ window.onload = (function() {
 
 	function shade(check, el, event) {
 		var B = document.body, H = document.documentElement, height;
-
 		if ( typeof document.height !== 'undefined') {
 			height = document.height;
 		} else {
