@@ -97,6 +97,10 @@
 	cursor: pointer;
 	border-radius: 5px;
 	text-transform: uppercase;
+	
+	
+	-webkit-transition: -webkit-box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+	-moz-transition: -moz-box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1) 0s;
 	transition: box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1) 0s;
 	background-color: #1e88e5;
 	border-color: #CCC;
