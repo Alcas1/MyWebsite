@@ -223,6 +223,11 @@ a:hover {
 	box-sizing:border-box;
 	padding-left:10px;
 }
+
+.works_content ul{
+	list-style: outside none none;
+}
+
 .works_content ul li {
 	/*background-attachment:scroll;*/
 	color:#1976D2;
