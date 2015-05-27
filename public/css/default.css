@@ -241,6 +241,8 @@ a {
 
 .works_content ul li a:hover{
 	color:#1976d2;
+	cursor: pointer;
+
 }
 
 h3 {
