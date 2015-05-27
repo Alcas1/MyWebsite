@@ -226,6 +226,8 @@ a:hover {
 
 .works_content ul{
 	list-style: outside none none;
+	position: relative;
+
 }
 
 .works_content ul li {
