@@ -224,33 +224,9 @@ a:hover {
 	padding-left:20px;
 }
 .works_content ul li {
-	background-attachment:scroll;
-	background-clip:border-box;
-	background-color:transparent;
-	background-image:none;
-	background-origin:padding-box;
-	background-position:0% 0%;
-	background-repeat:repeat;
-	background-size:auto auto;
-	box-sizing:border-box;
-	color:#3F51B5;
-	font-family:"RobotoDraft","Roboto",sans-serif;
+	color:#1976D2;
 	font-size:20px;
 	line-height:40px;
-	list-style-image:none;
-	list-style-position:outside;
-	list-style-type:none;
-	outline-color:#3F51B5;
-	outline-style:none;
-	outline-width:0px;
-	text-decoration:none;
-	text-decoration-color:#3F51B5;
-	text-decoration-line:none;
-	text-decoration-style:solid;
-	text-rendering:optimizelegibility;
-	transition-delay:0s;
-	transition-duration:0.1s;
-	transition-propertycolortransition-timing-function:cubic-bezier(0, 0, 1, 1);
 }
 h3 {
 	color:#757575;
