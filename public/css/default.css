@@ -38,6 +38,9 @@ body {
 	.content_title{
 		font-size:18px;
 	}
+	.works_title{
+		font-size:28px;
+	}
 }
 @media(min-width:500px) {
 	.main_content {
@@ -55,6 +58,9 @@ body {
 	}
 	.content_title{
 		font-size:19px;
+	}
+	.works_title{
+		font-size:29px;
 	}
 }
 @media(min-width:700px) {
@@ -74,6 +80,9 @@ body {
 	.content_title{
 		font-size:20px;
 	}
+	.works_title{
+		font-size:30px;
+	}
 }
 @media(min-width:1200px) {
 	.main_content {
@@ -91,6 +100,9 @@ body {
 	}
 	.content_title{
 		font-size:24px;
+	}
+	.works_title{
+		font-size:34px;
 	}
 	
 }
@@ -268,3 +280,9 @@ h3 {
 	padding-top:80px;
 	color: #1976D2
 }
+
+.content_body{
+	color: #212121;
+	
+}
+
