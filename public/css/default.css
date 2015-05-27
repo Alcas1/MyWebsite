@@ -172,7 +172,7 @@ b{
 }
 
 .text_thanks{
-	size:20px;
+	size:20px !important;
 	color:#1976D2;
 	
 }
