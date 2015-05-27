@@ -224,9 +224,13 @@ a:hover {
 	padding-left:20px;
 }
 .works_content ul li {
+	background-attachment:scroll;
 	color:#1976D2;
 	font-size:20px;
 	line-height:40px;
+	text-decoration-color:#3F51B5;
+	text-decoration-line:none;
+	text-decoration-style:solid;
 }
 h3 {
 	color:#757575;
