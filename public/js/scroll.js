@@ -6,11 +6,11 @@ function init() {
 
 		lis[i].getElementsByTagName('a')[0].addEventListener("click", function(e) {
 
-			//alert(this.innerHTML);
+			alert(i);
 			
 			$('html, body').animate({
 				scrollTop : $('#content'+i).offset().top
-			}, 1000, 'easeInOutQuint');
+			}, 500, 'easeInOutQuint');
 
 		});
 
