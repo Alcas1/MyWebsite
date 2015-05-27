@@ -51,7 +51,7 @@ window.onload = (function() {
 
 	function shade(check, el, event) {
 		var cover = document.getElementById('cover');
-
+		cover.style.height = (fHeight) + "px";
 		if (check) {
 
 			cover.style.opacity = ".5";
