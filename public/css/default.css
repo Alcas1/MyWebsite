@@ -169,7 +169,7 @@ b {
 }
 a {
 	color:#1976d2;
-	padding:0 20px;
+	padding:0 0px;
 	text-decoration:none;
 }
 a:hover {
@@ -226,7 +226,6 @@ a:hover {
 
 .works_content ul{
 	list-style: outside none none;
-	position: relative;
 	padding-left: 0px;
 }
 
