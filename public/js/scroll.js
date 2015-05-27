@@ -3,7 +3,7 @@ function init() {
 	
 	
 	
-	var lis = document.getElementById("content_list").getElementsByTagName('li a');
+	var lis = document.getElementById("content_list").getElementsByTagName('li').getElementsByTagName('a');
 
 	for (var i = 0; i < lis.length; i++) {
 
