@@ -172,7 +172,7 @@ a {
 	padding:0 0px;
 	text-decoration:none;
 }
-a:hover {
+ a:hover {
 	color:#90caf9;
 	text-decoration:none;
 }
@@ -238,6 +238,11 @@ a:hover {
 	list-style-position:outside;
 	list-style-type:none;
 }
+
+.works_content ul li a:hover{
+	color:#1976d2;
+}
+
 h3 {
 	color:#757575;
 	font-size:15px;
@@ -245,6 +250,9 @@ h3 {
 	line-height:16px;
 	padding-bottom:0px;
 }
-a {
-	background:transparent none repeat scroll 0% 0%;
-}
+
+
+
+
+
+
