@@ -3,13 +3,13 @@ function init() {
 
 	
 
-	var $savedList = $("#content_list ul li");
-	$.each($savedList, function() {
-		$savedList.append("<a href='#saved-route'>" + omg + "</a>");
-	});
-	$savedList.delegate("li", "click", function(e) {
-		alert("omg");
-	});
+	document.getElementById("work_content").addEventListener("click",function(e) {
+        // e.target is our targetted element.
+                    // try doing console.log(e.target.nodeName), it will result LI
+        if(e.target && e.target.nodeName == "LI") {
+            console.log(e.target.id + " was clicked");
+        }
+    });
 
 	// .addEventListener('click', function(event) {
 	// $('html').animate({
