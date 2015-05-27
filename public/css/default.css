@@ -217,8 +217,9 @@ a:hover {
 	opacity:0;
 }
 .works_content {
-	border-left-color:#C5CAE9;
+	border-left-color:#90caf9;
 	border-left-style:solid;
-	border-left-width:5px;
+	border-left-width:6px;
 	box-sizing:border-box;
+	padding-left:20px;
 }
