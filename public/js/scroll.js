@@ -4,7 +4,7 @@ function init() {
 
 	for (var i = 0; i < lis.length; i++) {
 
-		((lis[i].getElementsByTagName('a'))[0]).addEventListener("click", function(e) {
+		(lis[i].getElementsByTagName('a')[0]).addEventListener("click", function(e) {
 
 			//alert(this.innerHTML);
 			
