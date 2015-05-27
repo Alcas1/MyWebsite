@@ -1,15 +1,15 @@
 function init() {
 
+	var lis = document.getElementById("content_list").getElementsByTagName('li');
 
-	
+	for (var i = 0; i < lis.length; i++) {
 
-	document.getElementById("content_list").addEventListener("click",function(e) {
-        // e.target is our targetted element.
-                    // try doing console.log(e.target.nodeName), it will result LI
-        if(e.target && e.target.nodeName.nodeName == "a") {
-            alert(e.target.id + " was clicked");
-        }
-    });
+		lis[i].addEventListener("click", function(e) {
+
+			alert(list[i].id);
+		});
+
+	}
 
 	// .addEventListener('click', function(event) {
 	// $('html').animate({
