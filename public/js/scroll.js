@@ -4,7 +4,18 @@ function init() {
 	// $('html body').animate({
 		// scrollTop : $(id).offset().top
 	// }, 6000, 'easeOutElastic');
-	alert("omg");
+// 	
+
+
+if (typeof jQuery != 'undefined') {
+ 
+    alert("jQuery library is loaded!");
+ 
+}else{
+ 
+    alert("jQuery library is not found!");
+ 
+}
 }
 
 init();
