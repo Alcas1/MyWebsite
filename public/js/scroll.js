@@ -10,7 +10,7 @@ function init() {
 			
 			$('html, body').animate({
 				scrollTop : $('#content'+i).offset().top
-			}, 6000, 'easeOutElastic');
+			}, 6000, 'easeInOutQuint');
 
 		});
 
