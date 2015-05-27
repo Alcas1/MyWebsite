@@ -69,10 +69,10 @@
 	-moz-animation: slideMore 1.0s;
 	-ms-animation: slideMore 1.0s;
 	animation: slideMore 1.0s;
-	-webkit-animation-delay: 100ms;
-	-moz-animation-delay: 100ms;
-	-ms-animation-delay: 100ms;
-	animation-delay: 100ms;
+	-webkit-animation-delay: 200ms;
+	-moz-animation-delay: 200ms;
+	-ms-animation-delay: 200ms;
+	animation-delay: 200ms;
 	-webkit-animation-fill-mode: forwards;
 	-moz-animation-fill-mode: forwards;
 	-ms-animation-fill-mode: forwards;
