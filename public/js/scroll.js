@@ -6,7 +6,7 @@ function init() {
 	document.getElementById("content_list").addEventListener("click",function(e) {
         // e.target is our targetted element.
                     // try doing console.log(e.target.nodeName), it will result LI
-        if(e.target && e.target.nodeName == "LI") {
+        if(e.target && e.target.nodeName.nodeName == "a") {
             alert(e.target.id + " was clicked");
         }
     });
