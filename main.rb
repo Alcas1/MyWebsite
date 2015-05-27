@@ -311,7 +311,7 @@ class Main < Sinatra::Base
         :to => 'jonathanwu70@gmail.com',
         :subject => params[:subject],
         :headers => { 'Content-Type' => 'text/html'},
-        :body => params[:name] + " has contacted you from " + params[:email]+ "\n"+"\n" + params[:body],
+        :body => params[:name] + " has contacted you from " + params[:email]+ "<br />" + params[:body],
         :via => :smtp,
         :via_options => {
             :address              => 'smtp.gmail.com',
