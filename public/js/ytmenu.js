@@ -14,11 +14,11 @@ window.onload = (function() {
 					var B = document.body, H = document.documentElement, height;
 
 					if ( typeof document.height !== 'undefined') {
-						height = document.height; 
+						height = document.height;
 					} else {
 						height = Math.max(B.scrollHeight, B.offsetHeight, H.clientHeight, H.scrollHeight, H.offsetHeight);
 					}
-					var fHeight=height;
+					var fHeight = height;
 					document.getElementById('left_line').style.height = (fHeight - 54) + "px";
 					shade(open, el, event);
 				}
@@ -50,6 +50,14 @@ window.onload = (function() {
 	}
 
 	function shade(check, el, event) {
+		var B = document.body, H = document.documentElement, height;
+
+		if ( typeof document.height !== 'undefined') {
+			height = document.height;
+		} else {
+			height = Math.max(B.scrollHeight, B.offsetHeight, H.clientHeight, H.scrollHeight, H.offsetHeight);
+		}
+		var fHeight = height;
 		var cover = document.getElementById('cover');
 		cover.style.height = (fHeight) + "px";
 		if (check) {
