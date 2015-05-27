@@ -171,13 +171,11 @@ b{
 	background: #000000;
 }
 
-/*.right_bar{
- position:relative;
- float:right;
- width:150px;
- min-height:800px;
- height:100%;
- }*/
+.text_thanks{
+	size:10px;
+	
+	
+}
 
 .full {
 	position: absolute;
