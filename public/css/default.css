@@ -43,7 +43,7 @@ body {
 	.works_title {
 		font-size: 28px;
 	}
-	.content_about,.part_group {
+	.content_about,.part1 .part_group {
 		width: 360px;
 		float: left;
 	}
@@ -68,7 +68,7 @@ body {
 	.works_title {
 		font-size: 29px;
 	}
-	.content_about,.part_group {
+	.content_about,.part1 .part_group {
 		width: 360px;
 		float:left;
 	}
@@ -93,7 +93,7 @@ body {
 	.works_title {
 		font-size: 30px;
 	}
-	.content_about, .part_group {
+	.content_about, .part1 .part_group {
 		width: 360px;
 		float:left;
 	}
