@@ -1,10 +1,7 @@
 @font-face {
 	font-family: 'icomoon';
-	src:url('../fonts/icomoon.eot');
-	src:url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/icomoon.woff') format('woff'),
-		url('../fonts/icomoon.ttf') format('truetype'),
-		url('../fonts/icomoon.svg#icomoon') format('svg');
+	src: url('../fonts/icomoon.eot');
+	src: url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'), url('../fonts/icomoon.woff') format('woff'), url('../fonts/icomoon.ttf') format('truetype'), url('../fonts/icomoon.svg#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -22,7 +19,7 @@
 	color: #fff;
 }
 
-.dr-menu > div  {
+.dr-menu > div {
 	cursor: pointer;
 	position: absolute;
 	width: 100%;
@@ -32,18 +29,19 @@
 .dr-menu > div .dr-icon {
 	top: 0;
 	left: 0;
+	color: #FF4081;
 	position: fixed;
 	font-size: 150%;
 	line-height: 1.6;
 	padding: 0 10px;
-	padding-left:20px;
+	padding-left: 20px;
 	-webkit-transition: all 0.25s ease;
 	-moz-transition: all 0.25s ease;
 	transition: all 0.25s ease;
 }
 
 .dr-menu.dr-menu-open > div .dr-icon {
-	color: #FFFFFF;
+	color: #FF4081;
 	/*left: 100%;*/
 	-webkit-transform: translateX(205px);
 	-moz-transform: translateX(205px);
@@ -95,7 +93,6 @@
 	position: relative;
 	z-index: 800;
 	pointer-events: none;
-	
 	-webkit-transition: opacity 0s linear 240ms;
 	-moz-transition: opacity 0s linear 240ms;
 	transition: opacity 0s linear 240ms;
@@ -112,9 +109,9 @@
 
 .dr-menu ul li {
 	display: block;
-	position:fixed;
-	z-index:900;
-	margin-top:-100px;
+	position: fixed;
+	z-index: 900;
+	margin-top: -100px;
 	opacity: 0;
 	-webkit-transition: opacity 0.3s ease-in;
 	-moz-transition: opacity 0.3s ease-in;
@@ -126,59 +123,57 @@
 }
 
 .dr-menu.dr-menu-open ul li:nth-child(1) {
-	margin-top:0px;
+	margin-top: 0px;
 }
 
 .dr-menu.dr-menu-open ul li:nth-child(2) {
-	margin-top:60px;
+	margin-top: 60px;
 	-webkit-transition-delay: 35ms;
 	-moz-transition-delay: 35ms;
 	transition-delay: 35ms;
 }
 
 .dr-menu.dr-menu-open ul li:nth-child(3) {
-	margin-top:120px;
+	margin-top: 120px;
 	-webkit-transition-delay: 70ms;
 	-moz-transition-delay: 70ms;
 	transition-delay: 70ms;
 }
 
 .dr-menu.dr-menu-open ul li:nth-child(4) {
-	margin-top:180px;
+	margin-top: 180px;
 	-webkit-transition-delay: 105ms;
 	-moz-transition-delay: 105ms;
 	transition-delay: 105ms;
 }
 
 .dr-menu.dr-menu-open ul li:nth-child(5) {
-	margin-top:240px;
+	margin-top: 240px;
 	-webkit-transition-delay: 140ms;
 	-moz-transition-delay: 140ms;
 	transition-delay: 140ms;
 }
 
 .dr-menu.dr-menu-open ul li:nth-child(6) {
-	margin-top:300px;
+	margin-top: 300px;
 	-webkit-transition-delay: 175ms;
 	-moz-transition-delay: 175ms;
 	transition-delay: 175ms;
 }
 
 .dr-menu.dr-menu-open ul li:nth-child(7) {
-	margin-top:360px;
+	margin-top: 360px;
 	-webkit-transition-delay: 210ms;
 	-moz-transition-delay: 210ms;
 	transition-delay: 210ms;
 }
 
 .dr-menu.dr-menu-open ul li:nth-child(8) {
-	margin-top:420px;
+	margin-top: 420px;
 	-webkit-transition-delay: 240ms;
 	-moz-transition-delay: 240ms;
 	transition-delay: 240ms;
 }
-
-
 
 .dr-menu ul li a {
 	display: inline-block;
@@ -190,8 +185,7 @@
 	color: #90caf9;
 }
 
-.dr-icon:before, 
-.dr-icon:after {
+.dr-icon:before, .dr-icon:after {
 	position: relative;
 	font-family: 'icomoon';
 	font-style: normal;
@@ -240,5 +234,4 @@
 .dr-icon-menu:before {
 	content: "\e008";
 }
-
 
