@@ -322,6 +322,7 @@ h3 {
 	max-width: 360px;
     height: auto;
 	float:left;
+	margin-bottom: 10px;
 }
 .part_body{
 	display: inline-block;
@@ -331,5 +332,7 @@ h3 {
 	line-height:24px;
 }
 
-
+.caption{
+	color:#757575;
+}
 
