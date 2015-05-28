@@ -22,7 +22,7 @@ function init() {
 				
 				console.log(typeof stringItem);
 				var docViewTop = $(window).scrollTop();
-				var distance = $(document.getElementById(stringItem)).offset().top;
+				var distance = $("content10").offset().top;
 
 				if (docViewTop >= distance) {
 					$("#top-text").text("hi");
