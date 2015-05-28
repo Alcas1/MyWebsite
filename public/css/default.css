@@ -346,3 +346,7 @@ h3 {
 	font-size: 13px;
 }
 
+.part_group .part_group_content:nth-child(2n+1){
+	clear: left;
+}
+
