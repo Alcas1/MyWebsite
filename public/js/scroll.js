@@ -30,7 +30,7 @@ function init() {
 			//var elemBottom = elemTop + $(elem).height();
 
 			// return ((elemBottom >= docViewTop) && (elemTop <= docViewBottom));
-			return $docViewTop >= distance;
+			return docViewTop >= distance;
 		}
 
 	});
