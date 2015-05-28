@@ -265,6 +265,17 @@ a:hover {
 	color: #90caf9;
 	text-decoration: none;
 }
+
+.p1 p a{
+	color:#212121;
+	
+}
+
+.p1 p a:hover{
+	color:#212121;
+	
+}
+
 .main, .container > header {
 	width: 100%;
 	margin: 0 auto;
