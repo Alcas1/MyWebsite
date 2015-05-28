@@ -32,7 +32,6 @@ function init() {
 			}
 		});
 	});
-	}
 
 	// function isScrolledIntoView(elem) {
 	//
@@ -44,8 +43,6 @@ function init() {
 	// // return ((elemBottom >= docViewTop) && (elemTop <= docViewBottom));
 	// return
 	// }
-
-});
 
 }
 
