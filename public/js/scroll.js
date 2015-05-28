@@ -20,12 +20,11 @@ function init() {
 			for (var i = 10; i > (10 - lis.length); i--) {
 				var stringItem = "#content"+String(i);
 				
-				console.log("#content10"==="#content"+String(i));
 				var docViewTop = $(window).scrollTop();
 				var distance = $(stringItem).offset().top;
 
 				if (docViewTop >= distance) {
-					$("#top-text").text("hi");
+					$("#top-text").text(stringItem.text);
 				} else {
 					
 				}
