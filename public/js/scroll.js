@@ -18,10 +18,10 @@ function init() {
 		$(window).scroll(function() {
 
 			for (var i = 10; i > (10 - lis.length); i--) {
-				var stringItem = "#content" + String(i);
+				//var stringItem = "#content" + String(i);
 				console.log(stringItem);
 				var docViewTop = $(window).scrollTop();
-				var distance = $(stringItem).offset().top;
+				var distance = $("#content10").offset().top;
 
 				if (docViewTop >= distance) {
 					$("#top-text").text(listItem.text);
