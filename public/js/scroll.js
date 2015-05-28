@@ -7,7 +7,7 @@ function init() {
 
 			$(window).scroll(function() {
 				if (isScrolledIntoView(listItem)) {
-					$("#top-text").text('s');
+					$("#top-text").text(listItem.text());
 				} else {
 					// do something when element is not viewable
 				}
