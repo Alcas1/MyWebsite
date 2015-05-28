@@ -330,7 +330,7 @@ h3 {
 	color: #212121;
 }
 
-.part1 {
+.part1, .part2 {
 	padding-bottom: 40px;
 	width: 100%;
 	display: inline-block;
@@ -340,18 +340,29 @@ h3 {
 	float: right;
 }
 
-.part_group_content {
+.part1 .part_group .part_group_content {
 	display: block;
 	width: 360px;
 	float: left;
 	box-sizing: border-box;
 }
 
-.content_img {
+.part2 .part_group .part_group_content{
+	width: 760px;
+}
+
+.content_img_small {
 	max-width: 360px;
 	height: auto;
 	margin-bottom: 10px;
 }
+
+.content_img_medium{
+	max-width: 760px;
+	height: auto;
+	margin-bottom: 10px;
+}
+
 .part_body {
 	display: inline-block;
 	float: left;
