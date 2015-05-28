@@ -368,8 +368,6 @@ h3 {
 .part1  div.part_group .part_group_content:nth-child(2n+1){
 	clear:left;
 }
-.part1 .part_group .part_group_content:nth-child(2n){
-	padding-left: 40px;
-}
+
 
 
