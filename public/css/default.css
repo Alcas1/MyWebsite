@@ -326,10 +326,8 @@ h3 {
 	display: inline-block;
 	float:left;
 	padding-right:38px;
+	font-size:14px;
 }
 
-.part_body p{
-	font-size:14px;
-	line-height:1.2em;
-}
+
 
