@@ -2,12 +2,13 @@ function init() {
 
 	$(document).ready(function() {
 		var lis = document.getElementById("content_list").getElementsByTagName('li');
+		var semiTop = 0;
 		for (var i = 10; i > (10 - lis.length); i--) {
 			var stringItem = "#content" + String(i);
 			var contentItem = $(stringItem).find('div.content_title');
 			var docViewTop = $(window).scrollTop();
 			var distance = $(stringItem).offset().top;
-			console.log("omg");
+
 			if (docViewTop >= (distance - 50)) {
 				$("#top-text").text(contentItem.text());
 			}
@@ -34,7 +35,12 @@ function init() {
 				var contentItem = $(stringItem).find('div.content_title');
 				var docViewTop = $(window).scrollTop();
 				var distance = $(stringItem).offset().top;
-
+				if (i === 10) {
+					semiTop = distance;
+					if (docViewTop < (semiTop - 50)) {
+						$("#top-text").text("Works");
+					}
+				}
 				if (docViewTop >= (distance - 50)) {
 					$("#top-text").text(contentItem.text());
 				}
