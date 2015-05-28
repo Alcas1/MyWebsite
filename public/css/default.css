@@ -325,6 +325,7 @@ h3 {
 .part_group_content {
 	display: block;
 	width: 360px;
+	float: left;
 }
 
 .content_img {
@@ -347,7 +348,7 @@ h3 {
 }
 
 .part1  div.part_group .part_group_content:nth-child(2n+1){
-	clear: left;
+	clear:left;
 }
 
 
