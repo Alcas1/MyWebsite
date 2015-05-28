@@ -313,8 +313,8 @@ h3 {
 	display: inline-block;
 }
 
- .part_group{
-	floar:right;
+.part_group{
+	float:right;
 }
 
 .part_group_content{
