@@ -1,5 +1,4 @@
 function init() {
-	var $ =jQuery.noConflict();
 	$(document).ready(function() {
 		var lis = document.getElementById("content_list").getElementsByTagName('li');
 
@@ -20,14 +19,15 @@ function init() {
 
 			for (var i = 10; i > (10 - lis.length); i--) {
 				var stringItem = "content".concat(String(i));
+				
 				console.log(typeof stringItem);
 				var docViewTop = $(window).scrollTop();
-				var distance = $(stringItem).offset().top;
+				var distance = $(document.getElementById(stringItem)).offset().top;
 
 				if (docViewTop >= distance) {
 					$("#top-text").text("hi");
 				} else {
-					// do something when element is not viewable
+					
 				}
 			}
 		});
