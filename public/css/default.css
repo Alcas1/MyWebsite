@@ -310,7 +310,7 @@ h3 {
 
 .part_group{
 	display:block;
-	max-width: 100%;
+	max-width: 360px;
     height: auto;
 }
 
