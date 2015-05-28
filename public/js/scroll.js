@@ -16,9 +16,9 @@ function init() {
 
 		$(window).scroll(function() {
 
-			for (var i = 10; i > 5; i--) {
+			for (var i = 10; i > (10-lis.length); i--) {
 				var listItem = $('#content'+i);
-
+				
 				if (isScrolledIntoView(listItem)) {
 					$("#top-text").text(listItem.text);
 				} else {
