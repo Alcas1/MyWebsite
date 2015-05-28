@@ -49,7 +49,7 @@ body {
 	.part1 .part_group{
 		float:left;
 	}
-	.part_group_content{
+	.part1 .part_group .part_group_content{
 		padding-left:0px;
 	}
 }
@@ -79,7 +79,7 @@ body {
 	.part1 .part_group{
 		float:left;
 	}
-	.part_group_content{
+	.part1 .part_group .part_group_content{
 		padding-left:0px;
 	}
 }
@@ -112,7 +112,7 @@ body {
 	.works_container {
 		padding-left: 20%;
 	}
-	.part_group_content{
+	.part1 .part_group .part_group_content{
 		padding-left:0px;
 	}
 }
