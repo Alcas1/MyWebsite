@@ -346,6 +346,6 @@ h3 {
 	font-size: 13px;
 }
 
-.part_group:nth-child(2n+1){
+.part_group_content:nth-child(even){
 	clear: left;
 }
