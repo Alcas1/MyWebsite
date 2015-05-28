@@ -23,41 +23,6 @@ body {
 	color: #fff;
 	background: #fff;
 }
-/*@media (max-width: 300px) {
- .main_content {
- font-size: 40%;
- }
- .p1 > p {
- font-size: 40%;
- width: 80%;
- }
- .about_text {
- font-size: 40%;
- }
- .success, .success_animate {
- font-size: 100%;
- }
- .content_title {
- font-size: 18px;
- }
- .works_title {
- font-size: 28px;
- }
- .content_about, .part1 .part_group {
- width: 360px;
- }
- .part1 .part_group {
- float: left;
- }
- .part1 .part_group .part_group_content:nth-child(2n) {
- padding-left: 0px;
- }
- .content_img_medium {
- max-width: 360px;
- height: auto;
- margin-bottom: 10px;
- }
- }*/
 @media (min-width: 500px) {
 	.main_content {
 		font-size: 100%;
