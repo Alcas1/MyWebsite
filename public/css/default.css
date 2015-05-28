@@ -317,7 +317,7 @@ a:hover {
 	list-style-type: none;
 }
 .works_content ul li a:hover {
-	color: #1976d2;
+	color: #03a9f4;
 	cursor: pointer;
 }
 h3 {
@@ -334,7 +334,7 @@ h3 {
 	box-sizing: border-box;
 	padding-top: 80px;
 	margin-bottom: 30px;
-	color: #1976D2
+	color: #03a9f4;
 }
 .content_body {
 	color: #212121;
