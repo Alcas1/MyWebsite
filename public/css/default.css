@@ -315,14 +315,16 @@ a:hover {
 	list-style-image: none;
 	list-style-position: outside;
 	list-style-type: none;
-	border-left-color: #03a9f4;
-	border-left-style: solid;
-	border-left-width: 5px;
-	box-sizing: border-box;
+	
 }
 .works_content ul li a:hover {
 	color: #03a9f4;
 	cursor: pointer;
+	border-left-color: #03a9f4;
+	border-left-style: solid;
+	border-left-width: 5px;
+	box-sizing: border-box;
+	padding-left: 20px;
 }
 h3 {
 	color: #757575;
