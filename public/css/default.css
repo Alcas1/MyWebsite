@@ -325,6 +325,7 @@ h3 {
 .part_body{
 	display: inline-block;
 	float:left;
+	padding-right:38px;
 }
 
 .part_body p{
