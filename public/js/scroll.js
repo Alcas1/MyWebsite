@@ -1,7 +1,18 @@
 function init() {
 	
-
+	
 	$(document).ready(function() {
+		
+		for (var i = 10; i > (10 - lis.length); i--) {
+				var stringItem = "#content" + String(i);
+				var contentItem = $(stringItem).find('div.content_title');
+				var docViewTop = $(window).scrollTop();
+				var distance = $(stringItem).offset().top;
+
+				if (docViewTop >= (distance - 50)) {
+					$("#top-text").text(contentItem.text());
+				}
+			}
 
 		var lis = document.getElementById("content_list").getElementsByTagName('li');
 
