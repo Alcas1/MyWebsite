@@ -6,7 +6,7 @@ function init() {
 			var listItem = lis[i].getElementsByTagName('a')[0];
 
 			listItem.addEventListener("click", function(e) {
-				console.log(typeof e.target.id);
+				console.log(typeof e);
 				$('html, body').animate({
 					scrollTop : $('#content' + e.target.id).offset().top
 				}, 600, 'easeInOutQuad');
@@ -19,7 +19,7 @@ function init() {
 
 			for (var i = 10; i > (10-lis.length); i--) {
 				var listItem = $('#content' + String(i));
-				console.log(listItem.id);
+				//console.log(listItem.id);
 				if (isScrolledIntoView(listItem)) {
 					$("#top-text").text(listItem.text);
 				} else {
