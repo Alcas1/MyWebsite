@@ -307,7 +307,7 @@ a:hover {
 	list-style: outside none none;
 	padding-left: 0px;
 }
-.works_content ul li {
+.works_content ul li a{
 	/*background-attachment:scroll;*/
 	color: #03a9f4;
 	font-size: 20px;
