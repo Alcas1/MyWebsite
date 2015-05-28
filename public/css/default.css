@@ -41,6 +41,9 @@ body {
 	.works_title {
 		font-size:28px;
 	}
+	.content_about{
+		width:360px;
+	}
 }
 @media(min-width:500px) {
 	.main_content {
@@ -61,6 +64,9 @@ body {
 	}
 	.works_title {
 		font-size:29px;
+	}
+	.content_about{
+		width:360px;
 	}
 }
 @media(min-width:700px) {
@@ -83,6 +89,9 @@ body {
 	.works_title {
 		font-size:30px;
 	}
+	.content_about{
+		width:360px;
+	}
 }
 @media(min-width:1200px) {
 	.main_content {
@@ -103,6 +112,9 @@ body {
 	}
 	.works_title {
 		font-size:34px;
+	}
+	.content_about{
+		width:960px;
 	}
 }
 b {
