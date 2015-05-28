@@ -337,6 +337,7 @@ h3 {
 
 .part_group {
 	float: right;
+	margin-left:40px;
 }
 
 .part_group_content {
