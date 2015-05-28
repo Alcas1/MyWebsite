@@ -24,7 +24,7 @@ function init() {
 				var distance = $("#content10").offset().top;
 
 				if (docViewTop >= distance) {
-					$("#top-text").text(listItem.text);
+					$("#top-text").text("hi");
 				} else {
 					// do something when element is not viewable
 				}
