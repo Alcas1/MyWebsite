@@ -1,5 +1,6 @@
 function init() {
 
+	var lis = document.getElementById("content_list").getElementsByTagName('li');
 	for (var i = 10; i > (10 - lis.length); i--) {
 		var stringItem = "#content" + String(i);
 		var contentItem = $(stringItem).find('div.content_title');
@@ -13,7 +14,7 @@ function init() {
 
 	$(document).ready(function() {
 
-		var lis = document.getElementById("content_list").getElementsByTagName('li');
+		//var lis = document.getElementById("content_list").getElementsByTagName('li');
 
 		for (var i = 0; i < lis.length; i++) {
 			var listItem = lis[i].getElementsByTagName('a')[0];
