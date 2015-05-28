@@ -390,6 +390,7 @@ h3 {
 	max-width: 360px;
 	height: auto;
 	margin-bottom: 10px;
+	border:1px solid #021a40;
 }
 
 .part_body {
