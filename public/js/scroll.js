@@ -19,7 +19,7 @@ function init() {
 
 			for (var i = 10; i > (10-lis.length); i--) {
 				var stringItem="#content"+String(i);
-				var listItem = $("#content" + String(i));
+				var listItem = $(stringItem);
 				console.log(stringItem);
 				if (isScrolledIntoView(listItem)) {
 					$("#top-text").text(listItem.text);
