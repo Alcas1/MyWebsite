@@ -1,9 +1,10 @@
 function init() {
-
+	
 	$(document).ready(function() {
+		var top_element=10;
 		var lis = document.getElementById("content_list").getElementsByTagName('li');
 		var semiTop = 0;
-		for (var i = 10; i > (10 - lis.length); i--) {
+		for (var i = top_element; i > (top_element - lis.length); i--) {
 			var stringItem = "#content" + String(i);
 			var contentItem = $(stringItem).find('div.content_title');
 			var docViewTop = $(window).scrollTop();
@@ -29,22 +30,38 @@ function init() {
 		}
 
 		$(window).scroll(function() {
-
-			for (var i = 10; i > (10 - lis.length); i--) {
+			var docViewTop = $(window).scrollTop();
+			
+			for (var i = top_element; i > (top_element - lis.length); i--) {
 				var stringItem = "#content" + String(i);
 				var contentItem = $(stringItem).find('div.content_title');
-				var docViewTop = $(window).scrollTop();
+				
 				var distance = $(stringItem).offset().top;
-				if (i === 10) {
+				if (i === top_element) {
 					semiTop = distance;
 					if (docViewTop < (semiTop - 150)) {
 						$("#top-text").text("Works");
 					}
+					
+					if(docViewTop>=(distance-50))
+					{
+						$("#top_back").css("position","fixed");
+					}
+					else
+					{
+						$("#top_back").css("position","absolute");
+					}
+					
 				}
 				if (docViewTop >= (distance - 50)) {
 					$("#top-text").text(contentItem.text());
 				}
 			}
+			
+			
+			
+			
+			
 		});
 	});
 
