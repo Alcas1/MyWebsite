@@ -81,7 +81,7 @@ body {
 	.content_about, .part1 .part_group {
 		width: 360px;
 	}
-	.part1 .part_group {
+	.part1 .part_group, .part2 .part_group{
 		float: left;
 	}
 	.part1 .part_group .part_group_content:nth-child(2n) {
@@ -116,7 +116,7 @@ body {
 	.content_about, .part1 .part_group {
 		width: 360px;
 	}
-	.part1 .part_group {
+	.part1 .part_group , .part2 .part_group{
 		float: left;
 	}
 	.works_container {
@@ -371,6 +371,7 @@ h3 {
 	width: 760px;
 	display: block;
 	float: left;
+	box-sizing: border-box;
 }
 
 .content_img_small {
