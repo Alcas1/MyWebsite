@@ -16,7 +16,7 @@ function init() {
 
 		$(window).scroll(function() {
 
-			for (var i = 0; i < lis.length; i++) {
+			for (var i = 10; i > 5; i--) {
 				var listItem = $('#content'+i);
 
 				if (isScrolledIntoView(listItem)) {
