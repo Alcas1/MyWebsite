@@ -47,6 +47,9 @@ body {
 		width: 360px;
 		float: left;
 	}
+	.part_group .part_group_content{
+		padding-left: 0px;
+	}
 }
 @media (min-width: 500px) {
 	.main_content {
@@ -71,6 +74,9 @@ body {
 	.content_about,.part1 .part_group {
 		width: 360px;
 		float:left;
+	}
+	.part_group .part_group_content{
+		padding-left: 0px;
 	}
 }
 @media (min-width: 700px) {
@@ -97,7 +103,9 @@ body {
 		width: 360px;
 		float:left;
 	}
-	
+	.part_group .part_group_content{
+		padding-left: 0px;
+	}
 	.works_container {
 		padding-left: 20%;
 	}
