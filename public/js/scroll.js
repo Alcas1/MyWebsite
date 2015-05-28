@@ -17,7 +17,7 @@ function init() {
 		$(window).scroll(function() {
 
 			for (var i = 0; i < lis.length; i++) {
-				var listItem = lis[i].getElementsByTagName('a')[0];
+				var listItem = $('#content'+i);
 
 				if (isScrolledIntoView(listItem)) {
 					$("#top-text").text(listItem.text);
