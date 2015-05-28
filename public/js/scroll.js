@@ -24,7 +24,7 @@ function init() {
 				var distance = $(stringItem).offset().top;
 
 				if (docViewTop >= distance) {
-					$("#top-text").text(contentItem.text);
+					$("#top-text").text(contentItem.text());
 				} else {
 					
 				}
