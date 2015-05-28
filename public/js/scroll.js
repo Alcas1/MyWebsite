@@ -24,12 +24,13 @@ function init() {
 
 		function isScrolledIntoView(elem) {
 			var docViewTop = $(window).scrollTop();
-			var docViewBottom = docViewTop + $(window).height();
+			// var docViewBottom = docViewTop + $(window).height();
+// 
+			// var elemTop = $(elem).offset().top;
+			// var elemBottom = elemTop + $(elem).height();
 
-			var elemTop = $(elem).offset().top;
-			var elemBottom = elemTop + $(elem).height();
-
-			return ((elemBottom >= docViewTop) && (elemTop <= docViewBottom));
+			// return ((elemBottom >= docViewTop) && (elemTop <= docViewBottom));
+			return $(window).scrollTop() >= distance;
 		}
 
 	});
