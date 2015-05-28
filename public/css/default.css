@@ -320,10 +320,11 @@ h3 {
 .content_img{
 	max-width: 360px;
     height: auto;
-
+	float:left;
 }
 .part_body{
 	display: inline-block;
+	float:left;
 }
 
 .part_body p{
