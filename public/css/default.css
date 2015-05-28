@@ -369,6 +369,8 @@ h3 {
 
 .part2 .part_group .part_group_content {
 	width: 760px;
+	display: block;
+	float: left;
 }
 
 .content_img_small {
