@@ -1,5 +1,15 @@
 function init() {
 	$(document).ready(function() {
+
+		var stringItem = "#content" + String(i);
+		var contentItem = $(stringItem).find('div.content_title');
+		var docViewTop = $(window).scrollTop();
+		var distance = $(stringItem).offset().top;
+
+		if (docViewTop >= (distance - 50)) {
+			$("#top-text").text(contentItem.text());
+		}
+
 		var lis = document.getElementById("content_list").getElementsByTagName('li');
 
 		for (var i = 0; i < lis.length; i++) {
@@ -18,15 +28,13 @@ function init() {
 		$(window).scroll(function() {
 
 			for (var i = 10; i > (10 - lis.length); i--) {
-				var stringItem = "#content"+String(i);
+				var stringItem = "#content" + String(i);
 				var contentItem = $(stringItem).find('div.content_title');
 				var docViewTop = $(window).scrollTop();
 				var distance = $(stringItem).offset().top;
 
-				if (docViewTop >= (distance-50)) {
+				if (docViewTop >= (distance - 50)) {
 					$("#top-text").text(contentItem.text());
-				} else {
-					// $("#top-text").text("Works");
 				}
 			}
 		});
