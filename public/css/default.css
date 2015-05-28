@@ -306,6 +306,7 @@ h3 {
 .part1{
 	padding-bottom: 40px;
 	width:100%;
+	display: inline-block;
 }
 
 .part_group{
