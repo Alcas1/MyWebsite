@@ -26,7 +26,7 @@ function init() {
 				if (docViewTop >= (distance+10)) {
 					$("#top-text").text(contentItem.text());
 				} else {
-					$("#top-text").text("Works");
+					// $("#top-text").text("Works");
 				}
 			}
 		});
