@@ -326,6 +326,7 @@ h3 {
 	display: block;
 	width: 360px;
 	float: left;
+	box-sizing: border-box;
 }
 
 .content_img {
