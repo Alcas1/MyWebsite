@@ -1,5 +1,5 @@
 function init() {
-
+	
 	var lis = document.getElementById("content_list").getElementsByTagName('li');
 
 	for (var i = 0; i < lis.length; i++) {

@@ -92,6 +92,9 @@ body {
 	.content_about{
 		width:360px;
 	}
+	.works_container{
+		padding-left:20%;
+	}
 }
 @media(min-width:1200px) {
 	.main_content {
