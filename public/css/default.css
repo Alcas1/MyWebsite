@@ -321,6 +321,7 @@ h3 {
 .part_group_content{
 	display:block;	
 	floar:left;
+	width:360px;
 }
 
 .content_img{
