@@ -20,7 +20,7 @@ function init() {
 
 			for (var i = 10; i > (10 - lis.length); i--) {
 				var stringItem = "content".concat(String(i));
-				console.log(stringItem);
+				console.log(typeof stringItem);
 				var docViewTop = $(window).scrollTop();
 				var distance = $(stringItem).offset().top;
 
