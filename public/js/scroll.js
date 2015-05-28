@@ -5,14 +5,6 @@ function init() {
 		for (var i = 0; i < lis.length; i++) {
 			var listItem = lis[i].getElementsByTagName('a')[0];
 
-			$(window).scroll(function() {
-				if (isScrolledIntoView(listItem)) {
-					$("#top-text").text(listItem.text);
-				} else {
-					// do something when element is not viewable
-				}
-			});
-
 			listItem.addEventListener("click", function(e) {
 				$('html, body').animate({
 					scrollTop : $('#content' + e.target.id).offset().top
@@ -21,6 +13,19 @@ function init() {
 			});
 
 		}
+
+		$(window).scroll(function() {
+
+			for (var i = 0; i < lis.length; i++) {
+				var listItem = lis[i].getElementsByTagName('a')[0];
+
+				if (isScrolledIntoView(listItem)) {
+					$("#top-text").text(listItem.text);
+				} else {
+					// do something when element is not viewable
+				}
+			}
+		});
 
 		function isScrolledIntoView(elem) {
 			var docViewTop = $(window).scrollTop();
