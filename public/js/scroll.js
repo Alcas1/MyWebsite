@@ -21,9 +21,9 @@ function init() {
 				var stringItem = "content".concat(String(i));
 				console.log(typeof stringItem);
 				var docViewTop = $(window).scrollTop();
-				var distance = $("content".concat(String(i))).offset().top;
+				 $("content".concat(String(i))).offset().top;
 
-				if (docViewTop >= distance) {
+				if (docViewTop >= 1) {
 					$("#top-text").text("hi");
 				} else {
 					
