@@ -18,7 +18,7 @@ function init() {
 		$(window).scroll(function() {
 
 			for (var i = 10; i > (10 - lis.length); i--) {
-				var stringItem = "#content"+"10";
+				var stringItem = "#content"+String(i);
 				
 				console.log("10"===String(i));
 				var docViewTop = $(window).scrollTop();
