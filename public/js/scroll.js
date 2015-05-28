@@ -19,7 +19,7 @@ function init() {
 
 			for (var i = 10; i > (10-lis.length); i--) {
 				var stringItem="#content"+String(i);
-				var listItem = $(stringItem);
+				var listItem = (stringItem);
 				console.log(stringItem);
 				if (isScrolledIntoView(listItem)) {
 					$("#top-text").text(listItem.text);
@@ -33,7 +33,7 @@ function init() {
 			var docViewTop = $(window).scrollTop();
 			//var docViewBottom = docViewTop + $(window).height();
 
-			var distance = (elem).offset().top;
+			var distance = $(elem).offset().top;
 			//var elemBottom = elemTop + $(elem).height();
 
 			// return ((elemBottom >= docViewTop) && (elemTop <= docViewBottom));
