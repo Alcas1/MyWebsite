@@ -41,7 +41,7 @@
 }
 
 .dr-menu.dr-menu-open > div .dr-icon {
-	color: #FF4081;
+	color: #f44336;
 	/*left: 100%;*/
 	-webkit-transform: translateX(205px);
 	-moz-transform: translateX(205px);
@@ -178,7 +178,7 @@
 .dr-menu ul li a {
 	display: inline-block;
 	padding: 0 20px;
-	color: #FF4081;
+	color: #f44336;
 }
 
 .dr-menu ul li a:hover {
