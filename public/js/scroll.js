@@ -6,7 +6,7 @@ function init() {
 			var listItem = lis[i].getElementsByTagName('a')[0];
 
 			listItem.addEventListener("click", function(e) {
-				
+
 				$('html, body').animate({
 					scrollTop : $('#content' + e.target.id).offset().top
 				}, 600, 'easeInOutQuad');
@@ -17,30 +17,35 @@ function init() {
 
 		$(window).scroll(function() {
 
-			for (var i = 10; i > (10-lis.length); i--) {
-				var stringItem="#content"+String(i);
+			for (var i = 10; i > (10 - lis.length); i--) {
+				var stringItem = "#content" + String(i);
 				var listItem = (stringItem);
 				console.log(stringItem);
-				if (isScrolledIntoView(listItem)) {
+				var docViewTop = $(window).scrollTop();
+				var distance = $(elem).offset().top;
+
+				if (docViewTop >= distance) {
 					$("#top-text").text(listItem.text);
 				} else {
 					// do something when element is not viewable
 				}
 			}
 		});
-
-		function isScrolledIntoView(elem) {
-			var docViewTop = $(window).scrollTop();
-			//var docViewBottom = docViewTop + $(window).height();
-
-			var distance = $(elem).offset().top;
-			//var elemBottom = elemTop + $(elem).height();
-
-			// return ((elemBottom >= docViewTop) && (elemTop <= docViewBottom));
-			return docViewTop >= distance;
-		}
-
 	});
+	}
+
+	// function isScrolledIntoView(elem) {
+	//
+	// //var docViewBottom = docViewTop + $(window).height();
+	// console.log(elem);
+	//
+	// //var elemBottom = elemTop + $(elem).height();
+	//
+	// // return ((elemBottom >= docViewTop) && (elemTop <= docViewBottom));
+	// return
+	// }
+
+});
 
 }
 
