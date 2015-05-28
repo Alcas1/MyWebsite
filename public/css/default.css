@@ -371,19 +371,20 @@ h3 {
 	float: right;
 }
 
-.part1 .part_group .part_group_content {
+.part_group .part_group_content, .part_group .part_group_content {
 	display: block;
-	width: 360px;
 	float: left;
 	box-sizing: border-box;
+	margin-bottom: 40px;
+}
+.part1 .part_group .part_group_content{
+	width: 360px;
+}
+.part2 .part_group .part_group_content{
+	width: 760px;
 }
 
-.part2 .part_group .part_group_content {
-	width: 760px;
-	display: block;
-	float: left;
-	box-sizing: border-box;
-}
+
 
 .content_img_small {
 	max-width: 360px;
