@@ -211,7 +211,7 @@ b {
 }
 .text_thanks {
 	size: 20;
-	color: #1976D2;
+	color: #03a9f4;
 }
 .full {
 	position: absolute;
@@ -309,7 +309,7 @@ a:hover {
 }
 .works_content ul li {
 	/*background-attachment:scroll;*/
-	color: #1976D2;
+	color: #03a9f4;
 	font-size: 20px;
 	line-height: 40px;
 	list-style-image: none;
