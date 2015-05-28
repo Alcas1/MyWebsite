@@ -346,6 +346,6 @@ h3 {
 	font-size: 13px;
 }
 
-div.part_group:nth-child(2n+1){
+.part_group:nth-child(2n+1){
 	clear: left;
 }
