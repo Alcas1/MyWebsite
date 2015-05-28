@@ -18,7 +18,7 @@ function init() {
 		$(window).scroll(function() {
 
 			for (var i = 10; i > (10 - lis.length); i--) {
-				var stringItem = "#content".concat("10");
+				var stringItem = "#content".concat(String(i));
 				
 				var docViewTop = $(window).scrollTop();
 				var distance = $(stringItem).offset().top;
