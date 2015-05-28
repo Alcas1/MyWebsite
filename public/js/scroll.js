@@ -23,10 +23,10 @@ function init() {
 				var docViewTop = $(window).scrollTop();
 				var distance = $(stringItem).offset().top;
 
-				if (docViewTop >= distance) {
+				if (docViewTop >= (distance+10)) {
 					$("#top-text").text(contentItem.text());
 				} else {
-					
+					$("#top-text").text("Works");
 				}
 			}
 		});
