@@ -43,7 +43,7 @@ body {
 	.works_title {
 		font-size: 28px;
 	}
-	.content_about, .part_group {
+	.content_about,.part1 .part_group {
 		width: 360px;
 		float: left;
 	}
@@ -324,14 +324,12 @@ h3 {
 
 .part_group_content {
 	display: block;
-	float: left;
 	width: 360px;
 }
 
 .content_img {
 	max-width: 360px;
 	height: auto;
-	float: left;
 	margin-bottom: 10px;
 }
 .part_body {
