@@ -355,10 +355,10 @@ h3 {
 .part_body {
 	display: inline-block;
 	float: left;
-	padding-right: 28px;
+	padding-right: 33px;
 	font-size: 14px;
 	line-height: 24px;
-	width:330px;
+	width:325px;
 }
 
 .caption {
