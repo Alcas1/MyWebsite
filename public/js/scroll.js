@@ -50,8 +50,10 @@ function init() {
 			}
 
 			if (docViewTop >= (semiTop - 50)) {
+				alert("bello");
 				$("#top_back").css("position", "fixed");
 			} else {
+				alert("other bello");
 				$("#top_back").css("position", "absolute");
 			}
 
