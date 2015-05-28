@@ -119,6 +119,9 @@ body {
 	.content_about{
 		width:960px;
 	}
+	.works_container{
+		padding-left:10%;
+	}
 }
 b {
 	font-size:19px;
