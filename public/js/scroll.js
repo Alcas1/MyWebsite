@@ -37,7 +37,7 @@ function init() {
 				var distance = $(stringItem).offset().top;
 				if (i === 10) {
 					semiTop = distance;
-					if (docViewTop < (semiTop - 50)) {
+					if (docViewTop < (semiTop - 150)) {
 						$("#top-text").text("Works");
 					}
 				}
