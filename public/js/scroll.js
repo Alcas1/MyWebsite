@@ -1,4 +1,5 @@
 function init() {
+	var $ =jQuery.noConflict();
 	$(document).ready(function() {
 		var lis = document.getElementById("content_list").getElementsByTagName('li');
 
