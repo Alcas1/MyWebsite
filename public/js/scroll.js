@@ -6,7 +6,7 @@ function init() {
 			var listItem = lis[i].getElementsByTagName('a')[0];
 
 			listItem.addEventListener("click", function(e) {
-				console.log(typeof e);
+				console.log(e.target.id);
 				$('html, body').animate({
 					scrollTop : $('#content' + e.target.id).offset().top
 				}, 600, 'easeInOutQuad');
