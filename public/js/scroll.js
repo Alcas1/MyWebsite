@@ -121,7 +121,7 @@ function init() {
 					left : '50%'
 					
 
-				}, 50);
+				}, 0);
 				// $("#content_img_small").css("top", '50%');
 
 				//
