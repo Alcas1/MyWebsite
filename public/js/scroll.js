@@ -88,7 +88,7 @@ function init() {
 		});
 
 		fillImage(1);
-
+		fillImage(2);
 
 		// var cover = document.getElementById('cover');
 		// cover.addEventListener('click', function(event) {
