@@ -95,8 +95,8 @@ function init() {
 				event.stopPropagation();
 				fill = true;
 				$('#content_img_small').css("position","absolute");
-				var dist=$('#content_img_small').offset().top-$(window).scrollTop();
-				var dist2=$(window).width()*.1;
+				var dist=($('#content_img_small').offset().top-$(window).scrollTop())*.8;
+				var dist2=$(window).width()*.3;
 				//console.log();
 				$('#content_img_small').animate({
 					
