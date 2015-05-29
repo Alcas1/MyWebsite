@@ -136,7 +136,7 @@ function init() {
 				fill = false;
 				$('#cover').animate({
 					opacity : '0'
-				}, 300);
+				}, 150);
 				// cover.style.opacity = "0";
 				cover.style.zIndex = "-1";
 				return false;
@@ -195,7 +195,7 @@ function shade(check, event) {
 	} else {
 		$('#cover').animate({
 			opacity : '0'
-		}, 300);
+		}, 150);
 		// cover.style.opacity = "0";
 		cover.style.zIndex = "-1";
 	}
