@@ -59,7 +59,8 @@ function init() {
 				$("#back_top").css("top", distTop+"px");
 				$("#back_top").css("left", elementOffsetLeft+"px");
 			} else {
-
+				$("#back_top").css("top", "95%");
+				$("#back_top").css("left","105");
 				$("#back_top").css("position", "absolute");
 			}
 
