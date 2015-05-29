@@ -385,17 +385,6 @@ h3 {
 }
 
 
-.content_img_small_inflate{
-	position: absolute;
-	width:0px;
-	-webkit-transition:width 0.3s linear 0s;
-	transition:width 0.3s linear 0s;
-	/*z-index:10;*/
-}
-.content_img_small:hover + .content_img_small_inflate{
-	max-width:800px;
-	height:auto:
-}
 
 
 .part_body {

@@ -25,6 +25,13 @@
 	animation: pop-in .75s;
 }
 
+.img_content_small:active{
+	
+	-webkit-animation: img-enlarge 1s;
+	-moz-animation: img-enlarge 1s;
+	animation: img-enlarge 1s;
+}
+
 
 
 @-webkit-keyframes pop-in {
@@ -39,3 +46,17 @@
 0% { opacity: 0; transform: scale(0.25); }
 100% { opacity: 1; transform: scale(1); }
 }
+
+@-webkit-keyframes img-enlarge {
+0% {  -webkit-transform: scale(1); }
+100% {  -webkit-transform: scale(2); }
+}
+@-moz-keyframes img-enlarge {
+0% {  -moz-transform: scale(1); }
+100% {  -moz-transform: scale(2); }
+}
+@keyframes img-enlarge {
+0% {  transform: scale(1); }
+100% {  transform: scale(2); }
+}
+
