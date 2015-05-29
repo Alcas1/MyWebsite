@@ -106,12 +106,12 @@ function init() {
 				var dist=($(window).height())*.2;
 				var dist2=$(window).width()*.4;
 				//console.log();
-				$('#content_img_small').animate({
-					
-					top : dist,
-					left : dist2,
-					
-				},50);
+				// $('#content_img_small').animate({
+// 					
+					// top : dist,
+					// left : dist2,
+// 					
+				// },50);
 				//$('#content_img_small').css("position","fixed");
 				var max=(($(window).width()*.8 < $(window).height()*.8)? $(window).width()*.8:$(window).height()*.8);
 				//width: 75%;position: fixed;left: 50%;margin: 0 0 0 -37.5%;
