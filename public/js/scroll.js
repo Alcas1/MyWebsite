@@ -101,6 +101,7 @@ function init() {
 				
 
 				eTop=$('#content_img_small').offset().top - $(window).scrollTop();
+				eLeft=$('#content_img_small').offset().left;
 				console.log($('#content_img_small').offset().top - $(window).scrollTop());
 				$('#content_img_small').css("position", "fixed");
 				$('#content_img_small').animate({
@@ -108,7 +109,7 @@ function init() {
 					// marginLeft : (-$('#content_img_small').width()  / 2),
 					top : eTop,
 
-					left : '55%'
+					left : eLeft
 
 				}, 0);
 
