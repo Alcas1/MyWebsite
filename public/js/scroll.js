@@ -103,8 +103,8 @@ function init() {
 				eTop=$('#content_img_small').offset().top - $(window).scrollTop();
 				//console.log(eTop);
 				$('#content_img_small').animate({
-					// marginTop : (-max / 2) + 50,
-					// marginLeft : (-max / 2) + 50,
+					marginTop : (-$('#content_img_small').height() / 2),
+					marginLeft : (-$('#content_img_small').width()  / 2),
 					top : eTop,
 
 					left : '55%'
