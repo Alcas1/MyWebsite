@@ -95,10 +95,11 @@ function init() {
 				event.stopPropagation();
 				fill = true;
 				$('#content_img_small').css("position","absolute");
-				console.log($(window).scrollTop()- $('#content_img_small').offset().top);
+				var dist=$('#content_img_small').offset().top-$(window).scrollTop();
+				//console.log();
 				$('#content_img_small').animate({
 					
-					top : $('#content_img_small').offset().top,
+					top : dist,
 					left : '30%',
 					maxWidth: '540px'
 				});
