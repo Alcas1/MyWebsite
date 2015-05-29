@@ -109,7 +109,7 @@ function init() {
 					
 					top : dist,
 					left : dist2,
-					maxWidth: $('#content_img_small').width()*1.5
+					maxWidth: $(window).width()*.8
 				});
 			}
 
