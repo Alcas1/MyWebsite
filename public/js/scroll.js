@@ -97,7 +97,7 @@ function init() {
 				$('#content_img_small').css("position","absolute");
 				$('#content_img_small').animate({
 					
-					top : $('#content_img_small').top,
+					top : $('#content_img_small').offset().top,
 					left : '30%',
 					maxWidth: '540px'
 				});
