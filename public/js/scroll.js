@@ -127,16 +127,13 @@ function init() {
 			if (open) {
 				event.stopPropagation();
 				$('#content_img_small').animate({
+					maxWidth : '360px',
+					width : '360px',
+					position : 'absolute'
+				}, 500);
 
-					top : '',
-
-					left : '',
-					position:'absolute'
-				},500);
-				
 				$('#content_img_small').removeAttr('style');
-				
-				
+
 				fill = false;
 				cover.style.opacity = "0";
 				cover.style.zIndex = "-1";
@@ -144,8 +141,6 @@ function init() {
 			}
 
 		}, false);
-
-		
 
 		// var cover = document.getElementById('cover');
 		// cover.addEventListener('click', function(event) {
