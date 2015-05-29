@@ -33,6 +33,8 @@
 	-webkit-animation: img-enlarge 1s;
 	-moz-animation: img-enlarge 1s;
 	animation: img-enlarge 1s;
+	max-width:760;
+	height:auto;
 }
 
 
