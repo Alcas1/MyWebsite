@@ -126,7 +126,7 @@ function init() {
 		cover.addEventListener('click', function(event) {
 			if (open) {
 				event.stopPropagation();
-				$('#content_img_small').css("position","absolute");
+				$('#content_img_small').css("position", "absolute");
 				$('#content_img_small').animate({
 
 				}, 500);
@@ -134,7 +134,10 @@ function init() {
 				$('#content_img_small').removeAttr('style');
 
 				fill = false;
-				cover.style.opacity = "0";
+				$('#cover').animate({
+					opacity : '0'
+				}, 300);
+				// cover.style.opacity = "0";
 				cover.style.zIndex = "-1";
 				return false;
 			}
@@ -182,12 +185,18 @@ function shade(check, event) {
 	var cover = document.getElementById('cover');
 	cover.style.height = (fHeight) + "px";
 	if (check) {
+		$('#cover').animate({
+			opacity : '.5'
+		}, 300);
 
-		cover.style.opacity = ".5";
+		//
+		// cover.style.opacity = ".5";
 		cover.style.zIndex = "2";
 	} else {
-
-		cover.style.opacity = "0";
+		$('#cover').animate({
+			opacity : '0'
+		}, 300);
+		// cover.style.opacity = "0";
 		cover.style.zIndex = "-1";
 	}
 }
