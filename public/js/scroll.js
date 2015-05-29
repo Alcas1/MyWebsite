@@ -95,8 +95,8 @@ function init() {
 				event.stopPropagation();
 				fill = true;
 				$('#content_img_small').css("position","absolute");
-				var dist=($(window).height())*.3;
-				var dist2=$(window).width()*.3;
+				var dist=($(window).height())*.2;
+				var dist2=$(window).width()*.4;
 				//console.log();
 				$('#content_img_small').animate({
 					
@@ -109,7 +109,7 @@ function init() {
 					
 					top : dist,
 					left : dist2,
-					maxWidth: '540px'
+					maxWidth: '120%'
 				});
 			}
 
