@@ -103,8 +103,8 @@ function init() {
 				eTop=$('#content_img_small').offset().top - $(window).scrollTop();
 				console.log($('#content_img_small').offset().top - $(window).scrollTop());
 				$('#content_img_small').animate({
-					marginTop : (-$('#content_img_small').height() / 2),
-					marginLeft : (-$('#content_img_small').width()  / 2),
+					// marginTop : (-$('#content_img_small').height() / 2),
+					// marginLeft : (-$('#content_img_small').width()  / 2),
 					top : $('#content_img_small').offset().top - $(window).scrollTop(),
 
 					left : '55%'
