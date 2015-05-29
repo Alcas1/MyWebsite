@@ -126,7 +126,19 @@ function init() {
 		cover.addEventListener('click', function(event) {
 			if (open) {
 				event.stopPropagation();
-				$('#content_img_small').removeAttr('style');
+				$('#content_img_small').animate({
+					maxWidth : '',
+					width : '',
+					marginTop : '',
+					marginLeft : '',
+					top : '',
+
+					left : ''
+				},500);
+				
+				//removeAttr('style');
+				
+				
 				fill = false;
 				cover.style.opacity = "0";
 				cover.style.zIndex = "-1";
