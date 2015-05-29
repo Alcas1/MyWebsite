@@ -126,7 +126,7 @@ function init() {
 		cover.addEventListener('click', function(event) {
 			if (open) {
 				event.stopPropagation();
-				$('#content_img_small').css("position","absolute");
+				$('#content_img_small').css("position","fixed");
 				$('#content_img_small').animate({
 					marginTop:'0px',
 					marginLeft:'0px',
