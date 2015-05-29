@@ -128,8 +128,7 @@ function init() {
 				event.stopPropagation();
 				$('#content_img_small').css("position","absolute");
 				$('#content_img_small').animate({
-					maxWidth : '360px',
-					width : '360px',
+
 				}, 500);
 
 				$('#content_img_small').removeAttr('style');
