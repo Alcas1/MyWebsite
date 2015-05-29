@@ -117,7 +117,7 @@ function init() {
 
 				$('#content_img_small').css("left", '50%');
 				$('#content_img_small').css("margin-top", -$('#content_img_small').height() / 2);
-				$('#content_img_small').css("margin-left", -$('#content_img_small').max/ 2);
+				$('#content_img_small').css("margin-left", -max/ 2);
 
 			}
 
