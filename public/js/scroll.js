@@ -114,11 +114,12 @@ function init() {
 				}, 500);
 
 				$('#content_img_small').animate({
+					marginTop : -max / 2,
+					marginLeft : -max / 2,
 					top : '50%',
 
-					left : '50%',
-					marginTop : -max / 2,
-					marginLeft : -max / 2
+					left : '50%'
+					
 
 				}, 500);
 				// $("#content_img_small").css("top", '50%');
