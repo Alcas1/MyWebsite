@@ -117,9 +117,9 @@ function init() {
 				$("content_img_small").css("width",max);
 				$('#content_img_small').animate({
 					maxWidth: max
-				});
+				},50);
 				
-				$('#content_img_small').center();
+				$('#content_img_small').delay(800).center();
 			}
 
 		}, false);
