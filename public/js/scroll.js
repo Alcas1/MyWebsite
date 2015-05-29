@@ -95,8 +95,9 @@ function init() {
 				event.stopPropagation();
 				fill = true;
 				$('#content_img_small').css("position", "absolute");
-				var dist = ($(window).height()) * .2;
-				var dist2 = $(window).width() * .4;
+				
+				
+				
 				//console.log();
 				// $('#content_img_small').animate({
 				//
@@ -116,7 +117,7 @@ function init() {
 				$('#content_img_small').css("position", "fixed");
 
 				$('#content_img_small').css("left", '50%');
-				$('#content_img_small').css("margin-top", -$('#content_img_small').height() / 2);
+				$('#content_img_small').css("margin-top", -max / 2);
 				$('#content_img_small').css("margin-left", -max/ 2);
 
 			}
