@@ -121,9 +121,9 @@ function init() {
 				
 				
 				
-				$('#content_img_small').animate({
-					maxWidth: max
-				},50);
+				// $('#content_img_small').animate({
+					// maxWidth: max
+				// },50);
 				
 				$("content_img_small").css("width",'75%');
 				$('content_img_small').css("left",'50%');
