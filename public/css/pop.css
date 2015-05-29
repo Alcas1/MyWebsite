@@ -33,7 +33,7 @@
 	-webkit-animation: img-enlarge 1s;
 	-moz-animation: img-enlarge 1s;
 	animation: img-enlarge 1s;
-	max-width:760px;
+	max-width:720px;
 	height:auto;
 }
 
@@ -53,15 +53,15 @@
 }
 
 @-webkit-keyframes img-enlarge {
-0% {  -webkit-transform: scale(1); }
-100% {  -webkit-transform: scale(1.25); }
+0% {  -webkit-transform: scale(.34); }
+100% {  -webkit-transform: scale(.67); }
 }
 @-moz-keyframes img-enlarge {
-0% {  -moz-transform: scale(1); }
-100% {  -moz-transform: scale(1.25); }
+0% {  -moz-transform: scale(.34); }
+100% {  -moz-transform: scale(.67); }
 }
 @keyframes img-enlarge {
-0% {  transform: scale(1); }
-100% {  transform: scale(1.25); }
+0% {  transform: scale(.34); }
+100% {  transform: scale(.67); }
 }
 
