@@ -25,8 +25,11 @@
 	animation: pop-in .75s;
 }
 
-.content_img_small:active{
-	
+.content_img_small_inflate{
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-ms-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
 	-webkit-animation: img-enlarge 1s;
 	-moz-animation: img-enlarge 1s;
 	animation: img-enlarge 1s;

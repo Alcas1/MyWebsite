@@ -87,6 +87,34 @@ function init() {
 			}
 
 		});
+		
+		
+		
+		
+		
+		var cover = document.getElementById('cover');
+			cover.addEventListener('click', function(event) {
+				if (open) {
+					event.stopPropagation();
+					open = false;
+					el.className = el.className.replace(/\bdr-menu-open\b/, '');
+					cover.style.opacity = "0";
+					cover.style.zIndex = "-1";
+					return false;
+				}
+
+			}, false);
+		
+		
+		//to add more to Document Ready
+		
+		
+		
+		
+		
+		
+		
+		
 	});
 
 	// function isScrolledIntoView(elem) {
