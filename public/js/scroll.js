@@ -99,7 +99,7 @@ function init() {
 					
 					top : '20%',
 					left : '30%',
-					maxWidth: '432px'
+					maxWidth: '540px'
 				});
 				$('#content_img_small').css("position","fixed");
 			}
