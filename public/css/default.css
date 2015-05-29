@@ -421,6 +421,8 @@ h3 {
 	/*border-left: 8px solid transparent;
 	border-right: 8px solid transparent;
 	border-bottom: 13px solid white;*/
+	max-width:24px;
+	height:auto;
 	background:transparent;
 	position:absolute;
 }
