@@ -29,7 +29,7 @@ function init() {
 		}
 		//var lis = document.getElementById("content_list").getElementsByTagName('li');
 
-		$("#back_top").addEventListener("click", function(e) {
+		document.getElementById('back_top').addEventListener("click", function(e) {
 			document.body.scrollTop = document.documentElement.scrollTop = 0;
 		});
 
