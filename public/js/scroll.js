@@ -25,7 +25,7 @@ function init() {
 
 			$("#content10 #back_top").css("position", "fixed");
 			$("#content10 #back_top").css("top", ($("#content10").height()) + "px");
-			$("#content10 #back_top").css("left", ($("#content10").width()) + "px");
+			$("#content10 #back_top").css("left", ($("#content10").width()*1.04) + "px");
 		}
 		//var lis = document.getElementById("content_list").getElementsByTagName('li');
 
