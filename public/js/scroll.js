@@ -95,7 +95,7 @@ function init() {
 				event.stopPropagation();
 				fill = true;
 				$('#content_img_small').css("position","absolute");
-				console.log($('#content_img_small').offset().top);
+				console.log($(window).scrollTop()- $('#content_img_small').offset().top);
 				$('#content_img_small').animate({
 					
 					top : $('#content_img_small').offset().top,
