@@ -34,7 +34,7 @@
 	-moz-animation: img-enlarge 1s;
 	animation: img-enlarge 1s;
 	max-width:540px;
-	position:absolute;
+	position:fixed;
 	top:0px;
 	left:0px;
 	height:auto;
