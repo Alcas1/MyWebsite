@@ -79,9 +79,9 @@ function init() {
 				$("#content10 #back_top").css("left",  (($("#content10").width() * 1.04) + ($(window).width() * .1))+ "px");
 			
 			} else {
-
+				var top_height=$("#content10").offset().top+$(window).height();
 				$("#content10 #back_top").css("position", "absolute");
-				$("#content10 #back_top").css("top", "100%");
+				$("#content10 #back_top").css("top", top_height+"px");
 				$("#content10 #back_top").css("left", "104%");
 			}
 
