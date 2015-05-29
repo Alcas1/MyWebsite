@@ -82,7 +82,7 @@ function init() {
 				//var top_height=$("#content10").offset().top+$(window).height();
 				//console.log(top_height);
 				$("#content10 #back_top").css("position", "absolute");
-				$("#content10 #back_top").css("top", ($(window).height()-100)+"px");
+				$("#content10 #back_top").css("top", ($(window).height()-150)+"px");
 				$("#content10 #back_top").css("left", "104%");
 			}
 
