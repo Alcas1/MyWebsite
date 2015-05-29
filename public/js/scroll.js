@@ -96,6 +96,7 @@ function init() {
 				fill = true;
 				$('#content_img_small').css("position","absolute");
 				var dist=$('#content_img_small').offset().top-$(window).scrollTop();
+				var dist2=$(window).scrollTop().width()*.1;
 				//console.log();
 				$('#content_img_small').animate({
 					
