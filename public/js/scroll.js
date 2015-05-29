@@ -127,8 +127,6 @@ function init() {
 			if (open) {
 				event.stopPropagation();
 				$('#content_img_small').animate({
-					maxWidth : '',
-					width : '',
 					marginTop : '',
 					marginLeft : '',
 					top : '',
