@@ -127,8 +127,7 @@ function init() {
 			if (open) {
 				event.stopPropagation();
 				$('#content_img_small').animate({
-					marginTop : '',
-					marginLeft : '',
+
 					top : '',
 
 					left : '',
