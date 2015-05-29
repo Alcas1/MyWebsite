@@ -72,13 +72,11 @@ function init() {
 
 			if (docViewTop >= (semiTop - 50)) {
 
-				var elementOffsetTop = $('#back_top').offset().top;
-				var distTop = (elementOffsetTop - docViewTop);
-				var elementOffsetLeft = $('#back_top').width();
+				var elementOffsetLeft = $('#content10').width();
 
 				$("#content10 #back_top").css("position", "fixed");
 				$("#content10 #back_top").css("top", ($("#content10").height()) + 60 + "px");
-				$("#content10 #back_top").css("left", (elementOffsetLeft +300)+ "px");
+				$("#content10 #back_top").css("left", (elementOffsetLeft)+ "px");
 			} else {
 
 				$("#content10 #back_top").css("position", "absolute");
