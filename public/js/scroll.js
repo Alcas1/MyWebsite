@@ -100,10 +100,12 @@ function init() {
 				//width: 75%;position: fixed;left: 50%;margin: 0 0 0 -37.5%;
 				$('#content_img_small').css("position", "fixed");
 
+				eTop=$('#element').offset().top - $(window).scrollTop();
+				
 				$('#content_img_small').animate({
-					marginTop : (-max / 2)+50,
-					marginLeft :( -max / 2)+50,
-					top : '55%',
+					// marginTop : (-max / 2) + 50,
+					// marginLeft : (-max / 2) + 50,
+					top : eTop,
 
 					left : '55%'
 
@@ -113,7 +115,7 @@ function init() {
 					maxWidth : max,
 					width : max,
 					marginTop : (-max / 2),
-					marginLeft :( -max / 2),
+					marginLeft : (-max / 2),
 					top : '50%',
 
 					left : '50%'
