@@ -64,11 +64,11 @@
 100% {  -webkit-transform: scale(.67); }
 }
 @-moz-keyframes img-enlarge {
-0% {  -moz-transform: scale(.34); }
-100% {  -moz-transform: scale(.67); }
+0% {  -moz-transform: scale(1); }
+100% {  -moz-transform: scale(1.2); }
 }
 @keyframes img-enlarge {
-0% {  transform: scale(.34); }
-100% {  transform: scale(.67); }
+0% {  transform: scale(1); }
+100% {  transform: scale(1.2); }
 }
 
