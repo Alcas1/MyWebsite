@@ -33,10 +33,10 @@
 	-webkit-animation: img-enlarge 1s;
 	-moz-animation: img-enlarge 1s;
 	animation: img-enlarge 1s;
-	max-width:540px;
+	max-width:500px;
 	position:fixed;
-	top:0px;
-	left:0px;
+	top:10%;
+	left:20%;
 	height:auto;
 	z-index: 1200;
 	display: block;
