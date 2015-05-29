@@ -9,7 +9,10 @@ function init() {
 			var contentItem = $(stringItem).find('div.content_title');
 			var docViewTop = $(window).scrollTop();
 			var distance = $(stringItem).offset().top;
-
+			if(i===top_element)
+			{
+				semiTop = distance;
+			}
 			if (docViewTop >= (distance - 50)) {
 				$("#top-text").text(contentItem.text());
 			}
