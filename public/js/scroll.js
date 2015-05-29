@@ -56,7 +56,7 @@ function init() {
 				var elementOffsetLeft = $('#back_top').offset().left;
 
 				$("#content10 #back_top").css("position", "fixed");
-				$("#content10 #back_top").css("top", (distTop-50) + "px");
+				$("#content10 #back_top").css("top", distTop + "px");
 				$("#content10 #back_top").css("left", elementOffsetLeft + "px");
 			} else {
 
