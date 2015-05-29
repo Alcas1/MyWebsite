@@ -133,7 +133,8 @@ function init() {
 					marginLeft : '',
 					top : '',
 
-					left : ''
+					left : '',
+					position:absolute
 				},500);
 				
 				//removeAttr('style');
