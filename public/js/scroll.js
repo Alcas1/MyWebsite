@@ -126,6 +126,7 @@ function init() {
 		cover.addEventListener('click', function(event) {
 			if (open) {
 				event.stopPropagation();
+				$('#content_img_small').css("position","absolute");
 				$('#content_img_small').animate({
 					marginTop:'0px',
 					marginLeft:'0px',
@@ -133,7 +134,6 @@ function init() {
 					left:'0px',
 					maxWidth : '360px',
 					width : '360px',
-					position : 'absolute'
 				}, 500);
 
 				$('#content_img_small').removeAttr('style');
