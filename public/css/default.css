@@ -405,6 +405,7 @@ h3 {
 }
 
 .back_top {
+	cursor:pointer;
 	height: 50px;
 	width: 50px;
 	box-shadow: 0px 1px 2px #888888;
