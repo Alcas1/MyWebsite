@@ -25,7 +25,7 @@
 	animation: pop-in .75s;
 }
 
-.img_content_small:active{
+.content_img_small:active{
 	
 	-webkit-animation: img-enlarge 1s;
 	-moz-animation: img-enlarge 1s;
