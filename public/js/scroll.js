@@ -134,7 +134,7 @@ function init() {
 					top : '',
 
 					left : '',
-					position:''
+					position:'absolute'
 				},500);
 				
 				//removeAttr('style');
