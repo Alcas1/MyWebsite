@@ -94,8 +94,9 @@ function init() {
 			if (!fill) {
 				event.stopPropagation();
 				fill = true;
-				$('#mylogo').animate({
-					postition:fixed,
+				$('#content_img_small').css("position","fixed");
+				$('#content_img_small').animate({
+					
 					top : '20%',
 					left : '10%'
 				});
