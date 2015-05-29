@@ -74,11 +74,11 @@ function init() {
 
 				var elementOffsetTop = $('#back_top').offset().top;
 				var distTop = (elementOffsetTop - docViewTop);
-				var elementOffsetLeft = $('#back_top').offset().left;
+				var elementOffsetLeft = $('#back_top').width();
 
 				$("#content10 #back_top").css("position", "fixed");
 				$("#content10 #back_top").css("top", ($("#content10").height()) + 60 + "px");
-				$("#content10 #back_top").css("left", elementOffsetLeft + "px");
+				$("#content10 #back_top").css("left", (elementOffsetLeft +300)+ "px");
 			} else {
 
 				$("#content10 #back_top").css("position", "absolute");
