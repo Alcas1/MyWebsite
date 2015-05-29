@@ -98,14 +98,15 @@ function init() {
 
 				var max = (($(window).width() * .8 < $(window).height() * .8) ? $(window).width() * .8 : $(window).height() * .8);
 				//width: 75%;position: fixed;left: 50%;margin: 0 0 0 -37.5%;
-				$('#content_img_small').css("position", "fixed");
+				
 
 				eTop=$('#content_img_small').offset().top - $(window).scrollTop();
 				console.log($('#content_img_small').offset().top - $(window).scrollTop());
+				$('#content_img_small').css("position", "fixed");
 				$('#content_img_small').animate({
 					// marginTop : (-$('#content_img_small').height() / 2),
 					// marginLeft : (-$('#content_img_small').width()  / 2),
-					top : $('#content_img_small').offset().top - $(window).scrollTop(),
+					top : eTop,
 
 					left : '55%'
 
