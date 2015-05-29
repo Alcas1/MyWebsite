@@ -1,4 +1,12 @@
+
+
+
+
+
+
 function init() {
+
+
 
 	$(document).ready(function() {
 		var top_element = 10;
@@ -105,10 +113,8 @@ function init() {
 					
 				},50);
 				$('#content_img_small').css("position","fixed");
+				$('#content_img_small').center();
 				$('#content_img_small').animate({
-					
-					top : '10%',
-					left : '5%',
 					maxWidth: (($(window).width()*.8 < $(window).height()*.8)? $(window).width()*.8:$(window).height()*.8)
 				});
 			}
