@@ -117,7 +117,7 @@ function init() {
 					left : '50%'
 				}, 300);
 				
-				shade(open, el, event);
+				shade(open, event);
 				
 				
 				
@@ -155,7 +155,7 @@ function init() {
 
 }
 
-function shade(check, el, event) {
+function shade(check, event) {
 		var B = document.body, H = document.documentElement, height;
 		if ( typeof document.height !== 'undefined') {
 			height = document.height;
