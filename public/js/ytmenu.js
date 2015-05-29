@@ -1,7 +1,7 @@
 jQuery.fn.center = function() {
 	this.css("position", "fixed");
-	this.css("top", Math.max(0, (($(window).outerHeight() - $(this).outerHeight()/2-$(this).height()/2)) + "px"));
-	this.css("left", Math.max(0, (($(window).outerWidth() - $(this).outerWidth()/2-$(this).width()/2)) + "px"));
+	this.css("top", Math.max(0, (($(window).outerHeight() - $(this).outerHeight()/2-$(this).height())) + "px"));
+	this.css("left", Math.max(0, (($(window).outerWidth() - $(this).outerWidth()/2-$(this).width())) + "px"));
 	return this;
 };
 
