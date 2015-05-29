@@ -89,21 +89,28 @@ function init() {
 		});
 		
 		
+		var img = document.getElementById('content_img_small');
+		img.addEventListener('click', function(event) {
+			event.stopPropagation();
+			img.className += '_inflate';
+			
+			
+		}, false);
 		
 		
 		
-		var cover = document.getElementById('cover');
-			cover.addEventListener('click', function(event) {
-				if (open) {
-					event.stopPropagation();
-					open = false;
-					el.className = el.className.replace(/\bdr-menu-open\b/, '');
-					cover.style.opacity = "0";
-					cover.style.zIndex = "-1";
-					return false;
-				}
-
-			}, false);
+		// var cover = document.getElementById('cover');
+			// cover.addEventListener('click', function(event) {
+				// if (open) {
+					// event.stopPropagation();
+					// open = false;
+					// el.className = el.className.replace(/\bdr-menu-open\b/, '');
+					// cover.style.opacity = "0";
+					// cover.style.zIndex = "-1";
+					// return false;
+				// }
+// 
+			// }, false);
 		
 		
 		//to add more to Document Ready

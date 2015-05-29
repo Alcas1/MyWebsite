@@ -46,12 +46,6 @@ window.onload = (function() {
 
 			}, false);
 
-			var img = document.getElementById('content_img_small');
-			img.addEventListener('click', function(event) {
-				event.stopPropagation();
-				img.className += '_inflate';
-				
-			}, false);
 
 		});
 
