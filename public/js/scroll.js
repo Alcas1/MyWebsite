@@ -109,19 +109,19 @@ function init() {
 				$('#content_img_small').css("position", "fixed");
 
 				$('#content_img_small').animate({
-					maxWidth : max,
-					width : max
-				}, 500);
-
-				$('#content_img_small').animate({
 					marginTop : -max / 2,
 					marginLeft : -max / 2,
 					top : '50%',
 
 					left : '50%'
-					
 
 				}, 0);
+
+				$('#content_img_small').animate({
+					maxWidth : max,
+					width : max
+				}, 500);
+
 				// $("#content_img_small").css("top", '50%');
 
 				//
