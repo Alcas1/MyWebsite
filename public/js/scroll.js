@@ -51,9 +51,15 @@ function init() {
 
 			if (docViewTop >= (semiTop - 50)) {
 				
-				$("#back_top").css("position", "fixed");
-			} else {
+				var elementOffsetTop = $('#back_top').offset().top;
+				var distTop = (elementOffsetTop - docViewTop);
+				var elementOffsetLeft= $('#back_top').offset().left;
 				
+				$("#back_top").css("position", "fixed");
+				$("#back_top").css("top", distTop+"px");
+				$("#back_top").css("left", elementOffsetLeft+"px");
+			} else {
+
 				$("#back_top").css("position", "absolute");
 			}
 
