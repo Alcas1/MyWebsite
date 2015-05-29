@@ -30,7 +30,11 @@ function init() {
 		//var lis = document.getElementById("content_list").getElementsByTagName('li');
 
 		document.getElementById('back_top').addEventListener("click", function(e) {
-			document.body.scrollTop = document.documentElement.scrollTop = 0;
+			
+			
+			$('html, body').animate({
+					scrollTop : document.documentElement.scrollTop
+				}, 600, 'easeInOutQuad');
 		});
 
 		for (var i = 0; i < lis.length; i++) {
