@@ -25,7 +25,7 @@ function init() {
 
 			$("#content10 #back_top").css("position", "fixed");
 			$("#content10 #back_top").css("top", ($(window).height()-100) + "px");
-			$("#content10 #back_top").css("left", ($(window).width()-125) + "px");
+			$("#content10 #back_top").css("left", ($(window).width()-100) + "px");
 		}
 		//var lis = document.getElementById("content_list").getElementsByTagName('li');
 
@@ -76,14 +76,14 @@ function init() {
 				// var choice = (700)
 				$("#content10 #back_top").css("position", "fixed");
 				$("#content10 #back_top").css("top", ($(window).height()-100) + "px");
-				$("#content10 #back_top").css("left", ($(window).width() -125) + "px");
+				$("#content10 #back_top").css("left", ($(window).width() -100) + "px");
 			
 			} else {
 				//var top_height=$("#content10").offset().top+$(window).height();
 				//console.log(top_height);
 				$("#content10 #back_top").css("position", "absolute");
 				$("#content10 #back_top").css("top", ($(window).height()-150)+"px");
-				$("#content10 #back_top").css("left", ($(window).width()-($("#content10").offset().left) -125) + "px");
+				$("#content10 #back_top").css("left", ($(window).width()-($("#content10").offset().left) -100) + "px");
 			}
 
 		});
