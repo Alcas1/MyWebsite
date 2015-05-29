@@ -376,6 +376,7 @@ h3 {
 .content_img_small {
 	max-width: 360px;
 	height: auto;
+	z-index:10;
 	margin-bottom: 10px;
 	box-shadow: 0px 1px 2px #888888;
 	border-bottom-left-radius: 2px;
