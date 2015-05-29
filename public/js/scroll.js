@@ -17,21 +17,16 @@ function init() {
 			}
 		}
 
-		// if (docViewTop >= (semiTop - 50)) {
-// 
-			// var elementOffsetTop = $('#back_top').offset().top;
-			// var distTop = (elementOffsetTop - docViewTop);
-			// var elementOffsetLeft = $('#back_top').offset().left;
-// 
-			// $("#content10 #back_top").css("position", "fixed");
-			// $("#content10 #back_top").css("top", ("#content10").height() + "px");
-			// $("#content10 #back_top").css("left", (("#content10").width()) + "px");
-		// } else {
-// 
-			// $("#content10 #back_top").css("position", "absolute");
-			// $("#content10 #back_top").css("top", "100%");
-			// $("#content10 #back_top").css("left", "104%");
-		// }
+		if (docViewTop >= (semiTop - 50)) {
+
+			var elementOffsetTop = $('#back_top').offset().top;
+			var distTop = (elementOffsetTop - docViewTop);
+			var elementOffsetLeft = $('#back_top').offset().left;
+
+			$("#content10 #back_top").css("position", "fixed");
+			$("#content10 #back_top").css("top", (("#content10").height()) + "px");
+			$("#content10 #back_top").css("left", (("#content10").width()) + "px");
+		}
 		//var lis = document.getElementById("content_list").getElementsByTagName('li');
 
 		for (var i = 0; i < lis.length; i++) {
