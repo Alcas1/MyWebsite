@@ -83,7 +83,7 @@ function init() {
 				//console.log(top_height);
 				$("#content10 #back_top").css("position", "absolute");
 				$("#content10 #back_top").css("top", ($(window).height()-150)+"px");
-				$("#content10 #back_top").css("left", (($("#content10").width() * 1.04) + ($(window).width() * .1)) + "px");
+				$("#content10 #back_top").css("left", "104%");
 			}
 
 		});
