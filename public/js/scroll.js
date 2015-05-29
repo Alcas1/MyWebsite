@@ -75,14 +75,15 @@ function init() {
 				var elementHeight = $('#content10').height();
 				// var choice = (700)
 				$("#content10 #back_top").css("position", "fixed");
-				$("#content10 #back_top").css("top", ($(window).height()-200) + "px");
+				$("#content10 #back_top").css("top", ($(window).height()-100) + "px");
 				$("#content10 #back_top").css("left",  (($("#content10").width() * 1.04) + ($(window).width() * .1))+ "px");
-			} else {
-
-				$("#content10 #back_top").css("position", "absolute");
-				$("#content10 #back_top").css("top", "100%");
-				$("#content10 #back_top").css("left", "104%");
 			}
+			// } else {
+// 
+				// $("#content10 #back_top").css("position", "absolute");
+				// $("#content10 #back_top").css("top", "100%");
+				// $("#content10 #back_top").css("left", "104%");
+			// }
 
 		});
 	});
