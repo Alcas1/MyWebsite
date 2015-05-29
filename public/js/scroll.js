@@ -92,29 +92,23 @@ function init() {
 		img.addEventListener('click', function(event) {
 
 			if (!fill) {
+				var jImg=$('#content_img_small');
 				event.stopPropagation();
 				fill = true;
-				$('#content_img_small').css("position", "absolute");
-
+				jImg.css("position", "absolute");
 				var max = (($(window).width() * .8 < $(window).height() * .8) ? $(window).width() * .8 : $(window).height() * .8);
-				//width: 75%;position: fixed;left: 50%;margin: 0 0 0 -37.5%;
-				
-
-				eTop=$('#content_img_small').offset().top - $(window).scrollTop();
-				eLeft=$('#content_img_small').offset().left;
-				console.log($('#content_img_small').offset().top - $(window).scrollTop());
-				$('#content_img_small').css("position", "fixed");
-				$('#content_img_small').animate({
-					// marginTop : (-$('#content_img_small').height() / 2),
-					// marginLeft : (-$('#content_img_small').width()  / 2),
+				eTop=jImg.offset().top - $(window).scrollTop();
+				eLeft=jImg.offset().left;
+				console.log(jImg.offset().top - $(window).scrollTop());
+				jImg.css("position", "fixed");
+				jImg.animate({
 					top : eTop,
 
 					left : eLeft
 
 				}, 0);
 
-				$('#content_img_small').animate({
-					maxWidth : max,
+				jImg.animate({maxWidth : max,
 					width : max,
 					marginTop : (-max / 2),
 					marginLeft : (-max / 2),
