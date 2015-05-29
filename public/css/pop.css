@@ -25,25 +25,6 @@
 	animation: pop-in .75s;
 }
 
-.content_img_small_inflate{
-	-webkit-animation-fill-mode: forwards;
-	-moz-animation-fill-mode: forwards;
-	-ms-animation-fill-mode: forwards;
-	animation-fill-mode: forwards;
-	-webkit-animation: img-enlarge 1s;
-	-moz-animation: img-enlarge 1s;
-	animation: img-enlarge 1s;
-	max-width:432px;
-	position:fixed;
-	top:10%;
-	left:20%;
-	height:auto;
-	z-index: 1200;
-	display: block;
-	/*float: left;*/
-	box-sizing: border-box;
-}
-
 
 
 @-webkit-keyframes pop-in {

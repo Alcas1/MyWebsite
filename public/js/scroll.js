@@ -93,8 +93,12 @@ function init() {
 
 			if (!fill) {
 				event.stopPropagation();
-				img.className += '_inflate';
-				fill=true;
+				fill = true;
+				$('#mylogo').animate({
+					postition:fixed,
+					top : '20%',
+					left : '10%'
+				});
 			}
 
 		}, false);
