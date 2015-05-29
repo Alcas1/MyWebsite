@@ -136,7 +136,7 @@ function init() {
 				fill = false;
 				$('#cover').animate({
 					opacity : '0'
-				}, 150);
+				}, 100);
 				// cover.style.opacity = "0";
 				cover.style.zIndex = "-1";
 				return false;
