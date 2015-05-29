@@ -24,10 +24,14 @@ function init() {
 			var elementOffsetLeft = $('#back_top').offset().left;
 
 			$("#content10 #back_top").css("position", "fixed");
-			$("#content10 #back_top").css("top", ($("#content10").height())+60 + "px");
-			$("#content10 #back_top").css("left", (($("#content10").width()*1.04)+($( window ).width()*.1)) + "px");
+			$("#content10 #back_top").css("top", ($("#content10").height()) + 60 + "px");
+			$("#content10 #back_top").css("left", (($("#content10").width() * 1.04) + ($(window).width() * .1)) + "px");
 		}
 		//var lis = document.getElementById("content_list").getElementsByTagName('li');
+
+		$("#back_top").addEventListener("click", function(e) {
+			document.body.scrollTop = document.documentElement.scrollTop = 0;
+		});
 
 		for (var i = 0; i < lis.length; i++) {
 			var listItem = lis[i].getElementsByTagName('a')[0];
@@ -69,7 +73,7 @@ function init() {
 				var elementOffsetLeft = $('#back_top').offset().left;
 
 				$("#content10 #back_top").css("position", "fixed");
-				$("#content10 #back_top").css("top", ($("#content10").height())+60 + "px");
+				$("#content10 #back_top").css("top", ($("#content10").height()) + 60 + "px");
 				$("#content10 #back_top").css("left", elementOffsetLeft + "px");
 			} else {
 
