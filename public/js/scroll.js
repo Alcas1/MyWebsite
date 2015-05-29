@@ -99,7 +99,7 @@ function init() {
 					
 					top : '20%',
 					left : '10%',
-					width: '120%'
+					width: '432px'
 				});
 				$('#content_img_small').css("position","fixed");
 			}
