@@ -119,7 +119,7 @@ function init() {
 					maxWidth: max
 				},50);
 				
-				$('#content_img_small').delay(800).center();
+				$('#content_img_small').delay(2000).center();
 			}
 
 		}, false);
