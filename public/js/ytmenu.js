@@ -1,13 +1,9 @@
-
-jQuery.fn.center = function () {
-    this.css("position","absolute");
-    this.css("top", Math.max(0, (($(this.parent).outerHeight() - $(this).outerHeight()) / 2) + 
-                                                $(window).scrollTop()) + "px");
-    this.css("left", Math.max(0, (($(this.parent).outerWidth() - $(this).outerWidth()) / 2) + 
-                                                $(window).scrollLeft()) + "px");
-    return this;
+jQuery.fn.center = function() {
+	this.css("position", "absolute");
+	this.css("top", Math.max(0, (($(this.parent).outerHeight() - $(this).outerHeight()) / 2) + "px"));
+	this.css("left", Math.max(0, (($(this.parent).outerWidth() - $(this).outerWidth()) / 2) + "px"));
+	return this;
 };
-
 
 window.onload = (function() {
 
@@ -56,7 +52,6 @@ window.onload = (function() {
 				}
 
 			}, false);
-
 
 		});
 
