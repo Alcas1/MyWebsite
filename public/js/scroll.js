@@ -95,7 +95,7 @@ function init() {
 				event.stopPropagation();
 				fill = true;
 				$('#content_img_small').css("position","absolute");
-				var dist=($('#content_img_small').offset().top-$(window).scrollTop())*.8;
+				var dist=($(window).scrollTop())*.3;
 				var dist2=$(window).width()*.3;
 				//console.log();
 				$('#content_img_small').animate({
@@ -103,7 +103,7 @@ function init() {
 					top : dist,
 					left : dist2,
 					
-				},1);
+				},50);
 				$('#content_img_small').css("position","fixed");
 				$('#content_img_small').animate({
 					
