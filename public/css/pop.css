@@ -36,6 +36,9 @@
 	max-width:540px;
 	height:auto;
 	z-index: 1000;
+	display: block;
+	float: left;
+	box-sizing: border-box;
 }
 
 
