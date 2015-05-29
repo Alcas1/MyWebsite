@@ -107,8 +107,8 @@ function init() {
 				$('#content_img_small').css("position","fixed");
 				$('#content_img_small').animate({
 					
-					top : dist,
-					left : dist2,
+					top : '5%',
+					left : '5%',
 					maxWidth: $(window).width()*.8
 				});
 			}
