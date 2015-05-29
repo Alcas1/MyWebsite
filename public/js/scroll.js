@@ -112,7 +112,7 @@ function init() {
 					// left : dist2,
 // 					
 				// },50);
-				//$('#content_img_small').css("position","fixed");
+				
 				var max=(($(window).width()*.8 < $(window).height()*.8)? $(window).width()*.8:$(window).height()*.8);
 				//width: 75%;position: fixed;left: 50%;margin: 0 0 0 -37.5%;
 				
@@ -124,7 +124,7 @@ function init() {
 				// $('#content_img_small').animate({
 					// maxWidth: max
 				// },50);
-				
+				$('#content_img_small').css("position","fixed");
 				$("content_img_small").css("width",'75%');
 				$('content_img_small').css("left",'50%');
 				$('content_img_small').css("margin",'0 0 0 -37.5%');
