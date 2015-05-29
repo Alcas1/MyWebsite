@@ -137,7 +137,7 @@ function init() {
 					position:'absolute'
 				},500);
 				
-				//removeAttr('style');
+				$('#content_img_small').removeAttr('style');
 				
 				
 				fill = false;
