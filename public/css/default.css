@@ -393,7 +393,8 @@ h3 {
 	/*z-index:10;*/
 }
 .content_img_small:hover + .content_img_small_inflate{
-	width:800px;
+	max-width:800px;
+	height:auto:
 }
 
 
