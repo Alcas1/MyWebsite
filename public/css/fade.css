@@ -122,6 +122,13 @@
 	font-size: 15px;
 }
 
+
+
+html{
+	font-family: 'Raleway', Calibri, Arial, sans-serif;
+}
+
+
 .contained .group {
 	-webkit-animation: fadein 1.5s; /* Safari, Chrome and Opera > 12.1 */
 	-moz-animation: fadein 1.5s; /* Firefox < 16 */
