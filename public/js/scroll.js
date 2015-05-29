@@ -105,7 +105,7 @@ function init() {
 				$('#content_img_small').animate({
 					marginTop : (-$('#content_img_small').height() / 2),
 					marginLeft : (-$('#content_img_small').width()  / 2),
-					top : eTop,
+					top : $('#content_img_small').offset().top,
 
 					left : '55%'
 
