@@ -94,12 +94,13 @@ function init() {
 			if (!fill) {
 				event.stopPropagation();
 				fill = true;
-				$('#content_img_small').css("position","fixed");
+				
 				$('#content_img_small').animate({
 					
 					top : '20%',
 					left : '10%'
 				});
+				$('#content_img_small').css("position","fixed");
 			}
 
 		}, false);
