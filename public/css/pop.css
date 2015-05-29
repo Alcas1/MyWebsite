@@ -35,8 +35,8 @@
 	animation: img-enlarge 1s;
 	max-width:540px;
 	position:absolute;
-	top:30%;
-	left:30%;
+	top:-30%;
+	left:-30%;
 	height:auto;
 	z-index: 1200;
 	display: block;
