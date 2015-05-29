@@ -109,7 +109,7 @@ function init() {
 					
 					top : dist,
 					left : dist2,
-					maxWidth: '120%'
+					maxWidth: $('#content_img_small').width()*1.2
 				});
 			}
 
