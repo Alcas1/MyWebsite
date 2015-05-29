@@ -33,7 +33,7 @@ function init() {
 			
 			
 			$('html, body').animate({
-					scrollTop : document.documentElement.scrollTop
+					scrollTop : 0
 				}, 600, 'easeInOutQuad');
 		});
 
