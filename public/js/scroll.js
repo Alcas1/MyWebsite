@@ -92,13 +92,13 @@ function init() {
 		img.addEventListener('click', function(event) {
 
 			if (!fill) {
-				var jImg=$('#content_img_small');
+				var jImg = $('#content_img_small');
 				event.stopPropagation();
 				fill = true;
 				jImg.css("position", "absolute");
 				var max = (($(window).width() * .8 < $(window).height() * .8) ? $(window).width() * .8 : $(window).height() * .8);
-				eTop=jImg.offset().top - $(window).scrollTop();
-				eLeft=jImg.offset().left;
+				eTop = jImg.offset().top - $(window).scrollTop();
+				eLeft = jImg.offset().left;
 				console.log(jImg.offset().top - $(window).scrollTop());
 				jImg.css("position", "fixed");
 				jImg.animate({
@@ -108,7 +108,8 @@ function init() {
 
 				}, 0);
 
-				jImg.animate({maxWidth : max,
+				jImg.animate({
+					maxWidth : max,
 					width : max,
 					marginTop : (-max / 2),
 					marginLeft : (-max / 2),
@@ -116,14 +117,25 @@ function init() {
 
 					left : '50%'
 				}, 300);
-				
+
 				shade(open, event);
-				
-				
-				
 			}
 
 		}, false);
+		var cover = document.getElementById('cover');
+		cover.addEventListener('click', function(event) {
+			if (open) {
+				event.stopPropagation();
+				$('#content_img_small').removeAttr('style');
+				fill = false;
+				cover.style.opacity = "0";
+				cover.style.zIndex = "-1";
+				return false;
+			}
+
+		}, false);
+
+		
 
 		// var cover = document.getElementById('cover');
 		// cover.addEventListener('click', function(event) {
@@ -156,25 +168,24 @@ function init() {
 }
 
 function shade(check, event) {
-		var B = document.body, H = document.documentElement, height;
-		if ( typeof document.height !== 'undefined') {
-			height = document.height;
-		} else {
-			height = Math.max(B.scrollHeight, B.offsetHeight, H.clientHeight, H.scrollHeight, H.offsetHeight);
-		}
-		var fHeight = height;
-		var cover = document.getElementById('cover');
-		cover.style.height = (fHeight) + "px";
-		if (check) {
-
-			cover.style.opacity = ".5";
-			cover.style.zIndex = "2";
-		} else {
-
-			cover.style.opacity = "0";
-			cover.style.zIndex = "-1";
-		}
+	var B = document.body, H = document.documentElement, height;
+	if ( typeof document.height !== 'undefined') {
+		height = document.height;
+	} else {
+		height = Math.max(B.scrollHeight, B.offsetHeight, H.clientHeight, H.scrollHeight, H.offsetHeight);
 	}
+	var fHeight = height;
+	var cover = document.getElementById('cover');
+	cover.style.height = (fHeight) + "px";
+	if (check) {
 
+		cover.style.opacity = ".5";
+		cover.style.zIndex = "2";
+	} else {
+
+		cover.style.opacity = "0";
+		cover.style.zIndex = "-1";
+	}
+}
 
 init();
