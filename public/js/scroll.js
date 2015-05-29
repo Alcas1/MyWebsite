@@ -127,6 +127,8 @@ function init() {
 			if (open) {
 				event.stopPropagation();
 				$('#content_img_small').animate({
+					marginTop:'0px',
+					marginLeft:'0px',
 					maxWidth : '360px',
 					width : '360px',
 					position : 'absolute'
