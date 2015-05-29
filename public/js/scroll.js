@@ -103,7 +103,7 @@ function init() {
 					top : dist,
 					left : dist2,
 					
-				});
+				},100);
 				$('#content_img_small').css("position","fixed");
 				$('#content_img_small').animate({
 					
