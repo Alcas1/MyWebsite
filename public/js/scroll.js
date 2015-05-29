@@ -61,7 +61,7 @@ function init() {
 			} else {
 
 				$("#content10 #back_top").css("position", "absolute");
-				$("#content10 #back_top").css("top", "105%");
+				$("#content10 #back_top").css("top", "100%");
 				$("#content10 #back_top").css("left", "104%");
 			}
 
