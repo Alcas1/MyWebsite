@@ -109,7 +109,8 @@ function init() {
 				//width: 75%;position: fixed;left: 50%;margin: 0 0 0 -37.5%;
 
 				$('#content_img_small').animate({
-				maxWidth: max
+				maxWidth: max,
+				width:max
 				},50);
 				$("#content_img_small").css("top", '50%');
 				$('#content_img_small').css("position", "fixed");
