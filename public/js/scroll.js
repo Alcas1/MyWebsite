@@ -108,9 +108,9 @@ function init() {
 				var max = (($(window).width() * .8 < $(window).height() * .8) ? $(window).width() * .8 : $(window).height() * .8);
 				//width: 75%;position: fixed;left: 50%;margin: 0 0 0 -37.5%;
 
-				// $('#content_img_small').animate({
-				// maxWidth: max
-				// },50);
+				$('#content_img_small').animate({
+				maxWidth: max
+				},50);
 				$("#content_img_small").css("top", '50%');
 				$('#content_img_small').css("position", "fixed");
 
