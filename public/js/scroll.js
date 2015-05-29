@@ -102,9 +102,15 @@ function init() {
 					
 					top : dist,
 					left : dist2,
-					maxWidth: '540px'
+					
 				});
 				$('#content_img_small').css("position","fixed");
+				$('#content_img_small').animate({
+					
+					top : dist,
+					left : dist2,
+					maxWidth: '540px'
+				});
 			}
 
 		}, false);
