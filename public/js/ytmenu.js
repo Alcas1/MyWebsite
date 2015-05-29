@@ -1,12 +1,6 @@
 window.onload = (function() {
 
-	window.addEventListener("load", function() {
-		// Set a timeout...
-		setTimeout(function() {
-			// Hide the address bar!
-			window.scrollTo(0, 1);
-		}, 0);
-	});
+	
 	function init() {
 
 		[].slice.call(document.querySelectorAll('.dr-menu')).forEach(function(el, i) {
