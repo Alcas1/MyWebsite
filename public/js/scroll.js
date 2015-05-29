@@ -62,7 +62,7 @@ function init() {
 				}
 			}
 
-			if (docViewTop >= (semiTop - 50)) {
+			if (docViewTop >= (semiTop - 100)) {
 
 				var elementOffsetTop = $('#back_top').offset().top;
 				var distTop = (elementOffsetTop - docViewTop);
