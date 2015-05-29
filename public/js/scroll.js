@@ -34,7 +34,7 @@ function init() {
 			
 			$('html, body').animate({
 					scrollTop : 0
-				}, 600, 'easeInOutQuad');
+				}, 300, 'easeInOutQuad');
 		});
 
 		for (var i = 0; i < lis.length; i++) {
