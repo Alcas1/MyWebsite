@@ -101,7 +101,7 @@ function init() {
 				$('#content_img_small').animate({
 					
 					top : dist,
-					left : '30%',
+					left : dist2,
 					maxWidth: '540px'
 				});
 				$('#content_img_small').css("position","fixed");
