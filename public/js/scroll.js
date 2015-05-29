@@ -1,12 +1,4 @@
-
-
-
-
-
-
 function init() {
-
-
 
 	$(document).ready(function() {
 		var top_element = 10;
@@ -102,35 +94,30 @@ function init() {
 			if (!fill) {
 				event.stopPropagation();
 				fill = true;
-				$('#content_img_small').css("position","absolute");
-				var dist=($(window).height())*.2;
-				var dist2=$(window).width()*.4;
+				$('#content_img_small').css("position", "absolute");
+				var dist = ($(window).height()) * .2;
+				var dist2 = $(window).width() * .4;
 				//console.log();
 				// $('#content_img_small').animate({
-// 					
-					// top : dist,
-					// left : dist2,
-// 					
+				//
+				// top : dist,
+				// left : dist2,
+				//
 				// },50);
-				
-				var max=(($(window).width()*.8 < $(window).height()*.8)? $(window).width()*.8:$(window).height()*.8);
+
+				var max = (($(window).width() * .8 < $(window).height() * .8) ? $(window).width() * .8 : $(window).height() * .8);
 				//width: 75%;position: fixed;left: 50%;margin: 0 0 0 -37.5%;
-				
-				
-				
-				
-				
-				
+
 				// $('#content_img_small').animate({
-					// maxWidth: max
+				// maxWidth: max
 				// },50);
-				$("#content_img_small").css("max-width",'75%');
-				$('#content_img_small').css("position","fixed");
-				
-				$('#content_img_small').css("left",'50%');
-				$('#content_img_small').css("margin",'0 0 0 -37.5%');
-				
-				
+				$("#content_img_small").css("top", '50%');
+				$('#content_img_small').css("position", "fixed");
+
+				$('#content_img_small').css("left", '50%');
+				$('#content_img_small').css("margin-top", -$('#content_img_small').height() / 2);
+				$('#content_img_small').css("margin-left", -$('#content_img_small').width() / 2);
+
 			}
 
 		}, false);
