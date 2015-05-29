@@ -109,7 +109,7 @@ function init() {
 					
 					top : '5%',
 					left : '5%',
-					maxWidth: $(window).width()*.8
+					maxWidth: (($(window).width()*.8 > $(window).height()*.8)? $(window).width()*.8:$(window).height()*.8)
 				});
 			}
 
