@@ -103,9 +103,9 @@ function init() {
 				$('#content_img_small').animate({
 					marginTop : (-max / 2)+50,
 					marginLeft :( -max / 2)+50,
-					top : '45%',
+					top : '55%',
 
-					left : '45%'
+					left : '55%'
 
 				}, 0);
 
