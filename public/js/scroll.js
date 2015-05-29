@@ -94,7 +94,7 @@ function init() {
 			if (!fill) {
 				event.stopPropagation();
 				fill = true;
-				
+				$('#content_img_small').css("position","absolute");
 				$('#content_img_small').animate({
 					
 					top : '20%',
