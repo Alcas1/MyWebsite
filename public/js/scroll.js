@@ -95,9 +95,7 @@ function init() {
 				event.stopPropagation();
 				fill = true;
 				$('#content_img_small').css("position", "absolute");
-				
-				
-				
+
 				//console.log();
 				// $('#content_img_small').animate({
 				//
@@ -108,25 +106,24 @@ function init() {
 
 				var max = (($(window).width() * .8 < $(window).height() * .8) ? $(window).width() * .8 : $(window).height() * .8);
 				//width: 75%;position: fixed;left: 50%;margin: 0 0 0 -37.5%;
+				$('#content_img_small').css("position", "fixed");
 
 				$('#content_img_small').animate({
-				maxWidth: max,
-				width:max
-				},500);
-				
-				$('#content_img_small').animate({
-					top:'50%',
-					position:'fixed',
-					left:'50%',
-					marginTop:-max/2,
-					marginLeft:-max/2
-				
-				
+					maxWidth : max,
+					width : max
+				}, 500);
 
-				},500);
+				$('#content_img_small').animate({
+					top : '50%',
+
+					left : '50%',
+					marginTop : -max / 2,
+					marginLeft : -max / 2
+
+				}, 500);
 				// $("#content_img_small").css("top", '50%');
-				// $('#content_img_small').css("position", "fixed");
-// 
+
+				//
 				// $('#content_img_small').css("left", '50%');
 				// $('#content_img_small').css("margin-top", -max / 2);
 				// $('#content_img_small').css("margin-left", -max/ 2);
