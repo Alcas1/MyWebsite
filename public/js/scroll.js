@@ -100,7 +100,7 @@ function init() {
 				//width: 75%;position: fixed;left: 50%;margin: 0 0 0 -37.5%;
 				$('#content_img_small').css("position", "fixed");
 
-				eTop=$('#element').offset().top - $(window).scrollTop();
+				eTop=$('#content_img_small').offset().top - $(window).scrollTop();
 				log(eTop);
 				$('#content_img_small').animate({
 					// marginTop : (-max / 2) + 50,
