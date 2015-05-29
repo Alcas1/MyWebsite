@@ -416,9 +416,10 @@ h3 {
 .up_arrow{
 	height 0;
 	width 0;
-	border-left: 20px solid transparent;
-	border-right: 20px solid transparent;
-	border-bottom: 20px solid white;
+	margin: 10px;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-bottom: 15px solid white;
 	background:transparent;
 	position:absolute;
 }
