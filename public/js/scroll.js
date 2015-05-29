@@ -124,8 +124,9 @@ function init() {
 				// $('#content_img_small').animate({
 					// maxWidth: max
 				// },50);
-				$('#content_img_small').css("position","fixed");
 				$("#content_img_small").css("width",'75%');
+				$('#content_img_small').css("position","fixed");
+				
 				$('#content_img_small').css("left",'50%');
 				$('#content_img_small').css("margin",'0 0 0 -37.5%');
 				
