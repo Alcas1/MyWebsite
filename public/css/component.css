@@ -204,27 +204,32 @@
 }
 
 .dr-menu ul .dr-icon:before {
-	margin-right: 15px;
+	margin-right: 12px;
 }
 
 .dr-icon-checklist:before {
 	content: "\e001";
+	margin-right:3px;
 }
 
 .dr-icon-calender:before {
 	content: "\e002";
+	margin-right:3px;
 }
 
 .dr-icon-folder:before {
 	content: "\e003";
+	margin-right:3px;
 }
 
 .dr-icon-music:before {
 	content: "\e004";
+	margin-right:3px;
 }
 
 .dr-icon-users:before {
 	content: "\e005";
+	margin-right:3px;
 }
 
 .dr-icon-messages:before {
@@ -241,5 +246,6 @@
 
 .dr-icon-menu:before {
 	content: "\e008";
+	margin-right:3px;
 }
 
