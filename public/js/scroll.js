@@ -134,7 +134,7 @@ function fillImage(imageNumber) {
 			eTop = jImg.offset().top - $(window).scrollTop();
 			eLeft = jImg.offset().left;
 			console.log(jImg.offset().top - $(window).scrollTop());
-			jImg.css("box-shadow"," 0px 5px 10px #ffffff;");
+			jImg.css("box-shadow"," 0px 5px 10px #ffffff");
 			jImg.css("position", "fixed");
 			jImg.animate({
 				top : eTop,
