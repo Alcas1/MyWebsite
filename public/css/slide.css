@@ -209,6 +209,11 @@
 	animation-fill-mode: forwards;
 }
 .animate2 {
+	
+	
+	-webkit-animation: 1s;
+	-moz-animation: 1s;
+	-ms-animation: 1s;
 	animation: pop-out 1s;
 	-webkit-animation-delay: 0ms;
 	-moz-animation-delay: 0ms;
