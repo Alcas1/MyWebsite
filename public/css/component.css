@@ -177,7 +177,8 @@
 
 .dr-menu ul li a {
 	display: inline-block;
-	padding: 0 10px;
+	padding-left:10px;
+	padding-right:10px;
 	color: #0091ea;
 	padding-top: 4px;
 	padding-bottom: 4px;
@@ -185,7 +186,7 @@
 }
 
 .dr-menu ul li a.dr-icon-messages{
-	padding: 0 20px;
+	
 }
 
 .dr-menu ul li a:hover {
