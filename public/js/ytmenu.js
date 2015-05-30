@@ -27,7 +27,7 @@ window.onload = (function() {
 						$(this).first().first().mouseenter(function() {
 							el.css("border-right-color", "#03a9f4");
 							el.css("border-right-style", "solid");
-							el.css("border-right-width", "2px");
+							el.css("border-right-width", "1px");
 						}).mouseleave(function() {
 							el.css("border-right-color", "#03a9f4");
 							el.css("border-right-style", "solid");
