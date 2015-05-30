@@ -47,19 +47,19 @@
 
 /*.p1:nth-child(4) {
 
-	-webkit-animation: slideMore 1.6s;
-	-moz-animation: slideMore 1.6s;
-	-ms-animation: slideMore 1.6s;
-	animation: slideMore 1.6s;
-	-webkit-animation-delay: 2s;
-	-moz-animation-delay: 2s;
-	-ms-animation-delay: 2s;
-	animation-delay: 2s;
-	-webkit-animation-fill-mode: forwards;
-	-moz-animation-fill-mode: forwards;
-	-ms-animation-fill-mode: forwards;
-	animation-fill-mode: forwards;
-}*/
+ -webkit-animation: slideMore 1.6s;
+ -moz-animation: slideMore 1.6s;
+ -ms-animation: slideMore 1.6s;
+ animation: slideMore 1.6s;
+ -webkit-animation-delay: 2s;
+ -moz-animation-delay: 2s;
+ -ms-animation-delay: 2s;
+ animation-delay: 2s;
+ -webkit-animation-fill-mode: forwards;
+ -moz-animation-fill-mode: forwards;
+ -ms-animation-fill-mode: forwards;
+ animation-fill-mode: forwards;
+ }*/
 
 .p2:nth-child(1) {
 
@@ -198,7 +198,8 @@
 	-webkit-animation: slideDown 2s;
 	-moz-animation: slideDown 2s;
 	-ms-animation: slideDown 2s;
-	animation: slideDown 2s -webkit-animation-delay : 0ms;
+	animation: slideDown 2s;
+	-webkit-animation-delay: 0ms;
 	-moz-animation-delay: 0ms;
 	-ms-animation-delay: 0ms;
 	animation-delay: 0ms;
@@ -219,29 +220,22 @@
 	animation-fill-mode: forwards;
 }
 
-
-
-.content_img_small_inflate{
+.content_img_small_inflate {
 	/*-webkit-animation-fill-mode: forwards;
-	-moz-animation-fill-mode: forwards;
-	-ms-animation-fill-mode: forwards;
-	animation-fill-mode: forwards;
-	-webkit-animation: img-enlarge 1s;
-	-moz-animation: img-enlarge 1s;
-	animation: img-enlarge 1s;*/
-	max-width:432px;
-	position:fixed;
-	height:auto;
+	 -moz-animation-fill-mode: forwards;
+	 -ms-animation-fill-mode: forwards;
+	 animation-fill-mode: forwards;
+	 -webkit-animation: img-enlarge 1s;
+	 -moz-animation: img-enlarge 1s;
+	 animation: img-enlarge 1s;*/
+	max-width: 432px;
+	position: fixed;
+	height: auto;
 	z-index: 1200;
 	display: block;
 	/*float: left;*/
 	box-sizing: border-box;
 }
-
-
-
-
-
 
 @-moz-keyframes slide {
 0% {
@@ -334,7 +328,7 @@ transform: translateX(125%);
 }
 }
 @keyframes slideDown {
-0% { 
+0% {
 transform: translateY(0);
 }
 100% {
