@@ -14,8 +14,14 @@ window.onload = (function() {
 
 			var trigger = el.querySelector('div.dr-trigger'), icon = trigger.querySelector('span.dr-icon-menu'), open = false;
 			var site = checkSite();
-			var icons = document.querySelectorAll('a.dr-icon-menu');
-			console.log(icons.length);
+			
+			$('a.dr-icon').children().each(function(idx, val) {
+				
+				console.log(this.length);
+				
+			});
+
+			
 			for (var i = 0; i < icons.length; i++) {
 				if (i === site) {
 					icon.css("font", "bold");
