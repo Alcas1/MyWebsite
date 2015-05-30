@@ -56,13 +56,6 @@ body {
 	}
 	.content_img_medium {
 		max-width: 360px;
-		height: auto;
-		margin-bottom: 10px;
-		box-shadow: 0px 1px 2px #888888;
-		border-bottom-left-radius: 2px;
-		border-bottom-right-radius: 2px;
-		border-top-left-radius: 2px;
-		border-top-right-radius: 2px;
 	}
 }
 @media (min-width: 700px) {
@@ -99,13 +92,6 @@ body {
 	}
 	.content_img_medium {
 		max-width: 360px;
-		height: auto;
-		margin-bottom: 10px;
-		box-shadow: 0px 1px 2px #888888;
-		border-bottom-left-radius: 2px;
-		border-bottom-right-radius: 2px;
-		border-top-left-radius: 2px;
-		border-top-right-radius: 2px;
 	}
 }
 @media (min-width: 1200px) {
@@ -143,13 +129,6 @@ body {
 	}
 	.content_img_medium {
 		max-width: 760px;
-		height: auto;
-		margin-bottom: 10px;
-		box-shadow: 0px 1px 2px #888888;
-		border-bottom-left-radius: 2px;
-		border-bottom-right-radius: 2px;
-		border-top-left-radius: 2px;
-		border-top-right-radius: 2px;
 	}
 }
 b {
@@ -373,10 +352,9 @@ h3 {
 	width: 760px;
 }
 
-.content_img_small {
-	max-width: 360px;
+.content_img_small, .content_img_medium {
 	height: auto;
-	z-index:3;
+	z-index: 3;
 	margin-bottom: 10px;
 	box-shadow: 0px 1px 2px #888888;
 	border-bottom-left-radius: 2px;
@@ -385,8 +363,9 @@ h3 {
 	border-top-right-radius: 2px;
 }
 
-
-
+.content_img_small {
+	max-width: 360px;
+}
 
 .part_body {
 	display: inline-block;
@@ -409,7 +388,7 @@ h3 {
 }
 
 .back_top {
-	cursor:pointer;
+	cursor: pointer;
 	height: 50px;
 	width: 50px;
 	box-shadow: 0px 1px 2px #888888;
@@ -418,22 +397,20 @@ h3 {
 	position: absolute;
 	top: 95%;
 	left: 105%;
-	
 }
 
-.up_arrow{
+.up_arrow {
 	/*height 0;
-	width 0;*/
+	 width 0;*/
 	margin-left: 10px;
-	margin-top:11px;
+	margin-top: 11px;
 	/*border-left: 8px solid transparent;
-	border-right: 8px solid transparent;
-	border-bottom: 13px solid white;*/
-	max-width:30px;
-	background:transparent;
-	position:absolute;
+	 border-right: 8px solid transparent;
+	 border-bottom: 13px solid white;*/
+	max-width: 30px;
+	background: transparent;
+	position: absolute;
 }
-
 
 #content10 {
 	position: relative;
