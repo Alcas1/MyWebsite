@@ -17,7 +17,7 @@ window.onload = (function() {
 			
 			$('.dr-menu ul').children().each(function(idx, val) {
 				
-				console.log(this.length);
+				console.log(idx);
 				
 			});
 
