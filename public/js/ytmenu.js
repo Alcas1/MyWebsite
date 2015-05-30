@@ -34,6 +34,11 @@ window.onload = (function() {
 							el.css("border-right-width", "2px");
 						});
 					}
+					if(site===6)
+					{
+						$(this).first().css("width","180px");
+					}
+					
 				}
 			});
 
