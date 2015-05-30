@@ -36,7 +36,7 @@ window.onload = (function() {
 					}
 					if (site === 6) {
 						var el = $(this).children('a');
-						el.css("width", "193px");
+						el.css("width", "195px");
 						el.css("margin-left", "-2px");
 						if (idx === site) {
 							el.css("border-right-color", "#03a9f4");
