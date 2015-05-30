@@ -20,8 +20,9 @@ window.onload = (function() {
 				{
 					if(idx===site)
 					{
-						 $(this).find('li').find('a').css("font-weight","700");
-						  alert($(this).find('li').find('a').text());
+						 //$(this).find('li').find('a').css("font-weight","700");
+						  //alert($(this).find('li').find('a').text());
+						  alert("hi");
 					}	
 				}
 			});
