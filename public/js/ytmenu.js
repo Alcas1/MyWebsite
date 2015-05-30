@@ -44,7 +44,7 @@ window.onload = (function() {
 						if(idx===site)
 						{
 							el.css("margin-left","2px");
-							el.css("")
+							//el.css("")
 						}
 					}
 					
