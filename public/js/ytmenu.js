@@ -14,12 +14,12 @@ window.onload = (function() {
 
 			var trigger = el.querySelector('div.dr-trigger'), icon = trigger.querySelector('span.dr-icon-menu'), open = false;
 			var site = checkSite();
-			if (i === site) {
-				icon.css("font", "bold");
+			var icons = icon.querySelectorAll('a.dr-icon-menu');
+			for (var i = 0; i < icons.length; i++) {
+				if (i === site) {
+					icon.css("font", "bold");
+				}
 			}
-			
-			
-			
 			trigger.addEventListener('click', function(event) {
 				if (!open) {
 
@@ -37,8 +37,6 @@ window.onload = (function() {
 					shade(open, el, event);
 				}
 			}, false);
-
-			console.log(icon.length());
 			icon.addEventListener('click', function(event) {
 				if (open) {
 					event.stopPropagation();
