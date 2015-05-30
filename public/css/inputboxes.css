@@ -68,7 +68,7 @@ input:focus ~ label, input:valid ~ label,textarea:focus ~ label,textarea:valid ~
   width:0;
   bottom:1px; 
   position:absolute;
-  background:#1565C0; 
+  background:#03A9F4; 
   transition:0.2s ease all; 
   -moz-transition:0.2s ease all; 
   -webkit-transition:0.2s ease all;

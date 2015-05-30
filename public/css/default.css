@@ -6,6 +6,7 @@ body, html {
 	margin: 0;
 	padding: 0;
 	overflow-x: hidden;
+	  background-size: cover;
 }
 
 *:after, *:before {
@@ -22,7 +23,7 @@ p {
 body {
 	font-family: 'Raleway';
 	color: #fff;
-	background: ##EBEFF2;
+	background: #EBEFF2;
 }
 @media (min-width: 500px) {
 	.main_content {
