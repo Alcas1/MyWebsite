@@ -136,7 +136,7 @@ function fillImage(imageNumber) {
 			eLeft = jImg.offset().left;
 			jImg.css("box-shadow"," 0px 0px 20px #ffffff");
 			jImg.css("position", "fixed");
-			jImg.css("z-index","0");
+			jImg.css("z-index","3");
 			jImg.animate({
 				top : eTop,
 				left : eLeft
