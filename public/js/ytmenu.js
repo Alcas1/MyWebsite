@@ -99,21 +99,21 @@ window.onload = (function() {
 	function checkSite() {
 		if (window.location.href.indexOf("about") > -1) {
 
-			return 1;
+			return 0;
 		} else if (window.location.href.indexOf("goals") > -1) {
-			return 2;
+			return 1;
 		} else if (window.location.href.indexOf("timeline") > -1) {
-			return 3;
+			return 2;
 		} else if (window.location.href.indexOf("works") > -1) {
-			return 4;
+			return 3;
 		} else if (window.location.href.indexOf("music") > -1) {
-			return 5;
+			return 4;
 		} else if (window.location.href.indexOf("mentors") > -1) {
-			return 6;
+			return 5;
 		} else if (window.location.href.indexOf("contact") > -1) {
-			return 7;
+			return 6;
 		} else if (window.location.href.indexOf("JonathanWuResume.pdf") > -1) {
-			return 8;
+			return 7;
 		}
 
 	}
