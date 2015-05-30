@@ -24,17 +24,21 @@ window.onload = (function() {
 						el.css("border-right-style","solid");
 						el.css("margin-left", "-2px");
 						el.css("font-weight", "700");
-						
+						if(site!==6)
+						{
 							el.mouseenter(function() {
 								el.css("border-right-width", "2px");
 							}).mouseleave(function() {
 								el.css("border-right-width", "4px");
 								el.css("margin-left", "-2px");
 							});
-						
+						}
 					}
 					if (site === 6) {
 						var el = $(this).children('a');
+						el.css("border-right-width", "4px");
+						el.css("border-right-color","#03a9f4");
+						el.css("border-right-style","solid");
 						el.css("width", "193px");
 						el.css("margin-left", "2px");
 						if (idx === site) {
