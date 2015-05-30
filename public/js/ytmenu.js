@@ -16,9 +16,13 @@ window.onload = (function() {
 			var site = checkSite();
 			
 			$('.dr-menu ul').children().each(function(idx, val) {
-				
-				console.log(idx);
-				
+				if(idx<8)
+				{
+					if(idx===site)
+					{
+						 $(this).css("font","bold");
+					}	
+				}
 			});
 
 			
