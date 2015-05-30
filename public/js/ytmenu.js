@@ -44,7 +44,7 @@ window.onload = (function() {
 							el.mouseenter(function() {
 								el.css("border-right-width", "4px");
 								el.css("padding-right", "14px");
-								el.css("margin-left", "0px");
+								el.css("margin-left", "-2px");
 							}).mouseleave(function() {
 								el.css("border-right-width", "4px");
 								el.css("margin-left", "-2px");
