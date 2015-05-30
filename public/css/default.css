@@ -7,7 +7,6 @@ body, html {
 	padding: 0;
 	overflow-x: hidden;
 	background-size: cover;
-	position:absolute;
 }
 
 *:after, *:before {
