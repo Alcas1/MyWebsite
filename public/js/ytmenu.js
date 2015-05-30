@@ -35,12 +35,11 @@ window.onload = (function() {
 					}
 					if (site === 6) {
 						var el = $(this).children('a');
-						el.css("border-right-width", "4px");
-						el.css("border-right-color", "#03a9f4");
-						el.css("border-right-style", "solid");
 						el.css("width", "193px");
 						el.css("margin-left", "2px");
 						if (idx === site) {
+							el.css("border-right-color", "#03a9f4");
+							el.css("border-right-style", "solid");
 							el.mouseenter(function() {
 								el.css("border-right-width", "4px");
 								el.css("padding-right", "14px");
