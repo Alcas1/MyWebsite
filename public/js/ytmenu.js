@@ -18,20 +18,15 @@ window.onload = (function() {
 			$('.dr-menu ul').children().each(function(idx, val) {
 				if (idx < 8) {
 					if (idx === site) {
-						//$(this).find('li').find('a').css("font-weight","700");
-						// alert($(this).find('li').find('a.dr-icon').text());
-						$(this).first().first().css("font-weight","700");
-						
-						
+						$(this).first().first().css("border-right-color", "#03a9f4");
+						$(this).first().first().css("border-right-style", "solid");
+						$(this).first().first().css("border-right-width", "5px");
+						$(this).first().first().css("font-weight", "700");
+
 					}
 				}
 			});
 
-			// for (var i = 0; i < icons.length; i++) {
-			// if (i === site) {
-			// icon.css("font", "bold");
-			// }
-			// }
 			trigger.addEventListener('click', function(event) {
 				if (!open) {
 
