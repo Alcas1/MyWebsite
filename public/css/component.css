@@ -177,7 +177,6 @@
 
 .dr-menu ul li a {
 	display: inline-block;
-	padding: 0 20px;
 	color: #0091ea;
 	padding-top: 4px;
 	padding-bottom: 4px;
@@ -204,7 +203,7 @@
 }
 
 .dr-menu ul .dr-icon:before {
-	margin-right: 0px;
+	margin-right: 15px;
 }
 
 .dr-icon-checklist:before {
