@@ -229,7 +229,6 @@
 
 .dr-icon-messages:before {
 	content: "\e006";
-	padding-right: 3px;
 }
 
 .dr-icon-profile:before {
@@ -242,6 +241,7 @@
 }
 
 .dr-icon-menu:before {
+	padding-right: 3px;
 	content: "\e008";
 }
 
