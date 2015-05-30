@@ -137,19 +137,9 @@ function fillImage(imageNumber) {
 			jImg.css("box-shadow"," 0px 0px 20px #ffffff");
 			jImg.css("position", "fixed");
 			jImg.css("z-index","2");
-			jImg.animate({
-				top : eTop,
-				left : eLeft
-			}, 0);
+			jImg.animate({top : eTop,left : eLeft}, 0);
 
-			jImg.animate({
-				maxWidth : max,
-				width : max,
-				marginTop : (-max / 2),
-				marginLeft : (-max / 2),
-				top : '50%',
-				left : '50%'
-			}, 300);
+			jImg.animate({maxWidth : max,width : max,marginTop : (-max / 2),marginLeft : (-max / 2),top : '50%',left : '50%'}, 300);
 
 			shade(open, event);
 		}
