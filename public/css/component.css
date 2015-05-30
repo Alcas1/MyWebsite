@@ -181,7 +181,10 @@
 	color: #0091ea;
 	padding-top: 4px;
 	padding-bottom: 4px;
-	width:140px;
+	width: 140px;
+	border-right-color: #03a9f4;
+	border-right-style: solid;
+	border-right-width: 3px;
 }
 
 .dr-menu ul li a:hover {
@@ -190,7 +193,7 @@
 	border-right-style: solid;
 	border-right-width: 3px;
 	/*padding-left: 32px;
-	margin-left: -15px;*/
+	 margin-left: -15px;*/
 }
 
 .dr-icon:before, .dr-icon:after {
