@@ -21,17 +21,17 @@ window.onload = (function() {
 						var el=$(this).first().first();
 						el.css("border-right-color", "#03a9f4");
 						el.css("border-right-style", "solid");
-						el.css("border-right-width", "3px");
+						el.css("border-right-width", "4px");
 						el.css("margin-left","-2px");
 						el.css("font-weight", "700");
 						$(this).first().first().mouseenter(function() {
 							el.css("border-right-color", "#03a9f4");
 							el.css("border-right-style", "solid");
-							el.css("border-right-width", "1px");
+							el.css("border-right-width", "2px");
 						}).mouseleave(function() {
 							el.css("border-right-color", "#03a9f4");
 							el.css("border-right-style", "solid");
-							el.css("border-right-width", "3px");
+							el.css("border-right-width", "4px");
 						});
 					}
 					if(site===6)
