@@ -18,32 +18,31 @@ window.onload = (function() {
 			$('.dr-menu ul').children().each(function(idx, val) {
 				if (idx < 9) {
 					if (idx === site) {
-						var el=$(this).first().first();
+						var el = $(this).first().first();
 						el.css("border-right-width", "4px");
-						el.css("margin-left","-2px");
+						el.css("margin-left", "-2px");
 						el.css("font-weight", "700");
 						el.mouseenter(function() {
 							el.css("border-right-width", "2px");
 						}).mouseleave(function() {
 							el.css("border-right-width", "4px");
-							el.css("margin-left","-2px");
+							el.css("margin-left", "-2px");
 						});
 					}
-					if(site===6)
-					{
-						var el=$(this).children('a');
-						el.css("width","193px");
-						el.css("margin-left","2px");
-						if(idx===site)
-						{
+					if (site === 6) {
+						var el = $(this).children('a');
+						el.css("width", "193px");
+						el.css("margin-left", "2px");
+						if (idx === site) {
 							el.mouseenter(function() {
-							el.css("border-right-width", "2px");
-						}).mouseleave(function() {
-							el.css("border-right-width", "4px");
-							el.css("margin-left","-2px");
+								el.css("border-right-width", "2px");
+							}).mouseleave(function() {
+								el.css("border-right-width", "4px");
+								el.css("margin-left", "-2px");
+							});
 						}
 					}
-					
+
 				}
 			});
 
