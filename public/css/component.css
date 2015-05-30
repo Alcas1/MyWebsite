@@ -189,8 +189,8 @@
 	border-right-color: #03a9f4;
 	border-right-style: solid;
 	border-right-width: 2px;
-	/*padding-left: 32px;*/
-	margin-right: 3px;
+	padding-right: 3px;*/
+	/*margin-right: 3px;*/
 }
 
 .dr-icon:before, .dr-icon:after {
