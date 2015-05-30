@@ -22,12 +22,14 @@ window.onload = (function() {
 						el.css("border-right-width", "4px");
 						el.css("margin-left", "-2px");
 						el.css("font-weight", "700");
-						el.mouseenter(function() {
-							el.css("border-right-width", "2px");
-						}).mouseleave(function() {
-							el.css("border-right-width", "4px");
-							el.css("margin-left", "-2px");
-						});
+						if (idx !== 6) {
+							el.mouseenter(function() {
+								el.css("border-right-width", "2px");
+							}).mouseleave(function() {
+								el.css("border-right-width", "4px");
+								el.css("margin-left", "-2px");
+							});
+						}
 					}
 					if (site === 6) {
 						var el = $(this).children('a');
