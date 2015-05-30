@@ -1,9 +1,9 @@
 jQuery.fn.center = function() {
-	 this.css("position","fixed");
-    this.css("top", ($(window).height() / 2) - (this.outerHeight() / 2));
-    this.css("left", ($(window).maxWidth() / 2) - (this.outerWidth() / 2));
-    
-    return this;
+	this.css("position", "fixed");
+	this.css("top", ($(window).height() / 2) - (this.outerHeight() / 2));
+	this.css("left", ($(window).maxWidth() / 2) - (this.outerWidth() / 2));
+
+	return this;
 };
 
 window.onload = (function() {
@@ -77,6 +77,14 @@ window.onload = (function() {
 			cover.style.opacity = "0";
 			cover.style.zIndex = "-1";
 		}
+	}
+
+	function checkSite() {
+		if (window.location.href.indexOf("home") > -1) {
+			alert("1");
+			return 1;
+		}
+
 	}
 
 	init();
