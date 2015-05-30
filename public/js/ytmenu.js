@@ -16,7 +16,7 @@ window.onload = (function() {
 			var site = checkSite();
 
 			$('.dr-menu ul').children().each(function(idx, val) {
-				if (idx < 8) {
+				if (idx < 9) {
 					if (idx === site) {
 						var el=$(this).first().first();
 						el.css("border-right-color", "#03a9f4");
