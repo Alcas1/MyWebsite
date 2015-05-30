@@ -20,7 +20,7 @@ window.onload = (function() {
 				{
 					if(idx===site)
 					{
-						 $(this).find('li').find('a').css("font-size","40px");
+						 $(this).find('li').find('a').css("font-weight","700");
 					}	
 				}
 			});
