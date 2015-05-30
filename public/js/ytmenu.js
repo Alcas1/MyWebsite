@@ -38,11 +38,13 @@ window.onload = (function() {
 					}
 					if(site===6)
 					{
-						$(this).children('a').css("width","193px");
-						$(this).children('a').css("margin-left","2px");
+						var el=$(this).children('a');
+						el.css("width","193px");
+						el.css("margin-left","2px");
 						if(idx===site)
 						{
-							$(this).children('a').css("margin-left","0px");
+							el.css("margin-left","2px");
+							el.css("")
 						}
 					}
 					
