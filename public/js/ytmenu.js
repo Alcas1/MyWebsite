@@ -20,7 +20,7 @@ window.onload = (function() {
 				{
 					if(idx===site)
 					{
-						 $(this).css("font","bold");
+						 $(this).css("font-size","20px");
 					}	
 				}
 			});
