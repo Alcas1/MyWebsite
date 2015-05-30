@@ -20,8 +20,8 @@ window.onload = (function() {
 				{
 					if(idx===site)
 					{
-						 $(this).css("font-size","20px");
-						 alert("hi");
+						 $(this).getElementsByTagName('a')[0].css("font-size","20px");
+						 
 					}	
 				}
 			});
