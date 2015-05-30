@@ -35,8 +35,8 @@ window.onload = (function() {
 				}
 			}, false);
 
+							console.log(i);
 			icon.addEventListener('click', function(event) {
-				console.log(i);
 				if (open) {
 					event.stopPropagation();
 					open = false;
