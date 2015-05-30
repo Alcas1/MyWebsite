@@ -23,7 +23,6 @@ p {
 body {
 	font-family: 'Raleway';
 	color: #fff;
-	background: #EBEFF2;
 }
 @media (min-width: 500px) {
 	.main_content {

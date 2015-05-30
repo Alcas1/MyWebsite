@@ -7,7 +7,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0,  minimum-scale=1.0">  
+		<meta name="viewport" content="width=device-width, initial-scale=1.0,  minimum-scale=1.0">
 		<title><%= @title %></title>
 		<script src='js/nprogress.js'></script>
 		<link rel='stylesheet' href='css/nprogress.css'/>
@@ -20,7 +20,10 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
 		<script type="text/javascript">
 			$(document).ready(function() {
-				NProgress.configure({ easing: 'ease', speed: 500 });
+				NProgress.configure({
+					easing : 'ease',
+					speed : 500
+				});
 				NProgress.configure({
 					showSpinner : false
 				});
@@ -94,15 +97,15 @@
 	<div id="main">
 		<%= yield %>
 	</div>
-	
+
 	<footer>
 		<!-- <SPAN style="position:fixed;left:5px;top:800px;">
 		<a href="/betatesters">Made by Jonathan Wu Version 1.94</a>
 		</SPAN> -->
 	</footer>
-	
+	<div id="bg"></div>
 </html>
-<div id="bg"></div>
+
 <!-- Histats.com  START (hidden counter)-->
 <script type="text/javascript">document.write(unescape("%3Cscript src=%27http://s10.histats.com/js15.js%27 type=%27text/javascript%27%3E%3C/script%3E"));</script>
 <a href="http://www.histats.com" target="_blank" title="free invisible hit counter" >
