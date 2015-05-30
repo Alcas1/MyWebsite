@@ -19,19 +19,12 @@ window.onload = (function() {
 				if (idx < 9) {
 					if (idx === site) {
 						var el=$(this).first().first();
-						el.css("border-right-color", "#03a9f4");
-						el.css("border-right-style", "solid");
 						el.css("border-right-width", "4px");
 						el.css("margin-left","-2px");
 						el.css("font-weight", "700");
-						$(this).first().first().mouseenter(function() {
-							el.css("border-right-color", "#03a9f4");
-							el.css("border-right-style", "solid");
+						el.mouseenter(function() {
 							el.css("border-right-width", "2px");
-							// el.css("margin-left","0px");
 						}).mouseleave(function() {
-							el.css("border-right-color", "#03a9f4");
-							el.css("border-right-style", "solid");
 							el.css("border-right-width", "4px");
 							el.css("margin-left","-2px");
 						});
@@ -43,8 +36,11 @@ window.onload = (function() {
 						el.css("margin-left","2px");
 						if(idx===site)
 						{
-							//el.css("margin-left","-2px");
-							//el.css("")
+							el.mouseenter(function() {
+							el.css("border-right-width", "2px");
+						}).mouseleave(function() {
+							el.css("border-right-width", "4px");
+							el.css("margin-left","-2px");
 						}
 					}
 					
