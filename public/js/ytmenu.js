@@ -22,11 +22,11 @@ window.onload = (function() {
 			});
 
 			
-			for (var i = 0; i < icons.length; i++) {
-				if (i === site) {
-					icon.css("font", "bold");
-				}
-			}
+			// for (var i = 0; i < icons.length; i++) {
+				// if (i === site) {
+					// icon.css("font", "bold");
+				// }
+			// }
 			trigger.addEventListener('click', function(event) {
 				if (!open) {
 
