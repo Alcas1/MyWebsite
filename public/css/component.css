@@ -184,6 +184,10 @@
 	width: 160px;
 }
 
+.dr-menu ul li a.dr-icon-messages{
+	width: 180px;
+}
+
 .dr-menu ul li a:hover {
 	color: #90caf9;
 	border-right-color: #03a9f4;
