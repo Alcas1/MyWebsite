@@ -21,7 +21,7 @@ window.onload = (function() {
 						var el=$(this).first().first();
 						el.css("border-right-color", "#03a9f4");
 						el.css("border-right-style", "solid");
-						el.css("border-right-width", "2px");
+						el.css("border-right-width", "3px");
 						el.css("margin-left","-1px");
 						el.css("font-weight", "700");
 						$(this).first().first().mouseenter(function() {
@@ -31,7 +31,7 @@ window.onload = (function() {
 						}).mouseleave(function() {
 							el.css("border-right-color", "#03a9f4");
 							el.css("border-right-style", "solid");
-							el.css("border-right-width", "2px");
+							el.css("border-right-width", "3px");
 						});
 					}
 					if(site===6)
