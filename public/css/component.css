@@ -209,35 +209,32 @@
 
 .dr-icon-checklist:before {
 	content: "\e001";
-	margin-right:15px;
 }
 
 .dr-icon-calender:before {
 	content: "\e002";
-	margin-right:15px;
 }
 
 .dr-icon-folder:before {
 	content: "\e003";
-	margin-right:15px;
 }
 
 .dr-icon-music:before {
 	content: "\e004";
-	margin-right:15px;
 }
 
 .dr-icon-users:before {
 	content: "\e005";
-	margin-right:15px;
 }
 
 .dr-icon-messages:before {
 	content: "\e006";
+	padding-right: 3px;
 }
 
 .dr-icon-profile:before {
 	content: "\e007";
+	padding-right: 3px;
 }
 
 .dr-icon-user:before {
@@ -246,6 +243,5 @@
 
 .dr-icon-menu:before {
 	content: "\e008";
-	margin-right:15px;
 }
 
