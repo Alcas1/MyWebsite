@@ -99,14 +99,14 @@
 	-webkit-transition: -webkit-box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1) 0s;
 	-moz-transition: -moz-box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1) 0s;
 	transition: box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1) 0s;
-	background-color: #FF4081;
+	background-color: #f44336;
 	border-color: #CCC;
 	color: #FFF;
 	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.4);
 }
 
 .btn:hover, .btn2:hover {
-	background-color: #ec407a;/*#f50057*/
+	background-color: #f44336;
 }
 
 .btn:active, .btn2:active {
