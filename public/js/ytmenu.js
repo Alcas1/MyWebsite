@@ -40,6 +40,10 @@ window.onload = (function() {
 					{
 						$(this).children('a').css("width","193px");
 						$(this).children('a').css("margin-left","2px");
+						if(idx===site)
+						{
+							$(this).children('a').css("margin-left","0px");
+						}
 					}
 					
 				}
