@@ -43,7 +43,7 @@ window.onload = (function() {
 						el.css("margin-left","2px");
 						if(idx===site)
 						{
-							el.css("margin-left","2px");
+							el.css("margin-left","-2px");
 							//el.css("")
 						}
 					}
