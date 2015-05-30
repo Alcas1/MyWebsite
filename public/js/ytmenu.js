@@ -16,6 +16,7 @@ window.onload = (function() {
 			var site = checkSite();
 			if (i === site) {
 				icon.css("font", "bold");
+				alert(i);
 			}
 			trigger.addEventListener('click', function(event) {
 				if (!open) {
