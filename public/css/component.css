@@ -186,11 +186,11 @@
 
 .dr-menu ul li a:hover {
 	color: #90caf9;
-	border-left-color: #03a9f4;
-	border-left-style: solid;
-	border-left-width: 3px;
-	padding-left: 32px;
-	margin-left: -15px;
+	border-right-color: #03a9f4;
+	border-right-style: solid;
+	border-right-width: 3px;
+	/*padding-left: 32px;
+	margin-left: -15px;*/
 }
 
 .dr-icon:before, .dr-icon:after {
