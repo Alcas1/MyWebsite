@@ -36,7 +36,7 @@ window.onload = (function() {
 					}
 					if(site===6)
 					{
-						$(this).first().css("width","180px");
+						$(this).first().first().css("width","180px");
 					}
 					
 				}
