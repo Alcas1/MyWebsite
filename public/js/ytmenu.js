@@ -41,6 +41,7 @@ window.onload = (function() {
 						if (idx === site) {
 							el.css("border-right-color", "#03a9f4");
 							el.css("border-right-style", "solid");
+							el.css("border-right-width", "4px");
 							el.mouseenter(function() {
 								el.css("border-right-width", "4px");
 								el.css("padding-right", "14px");
