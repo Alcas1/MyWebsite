@@ -190,7 +190,7 @@ b {
 	background: #000000;
 }
 .text_thanks {
-	font-size:20px ;
+	font-size: 20px;
 	color: #03a9f4;
 }
 .full {
@@ -243,7 +243,7 @@ a:hover {
 .main {
 	position: relative;
 	min-height: 600px;
-	background:#EBEFF2;
+	background: #EBEFF2;
 }
 .container > header {
 	padding: 2.875em 1.875em 2.875em;
@@ -339,12 +339,14 @@ h3 {
 	float: right;
 }
 
-.part_group .part_group_content{
+.part_group .part_group_content {
 	display: block;
 	float: left;
 	box-sizing: border-box;
 	margin-bottom: 40px;
-	cursor:zoom;
+	cursor: -moz-zoom-in;
+	cursor: -webkit-zoom-in;
+	cursor: zoom-in;
 }
 .part1 .part_group .part_group_content {
 	width: 360px;
