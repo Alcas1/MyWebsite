@@ -229,17 +229,17 @@
 
 .dr-icon-users:before {
 	content: "\e005";
-	width: 21px;
+	margin-left:-3px;
 }
 
 .dr-icon-messages:before {
 	content: "\e006";
-	width: 21px;
+	margin-left:-3px;
 }
 
 .dr-icon-profile:before {
 	content: "\e007";
-	width: 21px;
+	margin-left:-3px;
 }
 
 .dr-icon-menu:before {
