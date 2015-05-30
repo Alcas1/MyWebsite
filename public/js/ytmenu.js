@@ -21,6 +21,7 @@ window.onload = (function() {
 					if(idx===site)
 					{
 						 $(this).css("font-size","20px");
+						 alert("hi");
 					}	
 				}
 			});
