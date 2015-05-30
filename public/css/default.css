@@ -243,8 +243,12 @@ a:hover {
 .main {
 	position: relative;
 	min-height: 600px;
+}
+
+#main{
 	background: #EBEFF2;
 }
+
 .container > header {
 	padding: 2.875em 1.875em 2.875em;
 	text-align: center;
