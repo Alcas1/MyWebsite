@@ -20,7 +20,7 @@ window.onload = (function() {
 					if (idx === site) {
 						//$(this).find('li').find('a').css("font-weight","700");
 						// alert($(this).find('li').find('a.dr-icon').text());
-						alert($(this).first().first().text());
+						alert($(this).first().first().css("font-weight","700"));
 						
 						
 					}
