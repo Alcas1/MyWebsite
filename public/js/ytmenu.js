@@ -11,7 +11,7 @@ window.onload = (function() {
 	function init() {
 
 		[].slice.call(document.querySelectorAll('.dr-menu')).forEach(function(el, i) {
-			console.log(i);
+			
 			var trigger = el.querySelector('div.dr-trigger'), icon = trigger.querySelector('span.dr-icon-menu'), open = false;
 			var site = checkSite();
 			if (i === site) {
@@ -36,6 +36,7 @@ window.onload = (function() {
 			}, false);
 
 			icon.addEventListener('click', function(event) {
+				console.log(i);
 				if (open) {
 					event.stopPropagation();
 					open = false;
