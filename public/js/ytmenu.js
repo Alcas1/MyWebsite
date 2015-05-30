@@ -80,7 +80,7 @@ window.onload = (function() {
 	}
 
 	function checkSite() {
-		if (window.location.href.indexOf("home") > -1) {
+		if (window.location.href.indexOf("about") > -1) {
 			alert("1");
 			return 1;
 		}
