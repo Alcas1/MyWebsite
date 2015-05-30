@@ -17,6 +17,9 @@ window.onload = (function() {
 			if (i === site) {
 				icon.css("font", "bold");
 			}
+			
+			
+			
 			trigger.addEventListener('click', function(event) {
 				if (!open) {
 
@@ -35,7 +38,7 @@ window.onload = (function() {
 				}
 			}, false);
 
-			console.log( typeof trigger);
+			console.log(icon.length());
 			icon.addEventListener('click', function(event) {
 				if (open) {
 					event.stopPropagation();
