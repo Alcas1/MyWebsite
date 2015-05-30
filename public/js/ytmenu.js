@@ -36,11 +36,11 @@ window.onload = (function() {
 						el.css("margin-left","2px");
 						if(idx===site)
 						{
-							el.mouseenter(function() {
-							el.css("border-right-width", "2px");
-						}).mouseleave(function() {
-							el.css("border-right-width", "4px");
-							el.css("margin-left","-2px");
+							// el.mouseenter(function() {
+							// el.css("border-right-width", "2px");
+						// }).mouseleave(function() {
+							// el.css("border-right-width", "4px");
+							// el.css("margin-left","-2px");
 						}
 					}
 					
