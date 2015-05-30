@@ -227,17 +227,17 @@
 	content: "\e004";
 }
 
-.dr-icon-users:before {
+.dr-menu ul .dr-icon-users:before {
 	content: "\e005";
 	margin-right:9px;
 }
 
-.dr-icon-messages:before {
+.dr-menu ul .dr-icon-messages:before {
 	content: "\e006";
 	margin-right:9px;
 }
 
-.dr-icon-profile:before {
+.dr-menu ul .dr-icon-profile:before {
 	content: "\e007";
 	margin-right:9px;
 }
