@@ -1,5 +1,5 @@
 .me {
-	color: #2196f3;
+	color: #FFFFFF;
 	font-size: 100px;
 	-webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
 	-moz-animation: fadein 3s; /* Firefox < 16 */
@@ -13,7 +13,7 @@
 
 .profession {
 	opacity: 0;
-	color: #2196f3;
+	color: #FFFFFF;
 	font-size: 40px;
 	-webkit-animation: fadein 2.5s; /* Safari, Chrome and Opera > 12.1 */
 	-moz-animation: fadein 2.5s; /* Firefox < 16 */
@@ -31,7 +31,7 @@
 
 .work {
 	opacity: 0;
-	color: #2196f3;
+	color: #FFFFFF;
 	font-size: 35px;
 	-webkit-animation: fadein 2.0s; /* Safari, Chrome and Opera > 12.1 */
 	-moz-animation: fadein 2.0s; /* Firefox < 16 */
@@ -49,7 +49,7 @@
 
 .workplace {
 	opacity: 0;
-	color: #2196f3;
+	color: #FFFFFF;
 	font-size: 35px;
 	-webkit-animation: fadein 1.5s; /* Safari, Chrome and Opera > 12.1 */
 	-moz-animation: fadein 1.5s; /* Firefox < 16 */
