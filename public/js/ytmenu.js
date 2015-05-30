@@ -22,6 +22,7 @@ window.onload = (function() {
 						el.css("border-right-color", "#03a9f4");
 						el.css("border-right-style", "solid");
 						el.css("border-right-width", "3px");
+						el.css("padding-right","5px");
 						el.css("font-weight", "700");
 						$(this).first().first().mouseenter(function() {
 							el.css("border-right-color", "#03a9f4");
