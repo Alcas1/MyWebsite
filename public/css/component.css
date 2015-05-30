@@ -207,6 +207,10 @@
 	margin-right: 12px;
 }
 
+.dr-icon-user:before {
+	content: "\e000";
+}
+
 .dr-icon-checklist:before {
 	content: "\e001";
 }
@@ -225,23 +229,21 @@
 
 .dr-icon-users:before {
 	content: "\e005";
+	width: 21px;
 }
 
 .dr-icon-messages:before {
 	content: "\e006";
+	width: 21px;
 }
 
 .dr-icon-profile:before {
 	content: "\e007";
-	padding-right: 3px;
-}
-
-.dr-icon-user:before {
-	content: "\e000";
+	width: 21px;
 }
 
 .dr-icon-menu:before {
-	padding-right: 3px;
+
 	content: "\e008";
 }
 
