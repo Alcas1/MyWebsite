@@ -38,7 +38,7 @@ window.onload = (function() {
 						if (idx === site) {
 							el.mouseenter(function() {
 								el.css("border-right-width", "4px");
-								el.css("padding-right", "4px");
+								el.css("padding-right", "12px");
 							}).mouseleave(function() {
 								el.css("border-right-width", "4px");
 								el.css("margin-left", "-2px");
