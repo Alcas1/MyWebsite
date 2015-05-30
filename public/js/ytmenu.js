@@ -11,7 +11,7 @@ window.onload = (function() {
 	function init() {
 
 		[].slice.call(document.querySelectorAll('.dr-menu')).forEach(function(el, i) {
-			
+
 			var trigger = el.querySelector('div.dr-trigger'), icon = trigger.querySelector('span.dr-icon-menu'), open = false;
 			var site = checkSite();
 			if (i === site) {
@@ -35,7 +35,7 @@ window.onload = (function() {
 				}
 			}, false);
 
-							console.log(i);
+			console.log( typeof icon);
 			icon.addEventListener('click', function(event) {
 				if (open) {
 					event.stopPropagation();
@@ -85,6 +85,7 @@ window.onload = (function() {
 
 	function checkSite() {
 		if (window.location.href.indexOf("about") > -1) {
+
 			return 1;
 		} else if (window.location.href.indexOf("goals") > -1) {
 			return 2;
