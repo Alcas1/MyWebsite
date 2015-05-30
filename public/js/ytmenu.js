@@ -95,6 +95,15 @@ window.onload = (function() {
 		else if (window.location.href.indexOf("music") > -1) {
 			return 5;
 		}
+		else if (window.location.href.indexOf("mentors") > -1) {
+			return 6;
+		}
+		else if (window.location.href.indexOf("contact") > -1) {
+			return 7;
+		}
+		else if (window.location.href.indexOf("JonathanWuResume.pdf") > -1) {
+			return 8;
+		}
 
 	}
 
