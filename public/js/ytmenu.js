@@ -13,16 +13,13 @@ window.onload = (function() {
 		[].slice.call(document.querySelectorAll('.dr-menu')).forEach(function(el, i) {
 
 			var trigger = el.querySelector('div.dr-trigger'), icon = trigger.querySelector('span.dr-icon-menu'), open = false;
-
+			var site = checkSite();
+			if (i === site) {
+				icon.css("font", "bold");
+			}
 			trigger.addEventListener('click', function(event) {
 				if (!open) {
-					var site=checkSite();
-					if(i===site)
-					{
-						trigger.css("font","bold");
-					}
-					
-					
+
 					el.className += ' dr-menu-open';
 					open = true;
 					var B = document.body, H = document.documentElement, height;
@@ -88,26 +85,19 @@ window.onload = (function() {
 	function checkSite() {
 		if (window.location.href.indexOf("about") > -1) {
 			return 1;
-		}
-		else if (window.location.href.indexOf("goals") > -1) {
+		} else if (window.location.href.indexOf("goals") > -1) {
 			return 2;
-		}
-		else if (window.location.href.indexOf("timeline") > -1) {
+		} else if (window.location.href.indexOf("timeline") > -1) {
 			return 3;
-		}
-		else if (window.location.href.indexOf("works") > -1) {
+		} else if (window.location.href.indexOf("works") > -1) {
 			return 4;
-		}
-		else if (window.location.href.indexOf("music") > -1) {
+		} else if (window.location.href.indexOf("music") > -1) {
 			return 5;
-		}
-		else if (window.location.href.indexOf("mentors") > -1) {
+		} else if (window.location.href.indexOf("mentors") > -1) {
 			return 6;
-		}
-		else if (window.location.href.indexOf("contact") > -1) {
+		} else if (window.location.href.indexOf("contact") > -1) {
 			return 7;
-		}
-		else if (window.location.href.indexOf("JonathanWuResume.pdf") > -1) {
+		} else if (window.location.href.indexOf("JonathanWuResume.pdf") > -1) {
 			return 8;
 		}
 
