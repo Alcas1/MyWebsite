@@ -68,7 +68,6 @@
 .enter_btn {
 	padding-top: 70px;
 	opacity: 0;
-	color: #2196f3;
 	font-size: 35px;
 	-webkit-animation: fadein 1.0s; /* Safari, Chrome and Opera > 12.1 */
 	-moz-animation: fadein 1.0s; /* Firefox < 16 */
