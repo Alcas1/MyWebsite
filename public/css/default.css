@@ -343,7 +343,7 @@ h3 {
 	float: left;
 	box-sizing: border-box;
 	margin-bottom: 40px;
-	cursor:pointer;
+	cursor:zoom;
 }
 .part1 .part_group .part_group_content {
 	width: 360px;
