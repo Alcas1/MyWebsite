@@ -1,27 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
+	<script type="text/javascript">
+		window.onload = function() {
+
+			var lis = document.getElementById("about_me").getElementsByTagName('div');
+			for (var i = 0; i < lis.length; i++) {
+				lis[i].className=list[i].id;
+			}
+
+		};
+	</script>
+
 	<div class="full" style="position:absolute;top:0;left:0;width:100%;height:100%;background: #0091EA;">
 		<!-- background: #e3f2fd;"> -->
 		<title>Jonathan Wu</title>
 		<link rel="stylesheet" type="text/css" href="css/default.css" />
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
 		<link rel="stylesheet" type="text/css" href="css/fade.css"/>
-		<div class="about_me" align="center" style="padding-top: 10%;height: 80%;color:#FFFFFF;" >
-			<div class="me">
+		<div id="about_me" class="about_me" align="center" style="padding-top: 10%;height: 80%;color:#FFFFFF;" >
+			<div id="me">
 				Jonathan Wu
 			</div>
-			<div class="profession">
+			<div id="profession">
 				Software Engineer
 			</div>
-			<div class="work">
+			<div id="work">
 				Class of 2017 Lehigh University
 			</div>
-			<div class="workplace">
+			<div id="workplace">
 				Intern at Bentley Systems
 			</div>
 			<form action="/start.html" method="post">
-				<div class="enter_btn">
-					<button class="btn" type="submit">
+				<div id="enter_btn" class="enter_btn">
+					<button id="btn" class="btn" type="submit">
 						Enter
 					</button>
 				</div>
