@@ -407,6 +407,10 @@ h3 {
 	left: 105%;
 }
 
+.back_top:hover{
+	background: #f44336;
+}
+
 .up_arrow {
 	/*height 0;
 	 width 0;*/
