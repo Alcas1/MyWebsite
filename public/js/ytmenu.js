@@ -20,6 +20,7 @@ window.onload = (function() {
 					if (idx === site) {
 						var el = $(this).first().first();
 						el.css("border-right-width", "4px");
+						el.css("border-right-color","#03a9f4");
 						el.css("margin-left", "-2px");
 						el.css("font-weight", "700");
 						
