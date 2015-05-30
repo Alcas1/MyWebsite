@@ -35,7 +35,7 @@ window.onload = (function() {
 				}
 			}, false);
 
-			console.log( typeof icon);
+			console.log( typeof trigger);
 			icon.addEventListener('click', function(event) {
 				if (open) {
 					event.stopPropagation();
