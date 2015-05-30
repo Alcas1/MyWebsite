@@ -89,6 +89,7 @@ function init() {
 
 		fillImage(1);
 		fillImage(2);
+		fillImage(3);
 
 		// var cover = document.getElementById('cover');
 		// cover.addEventListener('click', function(event) {
@@ -133,7 +134,6 @@ function fillImage(imageNumber) {
 			var max = (($(window).width() * .8 < $(window).height() * .8) ? $(window).width() * .8 : $(window).height() * .8);
 			eTop = jImg.offset().top - $(window).scrollTop();
 			eLeft = jImg.offset().left;
-			console.log(jImg.offset().top - $(window).scrollTop());
 			jImg.css("box-shadow"," 0px 5px 10px #ffffff");
 			jImg.css("position", "fixed");
 			jImg.animate({
@@ -147,7 +147,6 @@ function fillImage(imageNumber) {
 				marginTop : (-max / 2),
 				marginLeft : (-max / 2),
 				top : '50%',
-
 				left : '50%'
 			}, 300);
 
