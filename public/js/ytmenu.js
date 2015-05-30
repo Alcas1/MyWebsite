@@ -81,8 +81,19 @@ window.onload = (function() {
 
 	function checkSite() {
 		if (window.location.href.indexOf("about") > -1) {
-			alert("1");
 			return 1;
+		}
+		else if (window.location.href.indexOf("goals") > -1) {
+			return 2;
+		}
+		else if (window.location.href.indexOf("timeline") > -1) {
+			return 3;
+		}
+		else if (window.location.href.indexOf("works") > -1) {
+			return 4;
+		}
+		else if (window.location.href.indexOf("music") > -1) {
+			return 5;
 		}
 
 	}

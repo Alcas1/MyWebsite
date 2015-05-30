@@ -204,11 +204,11 @@ class Main < Sinatra::Base
   #  erb :music
   #end
 
-  get '/music0' do
+  get '/music' do
     @title='Music'
     @year_number='My Music'
     @second_title='Jonathan Wu'
-    erb :music0
+    erb :music
   end
 
   get '/music1' do
