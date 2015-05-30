@@ -18,14 +18,19 @@ window.onload = (function() {
 			$('.dr-menu ul').children().each(function(idx, val) {
 				if (idx < 8) {
 					if (idx === site) {
-						$(this).first().first().css("border-right-color", "#03a9f4");
-						$(this).first().first().css("border-right-style", "solid");
-						$(this).first().first().css("border-right-width", "4px");
-						$(this).first().first().css("font-weight", "700");
-						$(this).first().first().hover(function() {
-							$(this).first().first().css("border-right-color", "#03a9f4");
-							$(this).first().first().css("border-right-style", "solid");
-							$(this).first().first().css("border-right-width", "2px");
+						var el=$(this).first().first();
+						el.css("border-right-color", "#03a9f4");
+						el.css("border-right-style", "solid");
+						el.css("border-right-width", "4px");
+						el.css("font-weight", "700");
+						$(this).first().first().mouseenter(function() {
+							el.css("border-right-color", "#03a9f4");
+							el.css("border-right-style", "solid");
+							el.css("border-right-width", "2px");
+						}).mouseleave(function() {
+							el.css("border-right-color", "#03a9f4");
+							el.css("border-right-style", "solid");
+							el.css("border-right-width", "4px");
 						});
 					}
 				}
