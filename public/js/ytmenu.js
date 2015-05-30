@@ -15,7 +15,7 @@ window.onload = (function() {
 			var trigger = el.querySelector('div.dr-trigger'), icon = trigger.querySelector('span.dr-icon-menu'), open = false;
 			var site = checkSite();
 			
-			$('.dr-menu ul').children().each(function(idx, val) {
+			$('.dr-menu ul').children().toArray().each(function(idx, val) {
 				if(idx<8)
 				{
 					if(idx===site)
