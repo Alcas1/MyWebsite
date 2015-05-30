@@ -28,6 +28,7 @@ window.onload = (function() {
 							el.css("border-right-color", "#03a9f4");
 							el.css("border-right-style", "solid");
 							el.css("border-right-width", "2px");
+							el.css("margin-left","-1px");
 						}).mouseleave(function() {
 							el.css("border-right-color", "#03a9f4");
 							el.css("border-right-style", "solid");
