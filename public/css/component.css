@@ -186,10 +186,10 @@
 }
 
 .dr-menu ul li a.dr-icon-messages{
-	margin-right:4px;
+	/*margin-right:4px;
 	border-right-color: #03a9f4;
 	border-right-style: solid;
-	border-right-width: 4px;
+	border-right-width: 4px;*/
 }
 
 .dr-menu ul li a:hover {
