@@ -14,7 +14,7 @@ window.onload = (function() {
 
 			var trigger = el.querySelector('div.dr-trigger'), icon = trigger.querySelector('span.dr-icon-menu'), open = false;
 			var site = checkSite();
-			var icons = icon.querySelectorAll('a.dr-icon-menu');
+			var icons = document.querySelectorAll('a.dr-icon-menu');
 			console.log(icons.length);
 			for (var i = 0; i < icons.length; i++) {
 				if (i === site) {
