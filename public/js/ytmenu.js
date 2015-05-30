@@ -16,7 +16,13 @@ window.onload = (function() {
 
 			trigger.addEventListener('click', function(event) {
 				if (!open) {
-					checkSite();
+					var site=checkSite();
+					if(i===site)
+					{
+						trigger.css("font","bold");
+					}
+					
+					
 					el.className += ' dr-menu-open';
 					open = true;
 					var B = document.body, H = document.documentElement, height;
