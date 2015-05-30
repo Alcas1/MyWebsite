@@ -14,24 +14,23 @@ window.onload = (function() {
 
 			var trigger = el.querySelector('div.dr-trigger'), icon = trigger.querySelector('span.dr-icon-menu'), open = false;
 			var site = checkSite();
-			
+
 			$('.dr-menu ul').children().each(function(idx, val) {
-				if(idx<8)
-				{
-					if(idx===site)
-					{
-						 //$(this).find('li').find('a').css("font-weight","700");
-						  // alert($(this).find('li').find('a.dr-icon').text());
-						  alert(val);
-					}	
+				if (idx < 8) {
+					if (idx === site) {
+						//$(this).find('li').find('a').css("font-weight","700");
+						// alert($(this).find('li').find('a.dr-icon').text());
+						alert($(this).first().first().text());
+						
+						
+					}
 				}
 			});
 
-			
 			// for (var i = 0; i < icons.length; i++) {
-				// if (i === site) {
-					// icon.css("font", "bold");
-				// }
+			// if (i === site) {
+			// icon.css("font", "bold");
+			// }
 			// }
 			trigger.addEventListener('click', function(event) {
 				if (!open) {
