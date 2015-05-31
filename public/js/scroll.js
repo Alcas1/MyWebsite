@@ -209,7 +209,7 @@ function fillImage(imageNumber) {
 			console.log(ratio);
 			jCaption.css("font-family", "Raleway");
 			jCaption.animate({
-				fontSize : "20px",
+				fontSize : "22px",
 				marginTop : (((-max / 2) + ((nHeight > max) ? max * 2 : nHeight)) + 50) + "px",
 				marginLeft : -50,
 				top : '50%',

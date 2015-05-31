@@ -136,7 +136,7 @@ window.onload = (function() {
 			return 3;
 		} else if (window.location.href.indexOf("music") > -1) {
 			return 4;
-		} else if (window.location.href.indexOf("guiders") > -1) {
+		} else if (window.location.href.indexOf("mentors") > -1) {
 			return 5;
 		} else if (window.location.href.indexOf("contact") > -1) {
 			return 6;

@@ -99,11 +99,11 @@ class Main < Sinatra::Base
 
   end
 
-  get '/guiders' do
+  get '/mentors' do
     @title='Mentors'
     @year_number='Mentors'
     @second_title='Jonathan Wu'
-    erb :guiders
+    erb :mentors
   end
 
   post '/guiders' do
