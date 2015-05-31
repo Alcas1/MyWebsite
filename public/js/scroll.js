@@ -32,7 +32,7 @@ function init() {
 		document.getElementById('back_top').addEventListener("click", function(e) {
 			$('#back_top').animate({
 					boxShadow: "0px 0px 0px #888888"
-			});
+			},1);
 			
 			
 			
