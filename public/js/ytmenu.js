@@ -127,9 +127,8 @@ window.onload = (function() {
 
 	function checkSite() {
 		if (window.location.href.indexOf("about") > -1) {
-
 			return 0;
-		} else if (window.location.href.indexOf("goals") > -1) {
+		} else if (window.location.href.indexOf("skills") > -1) {
 			return 1;
 		} else if (window.location.href.indexOf("timeline") > -1) {
 			return 2;
