@@ -32,17 +32,17 @@ function init() {
 		document.getElementById('back_top').addEventListener("click", function(e) {
 			$('#back_top').animate({
 					boxShadow: "0px 0px 0px #888888"
-			},0);
+			});
 			
-			$('#back_top').animate({
-					boxShadow: "0px 3px 3px #888888"
-			},5);
+			
 			
 			$('html, body').animate({
 				scrollTop : 0
 			}, 300, 'easeInOutQuad');
 			
-			
+			$('#back_top').animate({
+					boxShadow: "0px 3px 3px #888888"
+			},5);
 			
 		});
 
