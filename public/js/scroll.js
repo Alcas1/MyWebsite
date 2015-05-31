@@ -1,8 +1,6 @@
-
-//maybe I'll try to make functions or 
+//maybe I'll try to make functions or
 //things easier to read lol
 //this was probably the hardest js i've written so far
-
 
 function init() {
 
@@ -33,8 +31,8 @@ function init() {
 			$("#content10 #back_top").css("top", ($(window).height() - 100) + "px");
 			$("#content10 #back_top").css("left", ($(window).width() - 100) + "px");
 		}
-		
-		var bt=$("#back_top");
+
+		var bt = $("#back_top");
 		bt.mousedown(function(e) {
 			bt.css("background", "#ff1744");
 			bt.animate({
@@ -42,17 +40,17 @@ function init() {
 			}, 1);
 
 			$('html, body').animate({
-			scrollTop : 0
+				scrollTop : 0
 			}, 300, 'easeInOutQuad');
 		});
-		
-		bt.mouseenter(function(e){
+
+		bt.mouseenter(function(e) {
 			bt.css("background", "#ff1744");
 			bt.animate({
 				boxShadow : "0px 3px 6px #888888"
 			}, 1);
 		});
-		bt.mouseleave(function(e){
+		bt.mouseleave(function(e) {
 			bt.css("background", "#ff5252");
 			bt.animate({
 				boxShadow : "0px 3px 6px #888888"
@@ -155,28 +153,50 @@ function init() {
 function fillImage(imageNumber) {
 	var fill = false;
 	var img = document.getElementById('content_img_small_' + imageNumber);
+
 	img.addEventListener('click', function(event) {
 
 		if (!fill) {
 			var jImg = $('#content_img_small_' + imageNumber);
+			var jCaption = $('#caption_' + imageNumber);
 			event.stopPropagation();
 			fill = true;
 			jImg.css("position", "absolute");
+			jCaption.css("position", "absolute");
 			var max = (($(window).width() * .8 < $(window).height() * .8) ? $(window).width() * .8 : $(window).height() * .8);
 			eTop = jImg.offset().top - $(window).scrollTop();
 			eLeft = jImg.offset().left;
+			jTop = jCaption.offset().top - $(window).scrollTop();
+			jLeft = jCaption.offset().left;
 			jImg.css("box-shadow", " 0px 0px 15px #ffffff");
 			jImg.css("cursor", "auto"), jImg.css("position", "fixed");
 			jImg.css("z-index", "2");
+
+			jCaption.css("position", "fixed");
+			jCaption.css("z-index", "2");
 			jImg.animate({
 				top : eTop,
 				left : eLeft
+			}, 0);
+
+			jCaption.animate({
+				top : jTop,
+				left : jLeft
 			}, 0);
 
 			jImg.animate({
 				maxWidth : max,
 				width : max,
 				marginTop : (-max / 2),
+				marginLeft : (-max / 2),
+				top : '50%',
+				left : '50%'
+			}, 300);
+			
+			jImg.animate({
+				maxWidth : max,
+				width : max,
+				marginTop : (-max / 2)+200,
 				marginLeft : (-max / 2),
 				top : '50%',
 				left : '50%'
