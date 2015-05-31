@@ -153,7 +153,7 @@ function init() {
 function fillImage(imageNumber) {
 	var fill = false;
 	var img = document.getElementById('content_img_small_' + imageNumber);
-	
+
 	img.addEventListener('click', function(event) {
 
 		if (!fill) {
@@ -171,7 +171,7 @@ function fillImage(imageNumber) {
 			jImg.css("box-shadow", " 0px 0px 15px #ffffff");
 			jImg.css("cursor", "auto"), jImg.css("position", "fixed");
 			jImg.css("z-index", "2");
-			jCaption.css("color","#ffffff");
+			jCaption.css("color", "#ffffff");
 			jCaption.css("position", "fixed");
 			jCaption.css("z-index", "2");
 			jImg.animate({
@@ -180,8 +180,8 @@ function fillImage(imageNumber) {
 			}, 0);
 
 			// jCaption.animate({
-				// top : jTop,
-				// left : jLeft
+			// top : jTop,
+			// left : jLeft
 			// }, 0);
 
 			jImg.animate({
@@ -192,9 +192,9 @@ function fillImage(imageNumber) {
 				top : '50%',
 				left : '50%'
 			}, 300);
-			console.log(((-max / 2)+eTop+200));
+			console.log(((-max / 2) + eTop + 200));
 			jCaption.animate({
-				marginTop : ((-max / 2)+(jImg.height())*2)-100+"px",
+				marginTop : ((-max / 2) + ((jImg.height() < jImg.width()) ? jImg.width() : jImg.height()) * 2) - 100 + "px",
 				marginLeft : (-max / 2),
 				top : '50%',
 				left : '50%'
