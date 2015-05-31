@@ -171,7 +171,7 @@ function fillImage(imageNumber) {
 			jImg.css("box-shadow", " 0px 0px 15px #ffffff");
 			jImg.css("cursor", "auto"), jImg.css("position", "fixed");
 			jImg.css("z-index", "2");
-
+			jCaption.css("color","#ffffff");
 			jCaption.css("position", "fixed");
 			jCaption.css("z-index", "2");
 			jImg.animate({
@@ -194,8 +194,6 @@ function fillImage(imageNumber) {
 			}, 300);
 			
 			jCaption.animate({
-				maxWidth : max,
-				width : max,
 				marginTop : ((-max / 2)+jImg.height()+200)+"px",
 				marginLeft : (-max / 2),
 				top : '50%',
