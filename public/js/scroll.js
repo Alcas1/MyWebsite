@@ -183,10 +183,11 @@ function fillImage(imageNumber) {
 			// top : jTop,
 			// left : jLeft
 			// }, 0);
-
+			var ratio;
 			jImg.animate({
 				maxWidth : max,
 				width : max,
+				ratio:height,
 				marginTop : (-max / 2),
 				marginLeft : (-max / 2),
 				top : '50%',
