@@ -32,11 +32,11 @@ function init() {
 		document.getElementById('back_top').addEventListener("click", function(e) {
 			$(this).animate({
 					boxShadow: "0px 1px 3px #888888"
-			},25);
+			},0);
 			
 			$(this).animate({
 					boxShadow: "0px 3px 3px #888888"
-			},25);
+			},5);
 			
 			$('html, body').animate({
 				scrollTop : 0
