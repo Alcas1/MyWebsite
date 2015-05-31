@@ -183,21 +183,19 @@ function fillImage(imageNumber) {
 			// top : jTop,
 			// left : jLeft
 			// }, 0);
-			var ratio;
+			var ratio=max/jImg.width();
+			var nHeight=ratio*jImg.height();
 			jImg.animate({
 				maxWidth : max,
 				width : max,
 				marginTop : (-max / 2),
 				marginLeft : (-max / 2),
 				top : '50%',
-				left : '50%',
-				complete:{
-					ratio:jImg.height()
-				}
+				left : '50%'
 			}, 300);
 			console.log(ratio);
 			jCaption.animate({
-				marginTop : ((-max / 2) + ((jImg.height() > max) ? max : jImg.height()) * 2) - 100 + "px",
+				marginTop : ((-max / 2) + ((nHeight > max) ? max : nHeight) * 2) - 100 + "px",
 				marginLeft : (-max / 2),
 				top : '50%',
 				left : '50%'
