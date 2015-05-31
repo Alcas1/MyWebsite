@@ -48,9 +48,15 @@ function init() {
 		
 		bt.mouseenter(function(e){
 			bt.css("background", "#f50057");
+			bt.animate({
+				boxShadow : "0px 3px 3px #888888"
+			}, 1);
 		});
 		bt.mouseleave(function(e){
 			bt.css("background", "#ff5252");
+			bt.animate({
+				boxShadow : "0px 3px 3px #888888"
+			}, 1);
 		});
 
 		bt.mouseup(function(e) {
