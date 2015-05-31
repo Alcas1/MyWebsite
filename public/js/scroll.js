@@ -194,8 +194,8 @@ function fillImage(imageNumber) {
 			}, 300);
 			console.log(((-max / 2)+eTop+200));
 			jCaption.animate({
-				marginTop : ((-max / 2)+eTop+200)+"px",
-				marginLeft : (-max / 2),
+				marginTop : ((-max / 2)+eTop+100),
+				marginLeft : (-max / 2)+eLeft,
 				top : '50%',
 				left : '50%'
 			}, 0);
