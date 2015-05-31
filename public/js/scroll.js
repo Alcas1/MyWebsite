@@ -60,7 +60,7 @@ function init() {
 		});
 
 		bt.mouseup(function(e) {
-			bt.css("background", "#ff5252");
+			// bt.css("background", "#ff5252");
 			bt.animate({
 				boxShadow : "0px 3px 6px #888888"
 			}, 1);
