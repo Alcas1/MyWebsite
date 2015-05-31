@@ -179,10 +179,10 @@ function fillImage(imageNumber) {
 				left : eLeft
 			}, 0);
 
-			jCaption.animate({
-				top : jTop,
-				left : jLeft
-			}, 0);
+			// jCaption.animate({
+				// top : jTop,
+				// left : jLeft
+			// }, 0);
 
 			jImg.animate({
 				maxWidth : max,
@@ -193,14 +193,14 @@ function fillImage(imageNumber) {
 				left : '50%'
 			}, 300);
 			
-			jCaption.animate({
-				maxWidth : max,
-				width : max,
-				marginTop : (-max / 2)+jImg.height+200,
-				marginLeft : (-max / 2),
-				top : '50%',
-				left : '50%'
-			}, 300);
+			// jCaption.animate({
+				// maxWidth : max,
+				// width : max,
+				// marginTop : (-max / 2)+jImg.height+200,
+				// marginLeft : (-max / 2),
+				// top : '50%',
+				// left : '50%'
+			// }, 300);
 
 			shade(open, event);
 		}
