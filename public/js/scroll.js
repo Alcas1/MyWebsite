@@ -29,23 +29,38 @@ function init() {
 		}
 		//var lis = document.getElementById("content_list").getElementsByTagName('li');
 
-		document.getElementById('back_top').addEventListener("click", function(e) {
-			$('#back_top').css("background","#c51162");
+		$("#back_top").mousedown(function(e) {
+			$('#back_top').css("background", "#c51162");
 			$('#back_top').animate({
-					boxShadow: "0px 0px 0px #888888"
-			},1);
-			
-			
-			
+				boxShadow : "0px 0px 0px #888888"
+			}, 1);
+
 			// $('html, body').animate({
-				// scrollTop : 0
+			// scrollTop : 0
 			// }, 300, 'easeInOutQuad');
-			
+
+			// $('#back_top').animate({
+			// boxShadow : "0px 3px 3px #888888"
+			// }, 1);
+			// $('#back_top').css("background", "#ff5252");
+
+		});
+
+		$("#back_top").mouseup(function(e) {
+			$('#back_top').css("background", "#ff5252");
 			$('#back_top').animate({
-					boxShadow: "0px 3px 3px #888888"
-			},1);
-			$('#back_top').css("background","#ff5252");
-			
+				boxShadow : "0px 3px 3px #888888"
+			}, 1);
+
+			// $('html, body').animate({
+			// scrollTop : 0
+			// }, 300, 'easeInOutQuad');
+
+			// $('#back_top').animate({
+			// boxShadow : "0px 3px 3px #888888"
+			// }, 1);
+			// $('#back_top').css("background", "#ff5252");
+
 		});
 
 		for (var i = 0; i < lis.length; i++) {
