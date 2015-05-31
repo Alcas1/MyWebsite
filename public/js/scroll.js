@@ -193,10 +193,10 @@ function fillImage(imageNumber) {
 				left : '50%'
 			}, 300);
 			
-			jImg.animate({
+			jCaption.animate({
 				maxWidth : max,
 				width : max,
-				marginTop : (-max / 2)+200,
+				marginTop : (-max / 2)+jImg.height+200,
 				marginLeft : (-max / 2),
 				top : '50%',
 				left : '50%'
