@@ -36,9 +36,9 @@ function init() {
 			
 			
 			
-			$('html, body').animate({
-				scrollTop : 0
-			}, 300, 'easeInOutQuad');
+			// $('html, body').animate({
+				// scrollTop : 0
+			// }, 300, 'easeInOutQuad');
 			
 			$('#back_top').animate({
 					boxShadow: "0px 3px 3px #888888"
