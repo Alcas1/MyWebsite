@@ -30,7 +30,10 @@ function init() {
 		//var lis = document.getElementById("content_list").getElementsByTagName('li');
 
 		document.getElementById('back_top').addEventListener("click", function(e) {
-
+			$(this).animate({
+					boxShadow: "0px 1px 3px #888888"
+			},25);
+			
 			$('html, body').animate({
 				scrollTop : 0
 			}, 300, 'easeInOutQuad');
@@ -123,24 +126,33 @@ function init() {
 
 function fillImage(imageNumber) {
 	var fill = false;
-	var img = document.getElementById('content_img_small_'+imageNumber);
+	var img = document.getElementById('content_img_small_' + imageNumber);
 	img.addEventListener('click', function(event) {
 
 		if (!fill) {
-			var jImg = $('#content_img_small_'+imageNumber);
+			var jImg = $('#content_img_small_' + imageNumber);
 			event.stopPropagation();
 			fill = true;
 			jImg.css("position", "absolute");
 			var max = (($(window).width() * .8 < $(window).height() * .8) ? $(window).width() * .8 : $(window).height() * .8);
 			eTop = jImg.offset().top - $(window).scrollTop();
 			eLeft = jImg.offset().left;
-			jImg.css("box-shadow"," 0px 0px 15px #ffffff");
-			jImg.css("cursor","auto"),
-			jImg.css("position", "fixed");
-			jImg.css("z-index","2");
-			jImg.animate({top : eTop,left : eLeft}, 0);
+			jImg.css("box-shadow", " 0px 0px 15px #ffffff");
+			jImg.css("cursor", "auto"), jImg.css("position", "fixed");
+			jImg.css("z-index", "2");
+			jImg.animate({
+				top : eTop,
+				left : eLeft
+			}, 0);
 
-			jImg.animate({maxWidth : max,width : max,marginTop : (-max / 2),marginLeft : (-max / 2),top : '50%',left : '50%'}, 300);
+			jImg.animate({
+				maxWidth : max,
+				width : max,
+				marginTop : (-max / 2),
+				marginLeft : (-max / 2),
+				top : '50%',
+				left : '50%'
+			}, 300);
 
 			shade(open, event);
 		}
@@ -150,12 +162,12 @@ function fillImage(imageNumber) {
 	cover.addEventListener('click', function(event) {
 		if (open) {
 			event.stopPropagation();
-			$('#content_img_small_'+imageNumber).css("position", "absolute");
-			$('#content_img_small_'+imageNumber).animate({
+			$('#content_img_small_' + imageNumber).css("position", "absolute");
+			$('#content_img_small_' + imageNumber).animate({
 
 			}, 500);
 
-			$('#content_img_small_'+imageNumber).removeAttr('style');
+			$('#content_img_small_' + imageNumber).removeAttr('style');
 
 			fill = false;
 			$('#cover').animate({
