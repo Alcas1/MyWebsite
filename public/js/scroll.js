@@ -27,10 +27,10 @@ function init() {
 			$("#content10 #back_top").css("top", ($(window).height() - 100) + "px");
 			$("#content10 #back_top").css("left", ($(window).width() - 100) + "px");
 		}
-		//var lis = document.getElementById("content_list").getElementsByTagName('li');
+		
 		var bt=$("#back_top");
 		bt.mousedown(function(e) {
-			bt.css("background", "#ff5252");
+			bt.css("background", "#ff1744");
 			bt.animate({
 				boxShadow : "0px 0px 0px #888888"
 			}, 1);
@@ -38,16 +38,10 @@ function init() {
 			$('html, body').animate({
 			scrollTop : 0
 			}, 300, 'easeInOutQuad');
-
-			// $('#back_top').animate({
-			// boxShadow : "0px 3px 3px #888888"
-			// }, 1);
-			// $('#back_top').css("background", "#ff5252");
-
 		});
 		
 		bt.mouseenter(function(e){
-			bt.css("background", "#f50057");
+			bt.css("background", "#ff1744");
 			bt.animate({
 				boxShadow : "0px 3px 3px #888888"
 			}, 1);
@@ -64,15 +58,6 @@ function init() {
 			bt.animate({
 				boxShadow : "0px 3px 3px #888888"
 			}, 1);
-
-			// $('html, body').animate({
-			// scrollTop : 0
-			// }, 300, 'easeInOutQuad');
-
-			// $('#back_top').animate({
-			// boxShadow : "0px 3px 3px #888888"
-			// }, 1);
-			// $('#back_top').css("background", "#ff5252");
 
 		});
 
