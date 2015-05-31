@@ -1,6 +1,19 @@
 //maybe I'll try to make functions or
 //things easier to read lol
 //this was probably the hardest js i've written so far
+WebFontConfig = {
+	google : {
+		families : ['Raleway:300,400,700:latin']
+	}
+};
+(function() {
+	var wf = document.createElement('script');
+	wf.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+	wf.type = 'text/javascript';
+	wf.async = 'true';
+	var s = document.getElementsByTagName('script')[0];
+	s.parentNode.insertBefore(wf, s);
+})();
 
 function init() {
 
@@ -183,8 +196,8 @@ function fillImage(imageNumber) {
 			// top : jTop,
 			// left : jLeft
 			// }, 0);
-			var ratio=max/jImg.width();
-			var nHeight=ratio*jImg.height();
+			var ratio = max / jImg.width();
+			var nHeight = ratio * jImg.height();
 			jImg.animate({
 				maxWidth : max,
 				width : max,
@@ -194,10 +207,10 @@ function fillImage(imageNumber) {
 				left : '50%'
 			}, 300);
 			console.log(ratio);
+			jCaption.css("font-family", "Raleway");
 			jCaption.animate({
-				fontSize:"20px",
-				fontFamily:"Raleway",
-				marginTop : (((-max / 2) + ((nHeight > max) ? max*2 : nHeight))+50) + "px",
+				fontSize : "20px",
+				marginTop : (((-max / 2) + ((nHeight > max) ? max * 2 : nHeight)) + 50) + "px",
 				marginLeft : -50,
 				top : '50%',
 				left : '50%'
@@ -217,7 +230,7 @@ function fillImage(imageNumber) {
 			}, 500);
 
 			$('#content_img_small_' + imageNumber).removeAttr('style');
-			$('#caption_'+imageNumber).removeAttr('style');
+			$('#caption_' + imageNumber).removeAttr('style');
 			fill = false;
 			$('#cover').animate({
 				opacity : '0'
