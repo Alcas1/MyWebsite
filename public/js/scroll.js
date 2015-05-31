@@ -179,10 +179,10 @@ function fillImage(imageNumber) {
 				left : eLeft
 			}, 0);
 
-			jCaption.animate({
-				top : jTop,
-				left : jLeft
-			}, 0);
+			// jCaption.animate({
+				// top : jTop,
+				// left : jLeft
+			// }, 0);
 
 			jImg.animate({
 				maxWidth : max,
