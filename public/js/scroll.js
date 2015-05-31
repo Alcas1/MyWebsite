@@ -217,7 +217,7 @@ function fillImage(imageNumber) {
 			}, 500);
 
 			$('#content_img_small_' + imageNumber).removeAttr('style');
-
+			$('#caption_'+imageNumber).removeAttr('style');
 			fill = false;
 			$('#cover').animate({
 				opacity : '0'
