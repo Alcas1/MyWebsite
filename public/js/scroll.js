@@ -4,7 +4,7 @@
 
 function init() {
 
-	$(document).load(function() {
+	$(document).ready(function() {
 		var top_element = 10;
 		var lis = document.getElementById("content_list").getElementsByTagName('li');
 		var semiTop = 0;
