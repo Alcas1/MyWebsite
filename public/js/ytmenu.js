@@ -20,6 +20,7 @@ window.onload = (function() {
 					if (idx === site) {
 						if (site !== 6) {
 							var el = $(this).first().first();
+							// el.animate()
 							el.css("border-right-width", "4px");
 							el.css("border-right-color", "#03a9f4");
 							el.css("border-right-style", "solid");
