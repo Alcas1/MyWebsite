@@ -192,7 +192,7 @@ function fillImage(imageNumber) {
 				top : '50%',
 				left : '50%'
 			}, 300);
-			console.log(jImg.maxWidth());
+			//console.log(jImg.maxWidth());
 			jCaption.animate({
 				marginTop : ((-max / 2) + ((jImg.height() > max) ? max : jImg.height()) * 2) - 100 + "px",
 				marginLeft : (-max / 2),
