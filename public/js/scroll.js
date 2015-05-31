@@ -28,10 +28,10 @@ function init() {
 			$("#content10 #back_top").css("left", ($(window).width() - 100) + "px");
 		}
 		//var lis = document.getElementById("content_list").getElementsByTagName('li');
-
-		$("#back_top").mousedown(function(e) {
-			$('#back_top').css("background", "#c51162");
-			$('#back_top').animate({
+		var bt=$("#back_top");
+		bt.mousedown(function(e) {
+			bt.css("background", "#d81b60");
+			bt.animate({
 				boxShadow : "0px 0px 0px #888888"
 			}, 1);
 
@@ -45,10 +45,17 @@ function init() {
 			// $('#back_top').css("background", "#ff5252");
 
 		});
+		
+		bt.mouseenter(function(e){
+			bt.css("background", "#f50057");
+		});
+		bt.mouseleave(function(e){
+			bt.css("background", "#ff5252");
+		});
 
-		$("#back_top").mouseup(function(e) {
-			$('#back_top').css("background", "#ff5252");
-			$('#back_top').animate({
+		bt.mouseup(function(e) {
+			bt.css("background", "#ff5252");
+			bt.animate({
 				boxShadow : "0px 3px 3px #888888"
 			}, 1);
 
