@@ -35,9 +35,9 @@ function init() {
 				boxShadow : "0px 0px 0px #888888"
 			}, 1);
 
-			// $('html, body').animate({
-			// scrollTop : 0
-			// }, 300, 'easeInOutQuad');
+			$('html, body').animate({
+			scrollTop : 0
+			}, 300, 'easeInOutQuad');
 
 			// $('#back_top').animate({
 			// boxShadow : "0px 3px 3px #888888"
