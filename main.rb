@@ -52,6 +52,17 @@ class Main < Sinatra::Base
     redirect '/about'
   end
 
+  get '/skills' do
+    @title= 'Jonathan Wu'
+    @year_number='Skills'
+    @second_title='Jonathan Wu'
+    erb :skills
+  end
+
+  post '/skills' do
+    
+  end
+
 
   get '/about' do
 
@@ -78,15 +89,13 @@ class Main < Sinatra::Base
 
   get '/timeline' do
     @title='Timeline'
-    @year_number='My Timeline'
+    @year_number='Timeline'
     @second_title='Jonathan Wu'
     erb :timeline
 
   end
 
   post '/timeline' do
-
-
 
   end
 
