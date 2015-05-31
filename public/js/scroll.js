@@ -30,11 +30,11 @@ function init() {
 		//var lis = document.getElementById("content_list").getElementsByTagName('li');
 
 		document.getElementById('back_top').addEventListener("click", function(e) {
-			$(this).animate({
+			$('#back_top').animate({
 					boxShadow: "0px 0px 0px #888888"
 			},0);
 			
-			$(this).animate({
+			$('#back_top').animate({
 					boxShadow: "0px 3px 3px #888888"
 			},5);
 			
