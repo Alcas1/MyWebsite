@@ -6,7 +6,7 @@
 
 function init() {
 
-	$(document).load(function() {
+	$(document).ready(function() {
 		var top_element = 10;
 		var lis = document.getElementById("content_list").getElementsByTagName('li');
 		var semiTop = 0;
@@ -49,20 +49,20 @@ function init() {
 		bt.mouseenter(function(e){
 			bt.css("background", "#ff1744");
 			bt.animate({
-				boxShadow : "0px 3px 6px #888888"
+				boxShadow : "0px 3px 3px #888888"
 			}, 1);
 		});
 		bt.mouseleave(function(e){
 			bt.css("background", "#ff5252");
 			bt.animate({
-				boxShadow : "0px 3px 6px #888888"
+				boxShadow : "0px 3px 3px #888888"
 			}, 1);
 		});
 
 		bt.mouseup(function(e) {
 			bt.css("background", "#ff5252");
 			bt.animate({
-				boxShadow : "0px 3px 6px #888888"
+				boxShadow : "0px 3px 3px #888888"
 			}, 1);
 
 		});
