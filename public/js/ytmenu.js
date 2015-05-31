@@ -6,6 +6,10 @@ jQuery.fn.center = function() {
 	return this;
 };
 
+
+
+
+
 window.onload = (function() {
 
 	function init() {
@@ -129,7 +133,7 @@ window.onload = (function() {
 			return 1;
 		} else if (window.location.href.indexOf("timeline") > -1) {
 			return 2;
-		} else if (window.location.href.indexOf("works") > -1) {
+		} else if (window.location.href.indexOf("projects") > -1) {
 			return 3;
 		} else if (window.location.href.indexOf("music") > -1) {
 			return 4;
