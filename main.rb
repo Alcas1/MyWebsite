@@ -489,7 +489,7 @@ class Main < Sinatra::Base
   end
   
     
-  error 400..499,501..510 do
+  error 400..499 do
     @title='Error'
     @year_number='Error'
     @second_title='Jonathan Wu'
