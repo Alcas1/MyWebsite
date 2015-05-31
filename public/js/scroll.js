@@ -187,11 +187,13 @@ function fillImage(imageNumber) {
 			jImg.animate({
 				maxWidth : max,
 				width : max,
-				ratio:height,
 				marginTop : (-max / 2),
 				marginLeft : (-max / 2),
 				top : '50%',
-				left : '50%'
+				left : '50%',
+				complete:{
+					ratio:jImg.height()
+				}
 			}, 300);
 			console.log(jImg.height());
 			jCaption.animate({
