@@ -34,9 +34,16 @@ function init() {
 					boxShadow: "0px 1px 3px #888888"
 			},25);
 			
+			$(this).animate({
+					boxShadow: "0px 3px 3px #888888"
+			},25);
+			
 			$('html, body').animate({
 				scrollTop : 0
 			}, 300, 'easeInOutQuad');
+			
+			
+			
 		});
 
 		for (var i = 0; i < lis.length; i++) {
