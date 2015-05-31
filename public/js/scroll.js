@@ -43,7 +43,8 @@ function init() {
 			
 			$('#back_top').animate({
 					boxShadow: "0px 3px 3px #888888"
-			},5);
+			},1);
+			$('#back_top').css("background","#ff5252");
 			
 		});
 
