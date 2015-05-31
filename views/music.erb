@@ -1,24 +1,33 @@
 <!-- <div style="width:960px;padding:0px;margin:-15px;">
-  <div id="leftcolumn" style="width:140px;margin:0;padding-left:1px;padding-bottom:100px;margin-top:20px;float:left;"><h2 class="left"><span class="left_h2"></span></h2>
-    <div style="width:140px;padding-top:20px;margin:0px;">
-      <font color=#add8e6 size=3>
-        <p>&nbsp;</p>
-      </font>
-    </div>
-
-  </div> -->
-  
-<link rel="stylesheet" type="text/css" href="css/pop.css" />
-
-  
-<div id="middle" style=" padding-left:15%;padding-right:15%;padding-top:60px;">
-		<div class="youtube_embed">
-			<div>
-   			<iframe width="560"  height="315"frameborder="0" allowfullscreen="" src="//www.youtube.com/embed/videoseries?list=FLsFKsBJ1OJSv9goHzWqJjyA" ></iframe>
-			</div>
-		</div>
+<div id="leftcolumn" style="width:140px;margin:0;padding-left:1px;padding-bottom:100px;margin-top:20px;float:left;"><h2 class="left"><span class="left_h2"></span></h2>
+<div style="width:140px;padding-top:20px;margin:0px;">
+<font color=#add8e6 size=3>
+<p>&nbsp;</p>
+</font>
 </div>
 
+</div> -->
+
+<script type="text/javascript">
+	$(document).ready(function() {
+
+		var lis = document.getElementById("about_me").getElementsByTagName('div');
+		for (var i = 0; i < lis.length; i++) {
+			lis[i].className = lis[i].id;
+		}
+
+	}); 
+</script>
+
+<link rel="stylesheet" type="text/css" href="css/pop.css" />
+
+<div id="middle" style=" padding-left:15%;padding-right:15%;padding-top:60px;">
+	<div class="youtube_embed">
+		<div>
+			<iframe width="560"  height="315"frameborder="0" allowfullscreen="" src="//www.youtube.com/embed/videoseries?list=FLsFKsBJ1OJSv9goHzWqJjyA" ></iframe>
+		</div>
+	</div>
+</div>
 
 <!-- <div id="rightcolumn" style="width:150px;margin:0px;padding-left:20px;float:right">
 <script type="text/javascript">
@@ -32,5 +41,5 @@ google_ad_height = 240;
 <script type="text/javascript"
 src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 </script>
-</div> 
+</div>
 </div>-->
