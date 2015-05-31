@@ -30,7 +30,7 @@ function init() {
 		//var lis = document.getElementById("content_list").getElementsByTagName('li');
 		var bt=$("#back_top");
 		bt.mousedown(function(e) {
-			bt.css("background", "#d81b60");
+			bt.css("background", "#ff5252");
 			bt.animate({
 				boxShadow : "0px 0px 0px #888888"
 			}, 1);
