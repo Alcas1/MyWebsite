@@ -153,7 +153,7 @@ function init() {
 function fillImage(imageNumber) {
 	var fill = false;
 	var img = document.getElementById('content_img_small_' + imageNumber);
-
+	
 	img.addEventListener('click', function(event) {
 
 		if (!fill) {
@@ -196,7 +196,7 @@ function fillImage(imageNumber) {
 			jCaption.animate({
 				maxWidth : max,
 				width : max,
-				marginTop : (-max / 2)+jImg.height+200,
+				marginTop : ((-max / 2)+jImg.height+200),
 				marginLeft : (-max / 2),
 				top : '50%',
 				left : '50%'
