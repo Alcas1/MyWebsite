@@ -140,15 +140,15 @@ class Main < Sinatra::Base
 
   end
 
-  get '/works' do
+  get '/projects' do
 
-    @title='My Works'
-    @year_number='Works'
+    @title='My Projects'
+    @year_number='Projects'
     @second_title='Jonathan Wu'
-    erb :works
+    erb :projects
   end
 
-  post '/works' do
+  post '/projects' do
 
 
   end
