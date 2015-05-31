@@ -158,26 +158,26 @@ function fillImage(imageNumber) {
 
 		if (!fill) {
 			var jImg = $('#content_img_small_' + imageNumber);
-			var jCaption = $('#caption_' + imageNumber);
+			// var jCaption = $('#caption_' + imageNumber);
 			event.stopPropagation();
 			fill = true;
 			jImg.css("position", "absolute");
-			jCaption.css("position", "absolute");
+			// jCaption.css("position", "absolute");
 			var max = (($(window).width() * .8 < $(window).height() * .8) ? $(window).width() * .8 : $(window).height() * .8);
 			eTop = jImg.offset().top - $(window).scrollTop();
 			eLeft = jImg.offset().left;
-			jTop = jCaption.offset().top - $(window).scrollTop();
-			jLeft = jCaption.offset().left;
+			// jTop = jCaption.offset().top - $(window).scrollTop();
+			// jLeft = jCaption.offset().left;
 			jImg.css("box-shadow", " 0px 0px 15px #ffffff");
 			jImg.css("cursor", "auto"), jImg.css("position", "fixed");
 			jImg.css("z-index", "2");
 
-			jCaption.css("position", "fixed");
-			jCaption.css("z-index", "2");
-			jImg.animate({
-				top : eTop,
-				left : eLeft
-			}, 0);
+			// jCaption.css("position", "fixed");
+			// jCaption.css("z-index", "2");
+			// jImg.animate({
+				// top : eTop,
+				// left : eLeft
+			// }, 0);
 
 			// jCaption.animate({
 				// top : jTop,
