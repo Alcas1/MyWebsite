@@ -198,7 +198,7 @@ function fillImage(imageNumber) {
 				marginLeft : (-max / 2),
 				top : '50%',
 				left : '50%'
-			}, 300);
+			}, 0);
 
 			shade(open, event);
 		}
