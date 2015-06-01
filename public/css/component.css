@@ -183,6 +183,7 @@
 	padding-top: 4px;
 	padding-bottom: 4px;
 	width: 173px;
+	/*border-color: rgba(0,0,0,0);*/
 }
 
 .dr-menu ul li a.dr-icon-messages {
@@ -190,17 +191,14 @@
 	 border-right-color: #03a9f4;
 	 border-right-style: solid;
 	 border-right-width: 4px;*/
+
 }
 
 .dr-menu ul li a:hover {
 	color: #90caf9;
-	border-right-color: #F44336;
+	border-right-color: #03a9f4;
 	border-right-style: solid;
 	border-right-width: 2px;
-	-ms-transition: border .2s ease-out
-	-moz-transition: border .2s ease-out
-	-webkit-transition: border .2s ease-out
-	transition: border .2s ease-out
 	/*margin-right: 3px;*/
 }
 

@@ -132,6 +132,8 @@ body {
 }
 b {
 	font-size: 19px;
+	font-family: 'Raleway';
+	color: #03a9f4;
 }
 #top {
 	position: fixed;
@@ -438,29 +440,60 @@ h3 {
 .part4 {
 	margin-top: 30px;
 	width: 80%;
-	min-height: 300px;
+	min-height: 320px;
 }
 
 .part_body_card {
-
+	position: relative;
 	width: 330px;
 	min-height: inherit;
 	display: inline-block;
 	float: left;
-	color: #0091EA;
-	line-height: 32px;
+	color: #212121;
+	line-height: 28px;
 	font-size: 15px;
 	box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.4);
 	border-radius: 2px;
-	padding: 10px 15px;
+	padding: 16px 16px;
 	margin-left: 20px;
 }
+
+.part_body_card b {
+	line-height: 20px;
+}
+
+.part_text {
+	padding-top: 10px;
+}
+
 .part_body_card:hover {
-	background: #03A9F4 color :#212121;
 
 }
-.part_body_card b {
-	color: #212121;
+
+.card_button {
+	font-size: 18px;
+	outline: medium none;
+	position: relative;
+	display: inline-block;
+	line-height: 53px;
+	padding: 0px 8px;
+	color: #03a9f4;
+	border: medium none;
+	background: transparent none repeat scroll 0% 0%;
+	cursor: pointer;
+	text-transform:uppercase;
+	font-family: 'Raleway';
+}
+
+.part_body_card .button_bar {
+	position: absolute;
+	border-top-color: #E0E0E0;
+	border-top-style: solid;
+	border-top-width: 1px;
+	top: 290px;
+	width: 100%;
+	margin: 0 -15px;
+	height: 30px;
 }
 
 .row_about {
