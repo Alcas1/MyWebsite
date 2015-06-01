@@ -7,7 +7,7 @@ GEM
       unf (>= 0.0.5, < 1.0.0)
     eventmachine (1.0.7)
     excon (0.45.3)
-    heroku (3.37.1)
+    heroku (3.37.3)
       heroku-api (>= 0.3.19)
       launchy (>= 0.3.2)
       multi_json (>= 1.10)
@@ -59,3 +59,6 @@ DEPENDENCIES
   sinatra
   thin
   web
+
+BUNDLED WITH
+   1.10.2

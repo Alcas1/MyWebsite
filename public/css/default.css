@@ -439,6 +439,7 @@ h3 {
 }
 
 .part_body_card {
+	height:100%;
 	width: 360px;
 	display: inline-block;
 	float: left;
