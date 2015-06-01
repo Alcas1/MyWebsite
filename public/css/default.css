@@ -435,11 +435,11 @@ h3 {
 }
 
 .part4 {
-
+	min-height:300px;
 }
 
 .part_body_card {
-	height:100%;
+	
 	width: 360px;
 	display: inline-block;
 	float: left;
