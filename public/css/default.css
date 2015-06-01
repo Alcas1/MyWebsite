@@ -22,6 +22,7 @@ p {
 body {
 	font-family: 'Raleway';
 	color: #fff;
+	padding-bottom:10px;
 }
 @media (min-width: 500px) {
 	.main_content {
