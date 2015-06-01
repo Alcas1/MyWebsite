@@ -410,7 +410,7 @@
       } else {
         applyCss(element, args[1], args[2]);
       }
-    }
+    };
   })();
 
   /**
