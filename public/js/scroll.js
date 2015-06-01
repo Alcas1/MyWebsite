@@ -163,6 +163,10 @@ function init() {
 
 }
 
+
+// doesn't work as well as I'd like it with
+// medium images but it works so w/e
+// this was so awful to write
 function fillImage(imageNumber) {
 	var fill = false;
 	var img = document.getElementById('content_img_small_' + imageNumber);
