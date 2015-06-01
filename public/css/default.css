@@ -407,7 +407,7 @@ h3 {
 
 .back_top:hover {
 	background: #f44336;
-	transition: all 0.5s ease 0s;
+	/*transition: all 0.5s ease 0s;*/
 }
 
 .up_arrow {
@@ -438,12 +438,13 @@ h3 {
 }
 
 .part4 {
-	margin-top: 30px;
+
 	width: 80%;
 	min-height: 320px;
 }
 
 .part_body_card {
+	margin-top: 30px;
 	position: relative;
 	width: 330px;
 	min-height: inherit;
@@ -467,7 +468,7 @@ h3 {
 }
 
 .part_body_card:hover {
-
+	box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.4);
 }
 
 .card_button {
@@ -481,7 +482,7 @@ h3 {
 	border: medium none;
 	background: transparent none repeat scroll 0% 0%;
 	cursor: pointer;
-	text-transform:uppercase;
+	text-transform: uppercase;
 	font-family: 'Raleway';
 }
 
