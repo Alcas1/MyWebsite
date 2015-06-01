@@ -438,21 +438,31 @@ h3 {
 	margin-top:30px;
 	width:80%;
 	min-height:300px;
-	box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.4);
+	
 }
 
 .part_body_card {
 	
 	width: 330px;
-	
+	min-height:inherit;
 	display: inline-block;
 	float: left;
+	color:#0091EA;
 	line-height:32px;
-	
+	font-size:15px;
+	box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.4);
 	border-radius: 2px;
 	padding:10px 15px;
 	margin-left: 20px;
 	
+}
+.part_body_card:hover {
+	background:#03A9F4
+	color:#212121;
+	
+}
+.part_body_card b{
+	color:#212121;
 }
 
 .row_about {

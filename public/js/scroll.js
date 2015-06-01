@@ -2,17 +2,17 @@
 //things easier to read lol
 //this was probably the hardest js i've written so far
 // WebFontConfig = {
-	// google : {
-		// families : ['Raleway:300,400,700:latin']
-	// }
+// google : {
+// families : ['Raleway:300,400,700:latin']
+// }
 // };
 // (function() {
-	// var wf = document.createElement('script');
-	// wf.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
-	// wf.type = 'text/javascript';
-	// wf.async = 'true';
-	// var s = document.getElementsByTagName('script')[0];
-	// s.parentNode.insertBefore(wf, s);
+// var wf = document.createElement('script');
+// wf.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+// wf.type = 'text/javascript';
+// wf.async = 'true';
+// var s = document.getElementsByTagName('script')[0];
+// s.parentNode.insertBefore(wf, s);
 // })();
 
 function init() {
@@ -39,10 +39,13 @@ function init() {
 			var elementOffsetTop = $('#back_top').offset().top;
 			var distTop = (elementOffsetTop - docViewTop);
 			var elementOffsetLeft = $('#back_top').offset().left;
-
 			$("#content10 #back_top").css("position", "fixed");
 			$("#content10 #back_top").css("top", ($(window).height() - 100) + "px");
 			$("#content10 #back_top").css("left", ($(window).width() - 100) + "px");
+			$("#content10 #back_top").effect("bounce", {
+				times : 3
+			}, 300);
+
 		}
 
 		var bt = $("#back_top");
@@ -162,7 +165,6 @@ function init() {
 	// }
 
 }
-
 
 // doesn't work as well as I'd like it with
 // medium images but it works so w/e
