@@ -413,12 +413,12 @@ h3 {
 .up_arrow {
 	/*height 0;
 	 width 0;*/
-	margin-left: 10px;
-	margin-top: 11px;
+	margin-left: 13px;
+	margin-top: 13px;
 	/*border-left: 8px solid transparent;
 	 border-right: 8px solid transparent;
 	 border-bottom: 13px solid white;*/
-	max-width: 30px;
+	max-width: 25px;
 	background: transparent;
 	position: absolute;
 }
