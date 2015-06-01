@@ -42,10 +42,6 @@ function init() {
 			$("#content10 #back_top").css("position", "fixed");
 			$("#content10 #back_top").css("top", ($(window).height() - 100) + "px");
 			$("#content10 #back_top").css("left", ($(window).width() - 100) + "px");
-			$("#content10 #back_top").effect("bounce", {
-				times : 3
-			}, 300);
-
 		}
 
 		var bt = $("#back_top");
