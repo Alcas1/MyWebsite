@@ -22,7 +22,7 @@ p {
 body {
 	font-family: 'Raleway';
 	color: #fff;
-	padding-bottom:10px;
+	padding-bottom: 10px;
 }
 @media (min-width: 500px) {
 	.main_content {
@@ -405,6 +405,7 @@ h3 {
 
 .back_top:hover {
 	background: #f44336;
+	transition: all 0.5s ease 0s;
 }
 
 .up_arrow {
@@ -435,34 +436,31 @@ h3 {
 }
 
 .part4 {
-	margin-top:30px;
-	width:80%;
-	min-height:300px;
-	
+	margin-top: 30px;
+	width: 80%;
+	min-height: 300px;
 }
 
 .part_body_card {
-	
+
 	width: 330px;
-	min-height:inherit;
+	min-height: inherit;
 	display: inline-block;
 	float: left;
-	color:#0091EA;
-	line-height:32px;
-	font-size:15px;
+	color: #0091EA;
+	line-height: 32px;
+	font-size: 15px;
 	box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.4);
 	border-radius: 2px;
-	padding:10px 15px;
+	padding: 10px 15px;
 	margin-left: 20px;
-	
 }
 .part_body_card:hover {
-	background:#03A9F4
-	color:#212121;
-	
+	background: #03A9F4 color :#212121;
+
 }
-.part_body_card b{
-	color:#212121;
+.part_body_card b {
+	color: #212121;
 }
 
 .row_about {
