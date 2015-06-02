@@ -444,7 +444,7 @@ h3 {
 }
 
 .part_body_card {
-	margin-top: 30px;
+	margin-top: 20px;
 	position: relative;
 	width: 330px;
 	min-height: inherit;
@@ -457,6 +457,7 @@ h3 {
 	border-radius: 2px;
 	padding: 16px 16px;
 	margin-left: 20px;
+	margin-bottom:20px;
 }
 
 .part_body_card b {
