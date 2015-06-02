@@ -440,7 +440,7 @@ h3 {
 
 .text_card {
 
-	width: 80%;
+	width: 90%;
 	min-height: 320px;
 }
 
@@ -500,8 +500,13 @@ h3 {
 	height: 30px;
 }
 
-.row_about {
+.about_container {
+	padding-left: 8%;
 }
+
+
+
+
 
 
 

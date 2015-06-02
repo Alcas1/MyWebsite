@@ -55,6 +55,36 @@
 	-ms-animation-fill-mode: forwards;
 	animation-fill-mode: forwards;
 }
+.part_body_card:nth-child(3) {
+	opacity:0;
+	-webkit-animation: pop-zero 1.0s;
+	-moz-animation: pop-zero 1.0s;
+	-ms-animation: pop-zero 1.0s;
+	animation: pop-zero 1.0s;
+	-webkit-animation-delay: .2s;
+	-moz-animation-delay: .2s;
+	-ms-animation-delay: .2s;
+	animation-delay: .2s;
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-ms-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
+.part_body_card:nth-child(4) {
+	opacity:0;
+	-webkit-animation: pop-zero 1.0s;
+	-moz-animation: pop-zero 1.0s;
+	-ms-animation: pop-zero 1.0s;
+	animation: pop-zero 1.0s;
+	-webkit-animation-delay: .2s;
+	-moz-animation-delay: .2s;
+	-ms-animation-delay: .2s;
+	animation-delay: .2s;
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-ms-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
 
 @-webkit-keyframes pop-in {
 0% { opacity: 0; -webkit-transform: scale(0.25); }
