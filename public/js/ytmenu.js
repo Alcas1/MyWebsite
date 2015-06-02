@@ -20,6 +20,8 @@ window.onload = (function() {
 			var site = checkSite();
 
 			$('.dr-menu ul').children().each(function(idx, val) {
+				Waves.attach($(this));
+				Waves.init();
 				if (idx < 9) {
 					if (idx === site) {
 						if (site !== 6) {

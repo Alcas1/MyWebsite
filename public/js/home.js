@@ -32,12 +32,15 @@ $(window).load(function() {
 		// window.location = goTo;
 		// }, 200);
 		// });
+		var config = {
+			duration : 250,
+			delay : 10
+		};
 		Waves.attach($(this).find('button'));
 		//Waves.attach('.float-icon-light', ['waves-circle', 'waves-float', 'waves-light']);
 		Waves.init();
 	});
-	    
-	    
+
 });
 function fillButton(el) {
 	var parent, ink, d, x, y;
