@@ -32,11 +32,11 @@ $(window).load(function() {
 		// window.location = goTo;
 		// }, 200);
 		// });
-		fillButton($(this).find('button'));
-
+		Waves.attach($(this).find('button'));
+		Waves.init();
 	});
-	    Waves.attach($('#test'));
-	    Waves.init();
+	    
+	    
 });
 function fillButton(el) {
 	var parent, ink, d, x, y;
