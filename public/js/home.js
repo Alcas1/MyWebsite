@@ -38,7 +38,7 @@ $(window).load(function() {
 		};
 		Waves.attach($(this).find('button'));
 		//Waves.attach('.float-icon-light', ['waves-circle', 'waves-float', 'waves-light']);
-		Waves.init();
+		Waves.init(config);
 	});
 
 });
