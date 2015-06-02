@@ -32,7 +32,7 @@ $(window).load(function() {
 				// window.location = goTo;
 			// }, 200);
 		// });
-		fillButton($(this));
+		fillButton($(this).find('button'));
 		
 	});
 });
