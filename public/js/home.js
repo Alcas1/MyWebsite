@@ -35,7 +35,8 @@ $(window).load(function() {
 		fillButton($(this).find('button'));
 
 	});
-	fillButton($('#test'));
+	    Waves.attach($('#test'));
+	    Waves.init();
 });
 function fillButton(el) {
 	var parent, ink, d, x, y;
