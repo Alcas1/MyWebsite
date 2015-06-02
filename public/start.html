@@ -8,16 +8,11 @@
 			for (var i = 0; i < lis.length; i++) {
 				lis[i].className = lis[i].id;
 			}
-			
-			// var B = document.body, H = document.documentElement, height;
-			// if ( typeof document.height !== 'undefined') {
-				// height = document.height;
-			// } else {
-				// height = Math.max(B.scrollHeight, B.offsetHeight, H.clientHeight, H.scrollHeight, H.offsetHeight);
-			// }
-			// var fHeight = height;
-			// var cover = document.getElementById('full');
-			// cover.style.height = (fHeight) + "px";
+			var preloads = ['imgs/tapbox.png', 'imgs/oldsite.png', 'imgs/newsite.png'];
+
+			$(preloads).each(function() {
+				$('')[0].src = this;
+			});
 		});
 	</script>
 
