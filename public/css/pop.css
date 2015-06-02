@@ -46,31 +46,16 @@
 	-moz-animation: pop-zero .5s;
 	-ms-animation: pop-zero .5s;
 	animation: pop-zero .5s;
-	-webkit-animation-delay: .2s;
-	-moz-animation-delay: .2s;
-	-ms-animation-delay: .2s;
-	animation-delay: .2s;
+	-webkit-animation-delay: .1s;
+	-moz-animation-delay: .1s;
+	-ms-animation-delay: .1s;
+	animation-delay: .1s;
 	-webkit-animation-fill-mode: forwards;
 	-moz-animation-fill-mode: forwards;
 	-ms-animation-fill-mode: forwards;
 	animation-fill-mode: forwards;
 }
 .part_body_card:nth-child(3) {
-	opacity:0;
-	-webkit-animation: pop-zero .5s;
-	-moz-animation: pop-zero .5s;
-	-ms-animation: pop-zero .5s;
-	animation: pop-zero .5s;
-	-webkit-animation-delay: .4s;
-	-moz-animation-delay: .4s;
-	-ms-animation-delay: .4s;
-	animation-delay: .4s;
-	-webkit-animation-fill-mode: forwards;
-	-moz-animation-fill-mode: forwards;
-	-ms-animation-fill-mode: forwards;
-	animation-fill-mode: forwards;
-}
-.part_body_card:nth-child(4) {
 	opacity:0;
 	-webkit-animation: pop-zero .5s;
 	-moz-animation: pop-zero .5s;
@@ -85,6 +70,21 @@
 	-ms-animation-fill-mode: forwards;
 	animation-fill-mode: forwards;
 }
+.part_body_card:nth-child(4) {
+	opacity:0;
+	-webkit-animation: pop-zero .5s;
+	-moz-animation: pop-zero .5s;
+	-ms-animation: pop-zero .5s;
+	animation: pop-zero .5s;
+	-webkit-animation-delay: .2s;
+	-moz-animation-delay: .2s;
+	-ms-animation-delay: .2s;
+	animation-delay: .2s;
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-ms-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
 
 .part_body_card:nth-child(5) {
 	opacity:0;
@@ -92,10 +92,10 @@
 	-moz-animation: pop-zero .5s;
 	-ms-animation: pop-zero .5s;
 	animation: pop-zero .5s;
-	-webkit-animation-delay: .35s;
-	-moz-animation-delay: .35s;
-	-ms-animation-delay: .35s;
-	animation-delay: .35s;
+	-webkit-animation-delay: .4s;
+	-moz-animation-delay: .4s;
+	-ms-animation-delay: .4s;
+	animation-delay: .4s;
 	-webkit-animation-fill-mode: forwards;
 	-moz-animation-fill-mode: forwards;
 	-ms-animation-fill-mode: forwards;
