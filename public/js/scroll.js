@@ -225,7 +225,7 @@ function fillImage(imageNumber) {
 			$('#cover').animate({
 				opacity : '0'
 			}, 100);
-			// cover.style.opacity = "0";
+			$('#sub_text').css("opacity","0");
 			cover.style.zIndex = "-1";
 			return false;
 		}
