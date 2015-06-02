@@ -33,7 +33,7 @@ $(window).load(function() {
 		// }, 200);
 		// });
 		var config = {
-			duration : 250,
+			duration : 25,
 			delay : 0
 		};
 		Waves.attach($(this).find('button'));
