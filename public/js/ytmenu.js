@@ -6,10 +6,6 @@ jQuery.fn.center = function() {
 	return this;
 };
 
-
-
-
-
 window.onload = (function() {
 
 	function init() {
@@ -20,13 +16,16 @@ window.onload = (function() {
 			var site = checkSite();
 
 			$('.dr-menu ul').children().each(function(idx, val) {
+				var config = {
+					duration : 300,
+					delay : 3
+				};
 				Waves.attach($(this));
-				Waves.init();
+				Waves.init(config);
 				if (idx < 9) {
 					if (idx === site) {
 						if (site !== 6) {
 							var el = $(this).first().first();
-							// el.animate()
 							el.css("border-right-width", "4px");
 							el.css("border-right-color", "#03a9f4");
 							el.css("border-right-style", "solid");

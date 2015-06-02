@@ -33,8 +33,8 @@ $(window).load(function() {
 		// }, 200);
 		// });
 		var config = {
-			duration : 25,
-			delay : 0
+			duration : 300,
+			delay : 3
 		};
 		Waves.attach($(this).find('button'));
 		//Waves.attach('.float-icon-light', ['waves-circle', 'waves-float', 'waves-light']);
