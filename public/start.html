@@ -8,11 +8,14 @@
 			for (var i = 0; i < lis.length; i++) {
 				lis[i].className = lis[i].id;
 			}
-			var preloads = ['imgs/tapbox.png', 'imgs/oldsite.png', 'imgs/newsite.png'];
+			var sources = ['imgs/tapbox.png', 'imgs/oldsite.png', 'imgs/newsite.png'];
 
-			$(preloads).each(function() {
-				$('')[0].src = this;
-			});
+			function preload(sources) {
+				jQuery.each(sources, function(i, source) {
+					jQuery.get(source);
+				});
+			}
+
 		});
 	</script>
 
