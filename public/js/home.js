@@ -32,7 +32,7 @@ $(window).load(function() {
 		// window.location = goTo;
 		// }, 200);
 		// });
-		Waves.attach($(this).find('button'));
+		Waves.attach($(this).find('button'),'waves-light');
 		Waves.init();
 	});
 	    
