@@ -1,6 +1,6 @@
 $(window).load(function() {
 
-	$('#part4').children().each(function(idx, val) {
+	$('#text_card').children().each(function(idx, val) {
 		$(this).mouseenter(function(e) {
 
 			$(this).animate({
@@ -16,7 +16,7 @@ $(window).load(function() {
 
 	});
 
-	$('#part4').children().find('#button_bar').children().each(function(idx, val) {
+	$('#text_card').children().find('#button_bar').children().each(function(idx, val) {
 		// var goTo=$(this).attr("href");
 		// $(this).find('button').click(function(e) {
 		// $(this).animate({
