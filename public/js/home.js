@@ -32,8 +32,8 @@ $(window).load(function() {
 		// window.location = goTo;
 		// }, 200);
 		// });
-		//Waves.attach($(this).find('button'),'waves-light');
-		Waves.attach('.float-icon-light', ['waves-circle', 'waves-float', 'waves-light']);
+		Waves.attach($(this).find('button'));
+		//Waves.attach('.float-icon-light', ['waves-circle', 'waves-float', 'waves-light']);
 		Waves.init();
 	});
 	    
