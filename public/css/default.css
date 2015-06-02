@@ -490,6 +490,7 @@ h3 {
 
 .part_body_card .button_bar {
 	position: absolute;
+	display: block;
 	border-top-color: #E0E0E0;
 	border-top-style: solid;
 	border-top-width: 1px;
