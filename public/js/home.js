@@ -6,13 +6,13 @@ $(window).load(function() {
 			$(this).animate({
 				boxShadow : "0px 0px 20px rgba(0, 0, 0, 0.4)"
 				
-			}, 200);
+			}, 150);
 		});
 		$(this).mouseleave(function(e) {
 			$(this).stop();
 			$(this).animate({
 				boxShadow : "0px 2px 6px rgba(0, 0, 0, 0.4)"
-			}, 200);
+			}, 150);
 		});
 
 	});
