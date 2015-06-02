@@ -180,7 +180,7 @@ function fillImage(imageNumber) {
 				top : eTop,
 				left : eLeft
 			}, 0);
-
+			$('#sub_text').css("opacity","1");
 			// jCaption.animate({
 			// top : jTop,
 			// left : jLeft
@@ -204,6 +204,7 @@ function fillImage(imageNumber) {
 				top : '50%',
 				left : '50%'
 			}, 0);
+			
 
 			shade(open, event);
 		}
