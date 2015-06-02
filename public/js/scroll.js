@@ -165,7 +165,7 @@ function fillImage(imageNumber) {
 			fill = true;
 			jImg.css("position", "absolute");
 			jCaption.css("position", "absolute");
-			var max = (($(window).width() * .8 < $(window).height() * .85) ? $(window).width() * .8 : $(window).height() * .85);
+			var max = (($(window).width() * .8 < $(window).height() * .80) ? $(window).width() * .8 : $(window).height() * .80);
 			eTop = jImg.offset().top - $(window).scrollTop();
 			eLeft = jImg.offset().left;
 			jTop = jCaption.offset().top - $(window).scrollTop();
