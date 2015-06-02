@@ -2,6 +2,10 @@
 	-webkit-animation: pop-in 1.5s;
 	-moz-animation: pop-in 1.5s;
 	animation: pop-in 1.5s;
+	-webkit-animation-delay: 1s;
+	-moz-animation-delay: 1s;
+	-ms-animation-delay: 1s;
+	animation-delay: 1s;
 	box-shadow: 0px 3px 5px #888888;
 	border-bottom-left-radius: 3px;
 	border-bottom-right-radius: 3px;
@@ -26,7 +30,7 @@
 }
 
 .part_body_card:nth-child(1) {
-	opacity:0;
+	opacity: 0;
 	-webkit-animation: pop-zero .5s;
 	-moz-animation: pop-zero .5s;
 	-ms-animation: pop-zero .5s;
@@ -41,7 +45,7 @@
 	animation-fill-mode: forwards;
 }
 .part_body_card:nth-child(2) {
-	opacity:0;
+	opacity: 0;
 	-webkit-animation: pop-zero .5s;
 	-moz-animation: pop-zero .5s;
 	-ms-animation: pop-zero .5s;
@@ -56,7 +60,7 @@
 	animation-fill-mode: forwards;
 }
 .part_body_card:nth-child(3) {
-	opacity:0;
+	opacity: 0;
 	-webkit-animation: pop-zero .5s;
 	-moz-animation: pop-zero .5s;
 	-ms-animation: pop-zero .5s;
@@ -71,7 +75,7 @@
 	animation-fill-mode: forwards;
 }
 .part_body_card:nth-child(4) {
-	opacity:0;
+	opacity: 0;
 	-webkit-animation: pop-zero .5s;
 	-moz-animation: pop-zero .5s;
 	-ms-animation: pop-zero .5s;
@@ -87,7 +91,7 @@
 }
 
 .part_body_card:nth-child(5) {
-	opacity:0;
+	opacity: 0;
 	-webkit-animation: pop-zero .5s;
 	-moz-animation: pop-zero .5s;
 	-ms-animation: pop-zero .5s;
@@ -103,7 +107,7 @@
 }
 
 .part_body_card:nth-child(6) {
-	opacity:0;
+	opacity: 0;
 	-webkit-animation: pop-zero .5s;
 	-moz-animation: pop-zero .5s;
 	-ms-animation: pop-zero .5s;
@@ -117,7 +121,6 @@
 	-ms-animation-fill-mode: forwards;
 	animation-fill-mode: forwards;
 }
-
 
 @-webkit-keyframes pop-in {
 0% { opacity: 0; -webkit-transform: scale(0.25); }
