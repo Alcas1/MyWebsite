@@ -1,49 +1,49 @@
-.p1:nth-child(1) {
+/*.p1:nth-child(1) {
 
-	-webkit-animation: slideMore 2.0s;
-	-moz-animation: slideMore 2.0s;
-	-ms-animation: slideMore 2.0s;
-	animation: slideMore 2.0s;
-	-webkit-animation-delay: 100ms;
-	-moz-animation-delay: 100ms;
-	-ms-animation-delay: 100ms;
-	animation-delay: 100ms;
-	-webkit-animation-fill-mode: forwards;
-	-moz-animation-fill-mode: forwards;
-	-ms-animation-fill-mode: forwards;
-	animation-fill-mode: forwards;
-}
+ -webkit-animation: slideMore 2.0s;
+ -moz-animation: slideMore 2.0s;
+ -ms-animation: slideMore 2.0s;
+ animation: slideMore 2.0s;
+ -webkit-animation-delay: 100ms;
+ -moz-animation-delay: 100ms;
+ -ms-animation-delay: 100ms;
+ animation-delay: 100ms;
+ -webkit-animation-fill-mode: forwards;
+ -moz-animation-fill-mode: forwards;
+ -ms-animation-fill-mode: forwards;
+ animation-fill-mode: forwards;
+ }
 
-.p1:nth-child(2) {
+ .p1:nth-child(2) {
 
-	-webkit-animation: slideMore 1.9s;
-	-moz-animation: slideMore 1.9s;
-	-ms-animation: slideMore 1.9s;
-	animation: slideMore 1.9s;
-	-webkit-animation-delay: 1.0s;
-	-moz-animation-delay: 1.0s;
-	-ms-animation-delay: 1.0s;
-	animation-delay: 1.0s;
-	-webkit-animation-fill-mode: forwards;
-	-moz-animation-fill-mode: forwards;
-	-ms-animation-fill-mode: forwards;
-	animation-fill-mode: forwards;
-}
-.p1:nth-child(3) {
+ -webkit-animation: slideMore 1.9s;
+ -moz-animation: slideMore 1.9s;
+ -ms-animation: slideMore 1.9s;
+ animation: slideMore 1.9s;
+ -webkit-animation-delay: 1.0s;
+ -moz-animation-delay: 1.0s;
+ -ms-animation-delay: 1.0s;
+ animation-delay: 1.0s;
+ -webkit-animation-fill-mode: forwards;
+ -moz-animation-fill-mode: forwards;
+ -ms-animation-fill-mode: forwards;
+ animation-fill-mode: forwards;
+ }
+ .p1:nth-child(3) {
 
-	-webkit-animation: slideMore 1.8s;
-	-moz-animation: slideMore 1.8s;
-	-ms-animation: slideMore 1.8s;
-	animation: slideMore 1.8s;
-	-webkit-animation-delay: 1.6s;
-	-moz-animation-delay: 1.6s;
-	-ms-animation-delay: 1.6s;
-	animation-delay: 1.6s;
-	-webkit-animation-fill-mode: forwards;
-	-moz-animation-fill-mode: forwards;
-	-ms-animation-fill-mode: forwards;
-	animation-fill-mode: forwards;
-}
+ -webkit-animation: slideMore 1.8s;
+ -moz-animation: slideMore 1.8s;
+ -ms-animation: slideMore 1.8s;
+ animation: slideMore 1.8s;
+ -webkit-animation-delay: 1.6s;
+ -moz-animation-delay: 1.6s;
+ -ms-animation-delay: 1.6s;
+ animation-delay: 1.6s;
+ -webkit-animation-fill-mode: forwards;
+ -moz-animation-fill-mode: forwards;
+ -ms-animation-fill-mode: forwards;
+ animation-fill-mode: forwards;
+ }*/
 
 /*.p1:nth-child(4) {
 
@@ -61,112 +61,112 @@
  animation-fill-mode: forwards;
  }*/
 
-.p2:nth-child(1) {
+/*.p2:nth-child(1) {
 
-	font-size: 30px;
-	margin-top: 20px;
-	-webkit-animation: slideMore 1.0s;
-	-moz-animation: slideMore 1.0s;
-	-ms-animation: slideMore 1.0s;
-	animation: slideMore 1.0s;
-	-webkit-animation-delay: 200ms;
-	-moz-animation-delay: 200ms;
-	-ms-animation-delay: 200ms;
-	animation-delay: 200ms;
-	-webkit-animation-fill-mode: forwards;
-	-moz-animation-fill-mode: forwards;
-	-ms-animation-fill-mode: forwards;
-	animation-fill-mode: forwards;
-}
+ font-size: 30px;
+ margin-top: 20px;
+ -webkit-animation: slideMore 1.0s;
+ -moz-animation: slideMore 1.0s;
+ -ms-animation: slideMore 1.0s;
+ animation: slideMore 1.0s;
+ -webkit-animation-delay: 200ms;
+ -moz-animation-delay: 200ms;
+ -ms-animation-delay: 200ms;
+ animation-delay: 200ms;
+ -webkit-animation-fill-mode: forwards;
+ -moz-animation-fill-mode: forwards;
+ -ms-animation-fill-mode: forwards;
+ animation-fill-mode: forwards;
+ }
 
-.p2:nth-child(2) {
+ .p2:nth-child(2) {
 
-	font-size: 30px;
-	margin-top: 20px;
-	-webkit-animation: slideMore .9s;
-	-moz-animation: slideMore .9s;
-	-ms-animation: slideMore .9s;
-	animation: slideMore .9s;
-	-webkit-animation-delay: .6s;
-	-moz-animation-delay: .6s;
-	-ms-animation-delay: .6s;
-	animation-delay: .6s;
-	-webkit-animation-fill-mode: forwards;
-	-moz-animation-fill-mode: forwards;
-	-ms-animation-fill-mode: forwards;
-	animation-fill-mode: forwards;
-}
-.p2:nth-child(3) {
+ font-size: 30px;
+ margin-top: 20px;
+ -webkit-animation: slideMore .9s;
+ -moz-animation: slideMore .9s;
+ -ms-animation: slideMore .9s;
+ animation: slideMore .9s;
+ -webkit-animation-delay: .6s;
+ -moz-animation-delay: .6s;
+ -ms-animation-delay: .6s;
+ animation-delay: .6s;
+ -webkit-animation-fill-mode: forwards;
+ -moz-animation-fill-mode: forwards;
+ -ms-animation-fill-mode: forwards;
+ animation-fill-mode: forwards;
+ }
+ .p2:nth-child(3) {
 
-	font-size: 30px;
-	margin-top: 20px;
-	-webkit-animation: slideMore .8s;
-	-moz-animation: slideMore .8s;
-	-ms-animation: slideMore .8s;
-	animation: slideMore .8s;
-	-webkit-animation-delay: 1s;
-	-moz-animation-delay: 1s;
-	-ms-animation-delay: 1s;
-	animation-delay: 1s;
-	-webkit-animation-fill-mode: forwards;
-	-moz-animation-fill-mode: forwards;
-	-ms-animation-fill-mode: forwards;
-	animation-fill-mode: forwards;
-}
+ font-size: 30px;
+ margin-top: 20px;
+ -webkit-animation: slideMore .8s;
+ -moz-animation: slideMore .8s;
+ -ms-animation: slideMore .8s;
+ animation: slideMore .8s;
+ -webkit-animation-delay: 1s;
+ -moz-animation-delay: 1s;
+ -ms-animation-delay: 1s;
+ animation-delay: 1s;
+ -webkit-animation-fill-mode: forwards;
+ -moz-animation-fill-mode: forwards;
+ -ms-animation-fill-mode: forwards;
+ animation-fill-mode: forwards;
+ }
 
-.p2:nth-child(4) {
+ .p2:nth-child(4) {
 
-	font-size: 30px;
-	margin-top: 20px;
-	-webkit-animation: slideMore .8s;
-	-moz-animation: slideMore .8s;
-	-ms-animation: slideMore .8s;
-	animation: slideMore .8s;
-	-webkit-animation-delay: 1.4s;
-	-moz-animation-delay: 1.4s;
-	-ms-animation-delay: 1.4s;
-	animation-delay: 1.4s;
-	-webkit-animation-fill-mode: forwards;
-	-moz-animation-fill-mode: forwards;
-	-ms-animation-fill-mode: forwards;
-	animation-fill-mode: forwards;
-}
+ font-size: 30px;
+ margin-top: 20px;
+ -webkit-animation: slideMore .8s;
+ -moz-animation: slideMore .8s;
+ -ms-animation: slideMore .8s;
+ animation: slideMore .8s;
+ -webkit-animation-delay: 1.4s;
+ -moz-animation-delay: 1.4s;
+ -ms-animation-delay: 1.4s;
+ animation-delay: 1.4s;
+ -webkit-animation-fill-mode: forwards;
+ -moz-animation-fill-mode: forwards;
+ -ms-animation-fill-mode: forwards;
+ animation-fill-mode: forwards;
+ }
 
-.p2:nth-child(5) {
+ .p2:nth-child(5) {
 
-	font-size: 30px;
-	margin-top: 20px;
-	-webkit-animation: slideMore .7s;
-	-moz-animation: slideMore .7s;
-	-ms-animation: slideMore .7s;
-	animation: slideMore .7s;
-	-webkit-animation-delay: 1.8s;
-	-moz-animation-delay: 1.8s;
-	-ms-animation-delay: 1.8s;
-	animation-delay: 1.8s;
-	-webkit-animation-fill-mode: forwards;
-	-moz-animation-fill-mode: forwards;
-	-ms-animation-fill-mode: forwards;
-	animation-fill-mode: forwards;
-}
+ font-size: 30px;
+ margin-top: 20px;
+ -webkit-animation: slideMore .7s;
+ -moz-animation: slideMore .7s;
+ -ms-animation: slideMore .7s;
+ animation: slideMore .7s;
+ -webkit-animation-delay: 1.8s;
+ -moz-animation-delay: 1.8s;
+ -ms-animation-delay: 1.8s;
+ animation-delay: 1.8s;
+ -webkit-animation-fill-mode: forwards;
+ -moz-animation-fill-mode: forwards;
+ -ms-animation-fill-mode: forwards;
+ animation-fill-mode: forwards;
+ }
 
-.p2:nth-child(6) {
+ .p2:nth-child(6) {
 
-	font-size: 30px;
-	margin-top: 20px;
-	-webkit-animation: slideMore .7s;
-	-moz-animation: slideMore .7s;
-	-ms-animation: slideMore .7s;
-	animation: slideMore .7s;
-	-webkit-animation-delay: 2s;
-	-moz-animation-delay: 2s;
-	-ms-animation-delay: 2s;
-	animation-delay: 2s;
-	-webkit-animation-fill-mode: forwards;
-	-moz-animation-fill-mode: forwards;
-	-ms-animation-fill-mode: forwards;
-	animation-fill-mode: forwards;
-}
+ font-size: 30px;
+ margin-top: 20px;
+ -webkit-animation: slideMore .7s;
+ -moz-animation: slideMore .7s;
+ -ms-animation: slideMore .7s;
+ animation: slideMore .7s;
+ -webkit-animation-delay: 2s;
+ -moz-animation-delay: 2s;
+ -ms-animation-delay: 2s;
+ animation-delay: 2s;
+ -webkit-animation-fill-mode: forwards;
+ -moz-animation-fill-mode: forwards;
+ -ms-animation-fill-mode: forwards;
+ animation-fill-mode: forwards;
+ }*/
 
 .dr-menu.dr-menu-open ul #left_line {
 
@@ -209,8 +209,7 @@
 	animation-fill-mode: forwards;
 }
 .animate2 {
-	
-	
+
 	-webkit-animation: 1s;
 	-moz-animation: 1s;
 	-ms-animation: 1s;
