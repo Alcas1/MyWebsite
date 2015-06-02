@@ -35,7 +35,7 @@ $(window).load(function() {
 		fillButton($(this).find('button'));
 
 	});
-	fillButton($('test'));
+	fillButton($('#test'));
 });
 function fillButton(el) {
 	var parent, ink, d, x, y;
