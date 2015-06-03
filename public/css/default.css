@@ -189,11 +189,6 @@ b {
 	height: 100%;
 	opacity: 0;
 	background: #000000;
-	-webkit-filter: blur(5px);
-	-moz-filter: blur(5px);
-	-o-filter: blur(5px);
-	-ms-filter: blur(5px);
-	filter: blur(5px);
 }
 .text_thanks {
 	font-size: 20px;
