@@ -1,10 +1,10 @@
 .me {
-	top:10%;
+	margin-top: 50px;
 	color: #FFFFFF;
 	font-size: 100px;
-	/*-webkit-animation: fadein 3s; 
-	-moz-animation: fadein 3s; 
-	-ms-animation: fadein 3s; */
+	-webkit-animation: fadein 3s;
+	-moz-animation: fadein 3s;
+	-ms-animation: fadein 3s;
 	animation: fadein 3s;
 	-webkit-animation-fill-mode: forwards;
 	-moz-animation-fill-mode: forwards;
@@ -141,38 +141,37 @@ html {
 
 @keyframes fadein {
 0% {
-	transform:translateY(0%);
+transform:translateY(0px);
 }
 100% {
-	transform:translateY(-100%);
+transform:translateY(-50px);
 }
 }
-
 
 @-moz-keyframes
-fadein {from {
-	opacity: 0;transform:translateY(0%);
+fadein {0% {
+transform:translateY(0px);opacity:0;
 }
-to {
-	opacity: 1;translateY(-100%);
+100% {
+transform:translateY(-50px);opacity:1;
 }
 }
 
 @-webkit-keyframes
-fadein {from {
-	opacity: 0;
+fadein {0% {
+transform:translateY(0px);opacity: 0;
 }
-to {
-	opacity: 1;
+100%{
+transform:translateY(-50px);opacity: 1;
 }
 }
 
 @-ms-keyframes
-fadein {from {
-	opacity: 0;
+fadein {0% {
+transform:translateY(0px);opacity: 0;
 }
-to {
-	opacity: 1;
+100%{
+transform:translateY(-50px);opacity: 1;
 }
 }
 
