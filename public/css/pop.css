@@ -1,4 +1,5 @@
 .youtube_embed {
+	opacity:0;
 	-webkit-animation: pop-in 1.5s;
 	-moz-animation: pop-in 1.5s;
 	animation: pop-in 1.5s;
