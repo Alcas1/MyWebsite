@@ -76,10 +76,10 @@ function init() {
 			});
 
 		}
-
+		var scrolled=false;
 		$(window).scroll(function() {
 			var docViewTop = $(window).scrollTop();
-
+			
 			for (var i = top_element; i > (top_element - lis.length); i--) {
 				var stringItem = "#content" + String(i);
 				var contentItem = $(stringItem).find('div.content_title');
@@ -88,13 +88,19 @@ function init() {
 				if (i === top_element) {
 					semiTop = distance;
 					if (docViewTop < (semiTop - 150)) {
-						$("#top-text").text("Works");
+						$("#top-text").text("Projects");
 					}
 
 				}
 				if (docViewTop >= (distance - 50)) {
+					// $(stringItem).css("opacity","0");
 					$("#top-text").text(contentItem.text());
 				}
+				// if(isScrolledIntoView($(stringItem))){
+// 					
+				// }
+				
+				
 			}
 
 			if (docViewTop >= (semiTop - 50)) {
@@ -210,6 +216,20 @@ function fillImage(imageNumber) {
 		}
 
 	}, false);
+}
+
+function isScrolledIntoView(elem)
+{
+    var $elem = $(elem);
+    var $window = $(window);
+
+    var docViewTop = $window.scrollTop();
+    var docViewBottom = docViewTop + $window.height();
+
+    var elemTop = $elem.offset().top;
+    var elemBottom = elemTop + $elem.height();
+
+    return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
 }
 
 function shade(check, event) {
