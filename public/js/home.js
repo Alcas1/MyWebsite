@@ -16,7 +16,7 @@ $(window).load(function() {
 		});
 
 	});
-
+	
 	$('#text_card').children().find('#button_bar').children().each(function(idx, val) {
 		var config = {
 			duration : 300,
