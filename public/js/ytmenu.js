@@ -45,6 +45,7 @@ window.onload = (function() {
 						el.css("width", "197px");
 						el.css("margin-left", "-2px");
 						if (idx === site) {
+							el.css("font-weight", "700");
 							el.css("border-right-color", "#03a9f4");
 							el.css("border-right-style", "solid");
 							el.css("border-right-width", "4px");
