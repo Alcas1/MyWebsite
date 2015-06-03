@@ -5,8 +5,9 @@ function init() {
 
     document.getElementById("contact").onsubmit = function() {
         var form = this;
-        document.getElementById('contained').className ='animate';
-        document.getElementById('contained2').className ='animate2';
+        // document.getElementById('contained').className ='animate';
+        // document.getElementById('contained2').className ='animate2';
+        $('#contained').addClass('animated zoomUpOut');
         document.getElementById('success').className ='success_animate';
         setTimeout(function() {
             form.submit();
