@@ -1,5 +1,4 @@
 window.onload = function() {
-	// $('#contained').addClass('animated zoomUpOut');
 	document.getElementById("contact").onsubmit = function() {
 		var form = this;
 		document.getElementById('contained').className ='animate';
@@ -9,7 +8,6 @@ window.onload = function() {
 		setTimeout(function() {
 			form.submit();
 		}, 900);
-		// 3 seconds
 		return false;
 	};
 };

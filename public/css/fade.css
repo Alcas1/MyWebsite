@@ -129,10 +129,10 @@ html {
 }
 
 .contained .group {
-	-webkit-animation: fadein 1.5s; /* Safari, Chrome and Opera > 12.1 */
-	-moz-animation: fadein 1.5s; /* Firefox < 16 */
-	-ms-animation: fadein 1.5s; /* Internet Explorer */
-	animation: fadein 1.5s;
+	-webkit-animation: fade 1.5s; 
+	-moz-animation: fade 1.5s; 
+	-ms-animation: fade 1.5s; 
+	animation: fade 1.5s;
 	-webkit-animation-fill-mode: forwards;
 	-moz-animation-fill-mode: forwards;
 	-ms-animation-fill-mode: forwards;
@@ -141,10 +141,10 @@ html {
 
 @keyframes fadein {
 0% {
-transform:translateY(0px);
+transform:translateY(0px);opacity: 0;
 }
 100% {
-transform:translateY(-50px);
+transform:translateY(-50px);opacity: 1;
 }
 }
 
@@ -172,6 +172,41 @@ transform:translateY(0px);opacity: 0;
 }
 100%{
 transform:translateY(-50px);opacity: 1;
+}
+}
+
+@keyframes fade {
+0% {opacity: 0;
+}
+100% {
+opacity:1;
+}
+}
+
+@-moz-keyframes
+fade {0% {
+opacity:0;
+}
+100% {
+opacity:1;
+}
+}
+
+@-webkit-keyframes
+fade {0% {
+opacity: 0;
+}
+100%{
+opacity: 1;
+}
+}
+
+@-ms-keyframes
+fade {0% {
+opacity: 0;
+}
+100%{
+opacity: 1;
 }
 }
 
