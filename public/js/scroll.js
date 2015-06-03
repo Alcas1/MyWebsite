@@ -76,10 +76,10 @@ function init() {
 			});
 
 		}
-		var scrolled=false;
+		
 		$(window).scroll(function() {
 			var docViewTop = $(window).scrollTop();
-			
+
 			for (var i = top_element; i > (top_element - lis.length); i--) {
 				var stringItem = "#content" + String(i);
 				var contentItem = $(stringItem).find('div.content_title');
@@ -93,14 +93,10 @@ function init() {
 
 				}
 				if (docViewTop >= (distance - 50)) {
-					// $(stringItem).css("opacity","0");
+
 					$("#top-text").text(contentItem.text());
 				}
-				// if(isScrolledIntoView($(stringItem))){
-// 					
-				// }
-				
-				
+
 			}
 
 			if (docViewTop >= (semiTop - 50)) {
@@ -125,12 +121,9 @@ function init() {
 		fillImage(2);
 		fillImage(3);
 
-
-
 		//to add more to Document Ready
 
 	});
-
 
 }
 
@@ -165,7 +158,7 @@ function fillImage(imageNumber) {
 				top : eTop,
 				left : eLeft
 			}, 0);
-			$('#sub_text').css("opacity","1");
+			$('#sub_text').css("opacity", "1");
 			// jCaption.animate({
 			// top : jTop,
 			// left : jLeft
@@ -189,7 +182,6 @@ function fillImage(imageNumber) {
 				top : '50%',
 				left : '50%'
 			}, 0);
-			
 
 			shade(open, event);
 		}
@@ -210,7 +202,7 @@ function fillImage(imageNumber) {
 			$('#cover').animate({
 				opacity : '0'
 			}, 100);
-			$('#sub_text').css("opacity","0");
+			$('#sub_text').css("opacity", "0");
 			cover.style.zIndex = "-1";
 			return false;
 		}
@@ -218,18 +210,17 @@ function fillImage(imageNumber) {
 	}, false);
 }
 
-function isScrolledIntoView(elem)
-{
-    var $elem = $(elem);
-    var $window = $(window);
+function isScrolledIntoView(elem) {
+	var $elem = $(elem);
+	var $window = $(window);
 
-    var docViewTop = $window.scrollTop();
-    var docViewBottom = docViewTop + $window.height();
+	var docViewTop = $window.scrollTop();
+	var docViewBottom = docViewTop + $window.height();
 
-    var elemTop = $elem.offset().top;
-    var elemBottom = elemTop + $elem.height();
+	var elemTop = $elem.offset().top;
+	var elemBottom = elemTop + $elem.height();
 
-    return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+	return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
 }
 
 function shade(check, event) {

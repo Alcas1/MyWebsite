@@ -16,12 +16,13 @@
 		<link rel="stylesheet" type="text/css" href="css/default.css" />
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
 		<link rel="stylesheet" type="text/css" href="css/waves.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/animate.css">
 		<script src="js/modernizr.custom.js"></script>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" type="text/javascript"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
 		<script src="js/waves.min.js"></script>
 		<script src="//cdn.jsdelivr.net/jquery.shadow-animation/1/mainfile"></script>
-		
+		<script src="js/wow.min.js"></script>
 		<script src="js/home.js"></script>
 		<script type="text/javascript">
 			$(document).ready(function() {
@@ -35,8 +36,11 @@
 				NProgress.start();
 				NProgress.done();
 			});
+
+			new WOW().init();
+
 		</script>
-		
+
 	</head>
 	<div id="top">
 		<p>
