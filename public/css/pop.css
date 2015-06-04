@@ -34,7 +34,7 @@
 	animation: pop-in .75s;
 }
 
-.part_body_card:nth-child(1) {
+.part_body_card {
 	opacity: 0;
 	-webkit-animation: pop-zero .75s;
 	-moz-animation: pop-zero .75s;
@@ -49,36 +49,7 @@
 	-ms-animation-fill-mode: forwards;
 	animation-fill-mode: forwards;
 }
-.part_body_card:nth-child(2) {
-	opacity: 0;
-	-webkit-animation: pop-zero .75s;
-	-moz-animation: pop-zero .75s;
-	-ms-animation: pop-zero .75s;
-	animation: pop-zero .75s;
-	-webkit-animation-delay: .3s;
-	-moz-animation-delay: .3s;
-	-ms-animation-delay: .3s;
-	animation-delay: .3s;
-	-webkit-animation-fill-mode: forwards;
-	-moz-animation-fill-mode: forwards;
-	-ms-animation-fill-mode: forwards;
-	animation-fill-mode: forwards;
-}
-.part_body_card:nth-child(3) {
-	opacity: 0;
-	-webkit-animation: pop-zero .75s;
-	-moz-animation: pop-zero .75s;
-	-ms-animation: pop-zero .75s;
-	animation: pop-zero .75s;
-	-webkit-animation-delay: .3s;
-	-moz-animation-delay: .3s;
-	-ms-animation-delay: .3s;
-	animation-delay: .3s;
-	-webkit-animation-fill-mode: forwards;
-	-moz-animation-fill-mode: forwards;
-	-ms-animation-fill-mode: forwards;
-	animation-fill-mode: forwards;
-}
+
 .part_body_card_main:nth-child(1) {
 	opacity: 0;
 	-webkit-animation: pop-zero .75s;
