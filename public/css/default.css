@@ -57,11 +57,11 @@ body {
 		max-width: 360px;
 	}
 	.part_body_card_main {
-	width: 100%;
+	width: 80%;
 }
 
 .part_body_card {
-	width: 100%;
+	width: 80%;
 }
 	
 }
@@ -101,11 +101,11 @@ body {
 		max-width: 360px;
 	}
 	.part_body_card_main {
-	width: 100%;
+	width: 80%;
 }
 
 .part_body_card {
-	width: 100%;
+	width: 80%;
 }
 }
 @media (min-width: 1200px) {
