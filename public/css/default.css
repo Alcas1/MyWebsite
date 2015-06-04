@@ -233,10 +233,7 @@ b {
 	width: 80%;
 	box-shadow: 0px 1px 3px #888888;
 	background: #FFFFFF;
-	border-bottom-left-radius: 2px;
-	border-bottom-right-radius: 2px;
-	border-top-left-radius: 2px;
-	border-top-right-radius: 2px;
+	border-radius: 2px;
 }
 .p2 {
 	width: 80%;
@@ -466,12 +463,14 @@ h3 {
 }
 
 .card_title {
-	margin-top: 16px;
+	position: absolute;
+	margin-top: 5%;
 	margin-left: 16px;
 	line-height: 20px;
 }
 .part_text {
-	padding-top: 10px;
+	position: absolute;
+	padding-top: 18%;
 	padding-left: 16px;
 	padding-right: 16px;
 }
@@ -505,15 +504,34 @@ h3 {
 }
 
 .part_img_logo {
-	max-width: 100%;
-	height: auto;
+	position: absolute;
+	max-height: 20%;
+	max-width: auto;
+	z-index: 1;
+	right:0;
+	background: #FFFFFF;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
 	/*padding-top:10px;*/
 }
 
 .card_title_bg {
+	position: absolute;
 	background: #03a9f4;
-	height: 50px;
+	height: 20%;
 	width: 100%;
+	/*border-bottom-left-radius: 1px;
+	 border-bottom-right-radius: 1px;*/
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+
+.card_title b {
+	color: #FFFFFF;
+	font-size: 20px;
+	font-family: 'Roboto';
+	font-weight: 700;
+	letter-spacing: 0.5px;
 }
 
 .ink {
