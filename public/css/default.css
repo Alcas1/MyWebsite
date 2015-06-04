@@ -509,6 +509,12 @@ h3 {
 	height: auto;
 	/*padding-top:10px;*/
 }
+
+.card_title_bg{
+	background: #03a9f4;
+}
+
+
 .ink {
 	display: block;
 	position: absolute;

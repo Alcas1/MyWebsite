@@ -5,7 +5,7 @@ $(window).load(function() {
 			$(this).stop();
 			$(this).animate({
 				boxShadow : "0px 1px 15px rgba(43, 59, 93, 0.29)",
-
+				
 			}, 150);
 		});
 		$(this).mouseleave(function(e) {
