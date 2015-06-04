@@ -422,10 +422,9 @@ h3 {
 	width: 90%;
 	min-height: 352px;
 }
-.part_body_card_main {
+.part_body_card_main, .part_body_card {
 	margin-top: 20px;
 	position: relative;
-	width: 500px;
 	min-height: inherit;
 	display: inline-block;
 	float: left;
@@ -437,6 +436,15 @@ h3 {
 	margin-left: 20px;
 	margin-bottom: 20px;
 }
+
+.part_body_card_main {
+	width: 500px;
+}
+
+.part_body_card {
+	width: 330px;
+}
+
 .part_body_card .card_title {
 	margin-top: 16px;
 	margin-left: 16px;
