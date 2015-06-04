@@ -4,7 +4,7 @@ $(window).load(function() {
 		$(this).mouseenter(function(e) {
 			$(this).stop();
 			$(this).animate({
-				boxShadow : "0px 1px 5px rgba(43, 59, 93, 0.29)"
+				boxShadow : "0px 1px 15px rgba(43, 59, 93, 0.29)"
 				
 			}, 150);
 		});
