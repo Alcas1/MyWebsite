@@ -4,14 +4,14 @@ $(window).load(function() {
 		$(this).mouseenter(function(e) {
 			$(this).stop();
 			$(this).animate({
-				boxShadow : "0px 0px 20px rgba(0, 0, 0, 0.4)"
+				boxShadow : "0px 1px 5px rgba(43, 59, 93, 0.29)"
 				
 			}, 150);
 		});
 		$(this).mouseleave(function(e) {
 			$(this).stop();
 			$(this).animate({
-				boxShadow : "0px 2px 6px rgba(0, 0, 0, 0.4)"
+				boxShadow : "0px 1px 2px rgba(43, 59, 93, 0.29)"
 			}, 150);
 		});
 
