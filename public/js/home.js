@@ -12,7 +12,7 @@ $(window).load(function() {
 			}, 150);
 		});
 		$(this).mouseleave(function(e) {
-			$(this).stop();
+			// $(this).stop();
 			$(this).animate({
 				boxShadow : "0px 1px 2px rgba(43, 59, 93, 0.29)",
 				marginLeft:"+=5px",
