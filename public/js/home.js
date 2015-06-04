@@ -2,8 +2,6 @@ $('#cover').css("opacity:1");
 $('#cover').css("z-index:2");
 
 $(window).load(function() {
-	$('#cover').css("opacity:0");
-	$('#cover').css("z-index:-1");
 
 	$('#text_card').children().each(function(idx, val) {
 		$(this).mouseenter(function(e) {
@@ -31,5 +29,6 @@ $(window).load(function() {
 		Waves.attach($(this).find('button'));
 		Waves.init(config);
 	});
-
-}); 
+	$('#cover').css("opacity:0");
+	$('#cover').css("z-index:-1");
+});
