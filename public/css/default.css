@@ -422,10 +422,10 @@ h3 {
 	width: 90%;
 	min-height: 352px;
 }
-.part_body_card {
+.part_body_card_main {
 	margin-top: 20px;
 	position: relative;
-	width: 28%;
+	width: 500px;
 	min-height: inherit;
 	display: inline-block;
 	float: left;
