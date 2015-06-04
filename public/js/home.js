@@ -5,20 +5,14 @@ $(window).load(function() {
 			$(this).stop();
 			$(this).animate({
 				boxShadow : "0px 1px 15px rgba(43, 59, 93, 0.29)",
-				marginLeft:"-=5px",
-				marginTop:"-=5px",
-				width:"+=10px",
-				height:"+=10px"
+
 			}, 150);
 		});
 		$(this).mouseleave(function(e) {
-			// $(this).stop();
+			$(this).stop();
 			$(this).animate({
 				boxShadow : "0px 1px 2px rgba(43, 59, 93, 0.29)",
-				marginLeft:"+=5px",
-				marginTop:"+=5px",
-				width:"-=10px",
-				height:"-=10px"
+
 			}, 150);
 		});
 
