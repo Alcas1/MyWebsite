@@ -132,7 +132,7 @@ window.onload = (function() {
 			return 0;
 		} else if (window.location.href.indexOf("skills") > -1) {
 			return 1;
-		} else if (window.location.href.indexOf("timeline") > -1) {
+		} else if (window.location.href.indexOf("experience") > -1) {
 			return 2;
 		} else if (window.location.href.indexOf("projects") > -1) {
 			return 3;
