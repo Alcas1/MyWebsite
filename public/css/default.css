@@ -448,7 +448,7 @@ h3 {
 	min-height: 352px;
 }
 .part_body_card_main, .part_body_card {
-	margin-top: 20px;
+	margin-top: 15px;
 	position: relative;
 	min-height: inherit;
 	display: inline-block;
@@ -459,18 +459,23 @@ h3 {
 	background: #FFFFFF;
 	box-shadow: 0px 1px 2px rgba(43, 59, 93, 0.29);
 	border-radius: 3px;
-	margin-bottom: 20px;
+	margin-bottom: 15px;
+}
+
+
+.part_body_card{
+	height:470px;
 }
 
 .card_title {
 	position: absolute;
-	margin-top: 5%;
+	margin-top: 25px;
 	margin-left: 16px;
 	line-height: 20px;
 }
 .part_text {
 	position: absolute;
-	padding-top: 18%;
+	padding-top: 80px;
 	padding-left: 16px;
 	padding-right: 16px;
 }
@@ -497,7 +502,7 @@ h3 {
 	border-top-color: #E0E0E0;
 	border-top-style: solid;
 	border-top-width: 1px;
-	top: 290px;
+	bottom:30px;
 	width: 100%;
 	/*margin: 0 -16px;*/
 	height: 30px;
@@ -506,7 +511,7 @@ h3 {
 .part_img_logo {
 	position: absolute;
 	max-height: 20%;
-	max-width: auto;
+	width: auto;
 	z-index: 1;
 	right:0;
 	background: #FFFFFF;
@@ -515,10 +520,21 @@ h3 {
 	/*padding-top:10px;*/
 }
 
+.part_img_big{
+	position: absolute;
+	max-height: 287px;
+	width: 100%;
+	background-size:cover;
+	z-index: 0;
+	/*background: #FFFFFF;*/
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+
 .card_title_bg {
 	position: absolute;
 	background: #03a9f4;
-	height: 20%;
+	height: 72px;
 	width: 100%;
 	/*border-bottom-left-radius: 1px;
 	 border-bottom-right-radius: 1px;*/
@@ -526,12 +542,18 @@ h3 {
 	border-top-right-radius: 3px;
 }
 
-.card_title b {
+.card_title b ,.card_title_big b{
 	color: #FFFFFF;
 	font-size: 22px;
 	font-family: 'Roboto';
-	font-weight: 700;
+	font-weight: 300;
 	letter-spacing: 0.5px;
+}
+
+.card_title_big{
+	position:absolute;
+	margin-top:240px;
+	margin-left:16px;
 }
 
 .ink {
