@@ -1,5 +1,13 @@
-$('#cover').css("opacity:1");
-$('#cover').css("z-index:2");
+$(document).on({
+	ajaxStart : function() {
+		$('#cover').css("opacity:1");
+		$('#cover').css("z-index:2");
+	},
+	ajaxStop : function() {
+		$('#cover').css("opacity:0");
+		$('#cover').css("z-index:-1");
+	}
+});
 
 $(window).load(function() {
 
@@ -29,6 +37,5 @@ $(window).load(function() {
 		Waves.attach($(this).find('button'));
 		Waves.init(config);
 	});
-	$('#cover').css("opacity:0");
-	$('#cover').css("z-index:-1");
+
 });
