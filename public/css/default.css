@@ -563,6 +563,10 @@ h3 {
 	border-radius: 100%;
 	transform: scale(0);
 }
+
+div#preload{
+	display:none;
+}
 /*animation effect*/
 .ink.animate {
 	animation: ripple 0.65s linear;
