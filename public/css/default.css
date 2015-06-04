@@ -56,7 +56,7 @@ body {
 	.content_img_medium {
 		max-width: 360px;
 	}
-	.part_body_card_main,.part_body_card {
+	.part_body_card_main, .part_body_card {
 		width: 100%;
 		margin-left: 0px;
 	}
@@ -102,7 +102,7 @@ body {
 	}
 	.part_body_card_main, .part_body_card {
 		width: 100%;
-		margin-left:0px;
+		margin-left: 0px;
 	}
 	.about_container {
 		padding-left: 0px;
@@ -147,12 +147,12 @@ body {
 	}
 	.part_body_card_main {
 		width: 500px;
-		margin-left:20px;
+		margin-left: 20px;
 	}
 
 	.part_body_card {
 		width: 330px;
-		margin-left:20px;
+		margin-left: 20px;
 	}
 	.about_container {
 		padding-left: 12%;
@@ -510,10 +510,11 @@ h3 {
 	/*padding-top:10px;*/
 }
 
-.card_title_bg{
+.card_title_bg {
 	background: #03a9f4;
+	height: 50px;
+	width: 100%;
 }
-
 
 .ink {
 	display: block;
