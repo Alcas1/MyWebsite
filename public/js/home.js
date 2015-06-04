@@ -1,4 +1,11 @@
+
+
+$('#cover').css("opacity:1");
+
+
 $(window).load(function() {
+	$('#cover').css("opacity:0");
+
 
 	$('#text_card').children().each(function(idx, val) {
 		$(this).mouseenter(function(e) {
