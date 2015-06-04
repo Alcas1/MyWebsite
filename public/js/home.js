@@ -1,18 +1,16 @@
-
-
 $('#cover').css("opacity:1");
-
+$('#cover').css("z-index:2");
 
 $(window).load(function() {
 	$('#cover').css("opacity:0");
-
+	$('#cover').css("z-index:-1");
 
 	$('#text_card').children().each(function(idx, val) {
 		$(this).mouseenter(function(e) {
 			$(this).stop();
 			$(this).animate({
 				boxShadow : "0px 1px 15px rgba(43, 59, 93, 0.29)",
-				
+
 			}, 150);
 		});
 		$(this).mouseleave(function(e) {
@@ -24,7 +22,7 @@ $(window).load(function() {
 		});
 
 	});
-	
+
 	$('#text_card').children().find('#button_bar').children().each(function(idx, val) {
 		var config = {
 			duration : 300,
@@ -34,4 +32,4 @@ $(window).load(function() {
 		Waves.init(config);
 	});
 
-});
+}); 
