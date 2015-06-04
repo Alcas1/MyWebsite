@@ -522,7 +522,7 @@ h3 {
 
 .part_img_big{
 	position: absolute;
-	max-height: 287px;
+	height: 287px;
 	width: 100%;
 	background-size:cover;
 	z-index: 0;
