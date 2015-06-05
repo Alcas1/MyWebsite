@@ -480,6 +480,7 @@ h3 {
 	width:300px;
 	height: 100px;
 	min-height: 100px;
+	margin-right:40px;
 }
 
 
@@ -591,7 +592,7 @@ h3 {
 }
 .card_title_skill{
 	position:absolute;
-	margin-left:120px;
+	margin-left:110px;
 	margin-top:10px;
 }
 
