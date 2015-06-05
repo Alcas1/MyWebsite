@@ -38,7 +38,7 @@ body {
 	.success, .success_animate {
 		font-size: 200%;
 	}
-	.content_title {
+	.content_title, .skills_title {
 		font-size: 19px;
 	}
 	.works_title {
@@ -79,7 +79,7 @@ body {
 	.success, .success_animate {
 		font-size: 300%;
 	}
-	.content_title {
+	.content_title, .skills_title  {
 		font-size: 20px;
 	}
 	.works_title {
@@ -109,7 +109,7 @@ body {
 	}
 
 }
-@media (min-width: 1200px) {
+@media (min-width: 1150px) {
 	.main_content {
 		font-size: 100%;
 	}
@@ -123,7 +123,7 @@ body {
 	.success, .success_animate {
 		font-size: 400%;
 	}
-	.content_title {
+	.content_title, .skills_title  {
 		font-size: 24px;
 	}
 	.works_title {
@@ -348,6 +348,15 @@ h3 {
 	box-sizing: border-box;
 	padding-top: 80px;
 	margin-bottom: 30px;
+	color: #03a9f4;
+}
+.skills_title {
+	border-top-color: rgba(0, 0, 0, 0.12);
+	border-top-style: solid;
+	border-top-width: 1px;
+	box-sizing: border-box;
+	margin-bottom: 30px;
+	padding-top: 30px;
 	color: #03a9f4;
 }
 .content_body {
@@ -585,6 +594,8 @@ h3 {
 	margin-left:120px;
 	margin-top:10px;
 }
+
+
 
 .ink {
 	display: block;
