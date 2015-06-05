@@ -21,11 +21,19 @@ function set_stars(stars, type) {
 	star_class.each(function(idx) {
 
 		for (var j = 0; j < stars[idx]; j++) {
+
 			$(this).find('img').eq(j).attr('src', 'imgs/skills/full_star.png');
+			// $(this).find('img').eq(j).delay(1000).animate({
+				// maxWidth : "30px"
+			// }, 300);
+			// $(this).find('img').eq(j).animate({
+				// maxWidth : "28px"
+			// }, 300);
+
 		}
 		if (stars[idx] % 1 === 0.5) {
-			
-			$(this).find('img').eq(stars[idx]-0.5).attr('src', 'imgs/skills/half_star.png');
+
+			$(this).find('img').eq(stars[idx] - 0.5).attr('src', 'imgs/skills/half_star.png');
 		}
 	});
 
