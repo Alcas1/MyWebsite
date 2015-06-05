@@ -468,6 +468,7 @@ h3 {
 }
 
 .part_body_card_skill{
+	width:300px
 	height: 100px;
 	min-height: 100px;
 }
@@ -527,10 +528,10 @@ h3 {
 }
 .part_img_skill {
 	position: absolute;
-	max-height: 20%;
+	max-height: 100%;
 	width: auto;
 	z-index: 1;
-	right:0;
+	left:0;
 	background: #FFFFFF;
 	border-top-left-radius: 3px;
 	border-top-right-radius: 3px;
