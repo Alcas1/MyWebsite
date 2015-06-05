@@ -447,7 +447,7 @@ h3 {
 	width: 100%;
 	min-height: 352px;
 }
-.part_body_card_main, .part_body_card {
+.part_body_card_main, .part_body_card, .part_body_card_skill {
 	margin-top: 15px;
 	position: relative;
 	min-height: inherit;
@@ -466,6 +466,11 @@ h3 {
 .part_body_card{
 	height:470px;
 }
+
+.part_body_card_skill{
+	height: 100px;
+}
+
 
 .card_title {
 	position: absolute;
@@ -509,6 +514,17 @@ h3 {
 }
 
 .part_img_logo {
+	position: absolute;
+	max-height: 20%;
+	width: auto;
+	z-index: 1;
+	right:0;
+	background: #FFFFFF;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	/*padding-top:10px;*/
+}
+.part_img_skill {
 	position: absolute;
 	max-height: 20%;
 	width: auto;
