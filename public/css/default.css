@@ -596,6 +596,17 @@ h3 {
 	margin-top:10px;
 }
 
+.stars{
+	position:absolute;
+	top:60px;
+	right:20px;
+}
+
+.stars img{
+	max-width:28px;
+	height:auto;
+}
+
 
 
 .ink {
