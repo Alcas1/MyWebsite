@@ -554,11 +554,15 @@ h3 {
 	background: #03a9f4;
 	height: 72px;
 	width: 100%;
-	/*border-bottom-left-radius: 1px;
-	 border-bottom-right-radius: 1px;*/
 	border-top-left-radius: 3px;
 	border-top-right-radius: 3px;
 }
+
+
+.part_body_card_skill .card_title_bg {
+	height: 50px;
+}
+
 
 .card_title b ,.card_title_big b, .card_title_skill b{
 	color: #FFFFFF;
@@ -575,8 +579,8 @@ h3 {
 }
 .card_title_skill{
 	position:absolute;
-	margin-left:80px;
-	margin-top:16px;
+	margin-left:120px;
+	margin-top:10px;
 }
 
 .ink {
