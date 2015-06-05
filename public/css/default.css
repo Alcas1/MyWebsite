@@ -560,7 +560,7 @@ h3 {
 	border-top-right-radius: 3px;
 }
 
-.card_title b ,.card_title_big b{
+.card_title b ,.card_title_big b, .card_title_skill b{
 	color: #FFFFFF;
 	font-size: 22px;
 	font-family: 'Roboto';
@@ -572,6 +572,11 @@ h3 {
 	position:absolute;
 	margin-top:240px;
 	margin-left:16px;
+}
+.card_title_skill{
+	position:absolute;
+	margin-left:80px;
+	margin-top:16px;
 }
 
 .ink {
