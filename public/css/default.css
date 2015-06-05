@@ -469,6 +469,7 @@ h3 {
 
 .part_body_card_skill{
 	height: 100px;
+	min-height: 100px;
 }
 
 
