@@ -79,7 +79,7 @@ body {
 	.success, .success_animate {
 		font-size: 300%;
 	}
-	.content_title, .skills_title  {
+	.content_title, .skills_title {
 		font-size: 20px;
 	}
 	.works_title {
@@ -123,7 +123,7 @@ body {
 	.success, .success_animate {
 		font-size: 400%;
 	}
-	.content_title, .skills_title  {
+	.content_title, .skills_title {
 		font-size: 24px;
 	}
 	.works_title {
@@ -302,19 +302,28 @@ a:hover {
 	left: 38%;
 	opacity: 0;
 }
-.works_content {
-	border-left-color: #b3e5fc;
-	border-left-style: solid;
-	border-left-width: 5px;
+.works_content, .skills_content{
 	box-sizing: border-box;
 	padding-left: 20px;
 	margin-bottom: 50px;
+	border-left-color: #b3e5fc;
+	border-left-style: solid;
+	border-left-width: 5px;
 }
-.works_content ul {
+
+.skills_content{
+	position:fixed;
+	right:50px;
+	top:150px;
+}
+
+
+
+.works_content ul, .skills_content ul {
 	list-style: outside none none;
 	padding-left: 0px;
 }
-.works_content ul li a {
+.works_content ul li a, .skills_content ul li a {
 	/*background-attachment:scroll;*/
 	color: #03a9f4;
 	font-size: 20px;
@@ -357,6 +366,7 @@ h3 {
 	box-sizing: border-box;
 	margin-bottom: 30px;
 	padding-top: 30px;
+	width:85%;
 	color: #03a9f4;
 }
 .content_body {
@@ -471,18 +481,16 @@ h3 {
 	margin-bottom: 15px;
 }
 
-
-.part_body_card{
-	height:470px;
+.part_body_card {
+	height: 470px;
 }
 
-.part_body_card_skill{
-	width:300px;
+.part_body_card_skill {
+	width: 300px;
 	height: 100px;
 	min-height: 100px;
-	margin-right:40px;
+	margin-right: 40px;
 }
-
 
 .card_title {
 	position: absolute;
@@ -519,7 +527,7 @@ h3 {
 	border-top-color: #E0E0E0;
 	border-top-style: solid;
 	border-top-width: 1px;
-	bottom:30px;
+	bottom: 30px;
 	width: 100%;
 	/*margin: 0 -16px;*/
 	height: 30px;
@@ -530,7 +538,7 @@ h3 {
 	max-height: 20%;
 	width: auto;
 	z-index: 1;
-	right:0;
+	right: 0;
 	background: #FFFFFF;
 	border-top-left-radius: 3px;
 	border-top-right-radius: 3px;
@@ -541,7 +549,7 @@ h3 {
 	max-height: 100%;
 	width: auto;
 	z-index: 1;
-	left:0;
+	left: 0;
 	background: #FFFFFF;
 	border-top-left-radius: 3px;
 	border-top-right-radius: 3px;
@@ -551,11 +559,11 @@ h3 {
 	/*padding-top:10px;*/
 }
 
-.part_img_big{
+.part_img_big {
 	position: absolute;
 	height: 287px;
 	width: 100%;
-	background-size:cover;
+	background-size: cover;
 	z-index: 0;
 	/*background: #FFFFFF;*/
 	border-top-left-radius: 3px;
@@ -571,13 +579,11 @@ h3 {
 	border-top-right-radius: 3px;
 }
 
-
 .part_body_card_skill .card_title_bg {
 	height: 50px;
 }
 
-
-.card_title b ,.card_title_big b, .card_title_skill b{
+.card_title b, .card_title_big b, .card_title_skill b {
 	color: #FFFFFF;
 	font-size: 22px;
 	font-family: 'Roboto';
@@ -585,29 +591,27 @@ h3 {
 	letter-spacing: 0.5px;
 }
 
-.card_title_big{
-	position:absolute;
-	margin-top:240px;
-	margin-left:16px;
+.card_title_big {
+	position: absolute;
+	margin-top: 240px;
+	margin-left: 16px;
 }
-.card_title_skill{
-	position:absolute;
-	margin-left:110px;
-	margin-top:10px;
-}
-
-.stars{
-	position:absolute;
-	top:60px;
-	right:20px;
+.card_title_skill {
+	position: absolute;
+	margin-left: 110px;
+	margin-top: 10px;
 }
 
-.stars img{
-	max-width:28px;
-	height:auto;
+.stars {
+	position: absolute;
+	top: 60px;
+	right: 20px;
 }
 
-
+.stars img {
+	max-width: 28px;
+	height: auto;
+}
 
 .ink {
 	display: block;
@@ -617,8 +621,8 @@ h3 {
 	transform: scale(0);
 }
 
-div#preload{
-	display:none;
+div#preload {
+	display: none;
 }
 /*animation effect*/
 .ink.animate {
