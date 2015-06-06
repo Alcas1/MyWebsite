@@ -10,6 +10,7 @@ $(document).ready(function() {
 	var mobile_stars = [4, 5];
 
 	set_stars(web_stars, 1);
+	set_stars(mobile_stars, 2);
 	var top_element = 10;
 	var lis = document.getElementById("skills_list").getElementsByTagName('li');
 	var semiTop = 0;
@@ -19,7 +20,7 @@ $(document).ready(function() {
 		listItem.addEventListener("click", function(e) {
 
 			$('html, body').animate({
-				scrollTop : $('#skill_' + e.target.id).offset().top-50
+				scrollTop : $('#skill_' + e.target.id).offset().top - 140
 			}, 600, 'easeInOutQuad');
 
 		});
@@ -54,25 +55,31 @@ $(document).ready(function() {
 
 function set_stars(stars, type) {
 	var star_class;
-	if (type === 1) {
-		star_class = $('.web .text_card .part_body_card_skill #web_stars');
-	}
+	star_class = $('#skill_' + (11 - type) + ' .skill_card .part_body_card_skill #web_stars');
 	star_class.each(function(idx) {
+		var j;
+		for ( j = 0; j < stars[idx] - 0.5; j++) {
 
-		for (var j = 0; j < stars[idx]; j++) {
-
-			$(this).find('img').eq(j).attr('src', 'imgs/skills/full_star.png');
-			// $(this).find('img').eq(j).delay(1000).animate({
-			// maxWidth : "30px"
-			// }, 300);
-			// $(this).find('img').eq(j).animate({
-			// maxWidth : "28px"
-			// }, 300);
+			$(this).find('img').eq(j).css("opacity", "0");
+			$(this).find('img').eq(j).animate({
+				opacity : 1
+			}, 100 * j).delay(100 * j).queue(function(next) {
+				$(this).attr('src', 'imgs/skills/full_star.png');
+				next();
+			}).delay(100 * j).animate({
+				opacity : 1
+			}, 200);
 
 		}
 		if (stars[idx] % 1 === 0.5) {
-
-			$(this).find('img').eq(stars[idx] - 0.5).attr('src', 'imgs/skills/half_star.png');
+			console.log(j);
+			$(this).find('img').eq(stars[idx] - 0.5).css("opacity", "0");
+			$(this).find('img').eq(stars[idx] - 0.5).animate({
+				opacity : 1
+			}, 100 * j).delay(100 * j).queue(function(next) {
+				$(this).attr('src', 'imgs/skills/half_star.png');
+				next();
+			}).delay(100 * j);
 		}
 	});
 
