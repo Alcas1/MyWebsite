@@ -8,9 +8,17 @@ $(document).ready(function() {
 	var web_stars = [4.5, 4, 3.5, 4, 4, 4];
 	var backend_stars = [];
 	var mobile_stars = [4, 5];
-
+	
 	set_stars(web_stars, 1);
 	set_stars(mobile_stars, 2);
+	
+	
+	
+	
+	
+	
+	
+	
 	var top_element = 10;
 	var lis = document.getElementById("skills_list").getElementsByTagName('li');
 	var semiTop = 0;
@@ -54,6 +62,8 @@ $(document).ready(function() {
 });
 
 function set_stars(stars, type) {
+	
+	$('skill_'+(11-type)+'.skill_card').css("min-height",""+175*((stars.length/3)-(stars.length%3)));
 	var star_class;
 	star_class = $('#skill_' + (11 - type) + ' .skill_card .part_body_card_skill #web_stars');
 	star_class.each(function(idx) {
