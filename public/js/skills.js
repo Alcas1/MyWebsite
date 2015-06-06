@@ -63,7 +63,7 @@ $(document).ready(function() {
 
 function set_stars(stars, type) {
 	
-	$('#skill_'+(11-type)+' .skill_card').css("min-height",250*((stars.length/3)-(stars.length%3))+"px");
+	$('#skill_'+(11-type)+' .skill_card').css("min-height",200*((stars.length/3)-(stars.length%3))+"px");
 	var star_class;
 	star_class = $('#skill_' + (11 - type) + ' .skill_card .part_body_card_skill #web_stars');
 	star_class.each(function(idx) {
