@@ -6,19 +6,17 @@ $(document).ready(function() {
 	// Android, Construct 2
 
 	var web_stars = [4.5, 4, 3.5, 4, 4, 4];
-	var backend_stars = [];
+	var backend_stars = [3.5, 3.5, 5, 3, 5];
 	var mobile_stars = [4, 5];
+	var tools_stars = [5,4.5,4];
+	var env_stars = [5,4.5];
 	
 	set_stars(web_stars, 1);
-	set_stars(mobile_stars, 2);
-	
-	
-	
-	
-	
-	
-	
-	
+	set_stars(backend_stars, 2);
+	set_stars(mobile_stars, 3);
+	set_stars(tools_stars,4);
+	set_stars(env_stars,5);
+
 	var top_element = 10;
 	var lis = document.getElementById("skills_list").getElementsByTagName('li');
 	var semiTop = 0;
@@ -28,7 +26,7 @@ $(document).ready(function() {
 		listItem.addEventListener("click", function(e) {
 
 			$('html, body').animate({
-				scrollTop : $('#skill_' + e.target.id).offset().top - 140
+				scrollTop : $('#skill_' + e.target.id).offset().top - 50
 			}, 600, 'easeInOutQuad');
 
 		});
@@ -62,8 +60,12 @@ $(document).ready(function() {
 });
 
 function set_stars(stars, type) {
-	
-	$('#skill_'+(11-type)+' .skill_card').css("min-height",200*((stars.length/3)-(stars.length%3))+"px");
+	var mHeight = ((stars.length / 3.0)) * 160;
+	if (stars.length < 3) {
+		mHeight = 160;
+	}
+	$('#skill_' + (11 - type) + ' .skill_card').css("min-height", mHeight + "px");
+
 	var star_class;
 	star_class = $('#skill_' + (11 - type) + ' .skill_card .part_body_card_skill #web_stars');
 	star_class.each(function(idx) {
@@ -82,7 +84,6 @@ function set_stars(stars, type) {
 
 		}
 		if (stars[idx] % 1 === 0.5) {
-			console.log(j);
 			$(this).find('img').eq(stars[idx] - 0.5).css("opacity", "0");
 			$(this).find('img').eq(stars[idx] - 0.5).animate({
 				opacity : 1
