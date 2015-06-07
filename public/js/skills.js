@@ -60,11 +60,11 @@ $(document).ready(function() {
 });
 
 function set_stars(stars, type) {
-	var mHeight = ((stars.length / 3.0)) * 160;
-	if (stars.length < 3) {
-		mHeight = 160;
-	}
-	$('#skill_' + (11 - type) + ' .skill_card').css("min-height", mHeight + "px");
+	// var mHeight = ((stars.length / 3.0)) * 160;
+	// if (stars.length < 3) {
+		// mHeight = 160;
+	// }
+	// $('#skill_' + (11 - type) + ' .skill_card').css("min-height", mHeight + "px");
 
 	var star_class;
 	star_class = $('#skill_' + (11 - type) + ' .skill_card .part_body_card_skill #web_stars');

@@ -470,6 +470,7 @@ h3 {
 }
 .skill_card{
 	width:100%;
+	display: inline-block;
 	/*min-height:320px;*/
 }
 
@@ -608,6 +609,10 @@ h3 {
 	position: absolute;
 	margin-left: 110px;
 	margin-top: 12px;
+}
+
+.skill{
+	padding-bottom:30px;
 }
 
 .stars {
