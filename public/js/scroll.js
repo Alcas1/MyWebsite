@@ -88,7 +88,7 @@ function init() {
 				if (i === top_element) {
 					semiTop = distance;
 					if (docViewTop < (semiTop - 150)) {
-						$("#top-text").text("Projects");
+						$("#top-text").text($('.works_title').attr('id'));
 					}
 
 				}

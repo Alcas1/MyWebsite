@@ -6,8 +6,7 @@ jQuery.fn.center = function() {
 	return this;
 };
 
-
-$(document).on('ready', function() {
+window.onload = (function() {
 
 	function init() {
 
