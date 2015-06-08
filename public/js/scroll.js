@@ -138,7 +138,7 @@ function fillImage(imageNumber) {
 	img.addEventListener('click', function(event) {
 
 		if (!fill) {
-			var jImg = $('#content_img_small_' + imageNumber);
+			var jImg = $('#'+ids+'_img_small_' + imageNumber);
 			var jCaption = $('#caption_' + imageNumber);
 			event.stopPropagation();
 			fill = true;
@@ -192,12 +192,12 @@ function fillImage(imageNumber) {
 	cover.addEventListener('click', function(event) {
 		if (open) {
 			event.stopPropagation();
-			$('#content_img_small_' + imageNumber).css("position", "absolute");
-			$('#content_img_small_' + imageNumber).animate({
+			$('#'+ids+'_img_small_' + imageNumber).css("position", "absolute");
+			$('#'+ids+'_img_small_' + imageNumber).animate({
 
 			}, 500);
 
-			$('#content_img_small_' + imageNumber).removeAttr('style');
+			$('#'+ids+'_img_small_' + imageNumber).removeAttr('style');
 			$('#caption_' + imageNumber).removeAttr('style');
 			fill = false;
 			$('#cover').animate({
