@@ -3,14 +3,15 @@
 //this was probably the hardest js i've written so far
 
 function init() {
-
+	var ids;
+	ids = ($('.works_title').attr('id') === "Projects") ? "content" : "exp";
 	$(window).load(function() {
 		var top_element = 10;
-		var lis = document.getElementById("content_list").getElementsByTagName('li');
+		var lis = document.getElementById(ids + "_list").getElementsByTagName('li');
 		var semiTop = 0;
 		for (var i = top_element; i > (top_element - lis.length); i--) {
-			var stringItem = "#content" + String(i);
-			var contentItem = $(stringItem).find('div.content_title');
+			var stringItem = "#" + ids + String(i);
+			var contentItem = $(stringItem).find('.' + ids + '_title');
 			var docViewTop = $(window).scrollTop();
 			var distance = $(stringItem).offset().top;
 			if (i === top_element) {
@@ -26,9 +27,9 @@ function init() {
 			var elementOffsetTop = $('#back_top').offset().top;
 			var distTop = (elementOffsetTop - docViewTop);
 			var elementOffsetLeft = $('#back_top').offset().left;
-			$("#content10 #back_top").css("position", "fixed");
-			$("#content10 #back_top").css("top", ($(window).height() - 100) + "px");
-			$("#content10 #back_top").css("left", ($(window).width() - 100) + "px");
+			$("#back_top").css("position", "fixed");
+			$("#back_top").css("top", ($(window).height() - 100) + "px");
+			$("#back_top").css("left", ($(window).width() - 100) + "px");
 		}
 
 		var bt = $("#back_top");
@@ -70,19 +71,19 @@ function init() {
 			listItem.addEventListener("click", function(e) {
 
 				$('html, body').animate({
-					scrollTop : $('#content' + e.target.id).offset().top
+					scrollTop : $('#' + ids + e.target.id).offset().top
 				}, 600, 'easeInOutQuad');
 
 			});
 
 		}
-		
+
 		$(window).scroll(function() {
 			var docViewTop = $(window).scrollTop();
 
 			for (var i = top_element; i > (top_element - lis.length); i--) {
-				var stringItem = "#content" + String(i);
-				var contentItem = $(stringItem).find('div.content_title');
+				var stringItem = "#" + ids + String(i);
+				var contentItem = $(stringItem).find('.' + ids + '_title');
 
 				var distance = $(stringItem).offset().top;
 				if (i === top_element) {
@@ -101,18 +102,18 @@ function init() {
 
 			if (docViewTop >= (semiTop - 50)) {
 
-				var elementHeight = $('#content10').height();
+				var elementHeight = $("#"+ids+"10").height();
 				// var choice = (700)
-				$("#content10 #back_top").css("position", "fixed");
-				$("#content10 #back_top").css("top", ($(window).height() - 100) + "px");
-				$("#content10 #back_top").css("left", ($(window).width() - 100) + "px");
+				$("#back_top").css("position", "fixed");
+				$("#back_top").css("top", ($(window).height() - 100) + "px");
+				$("#back_top").css("left", ($(window).width() - 100) + "px");
 
 			} else {
 				//var top_height=$("#content10").offset().top+$(window).height();
 				//console.log(top_height);
-				$("#content10 #back_top").css("position", "absolute");
-				$("#content10 #back_top").css("top", ($(window).height() - 150) + "px");
-				$("#content10 #back_top").css("left", ($(window).width() - ($("#content10").offset().left) - 100) + "px");
+				$("#back_top").css("position", "absolute");
+				$("#back_top").css("top", ($(window).height() - 150) + "px");
+				$("#back_top").css("left", ($(window).width() - ($("#"+ids+"10").offset().left) - 100) + "px");
 			}
 
 		});
