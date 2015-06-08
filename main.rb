@@ -310,6 +310,13 @@ class Main < Sinatra::Base
     erb :music13
   end
 
+  get '/experience' do
+    @title='Experience'
+    @year_number='Experience'
+    @second_title='Jonathan Wu'
+    erb :experience
+  end
+
   get '/contact' do
     @title='Contact Me'
     @year_number='Contact Me'
