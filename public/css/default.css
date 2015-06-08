@@ -38,7 +38,7 @@ body {
 	.success, .success_animate {
 		font-size: 200%;
 	}
-	.content_title, .skills_title {
+	.content_title, .skills_title, .exp_title {
 		font-size: 19px;
 	}
 	.works_title {
@@ -79,7 +79,7 @@ body {
 	.success, .success_animate {
 		font-size: 300%;
 	}
-	.content_title, .skills_title {
+	.content_title, .skills_title, .exp_title {
 		font-size: 20px;
 	}
 	.works_title {
@@ -123,7 +123,7 @@ body {
 	.success, .success_animate {
 		font-size: 400%;
 	}
-	.content_title, .skills_title {
+	.content_title, .skills_title, .exp_title {
 		font-size: 24px;
 	}
 	.works_title {
@@ -302,7 +302,7 @@ a:hover {
 	left: 38%;
 	opacity: 0;
 }
-.works_content, .skills_content{
+.works_content, .skills_content {
 	box-sizing: border-box;
 	padding-left: 20px;
 	margin-bottom: 50px;
@@ -311,14 +311,14 @@ a:hover {
 	border-left-width: 5px;
 }
 
-.skills_content{
-	position:fixed;
-	right:50px;
-	top:150px;
+.skills_content {
+	position: fixed;
+	right: 50px;
+	top: 150px;
 }
 
-.skill{
-	height:100%;
+.skill {
+	height: 100%;
 }
 
 .works_content ul, .skills_content ul {
@@ -352,7 +352,7 @@ h3 {
 	line-height: 16px;
 	padding-bottom: 0px;
 }
-.content_title {
+.content_title, .exp_title {
 	border-top-color: rgba(0, 0, 0, 0.12);
 	border-top-style: solid;
 	border-top-width: 1px;
@@ -368,7 +368,7 @@ h3 {
 	box-sizing: border-box;
 	margin-bottom: 30px;
 	padding-top: 30px;
-	width:85%;
+	width: 85%;
 	color: #03a9f4;
 }
 .content_body {
@@ -464,16 +464,15 @@ h3 {
 	height: 100%;
 	background-color: rgba(249,249,253,1);
 }
-.text_card{
+.text_card {
 	width: 100%;
 	min-height: 352px;
 }
-.skill_card{
-	width:100%;
+.skill_card {
+	width: 100%;
 	display: inline-block;
 	/*min-height:320px;*/
 }
-
 
 .part_body_card_main, .part_body_card, .part_body_card_skill {
 	margin-top: 15px;
@@ -611,8 +610,8 @@ h3 {
 	margin-top: 12px;
 }
 
-.skill{
-	padding-bottom:30px;
+.skill {
+	padding-bottom: 30px;
 }
 
 .stars {
