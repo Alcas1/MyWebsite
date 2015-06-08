@@ -21,14 +21,26 @@ require 'pony'
 
 #DataMapper.finalize.auto_upgrade!
 
+
+# class Sinatra::Request
+  # def pjax?
+    # env['HTTP_X_PJAX'] || self["_pjax"]
+  # end
+# end
+
+
+
 class Main < Sinatra::Base
   
   set :public_folder, 'public'
+  
+  
   
   configure do
     @@error_return = '/about'
   end
   
+    
   get '/' do
     @title= 'Jonathan Wu'
     @year_number='Welcome'
@@ -56,7 +68,7 @@ class Main < Sinatra::Base
     @title= 'Jonathan Wu'
     @year_number='Skills'
     @second_title='Jonathan Wu'
-    erb :skills
+    erb :skills,:layout => !request.pjax?
   end
 
   post '/skills' do
@@ -65,11 +77,11 @@ class Main < Sinatra::Base
 
 
   get '/about' do
-
+ 
     @title= 'Jonathan Wu'
     @year_number='About Me'
     @second_title='Jonathan Wu'
-    erb :home
+    erb :home,:layout => !request.pjax?
   end
 
   post '/about' do
@@ -206,12 +218,6 @@ class Main < Sinatra::Base
   post '/apps' do
 
   end
-  #get '/music-1' do
-  #  @title='Music'
-  #  @year_number='My Music'
-  #  @second_title='Jonathan Wu'
-  #  erb :music
-  #end
 
   get '/music' do
     @title='Music'

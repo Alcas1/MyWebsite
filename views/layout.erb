@@ -23,6 +23,7 @@
 		<script src="js/waves.min.js"></script>
 		<script src="//cdn.jsdelivr.net/jquery.shadow-animation/1/mainfile"></script>
 		<script src="js/wow.min.js"></script>
+		<script src="js/jquery.pjax.js"></script>
 		<script src="js/home.js"></script>
 		<script type="text/javascript">
 			$(document).ready(function() {
@@ -38,7 +39,7 @@
 			});
 
 			new WOW().init();
-
+			$(document).pjax('a', '#main')
 		</script>
 
 	</head>
