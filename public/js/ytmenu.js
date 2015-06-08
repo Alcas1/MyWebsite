@@ -7,7 +7,7 @@ jQuery.fn.center = function() {
 };
 
 
-$(document).on('ready pjax:success', function() {
+$(document).on('ready', function() {
 
 	function init() {
 

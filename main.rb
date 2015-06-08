@@ -28,6 +28,7 @@ require 'pony'
   # end
 # end
 
+#,:layout => !request.pjax?
 
 
 class Main < Sinatra::Base
@@ -68,7 +69,7 @@ class Main < Sinatra::Base
     @title= 'Jonathan Wu'
     @year_number='Skills'
     @second_title='Jonathan Wu'
-    erb :skills,:layout => !request.pjax?
+    erb :skills
   end
 
   post '/skills' do
@@ -81,7 +82,7 @@ class Main < Sinatra::Base
     @title= 'Jonathan Wu'
     @year_number='About Me'
     @second_title='Jonathan Wu'
-    erb :home,:layout => !request.pjax?
+    erb :home
   end
 
   post '/about' do

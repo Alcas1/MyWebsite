@@ -1,4 +1,4 @@
-$(document).on('ready pjax:success', function() {
+$(document).on('ready', function() {
 
 	// Array Order
 	// Html 5, CSS 3, Javascript, Jquery, Ruby, Sinatra
