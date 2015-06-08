@@ -1,10 +1,11 @@
 //maybe I'll try to make functions or
 //things easier to read lol
 //this was probably the hardest js i've written so far
+var ids;
+ids = ($('.works_title').attr('id') === "Projects") ? "content" : "exp";
 
 function init() {
-	var ids;
-	ids = ($('.works_title').attr('id') === "Projects") ? "content" : "exp";
+
 	$(window).load(function() {
 		var top_element = 10;
 		var lis = document.getElementById(ids + "_list").getElementsByTagName('li');
@@ -23,16 +24,16 @@ function init() {
 		}
 
 		if (docViewTop >= (semiTop - 50)) {
-
-			var elementOffsetTop = $('#back_top').offset().top;
+			var backTop = $('#' + ids + '_top');
+			var elementOffsetTop = backTop.offset().top;
 			var distTop = (elementOffsetTop - docViewTop);
-			var elementOffsetLeft = $('#back_top').offset().left;
-			$("#back_top").css("position", "fixed");
-			$("#back_top").css("top", ($(window).height() - 100) + "px");
-			$("#back_top").css("left", ($(window).width() - 100) + "px");
+			var elementOffsetLeft = backTop.offset().left;
+			backTop.css("position", "fixed");
+			backTop.css("top", ($(window).height() - 100) + "px");
+			backTop.css("left", ($(window).width() - 100) + "px");
 		}
 
-		var bt = $("#back_top");
+		var bt = $('#' + ids + '_top');
 		bt.mousedown(function(e) {
 			bt.css("background", "#ff1744");
 			bt.animate({
@@ -99,29 +100,34 @@ function init() {
 				}
 
 			}
+			var backTop = $('#' + ids + '_top');
 
 			if (docViewTop >= (semiTop - 50)) {
 
-				var elementHeight = $("#"+ids+"10").height();
+				//var elementHeight = $("#" + ids + "10").height();
 				// var choice = (700)
-				$("#back_top").css("position", "fixed");
-				$("#back_top").css("top", ($(window).height() - 100) + "px");
-				$("#back_top").css("left", ($(window).width() - 100) + "px");
+				backTop.css("position", "fixed");
+				backTop.css("top", ($(window).height() - 100) + "px");
+				backTop.css("left", ($(window).width() - 100) + "px");
 
 			} else {
+				console.log($(window).height());
 				//var top_height=$("#content10").offset().top+$(window).height();
 				//console.log(top_height);
-				$("#back_top").css("position", "absolute");
-				$("#back_top").css("top", ($(window).height() - 150) + "px");
-				$("#back_top").css("left", ($(window).width() - ($("#"+ids+"10").offset().left) - 100) + "px");
+				backTop.css("position", "absolute");
+				backTop.css("top", ($(window).height() - 150) + "px");
+				backTop.css("left", ($(window).width() - ($("#" + ids + "10").offset().left) - 100) + "px");
 			}
 
 		});
 
-		fillImage(1);
-		fillImage(2);
-		fillImage(3);
-
+		if (ids === "content") {
+			fillImage(1);
+			fillImage(2);
+			fillImage(3);
+		} else {
+			fillImage(3);
+		}
 		//to add more to Document Ready
 
 	});
@@ -133,12 +139,12 @@ function init() {
 // this was so awful to write
 function fillImage(imageNumber) {
 	var fill = false;
-	var img = document.getElementById('content_img_small_' + imageNumber);
+	var img = document.getElementById(ids + '_img_small_' + imageNumber);
 
 	img.addEventListener('click', function(event) {
 
 		if (!fill) {
-			var jImg = $('#'+ids+'_img_small_' + imageNumber);
+			var jImg = $('#' + ids + '_img_small_' + imageNumber);
 			var jCaption = $('#caption_' + imageNumber);
 			event.stopPropagation();
 			fill = true;
@@ -192,12 +198,12 @@ function fillImage(imageNumber) {
 	cover.addEventListener('click', function(event) {
 		if (open) {
 			event.stopPropagation();
-			$('#'+ids+'_img_small_' + imageNumber).css("position", "absolute");
-			$('#'+ids+'_img_small_' + imageNumber).animate({
+			$('#' + ids + '_img_small_' + imageNumber).css("position", "absolute");
+			$('#' + ids + '_img_small_' + imageNumber).animate({
 
 			}, 500);
 
-			$('#'+ids+'_img_small_' + imageNumber).removeAttr('style');
+			$('#' + ids + '_img_small_' + imageNumber).removeAttr('style');
 			$('#caption_' + imageNumber).removeAttr('style');
 			fill = false;
 			$('#cover').animate({

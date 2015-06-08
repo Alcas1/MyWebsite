@@ -452,7 +452,7 @@ h3 {
 	background: transparent;
 	position: absolute;
 }
-#content10 {
+#content10, #exp10 {
 	position: relative;
 }
 #bg {
