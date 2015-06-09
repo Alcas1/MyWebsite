@@ -92,12 +92,13 @@ function set_stars(stars, type) {
 				next();
 			}).delay(100 * j);
 		}
-		if(stars[idx]===5)
+		
+	});
+	if(stars[idx]===5)
 		{
 			console.log(stars[idx]);
 			$('#skill_' + (11 - type) + ' .skill_card .part_body_card_skill').css('boxShadow', "0px 1px 15px #03a9f4");
 		}
-	});
 
 }
 
