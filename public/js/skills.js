@@ -94,7 +94,7 @@ function set_stars(stars, type) {
 		}
 		if(stars[idx]===5)
 		{
-			$('#skill_' + (11 - type) + ' .skill_card .part_body_card_skill').css('boxShadow', "0px 1px 15px rgba(43, 59, 93, 0.29)");
+			$('#skill_' + (11 - type) + ' .skill_card .part_body_card_skill').css('boxShadow', "0px 1px 15px #03a9f4");
 		}
 	});
 
