@@ -633,6 +633,10 @@ h3 {
 	transform: scale(0);
 }
 
+ul#skills_list{
+	cursor:pointer;	
+}
+
 div#preload {
 	display: none;
 }
