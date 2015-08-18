@@ -1,0 +1,1756 @@
+/* Standard color scheme */
+/* Additional colors sceme */
+/* ---- Backgrounds ---- */
+.white {
+    background: #ffffff;
+}
+
+.default-navy {
+    background: #002a44;
+}
+
+.default-blue {
+    background: #008be1;
+}
+
+.default-green {
+    background: #56aa1c;
+}
+
+.default-gray {
+    background: #9ba5ae;
+}
+
+.default-orange {
+    background: #ff9800;
+}
+
+.default-red {
+    background: #f44336;
+}
+
+.gray-01 {
+    background: #070809;
+}
+
+.gray-02 {
+    background: #2a2f34;
+}
+
+.gray-03 {
+    background: #3c434a;
+}
+
+.gray-04 {
+    background: #4d575f;
+}
+
+.gray-05 {
+    background: #677480;
+}
+
+.gray-06 {
+    background: #85929d;
+}
+
+.gray-08 {
+    background: #a6afb7;
+}
+
+.gray-09 {
+    background: #c7ccd1;
+}
+
+.gray-10 {
+    background: #dce0e3;
+}
+
+.gray-11 {
+    background: #eef0f3;
+}
+
+.blue-01 {
+    background: #00121d;
+}
+
+.blue-03 {
+    background: #00426b;
+}
+
+.blue-04 {
+    background: #005a92;
+}
+
+.blue-05 {
+    background: #0073ba;
+}
+
+.blue-07 {
+    background: #30b0ff;
+}
+
+.blue-08 {
+    background: #58bfff;
+}
+
+.blue-09 {
+    background: #7fceff;
+}
+
+.blue-10 {
+    background: #a6ddff;
+}
+
+.blue-11 {
+    background: #cdecff;
+}
+
+.green-01 {
+    background: #010200;
+}
+
+.green-02 {
+    background: #122306;
+}
+
+.green-03 {
+    background: #23450b;
+}
+
+.green-04 {
+    background: #346711;
+}
+
+.green-05 {
+    background: #458816;
+}
+
+.green-07 {
+    background: #5fbb1f;
+}
+
+.green-08 {
+    background: #67cc22;
+}
+
+.green-09 {
+    background: #91e458;
+}
+
+.green-10 {
+    background: #b2ec8b;
+}
+
+.green-11 {
+    background: #d4f4bd;
+}
+
+.teal-01 {
+    background: #2b9b1b;
+}
+
+.teal-02 {
+    background: #2b9b2f;
+}
+
+.teal-03 {
+    background: #2b9b43;
+}
+
+.teal-04 {
+    background: #2b9b57;
+}
+
+.teal-05 {
+    background: #2b9b6b;
+}
+
+.teal-default {
+    background: #2b9b7f;
+}
+
+.teal-06 {
+    background: #2b9b93;
+}
+
+.teal-07 {
+    background: #2b9ba7;
+}
+
+.teal-08 {
+    background: #2b9bbb;
+}
+
+.teal-09 {
+    background: #2b9bcf;
+}
+
+.teal-10 {
+    background: #2b9be3;
+}
+
+/* Our standard border style and color */
+/* Standard padding size */
+/* Standard border radius */
+/* Standard font size */
+/* ---- Body style declarations ---- */
+body {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #2a2f34;
+}
+
+/* ---- Default link style declarations ---- */
+a {
+    color: #008be1;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #005a92;
+    text-decoration: underline;
+}
+
+/* ---- Typograhy ---- */
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    font-size: 55px;
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 34px;
+    font-weight: 300;
+}
+
+h3 {
+    font-size: 21px;
+    font-weight: 400;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: none;
+}
+
+h5 {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* ---- Buttons ---- */
+/*Default button style */
+.btn:hover {
+    background-color: #0073ba;
+    color: #ffffff;
+}
+
+.btn:active,
+.btn:focus {
+    background-color: #008be1;
+    color: #ffffff;
+    outline: none;
+    box-shadow: none;
+}
+
+/*Primary button style */
+.btn-primary {
+    background-color: #56aa1c;
+}
+
+.btn-primary:hover {
+    background-color: #458816;
+}
+
+.btn-primary:active,
+.btn-primary:focus {
+    background-color: #56aa1c;
+    color: #ffffff;
+}
+
+/*Secondary button style */
+.btn-secondary {
+    background-color: transparent;
+    border: 1px solid #85929d;
+    color: #3c434a;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+.btn-secondary:hover {
+    background-color: transparent;
+    border: 1px solid #4d575f;
+    color: #070809;
+}
+
+.btn-secondary:active,
+.btn-secondary:focus {
+    background-color: transparent;
+    border: 1px solid #85929d;
+    color: #3c434a;
+}
+
+/*Disabled button state*/
+.btn-disabled,
+.btn-disabled:hover,
+.btn[disabled] {
+    opacity: 0.4;
+    background-color: #9ba5ae;
+    border: 0;
+    cursor: default;
+    color: #ffffff;
+}
+
+/* ---- Toggles ---- */
+.toggle {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 68px;
+    height: 38px;
+    border-radius: 3px;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+label.toggle {
+    margin-bottom: 0;
+}
+
+.toggle-input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.toggle-label {
+    position: relative;
+    display: block;
+    height: inherit;
+    font-size: 12px;
+    font-weight: 400;
+    background: #85929d;
+    color: #ffffff;
+    border-radius: inherit;
+    -webkit-transition: 0.15s ease-out;
+    -moz-transition: 0.15s ease-out;
+    -o-transition: 0.15s ease-out;
+    transition: 0.15s ease-out;
+    -webkit-transition-property: opacity background;
+    -moz-transition-property: opacity background;
+    -o-transition-property: opacity background;
+    transition-property: opacity background;
+}
+
+.toggle-label:before,
+.toggle-label:after {
+    position: absolute;
+    top: 50%;
+    margin-top: -0.5em;
+    line-height: 1;
+    -webkit-transition: inherit;
+    -moz-transition: inherit;
+    -o-transition: inherit;
+    transition: inherit;
+}
+
+.toggle-label:before {
+    content: attr(data-off);
+    right: 9px;
+}
+
+.toggle-label:after {
+    content: attr(data-on);
+    left: 9px;
+    color: #FFF;
+    opacity: 0;
+}
+
+.toggle-input:checked ~ .toggle-label {
+    background: #56aa1c;
+}
+
+.toggle-input:checked ~ .toggle-label:before {
+    opacity: 0;
+}
+
+.toggle-input:checked ~ .toggle-label:after {
+    opacity: 1;
+}
+
+.toggle-handle {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 30px;
+    height: 30px;
+    background: #FFF;
+    border-radius: 3px;
+    -webkit-transition: left 0.15s ease-out;
+    -moz-transition: left 0.15s ease-out;
+    -o-transition: left 0.15s ease-out;
+    transition: left 0.15s ease-out;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.toggle-input:checked ~ .toggle-handle {
+    left: 34px;
+}
+
+/* Blue toggle */
+.toggle-blue > .toggle-input:checked ~ .toggle-label {
+    background: #008be1;
+}
+
+/* Disabled toggle */
+.toggle.disabled {
+    opacity: .4;
+    cursor: default;
+}
+
+/* ----Sliders ---- */
+.slider {
+    padding-bottom: 30px;
+    padding-left: 5px;
+
+}
+
+.slider-body {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+}
+
+.slider-body input {
+    display: none;
+}
+
+/* Slider track */
+.slider .slider-body .slider-track {
+    position: absolute;
+    cursor: pointer;
+    background-color: #dce0e3;
+}
+
+.slider .slider-body .slider-selection {
+    position: absolute;
+    background-color: #9ba5ae;
+}
+
+/* Slider handle */
+.slider-handle {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background-color: #4d575f;
+    background-repeat: repeat-x;
+    border: 0px solid transparent;
+}
+
+.slider-handle:hover,
+.slider-handle:active {
+    background: #2a2f34;
+}
+
+.slider-handle.round {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.slider-handle.hide {
+    display: none;
+}
+
+/* Horizontal slider */
+.slider .slider-body.slider-horizontal {
+    width: 70%;
+    height: 20px;
+}
+
+.slider .slider-body.slider-horizontal .slider-track {
+    height: 4px;
+    width: 100%;
+    margin-top: -3px;
+    top: 50%;
+    left: 0;
+}
+
+.slider .slider-body.slider-horizontal .slider-selection {
+    height: 100%;
+    top: 0;
+    bottom: 0;
+}
+
+.slider-body.slider-horizontal .slider-handle {
+    margin-left: -6px;
+    margin-top: -4px;
+}
+
+/* Vertical slider */
+.slider-body.slider-vertical {
+    height: 210px;
+    width: 20px;
+}
+
+.slider .slider-body.slider-vertical .slider-track {
+    width: 10px;
+    height: 100%;
+    margin-left: -5px;
+    left: 50%;
+    top: 0;
+}
+
+.slider .slider-body.slider-vertical .slider-selection {
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.slider-body.slider-vertical .slider-handle {
+    margin-left: -5px;
+    margin-top: -10px;
+}
+
+/* Slider range number */
+.range-number {
+    color: #677480;
+    margin: 0 10px;
+}
+
+/* Accent colors*/
+.slider.red-slider .slider-body .slider-selection {
+    background-color: #f44336;
+}
+
+.slider.blue-slider .slider-body .slider-selection {
+    background-color: #58bfff;
+}
+
+.slider.green-slider .slider-body .slider-selection {
+    background-color: #67cc22;
+}
+
+/* Disabled slider */
+.slider-disabled .slider-handle {
+    cursor: not-allowed;
+    opacity: 0.4;
+}
+
+/* ---- Tooltip ---- */
+.tooltip {
+    position: absolute;
+    z-index: 1020;
+    display: block;
+    visibility: visible;
+    padding: 5px;
+    font-size: 11px;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.tooltip.in {
+    opacity: .8;
+    filter: alpha(opacity=80);
+}
+
+.tooltip.top {
+    margin-top: -2px;
+}
+
+.tooltip.right {
+    margin-left: 2px;
+}
+
+.tooltip.bottom {
+    margin-top: 2px;
+}
+
+.tooltip.left {
+    margin-left: -2px;
+}
+
+.tooltip.top .tooltip-arrow {
+    bottom: 2px;
+    left: 50%;
+    margin-left: -3px;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-top: 3px solid #070809;
+}
+
+.tooltip.left .tooltip-arrow {
+    top: 50%;
+    right: 0;
+    margin-top: -5px;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid #070809;
+}
+
+.tooltip.bottom .tooltip-arrow {
+    top: 0;
+    left: 50%;
+    margin-left: -5px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid #070809;
+}
+
+.tooltip.right .tooltip-arrow {
+    top: 50%;
+    left: 0;
+    margin-top: -5px;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-right: 5px solid #070809;
+}
+
+.tooltip-inner {
+    max-width: 200px;
+    padding: 5px 8px;
+    color: #eef0f3;
+    text-align: center;
+    text-decoration: none;
+    background-color: #070809;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.tooltip-arrow {
+    position: absolute;
+    width: 0;
+    height: 0;
+}
+
+/* ----Navigation components ---- */
+/*Vertical tabs*/
+.tabs {
+    list-style: none;
+    padding: 0;
+}
+
+.tabs li {
+    display: block;
+    position: relative;
+}
+
+.tabs li a {
+    padding: 11px 15px;
+    border: 1px solid #dce0e3;
+    display: block;
+    line-height: 1;
+    margin-bottom: -1px;
+    color: #2a2f34;
+    position: relative;
+}
+
+.tabs li a:hover {
+    text-decoration: none;
+    color: #4d575f;
+}
+
+.tabs li a:after {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+    width: 2px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #008be1;
+    opacity: 0;
+}
+
+.tabs li a:hover:after {
+    opacity: 1;
+}
+
+.tabs li.active a:after {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    width: 2px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #008be1;
+    opacity: 1;
+}
+
+.tabs li.active a {
+    font-weight: 700;
+}
+
+/*Horizontal tabs*/
+.tabs.horizontal li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    float: left;
+    margin-right: -1px;
+}
+
+.tabs.horizontal li a {
+    margin-bottom: 0;
+    background: #f8f8f8;
+}
+
+.tabs.horizontal li a:after {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+    width: 100%;
+    height: 2px;
+    top: 0;
+    left: 0;
+    background: #008be1;
+    opacity: 0;
+}
+
+.tabs.horizontal li a:hover:after {
+    opacity: 1;
+}
+
+.tabs.horizontal li.active a {
+    border-bottom: none;
+    background: #ffffff;
+}
+
+.tabs.horizontal li.active a:after {
+    content: '';
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 2px;
+    top: 0;
+    left: 0;
+    background: #008be1;
+    opacity: 1;
+}
+
+/*Subnavigation*/
+.tabs ul {
+    display: none;
+}
+
+.tabs li.active ul {
+    display: block;
+}
+
+.tabs li ul {
+    list-style: none;
+    border-right: 1px solid #dce0e3;
+    border-left: 1px solid #dce0e3;
+    padding: 5px 0;
+}
+
+.tabs li ul li a {
+    border: none;
+    font-weight: 400;
+    font-size: 13px;
+    color: #4d575f;
+}
+
+.tabs li.active ul li a {
+    font-weight: 400;
+}
+
+.tabs li.active ul li a:after {
+    background: none;
+}
+
+.tabs li ul li a:hover:after {
+    opacity: 0;
+}
+
+.tabs li ul li a:hover {
+    color: #677480;
+}
+
+.tabs li ul li.active a {
+    font-weight: 700;
+}
+
+/*Green highlight*/
+.tabs.highlight-green li a:after {
+    background-color: #56aa1c;
+}
+
+.tabs.horizontal.highlight-green li a:after {
+    background-color: #56aa1c;
+}
+
+/*Green and blue background*/
+.tabs.bg-green {
+    background-color: #56aa1c;
+}
+
+.tabs.bg-blue {
+    background-color: #008be1;
+}
+
+.tabs.bg-green li a {
+    border: 1px solid #458816;
+}
+
+.tabs.bg-blue li a {
+    border: 1px solid #30b0ff;
+}
+
+.tabs.bg-green li a,
+.tabs.bg-blue li a {
+    border-right: none;
+    border-left: none;
+    margin-bottom: -1px;
+    color: #ffffff;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.tabs.bg-green li a:hover {
+    text-decoration: none;
+    color: #ffffff;
+    background: #4b9418;
+}
+
+.tabs.bg-green li.active a {
+    background: #4b9418;
+}
+
+.tabs.bg-blue li a:hover {
+    text-decoration: none;
+    color: #ffffff;
+    background: #009bfb;
+}
+
+.tabs.bg-blue li.active a {
+    background: #009bfb;
+}
+
+.tabs.bg-green li ul,
+.tabs.bg-blue li ul {
+    border: none;
+}
+
+.tabs.bg-green li.active ul li a,
+.tabs.bg-blue li.active ul li a {
+    border: none;
+    background: none;
+}
+
+.tabs.bg-green li.active ul li a:hover,
+.tabs.bg-blue li.active ul li a:hover {
+    text-decoration: none;
+    color: #ffffff;
+    background: none;
+    opacity: 0.8;
+}
+
+/* ----Tiles components ---- */
+.tile {
+    text-align: center;
+    padding: 34px 21px;
+    min-height: 308px;
+    transition: all 0.2s ease-out;
+    -webkit-transition: all 0.2s ease-out;
+}
+
+.tile.minimal {
+    min-height: 154px;
+}
+
+.tile .icon {
+    width: 48px;
+    height: 48px;
+    margin: 0 auto;
+}
+
+.tile .icon.rounded {
+    border-radius: 50px;
+    width: 64px;
+    height: 64px;
+    padding: 8px;
+}
+
+.tile .lead {
+    margin: 21px auto;
+    font-weight: 300;
+    font-size: 21px;
+}
+
+.tile a .lead {
+    color: #4d575f;
+}
+
+.tile:hover a,
+.tile:hover a .lead {
+    color: #ffffff;
+}
+
+.tile a:hover {
+    color: #3c434a;
+    text-decoration: none;
+}
+
+.tile.featured a .lead {
+    color: #ffffff;
+}
+
+.tile ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.tile ul li a {
+    line-height: 1.7;
+    color: #3c434a;
+    font-size: 13px;
+}
+
+.tile ul li a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.tile.featured ul li a {
+    color: #ffffff;
+}
+
+/*Default tiles colors*/
+.tile.default-green,
+.tile.teal-01,
+.tile.teal-02,
+.tile.teal-03,
+.tile.teal-04,
+.tile.teal-05,
+.tile.teal-default,
+.tile.teal-06,
+.tile.teal-07,
+.tile.teal-08,
+.tile.teal-09,
+.tile.teal-10,
+.tile.default-blue,
+.tile.blue-05,
+.tile.blue-04,
+.tile.blue-03,
+.tile.default-navy {
+    background: #eef0f3;
+}
+
+.tile.default-green .icon.rounded,
+.tile.default-green:hover {
+    background: #56aa1c;
+}
+
+.tile.teal-01 .icon.rounded,
+.tile.teal-01:hover {
+    background: #2b9b1b;
+}
+
+.tile.teal-02 .icon.rounded,
+.tile.teal-02:hover {
+    background: #2b9b2f;
+}
+
+.tile.teal-03 .icon.rounded,
+.tile.teal-03:hover {
+    background: #2b9b43;
+}
+
+.tile.teal-04 .icon.rounded,
+.tile.teal-04:hover {
+    background: #2b9b57;
+}
+
+.tile.teal-05 .icon.rounded,
+.tile.teal-05:hover {
+    background: #2b9b6b;
+}
+
+.tile.teal-default .icon.rounded,
+.tile.teal-default:hover {
+    background: #2b9b7f;
+}
+
+.tile.teal-06 .icon.rounded,
+.tile.teal-06:hover {
+    background: #2b9b93;
+}
+
+.tile.teal-07 .icon.rounded,
+.tile.teal-07:hover {
+    background: #2b9ba7;
+}
+
+.tile.teal-08 .icon.rounded,
+.tile.teal-08:hover {
+    background: #2b9bbb;
+}
+
+.tile.teal-09 .icon.rounded,
+.tile.teal-09:hover {
+    background: #2b9bcf;
+}
+
+.tile.teal-10 .icon.rounded,
+.tile.teal-10:hover {
+    background: #2b9be3;
+}
+
+.tile.default-blue .icon.rounded,
+.tile.default-blue:hover {
+    background: #008be1;
+}
+
+.tile.blue-05 .icon.rounded,
+.tile.blue-05:hover {
+    background: #0073ba;
+}
+
+.tile.blue-04 .icon.rounded,
+.tile.blue-04:hover {
+    background: #005a92;
+}
+
+.tile.blue-03 .icon.rounded,
+.tile.blue-03:hover {
+    background: #00426b;
+}
+
+.tile.default-navy .icon.rounded,
+.tile.default-navy:hover {
+    background: #002a44;
+}
+
+/*Featured tiles colors*/
+.tile.featured.default-green {
+    background: #56aa1c;
+}
+
+.tile.featured.teal-01 {
+    background: #2b9b1b;
+}
+
+.tile.featured.teal-02 {
+    background: #2b9b2f;
+}
+
+.tile.featured.teal-03 {
+    background: #2b9b43;
+}
+
+.tile.featured.teal-04 {
+    background: #2b9b57;
+}
+
+.tile.featured.teal-05 {
+    background: #2b9b6b;
+}
+
+.tile.featured.teal-default {
+    background: #2b9b7f;
+}
+
+.tile.featured.teal-06 {
+    background: #2b9b93;
+}
+
+.tile.featured.teal-07 {
+    background: #2b9ba7;
+}
+
+.tile.featured.teal-08 {
+    background: #2b9bbb;
+}
+
+.tile.featured.teal-09 {
+    background: #2b9bcf;
+}
+
+.tile.featured.teal-10 {
+    background: #2b9be3;
+}
+
+.tile.featured.default-blue {
+    background: #008be1;
+}
+
+.tile.featured.blue-05 {
+    background: #0073ba;
+}
+
+.tile.featured.blue-04 {
+    background: #005a92;
+}
+
+.tile.featured.blue-03 {
+    background: #00426b;
+}
+
+.tile.featured.default-navy {
+    background: #002a44;
+}
+
+.tile.featured.default-green:hover {
+    background: #4b9418;
+}
+
+.tile.featured.teal-01:hover {
+    background: #258517;
+}
+
+.tile.featured.teal-02:hover {
+    background: #258729;
+}
+
+.tile.featured.teal-03:hover {
+    background: #25873a;
+}
+
+.tile.featured.teal-04:hover {
+    background: #25874c;
+}
+
+.tile.featured.teal-05:hover {
+    background: #25875d;
+}
+
+.tile.featured.teal-default:hover {
+    background: #25876f;
+}
+
+.tile.featured.teal-06:hover {
+    background: #258780;
+}
+
+.tile.featured.teal-07:hover {
+    background: #268893;
+}
+
+.tile.featured.teal-08:hover {
+    background: #268aa6;
+}
+
+.tile.featured.teal-09:hover {
+    background: #278bba;
+}
+
+.tile.featured.teal-10:hover {
+    background: #1d8fd8;
+}
+
+.tile.featured.default-blue:hover {
+    background: #007bc8;
+}
+
+.tile.featured.blue-05:hover {
+    background: #0063a1;
+}
+
+.tile.featured.blue-04:hover {
+    background: #004a79;
+}
+
+.tile.featured.blue-03:hover {
+    background: #003252;
+}
+
+.tile.featured.default-navy:hover {
+    background: #001a2b;
+}
+
+/* ----Forms components ---- */
+.form-control {
+    display: block;
+    width: 100%;
+    height: 38px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #2a2f34;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #c7ccd1;
+    border-radius: 3px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+    -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+.form-control:focus {
+    border-color: #c7ccd1;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(205, 236, 255, 0), 0px 0px 0px 2px rgba(205, 236, 255, 0.5);
+    box-shadow: inset 0 1px 1px rgba(205, 236, 255, 0), 0px 0px 0px 2px rgba(205, 236, 255, 0.5);
+}
+
+.form-control::-moz-placeholder {
+    color: #c7ccd1;
+    opacity: 1;
+}
+
+.form-control:-ms-input-placeholder {
+    color: #c7ccd1;
+}
+
+.form-control::-webkit-input-placeholder {
+    color: #c7ccd1;
+}
+
+.form-control[disabled],
+.form-control[readonly],
+fieldset[disabled] .form-control {
+    cursor: not-allowed;
+    background-color: #eef0f3;
+    opacity: 1;
+    color: #c7ccd1;
+}
+
+select.form-control {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+/*Fields validation*/
+.has-success .help-block,
+.has-success .control-label,
+.has-success .radio,
+.has-success .checkbox,
+.has-success .radio-inline,
+.has-success .checkbox-inline {
+    color: #56aa1c;
+}
+
+.has-success .form-control {
+    border-color: #56aa1c;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+.has-success .form-control:focus {
+    border-color: #56aa1c;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0), 0px 0px 0px 2px rgba(212, 244, 189, 0.5);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0), 0px 0px 0px 2px rgba(212, 244, 189, 0.5);
+}
+
+.has-success .input-group-addon {
+    color: #56aa1c;
+    background-color: #d4f4bd;
+    border-color: #56aa1c;
+}
+
+.has-success .form-control-feedback {
+    color: #56aa1c;
+}
+
+.has-success .message {
+    color: #56aa1c;
+    font-size: 13px;
+}
+
+.has-warning .help-block,
+.has-warning .control-label,
+.has-warning .radio,
+.has-warning .checkbox,
+.has-warning .radio-inline,
+.has-warning .checkbox-inline,
+.has-warning.radio label,
+.has-warning.checkbox label,
+.has-warning.radio-inline label,
+.has-warning.checkbox-inline label {
+    color: #ff9800;
+}
+
+.has-warning .form-control {
+    border-color: #ff9800;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+.has-warning .form-control:focus {
+    border-color: #ff9800;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0), 0px 0px 0px 2px rgba(230, 126, 34, 0.2);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0), 0px 0px 0px 2px rgba(230, 126, 34, 0.2);
+}
+
+.has-warning .input-group-addon {
+    color: #ff9800;
+    background-color: rgba(230, 126, 34, 0.2);
+    border-color: #e67e22;
+}
+
+.has-warning .form-control-feedback {
+    color: #ff9800;
+}
+
+.has-warning .message {
+    color: #ff9800;
+    font-size: 13px;
+}
+
+.has-error .help-block,
+.has-error .control-label,
+.has-error .radio,
+.has-error .checkbox,
+.has-error .radio-inline,
+.has-error .checkbox-inline,
+.has-error.radio label,
+.has-error.checkbox label,
+.has-error.radio-inline label,
+.has-error.checkbox-inline label {
+    color: #f44336;
+}
+
+.has-error .form-control {
+    border-color: #f44336;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+.has-error .form-control:focus {
+    border-color: #f44336;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0px 0px 0px 2px rgba(231, 76, 60, 0.15);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0px 0px 0px 2px rgba(231, 76, 60, 0.15);
+}
+
+.has-error .input-group-addon {
+    color: #f44336;
+    background-color: #f2dede;
+    border-color: #f44336;
+}
+
+.has-error .form-control-feedback {
+    color: #f44336;
+}
+
+.has-error .message {
+    color: #f44336;
+    font-size: 13px;
+}
+
+/*Validation icons for text fields*/
+.has-error input[type="text"] {
+    background: url(../../../Downloads/BentleyUILibrary1.0.2/media/ui-library/icon-form-error.png) right 8px no-repeat;
+    padding-right: 30px;
+}
+
+.has-warning input[type="text"] {
+    background: url(../../../Downloads/BentleyUILibrary1.0.2/media/ui-library/icon-form-warning.png) right 8px no-repeat;
+    padding-right: 30px;
+}
+
+.has-success input[type="text"] {
+    background: url(../../../Downloads/BentleyUILibrary1.0.2/media/ui-library/icon-form-success.png) right 9px no-repeat;
+    padding-right: 30px;
+}
+
+/* ----Tables ---- */
+.table thead tr th,
+.table tbody tr th,
+.table tfoot tr th,
+.table thead tr td,
+.table tbody tr td,
+.table tfoot tr td {
+    padding: 15px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #dce0e3;
+    font-size: 13px;
+}
+
+.table thead tr td,
+.table thead tr th {
+    border-right: 1px solid #ffffff;
+    background: #eef0f3;
+    border-bottom: none;
+    font-weight: normal;
+    color: #85929d;
+    padding: 10px 15px;
+}
+
+.table .wrapper {
+    float: left;
+    display: block;
+}
+
+.table td img,
+.table tr img,
+.table th img {
+    float: left;
+    margin-right: 5px;
+}
+
+/*Row & cell actions - Default*/
+.table tr.row-actions:hover,
+.table td.cell-actions:hover {
+    background-color: #f5f5f5;
+    text-decoration: none;
+}
+
+.table tr.row-actions .fa,
+.table td.cell-actions .fa {
+    visibility: hidden;
+    color: #677480;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.table td.cell-actions .fa {
+    margin-left: 10px;
+}
+
+.table tr.row-actions:hover .fa,
+.table td.cell-actions:hover .fa {
+    visibility: visible;
+    text-decoration: none;
+    color: #4d575f;
+}
+
+.table tr.row-actions a:hover .fa:hover,
+.table td.cell-actions a:hover .fa:hover {
+    color: #2a2f34;
+}
+
+/*Row actions - blue*/
+.table tr.row-actions.blue:hover {
+    background-color: #008be1;
+    color: #ffffff;
+}
+
+.table tr.row-actions.blue:hover a {
+    color: #ffffff;
+}
+
+.table tr.row-actions.blue .fa {
+    visibility: hidden;
+    color: #ffffff;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.table tr.row-actions.blue:hover .fa {
+    visibility: visible;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.table tr.row-actions.blue a:hover .fa:hover {
+    color: #cdecff;
+}
+
+/*Row actions - green*/
+.table tr.row-actions.green:hover {
+    background-color: #56aa1c;
+    color: #ffffff;
+}
+
+.table tr.row-actions.green:hover a {
+    color: #ffffff;
+}
+
+.table tr.row-actions.green .fa {
+    visibility: hidden;
+    color: #ffffff;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.table tr.row-actions.green:hover .fa {
+    visibility: visible;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.table tr.row-actions.green a:hover .fa:hover {
+    color: #eef6e8;
+}
+
+/*Row actions - dark navy*/
+.table tr.row-actions.dark-navy:hover {
+    background-color: #002a44;
+    color: #ffffff;
+}
+
+.table tr.row-actions.dark-navy:hover a {
+    color: #ffffff;
+}
+
+.table tr.row-actions.dark-navy .fa {
+    visibility: hidden;
+    color: #ffffff;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.table tr.row-actions.dark-navy:hover .fa {
+    visibility: visible;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.table tr.row-actions.dark-navy a:hover .fa:hover {
+    color: #dce0e3;
+}
+
+/*Condensed table style*/
+.table-condensed thead tr th,
+.table-condensed tbody tr th,
+.table-condensed tfoot tr th,
+.table-condensed thead tr td,
+.table-condensed tbody tr td,
+.table-condensed tfoot tr td {
+    padding: 7px 15px;
+}
+
+/*Striped table style*/
+.table-striped tbody tr:nth-child(odd) td,
+.table-striped tbody tr:nth-child(odd) > th {
+    background-color: #f9f9f9;
+}
+
+/*Table hover*/
+.table-hover tbody tr:hover > td,
+.table-hover tbody tr:hover > th {
+    background-color: #f5f5f5;
+}
+
+/*Table rows highlights*/
+.table thead tr td.success,
+.table tbody tr td.success,
+.table tfoot tr td.success,
+.table thead tr th.success,
+.table tbody tr th.success,
+.table tfoot tr th.success,
+.table thead tr.success td,
+.table tbody tr.success td,
+.table tfoot tr.success td,
+.table thead tr.success th,
+.table tbody tr.success th,
+.table tfoot tr.success th {
+    background-color: #eef6e8;
+}
+
+.table-hover tbody tr td.success:hover,
+.table-hover tbody tr th.success:hover,
+.table-hover tbody tr.success:hover td,
+.table-hover tbody tr:hover .success,
+.table-hover tbody tr.success:hover th {
+    background-color: #e0efd6;
+}
+
+.table thead tr td.warning,
+.table tbody tr td.warning,
+.table tfoot tr td.warning,
+.table thead tr th.warning,
+.table tbody tr th.warning,
+.table tfoot tr th.warning,
+.table thead tr.warning td,
+.table tbody tr.warning td,
+.table tfoot tr.warning td,
+.table thead tr.warning th,
+.table tbody tr.warning th,
+.table tfoot tr.warning th {
+    background-color: #fff8e1;
+}
+
+.table-hover tbody tr td.warning:hover,
+.table-hover tbody tr th.warning:hover,
+.table-hover tbody tr.warning:hover td,
+.table-hover tbody tr:hover .warning,
+.table-hover tbody tr.warning:hover th {
+    background-color: #fff2c7;
+}
+
+.table thead tr td.danger,
+.table tbody tr td.danger,
+.table tfoot tr td.danger,
+.table thead tr th.danger,
+.table tbody tr th.danger,
+.table tfoot tr th.danger,
+.table thead tr.danger td,
+.table tbody tr.danger td,
+.table tfoot tr.danger td,
+.table thead tr.danger th,
+.table tbody tr.danger th,
+.table tfoot tr.danger th,
+.table thead tr td.error,
+.table tbody tr td.error,
+.table tfoot tr td.error,
+.table thead tr th.error,
+.table tbody tr th.error,
+.table tfoot tr th.error,
+.table thead tr.error td,
+.table tbody tr.error td,
+.table tfoot tr.error td,
+.table thead tr.error th,
+.table tbody tr.error th,
+.table tfoot tr.error th {
+    background-color: #ffebee;
+}
+
+.table-hover tbody tr td.danger:hover,
+.table-hover tbody tr th.danger:hover,
+.table-hover tbody tr.danger:hover td,
+.table-hover tbody tr:hover .danger,
+.table-hover tbody tr.danger:hover th,
+.table-hover tbody tr td.error:hover,
+.table-hover tbody tr th.error:hover,
+.table-hover tbody tr.error:hover td,
+.table-hover tbody tr.error .danger,
+.table-hover tbody tr.error:hover th {
+    background-color: #ffdce1;
+}
+
+/*Table rows statuses*/
+.table thead tr.status-success,
+.table tbody tr.status-success,
+.table tfoot tr.status-success {
+    border-left: 2px solid #56aa1c;
+}
+
+.table thead tr.status-warning,
+.table tbody tr.status-warning,
+.table tfoot tr.status-warning {
+    border-left: 2px solid #ff9800;
+}
+
+.table thead tr.status-error,
+.table tbody tr.status-error,
+.table tfoot tr.status-error {
+    border-left: 2px solid #f44336;
+}
+
+.table thead tr.status-info,
+.table tbody tr.status-info,
+.table tfoot tr.status-info {
+    border-left: 2px solid #008be1;
+}
+
+.table thead tr.status-muted,
+.table tbody tr.status-muted,
+.table tfoot tr.status-muted {
+    border-left: 2px solid #9ba5ae;
+    color: #9ba5ae;
+}
+
+/*Sorting*/
+.table thead tr th.sortable,
+.table thead tr th.sorted,
+.table thead tr td.sortable,
+.table thead tr td.sorted {
+    cursor: pointer;
+}
+
+.table thead tr th.sortable:hover,
+.table thead tr th.sorted:hover,
+.table thead tr td.sortable:hover,
+.table thead tr td.sorted:hover {
+    background: #e8ebef;
+}
+
+.table tr th.sortable .fa,
+.table tr td.sortable .fa {
+    visibility: hidden;
+    color: #85929d;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.table tr th.sortable:hover .fa,
+.table tr td.sortable:hover .fa {
+    visibility: visible;
+    text-decoration: none;
+    color: #85929d;
+}
+
+.table tr th.sortable:hover .fa:hover,
+.table tr th.sorted:hover .fa:hover,
+.table tr td.sortable:hover .fa:hover,
+.table tr td.sorted:hover .fa:hover {
+    visibility: visible;
+    text-decoration: none;
+    color: #2a2f34;
+}
+
+.table tr th.sorted .fa,
+.table tr td.sorted .fa {
+    visibility: visible;
+    text-decoration: none;
+    color: #85929d;
+}
+
+/*Table toolbar*/
+.toolbar {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-top: 1px solid #dce0e3;
+}
+
+/*Editible table*/
+.table td.editible-cell,
+.table tr.editible-row td {
+    padding: 5px;
+    background-color: #fff8e1;
+}
+
+.table td.editible-cell input,
+.table tr.editible-row input {
+    font-size: 13px;
+    padding: 5px 10px;
+}
+
+.table td.editible-cell .input-group-btn {
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.table td.editible-cell .input-group .input-group-btn .btn {
+    background: #ffffff;
+    border: 1px solid #c7ccd1;
+}
+
+.table tr.editible-row .btn-secondary {
+    border: none;
+    font-size: 13px;
+    padding: 12px 6px;
+    color: #008be1;
+    text-decoration: underline;
+    margin: 0 5px;
+}
+
+.table tr.editible-row .btn-secondary:hover {
+    color: #006bae;
+}
+
+/*No data table*/
+.table .no-data {
+    height: 300px;
+    font-size: 21px;
+    text-align: center;
+    vertical-align: middle;
+    color: #9ba5ae;
+    background: #f9f9f9;
+}

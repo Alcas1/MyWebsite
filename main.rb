@@ -478,6 +478,10 @@ class Main < Sinatra::Base
     redirect '/JonathanWuResume.pdf'
   end
   
+  get '/bentley' do
+    redirect '/bentley/index.html'
+  end
+  
   get '/construction' do
     @title='Under Construction'
     @year_number='UNDER CONSTRUCTION'

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MobileDgn UI Interactive WebApp</title>
+    <link rel="stylesheet" type="text/css" href="css/default.css">
+    <link rel="stylesheet" type="text/css"
+          href="css/BentleyUIlibrary.css">
+</head>
+<body>
+<div ng-app="mobileDgnApp">
+    <div id="app" ng-controller="AppController">
+        <div id="topBar" ng-controller="TopBarController">
+            <div class="topText noSelect" ng-click="reset()">
+                MobileDgn UI Development Suite
+            </div>
+            <div class="export noSelect" ng-click="exportCode()" ng-show="appState===0">
+                <div class="exportText">EXPORT</div>
+                <img class="exportImg" src="assets/code.png">
+            </div>
+        </div>
+        <div id="toolbar" ng-show="appState===0">
+            <div class="noSelect" id="toolText">
+                Tools
+            </div>
+            <ul class="toolList" ng-controller="ToolController as tools">
+                <li ng-repeat="tool in tools.toolList" ng-init="expand=false;first=true">
+                    <div class='toolName' ng-class="{toolSelected:expand}" ng-click="expand=!expand;first=false">
+
+                        <img class="layersIcon" src="{{toolIcon(tool.name)}}">
+                        {{tool.name}}
+                    </div>
+                    <div ng-class="{'showView':expand,'hideView':!expand,'noDisp':first}">
+
+                        <form>
+                            <input type="submit" value="Create" ng-click="expand&&createView(tool.name)"
+                                   ng-class="{'showView':expand,'hideView':!expand}" class="btn">
+                        </form>
+                    </div>
+                </li>
+                <p id="sig">Jonathan Wu</p>
+            </ul>
+        </div>
+        <div id="viewInfo" ng-controller="ViewInfoController as viewInfo" ng-show="appState===0">
+            <div id="curSelected">
+                <ul id="curSelectedInfo">
+                    <div ng-hide="editNameEnabled" class="curSelectedName" ng-click="editName(viewName)"
+                         ng-init="editNameEnabled=false">
+                        {{viewName}}
+                    </div>
+                    <div ng-show="editNameEnabled" class="curSelectedName">
+                        <input class='editNameBox' ng-model="editViewName" ng-keypress="checkEditName($event)">
+                    </div>
+                    <li ng-repeat="property in properties">
+                        <span style="color:rgb(117,117,117);font-size: 14px;">{{property.name}}</br></span>
+                        <span style='font-size: 22px;' ng-hide='editEnabled' ng-click="editbox(property)"
+                              ng-init="editEnabled=false">
+                            {{property.value}}
+                        </span>
+                        <span ng-show="editEnabled">
+                            <input class='editBox' ng-model="editingProperty.value" ng-blur="checkEdit()"
+                                   ng-keypress="handleKeyPress($event)">
+                        </span>
+
+                    </li>
+
+                </ul>
+                <div class="slider red-slider" ng-hide="isDeviceScreen">
+                    <span class="range-number">0</span>
+                    <input id='redSlider' type="text" class="slider-body" value="0" data-slider-min="0" data-slider-max="255"
+                           data-slider-step="1" data-slider-value="0" data-slider-orientation="horizontal"
+                           data-slider-selection="before" data-slider-tooltip="show">
+                    <span class="range-number">255</span>
+                </div>
+                <div class="slider green-slider" ng-hide="isDeviceScreen">
+                    <span class="range-number">0</span>
+                    <input id="greenSlider" type="text" class="slider-body" value="0" data-slider-min="0" data-slider-max="255"
+                           data-slider-step="1" data-slider-value="0" data-slider-orientation="horizontal"
+                           data-slider-selection="before" data-slider-tooltip="show">
+                    <span class="range-number">255</span>
+                </div>
+                <div class="slider blue-slider" ng-hide="isDeviceScreen">
+                    <span class="range-number">0</span>
+                    <input id="blueSlider" type="text" class="slider-body" value="0" data-slider-min="0" data-slider-max="255"
+                           data-slider-step="1" data-slider-value="0" data-slider-orientation="horizontal"
+                           data-slider-selection="before" data-slider-tooltip="show">
+                    <span class="range-number">255</span>
+                </div>
+
+
+                <div ng-hide="isDeviceScreen" id="checkRelative" class="form-group">
+                    <input type="checkbox" ng-model="isRelativeBox" ng-change="isRelativeChange()" id="check-me">
+                    <label for="check-me">
+                        <span></span>
+                        <span class="check"></span>
+                        <span class="box"></span>
+                        <span class="positionText">Positioning</span>
+                        <span class="relativeText">Relative</span>
+
+                    </label>
+                </div>
+
+                <div ng-show="isRelativeBox" class="checkGroup">
+
+                    <input type="checkbox" ng-model="hasLeftAnchor" ng-change="anchorLeftChange()" id="leftAnchor">
+                    <label for="leftAnchor">
+                        <span></span>
+                        <span class="anchorBox"></span>
+                        <span class="positionText">Left</span>
+                    </label>
+                </div>
+                <div ng-show="isRelativeBox" class="checkGroup">
+                    <input type="checkbox" ng-model="hasRightAnchor" ng-change="anchorRightChange()" id="rightAnchor">
+                    <label for="rightAnchor">
+                        <span></span>
+                        <span class="anchorBox"></span>
+                        <span class="positionText">Right</span>
+                    </label>
+                </div>
+                <div ng-show="isRelativeBox" class="checkGroup">
+                    <input type="checkbox" ng-model="hasTopAnchor" ng-change="anchorTopChange()" id="topAnchor">
+                    <label class='checkBounds' for="topAnchor">
+                        <span></span>
+                        <span class="anchorBox"></span>
+                        <span class="positionText">Top</span>
+                    </label>
+                </div>
+                <div ng-show="isRelativeBox" class="checkGroup">
+                    <input type="checkbox" ng-model="hasBottomAnchor" ng-change="anchorBottomChange()"
+                           id="bottomAnchor">
+                    <label class='checkBounds' for="bottomAnchor">
+                        <span></span>
+                        <span class="anchorBox"></span>
+                        <span class="positionText">Bottom</span>
+                    </label>
+                </div>
+                <div ng-hide="isDeviceScreen" class="noSelect">
+                    <div id="deleteView" ng-show="state===0" ng-click="state=1">
+                        <p id="deleteText">DELETE</p>
+                    </div>
+                    <div id="deleteCheckView" ng-show="state===1" ng-click="deleteView()">
+                        <p id="deleteCheckText">Are You Sure?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Highest Level Parent-->
+        <div id="None" ng-controller="ScreenController as screen" ng-show="appState===0">
+            <div id="DeviceScreen" data-x='0' data-y='0' class="resize-container view dropzone globalParent">
+            </div>
+        </div>
+
+        <div id="CodeDisplay" ng-controller="CodeController" ng-show="appState===1">
+            <div class="codeBoxHeader">
+                <div class="headerText">MOBILEDGN CODE</div>
+            </div>
+            <textarea id='codeBox' contentEditable="true" spellcheck="false" name="codeBox" ng-model="codeGen">
+                </textarea>
+
+            <div id="codeBottom">
+                <div id='copyBtn' ng-click="select()">
+                    <div class="noSelect" id="copyText">Select</div>
+                </div>
+                <div id='backBtn' ng-click="screen()">
+                    <div class="noSelect" id="backText">Back</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<script src="http://code.jquery.com/jquery-latest.min.js"
+        type="text/javascript"></script>
+<script src="js/sprintf.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"
+        type="text/javascript"></script>
+<script src="js/interact-1.2.4.js"></script>
+<script src="js/index.js"></script>
+<script src="js/update.service.js"></script>
+<script src="js/tool.controller.js"></script>
+<script src="js/topBar.controller.js"></script>
+<script src="js/app.controller.js"></script>
+<script src="js/code.controller.js"></script>
+<script src="js/viewInfo.controller.js"></script>
+<script src="js/screen.controller.js"></script>
+<script src="js/slider.js"></script>
+</body>
+
+</html>
