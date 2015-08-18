@@ -63,6 +63,16 @@ body {
 	.about_container {
 		padding-left: 0px;
 	}
+	.part_img_big {
+		position: relative;
+		height: 100%;
+		width: 100%;
+		background-size: cover;
+		z-index: 0;
+		border-top-left-radius: 3px;
+		border-top-right-radius: 3px;
+	}
+
 
 }
 @media (min-width: 700px) {
@@ -106,6 +116,16 @@ body {
 	}
 	.about_container {
 		padding-left: 0px;
+	}
+	
+	.part_img_big {
+		position: relative;
+		height: 100%;
+		width: 100%;
+		background-size: cover;
+		z-index: 0;
+		border-top-left-radius: 3px;
+		border-top-right-radius: 3px;
 	}
 
 }
@@ -157,6 +177,15 @@ body {
 	.about_container {
 		padding-left: 12%;
 	}
+	.part_img_big {
+		position: relative;
+		height: 287px;
+		width: 100%;
+		background-size: cover;
+		z-index: 0;
+		border-top-left-radius: 3px;
+		border-top-right-radius: 3px;
+	}
 }
 b {
 	font-size: 19px;
@@ -191,13 +220,7 @@ b {
 	width: 100%;
 	height: 100%;
 }
-/*.left_bar{
- position:relative;
- float:left;
- width:200px;
- min-height:1400px;
- height:100%;
- }*/
+
 #left_line {
 	margin: 0 -235px;
 	position: absolute;
@@ -228,6 +251,15 @@ b {
 	left: 0px;
 	width: 100%;
 	height: 100%;
+}
+
+.about_container{
+	padding-top:45px;
+	position:relative;
+	overflow:hidden;
+	height:auto;
+	color: #212121;
+	font-family: 'Roboto';
 }
 .p1 {
 	width: 80%;
@@ -371,10 +403,7 @@ h3 {
 	width: 85%;
 	color: #03a9f4;
 }
-.content_body {
-	color: #212121;
-	font-family: 'Roboto';
-}
+
 .part1, .part2 {
 	padding-bottom: 40px;
 	width: 100%;
@@ -464,10 +493,6 @@ h3 {
 	height: 100%;
 	background-color: rgba(249,249,253,1);
 }
-.text_card {
-	width: 100%;
-	min-height: 352px;
-}
 .skill_card {
 	width: 100%;
 	display: inline-block;
@@ -476,8 +501,8 @@ h3 {
 
 .part_body_card_main, .part_body_card, .part_body_card_skill {
 	margin-top: 15px;
+	min-height:352px;
 	position: relative;
-	min-height: inherit;
 	display: inline-block;
 	float: left;
 	color: #212121;
@@ -490,7 +515,7 @@ h3 {
 }
 
 .part_body_card {
-	height: 470px;
+	/*height: 470px;*/
 }
 
 .part_body_card_skill {
@@ -507,8 +532,7 @@ h3 {
 	line-height: 20px;
 }
 .part_text {
-	position: absolute;
-	padding-top: 80px;
+	position: relative;
 	padding-left: 16px;
 	padding-right: 16px;
 }
@@ -567,21 +591,11 @@ h3 {
 	/*padding-top:10px;*/
 }
 
-.part_img_big {
-	position: absolute;
-	height: 287px;
-	width: 100%;
-	background-size: cover;
-	z-index: 0;
-	/*background: #FFFFFF;*/
-	border-top-left-radius: 3px;
-	border-top-right-radius: 3px;
-}
-
 .card_title_bg {
-	position: absolute;
+	position: relative;
 	background: #03a9f4;
 	height: 72px;
+	padding-bottom:8px;
 	width: 100%;
 	border-top-left-radius: 3px;
 	border-top-right-radius: 3px;
@@ -633,8 +647,8 @@ h3 {
 	transform: scale(0);
 }
 
-ul#skills_list{
-	cursor:pointer;	
+ul#skills_list {
+	cursor: pointer;
 }
 
 div#preload {

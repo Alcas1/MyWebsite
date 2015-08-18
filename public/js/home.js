@@ -10,7 +10,6 @@ $(document).on({
 });
 
 $(window).load(function() {
-
 	$('#text_card').children().each(function(idx, val) {
 		$(this).mouseenter(function(e) {
 			$(this).stop();
