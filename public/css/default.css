@@ -73,7 +73,6 @@ body {
 		border-top-right-radius: 3px;
 	}
 
-
 }
 @media (min-width: 700px) {
 	.main_content {
@@ -117,7 +116,7 @@ body {
 	.about_container {
 		padding-left: 0px;
 	}
-	
+
 	.part_img_big {
 		position: relative;
 		height: 100%;
@@ -171,7 +170,7 @@ body {
 	}
 
 	.part_body_card {
-		width: 330px;
+		width: 325px;
 		margin-left: 20px;
 	}
 	.about_container {
@@ -253,11 +252,11 @@ b {
 	height: 100%;
 }
 
-.about_container{
-	padding-top:45px;
-	position:relative;
-	overflow:hidden;
-	height:auto;
+.about_container {
+	padding-top: 45px;
+	position: relative;
+	overflow: hidden;
+	height: auto;
 	color: #212121;
 	font-family: 'Roboto';
 }
@@ -501,7 +500,7 @@ h3 {
 
 .part_body_card_main, .part_body_card, .part_body_card_skill {
 	margin-top: 15px;
-	min-height:352px;
+	min-height: 352px;
 	position: relative;
 	display: inline-block;
 	float: left;
@@ -595,7 +594,7 @@ h3 {
 	position: relative;
 	background: #03a9f4;
 	height: 72px;
-	padding-bottom:8px;
+	margin-bottom: 8px;
 	width: 100%;
 	border-top-left-radius: 3px;
 	border-top-right-radius: 3px;
@@ -605,19 +604,25 @@ h3 {
 	height: 50px;
 }
 
-.card_title b, .card_title_big b, .card_title_skill b {
+.card_title b, .card_title_skill b {
 	color: #FFFFFF;
 	font-size: 22px;
 	font-family: 'Roboto';
 	font-weight: 300;
-	letter-spacing: 0.5px;
+	letter-spacing: .5px;
 }
 
 .card_title_big {
-	position: absolute;
-	margin-top: 240px;
+	position: relative;
 	margin-left: 16px;
 }
+
+.card_title_big {
+	font-size:20px;
+	/*font-weight:700;*/
+	color: #000000;
+}
+
 .card_title_skill {
 	position: absolute;
 	margin-left: 110px;
