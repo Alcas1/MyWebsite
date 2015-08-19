@@ -50,6 +50,9 @@ body {
 	.part1 .part_group, .part2 .part_group {
 		float: left;
 	}
+	.works_container {
+		padding-left: 5%;
+	}
 	.part1 .part_group .part_group_content:nth-child(2n) {
 		padding-left: 0px;
 	}
@@ -193,16 +196,16 @@ body {
 		max-width: 760px;
 	}
 	.part_body_card_main {
-		width: 500px;
+		width: 41%;
 		margin-left: 20px;
 	}
 
 	.part_body_card {
-		width: 325px;
+		width: 27%;
 		margin-left: 20px;
 	}
 	.about_container {
-		padding-left: 12%;
+		padding-left: 9%;
 	}
 	.part_img_big {
 		position: relative;
@@ -473,6 +476,8 @@ h3 {
 }
 .part_body {
 	display: inline-block;
+	font-family:'Roboto';
+	color:#000000;
 	float: left;
 	padding-right: 33px;
 	font-size: 14px;
