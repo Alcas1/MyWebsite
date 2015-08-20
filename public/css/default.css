@@ -592,6 +592,11 @@ h3 {
 	text-transform: uppercase;
 	font-family: 'Raleway';
 }
+
+.card_button:hover{
+	background-color: #e1f5fe;
+}
+
 .button_bar {
 	position: absolute;
 	display: block;

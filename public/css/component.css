@@ -199,7 +199,7 @@
 	border-right-color: #03a9f4;
 	border-right-style: solid;
 	border-right-width: 2px;
-	/*margin-right: 3px;*/
+	margin-left: 1px;
 }
 
 .dr-icon:before, .dr-icon:after {

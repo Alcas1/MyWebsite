@@ -29,21 +29,21 @@ window.onload = (function() {
 							el.css("border-right-width", "4px");
 							el.css("border-right-color", "#03a9f4");
 							el.css("border-right-style", "solid");
-							el.css("margin-left", "-2px");
+							el.css("margin-left", "-1px");
 							el.css("font-weight", "700");
 
 							el.mouseenter(function() {
 								el.css("border-right-width", "2px");
 							}).mouseleave(function() {
 								el.css("border-right-width", "4px");
-								el.css("margin-left", "-2px");
+								el.css("margin-left", "-1px");
 							});
 						}
 					}
 					if (site === 6) {
 						var el = $(this).children('a');
 						el.css("width", "197px");
-						el.css("margin-left", "-2px");
+						el.css("margin-left", "-1px");
 						if (idx === site) {
 							el.css("font-weight", "700");
 							el.css("border-right-color", "#03a9f4");
@@ -52,10 +52,10 @@ window.onload = (function() {
 							el.mouseenter(function() {
 								el.css("border-right-width", "4px");
 								el.css("padding-right", "14px");
-								el.css("margin-left", "-2px");
+								el.css("margin-left", "-3px");
 							}).mouseleave(function() {
 								el.css("border-right-width", "4px");
-								el.css("margin-left", "-2px");
+								el.css("margin-left", "-3px");
 							});
 						}
 					}
