@@ -53,6 +53,9 @@ body {
 	.works_container {
 		padding-left: 5%;
 	}
+	#skills_container{
+		padding-left:2%;
+	}
 	.part1 .part_group .part_group_content:nth-child(2n) {
 		padding-left: 0px;
 	}
@@ -85,9 +88,9 @@ body {
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a4000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
 	}
 	.card_title_big {
-		top:3%;
+		top: 3%;
 		color: #FFFFFF;
-		font-size:5vw;
+		font-size: 5vw;
 	}
 }
 @media (min-width: 700px) {
@@ -118,6 +121,9 @@ body {
 	}
 	.works_container {
 		padding-left: 20%;
+	}
+	#skills_container{
+		padding-left:10%;
 	}
 	.part1 .part_group .part_group_content:nth-child(2n) {
 		padding-left: 0px;
@@ -154,9 +160,9 @@ body {
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a4000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
 	}
 	.card_title_big {
-		top:3%;
+		top: 3%;
 		color: #FFFFFF;
-		font-size:5vw;
+		font-size: 5vw;
 	}
 }
 @media (min-width: 1150px) {
@@ -220,7 +226,7 @@ body {
 	.card_title_big {
 		color: #FFFFFF;
 		top: 250px;
-		font-size:20px;
+		font-size: 20px;
 	}
 
 }
@@ -412,7 +418,7 @@ a:hover {
 	border-left-style: solid;
 	border-left-width: 5px;
 	padding-left: 20px;
-	margin-left: -25px;
+	margin-left: -24px;
 }
 h3 {
 	color: #757575;
@@ -476,8 +482,8 @@ h3 {
 }
 .part_body {
 	display: inline-block;
-	font-family:'Roboto';
-	color:#000000;
+	font-family: 'Roboto';
+	color: #000000;
 	float: left;
 	padding-right: 33px;
 	font-size: 14px;
@@ -593,7 +599,7 @@ h3 {
 	font-family: 'Raleway';
 }
 
-.card_button:hover{
+.card_button:hover {
 	background-color: #e1f5fe;
 }
 
@@ -658,9 +664,9 @@ h3 {
 }
 
 .card_title_big {
-	font-family:'Raleway';
-	letter-spacing:1px;
-	font-weight:300;
+	font-family: 'Raleway';
+	letter-spacing: 1px;
+	font-weight: 300;
 	position: absolute;
 	margin-left: 16px;
 	z-index: 2;
@@ -695,8 +701,14 @@ h3 {
 	transform: scale(0);
 }
 
-ul#skills_list {
+ul#skills_list a:hover {
 	cursor: pointer;
+	color: #03a9f4;
+	border-left-color: #03a9f4;
+	border-left-style: solid;
+	border-left-width: 4px;
+	padding-left: 20px;
+	margin-left: -24px;
 }
 
 div#preload {
