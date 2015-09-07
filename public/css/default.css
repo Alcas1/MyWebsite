@@ -28,6 +28,7 @@ body {
 	.main_content {
 		font-size: 100%;
 	}
+	
 	.p1 > p {
 		font-size: 100%;
 		width: 80%;
@@ -91,6 +92,10 @@ body {
 		top: 3%;
 		color: #FFFFFF;
 		font-size: 5vw;
+	}
+	
+	#side_nav{
+		display:none;
 	}
 }
 @media (min-width: 700px) {
@@ -164,6 +169,10 @@ body {
 		color: #FFFFFF;
 		font-size: 5vw;
 	}
+	
+	#side_nav{
+		display: block;
+	}
 }
 @media (min-width: 1150px) {
 	.main_content {
@@ -227,6 +236,9 @@ body {
 		color: #FFFFFF;
 		top: 250px;
 		font-size: 20px;
+	}
+	#side_nav{
+		display:block;
 	}
 
 }
