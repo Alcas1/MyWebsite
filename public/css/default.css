@@ -202,7 +202,7 @@ body {
 	}
 	.part1 .part_group {
 		width: 760px;
-		padding-left: 30px;
+		/*padding-left: 30px;*/
 	}
 	.part1 .part_group .part_group_content:nth-child(2n) {
 		padding-left: 40px;
@@ -633,8 +633,8 @@ h3 {
 	width: auto;
 	z-index: 1;
 	right: 0;
-	background: #FFFFFF;
-	border-top-left-radius: 3px;
+	
+	/*border-top-left-radius: 3px;*/
 	border-top-right-radius: 3px;
 	/*padding-top:10px;*/
 }
