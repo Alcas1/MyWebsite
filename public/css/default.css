@@ -125,7 +125,8 @@ body {
 		float: left;
 	}
 	.works_container {
-		padding-left: 20%;
+		padding-left: 10%;
+		padding-right: 300px;
 	}
 	#skills_container{
 		padding-left:10%;
@@ -199,6 +200,7 @@ body {
 	}
 	.works_container {
 		padding-left: 10%;
+		padding-right: 10%;
 	}
 	.part1 .part_group {
 		width: 760px;
