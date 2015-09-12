@@ -495,7 +495,7 @@ h3 {
 	border-radius: 2px;
 }
 .content_img_small {
-	width: 400px;
+	max-width: 400px;
 }
 .part_body {
 	display: inline-block;
