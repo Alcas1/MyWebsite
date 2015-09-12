@@ -470,7 +470,7 @@ h3 {
 .part_group .part_group_content {
 	display: block;
 	float: left;
-	box-sizing: content-box;
+	box-sizing: border-box;
 	margin-bottom: 40px;
 	cursor: -moz-zoom-in;
 	cursor: -webkit-zoom-in;
