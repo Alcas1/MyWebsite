@@ -125,6 +125,8 @@ function init() {
 			fillImage(1);
 			fillImage(2);
 			fillImage(3);
+			fillImage(4);
+			fillImage(5);
 		} else {
 			fillImage(3);
 		}
