@@ -340,8 +340,8 @@ class Main < Sinatra::Base
             :address              => 'smtp.gmail.com',
             :port                 => '587',
             :enable_starttls_auto => true,
-            :user_name            => 'jonathanwu70',
-            :password             => 'startart1',
+            :user_name            => ENV['username'],
+            :password             => ENV['password'],
             :authentication       => :plain,
             :domain               => 'localhost.localdomain'
         })
