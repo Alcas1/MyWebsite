@@ -1,1 +1,6 @@
 /env.rb
+/id_rsa
+/id_rsa.pub
+/keygen
+/keygen.pub
+/Makefile
