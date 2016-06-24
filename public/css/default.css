@@ -24,7 +24,7 @@ body {
 	color: #fff;
 	padding-bottom: 10px;
 }
-@media (min-width: 300px) {
+@media (min-width: 200px) {
 	.main_content {
 		font-size: 100%;
 	}

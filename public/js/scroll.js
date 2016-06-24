@@ -129,6 +129,8 @@ function init() {
 			fillImage(5);
 		} else {
 			fillImage(3);
+			fillImage(4);
+			fillImage(5);
 		}
 		//to add more to Document Ready
 
