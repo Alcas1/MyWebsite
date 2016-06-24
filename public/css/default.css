@@ -24,7 +24,7 @@ body {
 	color: #fff;
 	padding-bottom: 10px;
 }
-@media (min-width: 330px) {
+@media (min-width: 300px) {
 	.main_content {
 		font-size: 100%;
 	}
@@ -559,6 +559,11 @@ h3 {
 	width: 100%;
 	display: inline-block;
 	/*min-height:320px;*/
+}
+
+
+.about_container > *:hover{
+	box-shadow: 0px 3px 4px rgba(43, 59, 93, 0.29);
 }
 
 .part_body_card_main, .part_body_card, .part_body_card_skill {
