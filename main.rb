@@ -475,7 +475,7 @@ class Main < Sinatra::Base
   
   get '/resume' do
     
-    redirect '/JonathanWuResume.pdf'
+    redirect '/resume/index.html'
   end
   
   get '/bentley' do

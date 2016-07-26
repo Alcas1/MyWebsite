@@ -1,0 +1,481 @@
+
+
+@font-face {
+    font-family: "Avenir";
+    src: url("Avenir.ttf");
+}
+@font-face {
+    font-family: "AvenirLight";
+    src: url("AvenirLight.ttf");
+}
+
+html,body{
+	width:100%;
+	margin:0;
+}
+
+#resume{
+	position: relative;
+	height: 2140px;
+	width: 1654px;
+	margin: auto;
+	/*border-radius: 2px;*/
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+#left-bar{
+	width: 596px;
+
+	height:100%;
+	background-color: #79CCD0;
+	float:left;
+	position: relative;
+}
+
+
+#web{
+	font-size: 80px;
+	float: left;
+	letter-spacing: 7px;
+	padding-left: 145px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: "AvenirLight";
+	color:#fff;
+	position: relative;
+}
+
+#web-box{
+	padding-top: 30px;
+	padding-bottom: 10px;
+	width: 100%;
+	height:80px;
+}
+
+#cloud{
+	float:right;
+	padding-right: 145px;
+	padding-bottom: 20px;
+	position: relative;
+	height:93px;
+}
+
+
+#main{
+	width: 1058px;
+	height:100%;
+	/*background-color: red;*/
+	float: right;
+	position: relative;
+
+}
+
+
+#name{
+	font-size: 108px;
+	padding-right: 50px;
+	padding-left: 50px;
+	text-align: center;
+	padding-top: 20px;
+	font-family: "Avenir";
+	color:#fff;
+	position: relative;
+}
+#keyboard{
+	position: relative;
+	width: 100px;
+	margin-left: 254px;
+	padding-top:15px;
+}
+#title{
+	font-size: 54px;
+	text-align: center;
+	padding-top: 20px;
+	font-family: "AvenirLight";
+	color:#fff;
+	position: relative;
+}
+
+.left-split{
+	height:3px;
+	background-color: white;
+	width:400px;
+	position: relative;
+	margin-top:40px;
+	margin-left: 98px;
+}
+
+#about{
+	font-size: 40px;
+	font-family: "Avenir";
+	color: white;
+	position: relative;
+	text-align: center;
+	padding-top: 30px;
+	line-height: 80px;
+}
+
+
+.web-skills{
+	font-size: 54px;
+	text-align: center;
+	padding-top: 30px;
+	margin-bottom: 20px;
+	font-family: "AvenirLight";
+	color:#fff;
+	position: relative;
+}
+
+.web-skill{
+	position: relative;
+	
+	height:60px;
+	width:100%;
+	/*background-color: white;*/
+}
+
+.skill{
+
+	padding-left: 80px;
+	font-size: 40px;
+	line-height: 60px;
+	font-family: "Avenir";
+	color:white;
+	float:left;
+}
+
+.rating{
+	width:240px;
+	height:20px;
+	margin-top:15px;
+	margin-right: 60px;
+	float:right;
+	border-radius: 20px;
+	border:solid 4px white;
+}
+
+
+/*width:97%;*/
+
+.fill-skill{
+	padding-top: 1px;
+	height:12px;
+	border:solid 4px #79CCD0;
+	border-radius: 20px;
+	background-color: white;
+}
+
+
+.main-title{
+	font-size: 80px;
+	font-family: "AvenirLight";
+	color:#79CCD0;
+	letter-spacing: 3px;
+	padding-bottom: 20px;
+	float:left;
+	width:80%;
+}
+
+#major{
+	font-size: 36px;
+	font-family: "AvenirLight";
+	letter-spacing: 2px;
+	position: relative;
+	float:left;
+}
+
+#major-gpa{
+	font-size: 36px;
+	font-family: "Avenir";
+	letter-spacing: 2px;
+	position: relative;
+	/*color:#131516;*/
+	float:right;
+	padding-right: 50px;
+}
+
+#lehigh{
+	font-size: 36px;
+	font-family: "Avenir";
+	letter-spacing: 2px;
+	position: relative;
+	color:#131516;
+	float:left;
+}
+
+#lehigh-years{
+	font-size: 36px;
+	font-family: "Avenir";
+	letter-spacing: 2px;
+	position: relative;
+	float:right;
+	padding-right: 50px;
+}
+
+#minor{
+	padding-top: 10px;
+	padding-bottom: 15px;
+	font-size: 36px;
+	font-family: "AvenirLight";
+	letter-spacing: 3px;
+	position: relative;
+	float:left;
+}
+
+#minor-gpa{
+	padding-top: 10px;
+	font-size: 36px;
+	font-family: "Avenir";
+	letter-spacing: 2px;
+	position: relative;
+	float:right;
+	padding-right:50px;
+}
+
+
+#classes-left{
+	padding-left: 100px;
+	margin-top: 10px;
+	font-size: 36px;
+	font-family: "AvenirLight";
+	position: relative;
+	margin-bottom: 0px;
+	float: left;
+}
+
+#classes-right{
+	margin-top: 10px;
+	font-size: 36px;
+	font-family: "AvenirLight";
+	position: relative;
+	float: right;
+	margin-bottom: 0px;
+	padding-right:150px;
+}
+
+ul {
+   list-style: none;
+}
+
+ul li:before {
+	content: "•";
+	font-size: 30px; /* or whatever */
+	padding-right: 15px;
+}
+
+.main-split{
+	height:3px;
+	background-color: #79CCD0;
+	width:820px;
+	float:left;
+	position: relative;
+	margin-bottom: 0px;
+	margin-top:15px;
+	margin-left: 100px;
+
+}
+
+
+#education{
+	overflow: hidden;
+	color:#555F61;
+	position: relative;
+	padding-top: 39px;
+	padding-left: 50px;
+	clear:left;
+}
+
+#education-img{
+	height:80px;
+	color:#555F61;
+	position: relative;
+	padding-right: 50px;
+	float:right;
+
+}
+
+#experience-img{
+	height:80px;
+	color:#555F61;
+	position: relative;
+	padding-right: 50px;
+	float:right;
+}
+
+#leadership-img{
+	height:80px;
+	color:#555F61;
+	position: relative;
+	padding-right: 50px;
+	float:right;
+}
+
+#skills-img{
+	height:80px;
+	color:#555F61;
+	position: relative;
+	padding-right: 50px;
+	float:right;
+}
+
+#experience{
+	overflow:hidden;
+	color:#555F61;
+	position: relative;
+	padding-top: 30px;
+	padding-left: 50px;
+	clear:left;
+}
+
+.experience-title{
+	font-size: 36px;
+	font-family: "Avenir";
+	letter-spacing: 2px;
+	position: relative;
+	color:#131516;
+	float:left;
+}
+
+.experience-years{
+	font-size: 32px;
+	font-family: "Avenir";
+	letter-spacing: 2px;
+	position: relative;
+	float:right;
+	padding-right: 50px;
+}
+
+.experience-content{
+	padding-top: 20px;
+	padding-right: 50px;
+	font-size:32px;
+	position:relative;
+	font-family: "Avenir";
+	clear:left;
+	padding-bottom: 30px;
+}
+
+#leadership{
+	overflow:hidden;
+	color:#555F61;
+	position: relative;
+	padding-top: 30px;
+	padding-left: 50px;
+	clear:left;
+}
+
+.experience-title{
+	font-size: 36px;
+	font-family: "Avenir";
+	letter-spacing: 2px;
+	position: relative;
+	color:#131516;
+	float:left;
+}
+
+
+.leadership-title{
+	font-size: 36px;
+	font-family: "Avenir";
+	letter-spacing: 2px;
+	position: relative;
+	color:#131516;
+	float:left;
+}
+.leadership-years{
+	font-size: 36px;
+	font-family: "Avenir";
+	letter-spacing: 2px;
+	position: relative;
+	float:right;
+	padding-right: 50px;
+}
+
+.leadership-content{
+	padding-top: 20px;
+	padding-right: 50px;
+	font-size:32px;
+	position:relative;
+	font-family: "Avenir";
+	clear:left;
+	padding-bottom: 30px;
+}
+
+#general-skills{
+	overflow:hidden;
+	color:#555F61;
+	position: relative;
+	padding-top: 30px;
+	padding-left: 50px;
+	clear:left;
+}
+
+.skills-left{
+	width:45%;
+	font-family: "Avenir";
+	font-size: 36px;
+	float:left;
+	position: relative;
+}
+.skills-right{
+	width:50%;
+	padding-right: 3%;
+	font-family: "Avenir";
+	font-size: 36px;
+	float:right;
+	position: relative;
+}
+
+.skills-right .general-title{
+	padding-left: 0px;
+}
+
+
+.skills-left .general{
+	margin-right: 40px;
+}
+
+.skills-right .general{
+	margin-right: 120px;
+}
+
+.general{
+
+	width:240px;
+	height:20px;
+	margin-top:5px;
+	margin-right: 0px;
+	float:right;
+	margin-bottom: 20px;
+	border-radius: 20px;
+	border:solid 4px #79CCD0;
+}
+
+.general-title{
+	padding-bottom: 20px;
+	float:left;
+	clear:left;
+	position: relative;
+	padding-left: 40px;
+}
+
+
+/*width:97%;*/
+
+.fill-general{
+	height:12px;
+	padding-top: 1px;
+	border:solid 4px white;
+	border-radius: 20px;
+	background-color: #79CCD0;
+}
+
+
+
+
+a{
+	color:white;	
+	text-decoration: none;
+
+}
+
