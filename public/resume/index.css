@@ -15,6 +15,7 @@ html,body{
 }
 
 #resume{
+	margin:auto;
 	position: relative;
 	height: 2140px;
 	width: 1654px;
@@ -63,7 +64,6 @@ html,body{
 #main{
 	width: 1058px;
 	height:100%;
-	/*background-color: red;*/
 	float: right;
 	position: relative;
 
@@ -166,7 +166,7 @@ html,body{
 
 
 .main-title{
-	font-size: 80px;
+	font-size: 72px;
 	font-family: "AvenirLight";
 	color:#79CCD0;
 	letter-spacing: 3px;
@@ -284,13 +284,13 @@ ul li:before {
 	overflow: hidden;
 	color:#555F61;
 	position: relative;
-	padding-top: 39px;
+	padding-top: 36px;
 	padding-left: 50px;
 	clear:left;
 }
 
 #education-img{
-	height:80px;
+	height:72px;
 	color:#555F61;
 	position: relative;
 	padding-right: 50px;
@@ -299,7 +299,7 @@ ul li:before {
 }
 
 #experience-img{
-	height:80px;
+	height:72px;
 	color:#555F61;
 	position: relative;
 	padding-right: 50px;
@@ -307,7 +307,7 @@ ul li:before {
 }
 
 #leadership-img{
-	height:80px;
+	height:72px;
 	color:#555F61;
 	position: relative;
 	padding-right: 50px;
@@ -315,7 +315,7 @@ ul li:before {
 }
 
 #skills-img{
-	height:80px;
+	height:72px;
 	color:#555F61;
 	position: relative;
 	padding-right: 50px;
