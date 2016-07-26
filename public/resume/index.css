@@ -252,15 +252,20 @@ html,body{
 	padding-right:150px;
 }
 
-ul {
+ul li{
+	vertical-align: middle;
+	list-style: none;
+}
+
+/*ul {
    list-style: none;
 }
 
 ul li:before {
 	content: "•";
-	font-size: 30px; /* or whatever */
+	font-size: 30px; 
 	padding-right: 15px;
-}
+}*/
 
 .main-split{
 	height:3px;
