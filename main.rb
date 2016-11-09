@@ -375,6 +375,9 @@ class Main < Sinatra::Base
   end
 
 
+  get '/towerdefense' do
+    redirect '/towerdefense/index.html'
+  end
 
   get '/2014' do
     @year_number='2014'
