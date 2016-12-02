@@ -477,8 +477,14 @@ ul li:before {
 
 
 
-a{
+#about a{
 	color:white;	
+	text-decoration: none;
+
+}
+
+#experience a{
+	color:#000;	
 	text-decoration: none;
 
 }
