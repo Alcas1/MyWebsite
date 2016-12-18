@@ -24,7 +24,7 @@ html,body{
 }
 
 #left-bar{
-	width: 596px;
+	width: 500px;
 
 	height:100%;
 	background-color: #79CCD0;
@@ -37,7 +37,7 @@ html,body{
 	font-size: 80px;
 	float: left;
 	letter-spacing: 7px;
-	padding-left: 145px;
+	padding-left: 105px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	font-family: "AvenirLight";
@@ -54,7 +54,7 @@ html,body{
 
 #cloud{
 	float:right;
-	padding-right: 145px;
+	padding-right: 105px;
 	padding-bottom: 20px;
 	position: relative;
 	height:93px;
@@ -62,7 +62,7 @@ html,body{
 
 
 #main{
-	width: 1058px;
+	width: 1154px;
 	height:100%;
 	float: right;
 	position: relative;
@@ -80,11 +80,11 @@ html,body{
 	color:#fff;
 	position: relative;
 }
-#keyboard{
+#notebook{
 	position: relative;
-	width: 100px;
-	margin-left: 254px;
-	padding-top:15px;
+	width: 120px;
+	margin-left: 198px;
+	padding-top:0px;
 }
 #title{
 	font-size: 54px;
@@ -100,8 +100,8 @@ html,body{
 	background-color: white;
 	width:400px;
 	position: relative;
-	margin-top:40px;
-	margin-left: 98px;
+	margin-top:30px;
+	margin-left: 50px;
 }
 
 #about{
@@ -135,7 +135,7 @@ html,body{
 
 .skill{
 
-	padding-left: 80px;
+	padding-left: 40px;
 	font-size: 40px;
 	line-height: 60px;
 	font-family: "Avenir";
@@ -147,7 +147,7 @@ html,body{
 	width:240px;
 	height:20px;
 	margin-top:15px;
-	margin-right: 60px;
+	margin-right: 20px;
 	float:right;
 	border-radius: 20px;
 	border:solid 4px white;
@@ -270,12 +270,12 @@ ul li:before {
 .main-split{
 	height:3px;
 	background-color: #79CCD0;
-	width:820px;
+	width:900px;
 	float:left;
 	position: relative;
 	margin-bottom: 0px;
 	margin-top:15px;
-	margin-left: 100px;
+	margin-left: 120px;
 
 }
 
@@ -285,7 +285,7 @@ ul li:before {
 	color:#555F61;
 	position: relative;
 	padding-top: 36px;
-	padding-left: 50px;
+	padding-left: 40px;
 	clear:left;
 }
 
@@ -327,7 +327,7 @@ ul li:before {
 	color:#555F61;
 	position: relative;
 	padding-top: 20px;
-	padding-left: 50px;
+	padding-left: 40px;
 	clear:left;
 }
 
@@ -364,7 +364,7 @@ ul li:before {
 	color:#555F61;
 	position: relative;
 	padding-top: 20px;
-	padding-left: 50px;
+	padding-left: 40px;
 	clear:left;
 }
 
@@ -410,7 +410,7 @@ ul li:before {
 	color:#555F61;
 	position: relative;
 	padding-top: 30px;
-	padding-left: 50px;
+	padding-left: 40px;
 	clear:left;
 }
 
