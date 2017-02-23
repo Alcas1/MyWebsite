@@ -1,0 +1,367 @@
+
+<html>
+
+<div id="page-1">
+
+	<head>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" type="text/css" href="smoothzoom.css" />
+		<link rel="stylesheet" type="text/css" href="default.css" />
+		<script
+			  src="jquery.min.js"></script>
+			  <script src="jquery.waypoints.min.js"></script>
+		<script src="jquery.animate-colors-min.js"></script>
+		<script type="text/javascript" src="easing.js"></script>
+		<script type="text/javascript" src="smoothzoom.min.js"></script>
+		<script src="index.js" type="text/javascript"></script> 
+	</head>
+
+
+	<div class="header">
+		<div class="top-bar noselect">
+			REST APIS
+			<div class="fixed-box">
+				<div class="fixed-text"></div>
+			</div>
+			<div class="fixed-hovers">
+				<!-- <div class="empty"></div> -->
+			</div>
+		</div>
+		<div id="header-bottom">
+			<img id="down-arrow" src="down-arrow.png" height="36" width="40"> 
+		</div>
+		
+	</div>
+	<div id="slide-nav">
+		<div id="up-nav">
+			 <img src="up.png" height="36" width="36"> 
+		</div>
+		<div id="disp-nav">
+			1/2
+		</div>
+		<div id="down-nav">
+			 <img src="down.png" height="36" width="36"> 
+		</div>
+
+	</div>
+	<body>
+		<div class="slide" title="">
+			<div class="center-slide">
+				WHAT IS REST?
+			</div>
+		</div>
+		<div class="slide" title="">
+			<div class="slide-body">
+				<div class="slide-header-full">
+					<span class="heavy">Re</span>presentational <span class="heavy">S</span>tate <span class="heavy">T</span>ransfer
+				</div>
+				<div class="slide-content">
+					<div class="slide-left">
+						<ul>
+							<li><b>Restful programming is coding on the weekend on the couch</b></li>
+							<li>A means of data exchange on the web</li>
+							<li>A set of constraints that define an architectural style</li>
+							<li>Used to develop web APIs</li>
+						</ul>
+					</div>
+					<div class="slide-right">
+						
+						<img class="slide-image-small" src="restful.jpg">
+						<img class="slide-image-smaller" src="RestAPI.png">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="slide" title="">
+			<div class="slide-body">
+				<div class="slide-header-full">
+					Constraints
+				</div>
+				<div class="slide-content">
+					<div class="slide-left">
+						
+						<ol>
+							<li>Client - Server</li>
+							<li>Stateless</li>
+							<li>Cacheable</li>
+							<li>Uniform Interface</li>
+							<li>Layered System</li>
+							<li>Code on Demand(Optional)</li>
+						</ol>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="slide" title="">
+			<div class="slide-body">
+				<div class="slide-header-full">
+					Client - Server
+				</div>
+				<div class="slide-content">	
+					<div class="slide-left">
+						<ul>
+							<li>Clients retrieve data through requests </li>
+							<li>Servers store and serve data</li>
+							<li>Servers don't care about state</li>
+							<li>Code portability</li>
+							<li>Scalability</li>
+							<li>Responsibilities seperated</li>
+						</ul>
+					</div>
+					<div class="slide-right">
+						<img class="slide-image" src="client_server.png">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="slide" title="">
+			<div class="slide-body">
+				<div class="slide-header-full">
+					Stateless
+				</div>
+				<div class="slide-content">
+					<div class="slide-left">
+						<ul>
+							<li>RE (State) T is stateless</li>
+							<li>State information is contained within the request</li>
+							<li>Information about state is passed back through response</li>
+							<li>Servers can handle any state</li>
+							<li>Scalability (Handle requests more efficiently)</li>
+						</ul>
+					</div>
+					<div class="slide-right">
+						<img class="slide-image" src="stateless.png">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="slide" title="">
+			<div class="slide-body">
+				<div class="slide-header-full">
+					 Cacheable
+				</div>
+				<div class="slide-content">
+					<div class="slide-left">	
+						<ul>
+							<li>Some requests may be cached</li>
+							<li>Eliminates some interactions</li>
+							<li>Improves efficiency (handling more requests)</li>
+							<li>Improves latency (skip request)</li>
+							<li>Improves scalability (each server can do more)</li>
+						</ul>
+					</div>
+					<div class="slide-right">
+						<img class="slide-image" src="cacheable.png">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="slide" title="">
+			<div class="slide-body">
+				<div class="slide-header-full">
+					 Uniform Interfaces
+				</div>
+				<div class="slide-content">	
+					<div class="slide-left">
+						<ul>
+							<li>Provides a standard for interaction</li>
+							<li>Abstraction of the implementation from the interface</li>
+							<li>Gives consistency across various applications</li>
+						</ul>
+					</div>
+					<div class="slide-right">
+						<img class="slide-image" src="uniform_interface.png">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="slide" title="">
+			<div class="slide-body">
+				<div class="slide-header-full">
+					 Layered System
+				</div>
+				<div class="slide-content">	
+					<div class="slide-left">
+						<ul>
+							<li>Applications can have layered logic</li>
+							<li>Layers cannot see past other layers</li>
+							<li>Client can't tell whether its an intermediary server or an end server</li>
+						</ul>
+					</div>
+					<div class="slide-right">
+						<img class="slide-image" src="layered.png">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="slide" title="">
+			<div class="slide-body">
+				<div class="slide-header-full">
+					 Code on Demand(Optional)
+				</div>
+				<div class="slide-content">	
+					<div class="slide-left">
+						<ul>
+							<li>Executable code transferred to client externally</li>
+							<li>Code sent by a server</li>
+							<li>Extends functionality</li>
+							<li>Not required for REST</li>
+						</ul>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		<div class="slide" title="">
+			<div class="center-slide">
+				RESOURCES & CRUD
+			</div>
+		</div>
+		<div class="slide" title="">
+			<div class="slide-body">
+				<div class="slide-header-full">
+					Resources
+				</div>
+				<div class="slide-content">
+					<div class="slide-left">
+						<ul>
+							<li>Most common data model is JSON</li>
+							<li>JSON is key, value pairs</li>
+							<li>Resources should be nouns (not verbs!)</li>
+							<li>After defining resources, configure usages</li>
+							<li>Example resources: ticket, user, course</li>
+
+						</ul>
+					</div>
+					<div class="slide-right">
+						<a class="zoom" href="json-xml.png" data-smoothzoom="lower"><img class="slide-image" src="json-xml.png" alt="JSON vs XML Popularity"></a>
+						<img style="margin-top:10px;" class="slide-image" src="resources.png">
+					</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="slide">
+			<div class="slide-body">
+				<div class="slide-header-full">
+					CRUD
+				</div>
+				<div class="slide-content">
+					<div class="slide-left">
+						<ul>
+							<li><b>C</b>reate, <b>R</b>ead, <b>U</b>pdate, <b>D</b>elete</li>
+							<li>HTTP verbs match CRUD</li>
+							<li>CREATE => POST</li>
+							<li>READ => GET</li>
+							<li>UPDATE => PUT</li>
+							<li>DELETE => DELETE</li>
+						</ul>
+					</div>
+					<div class="slide-right">
+						<img class="slide-image" src="crud.png">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="slide">
+			<div class="slide-body">
+				<div class="slide-header-full">
+					Tickets Example 
+				</div>
+				<div class="slide-content">
+					<div class="slide-left">
+						<ul>
+							<li><b>/tickets</b> <- endpoint</li>
+							<li>GET /tickets</li>
+							<li>GET /tickets/2</li>
+							<li>POST /tickets</li>
+							<li>PUT /tickets/2</li>
+							<li>DELETE /tickets/2</li>
+						</ul>
+					</div>
+					<div class="slide-right">
+						<p style="text-align: center">
+							/tickets
+						</p>
+						<img class="slide-image" src="verbs.png">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="slide" title="">
+			<div class="center-slide">
+				<a href="http://www.ezsemester.com">EZSemester.com DEMO</a>
+			</div>
+		</div>
+		
+		<div class="slide" title="">
+			<div class="center-slide">
+				BEST PRACTICES
+			</div>
+		</div>
+		<div class="slide">
+			<div class="slide-body">
+				<div class="slide-header-full">
+					Versioning
+				</div>
+				<div class="slide-content">
+					<ul>
+						<li>Always version always</li>
+						<li>Offering of new api while still supporting old ones</li>
+						<li>Helps prevent invalid requests</li>
+						<li>API version can be included in the url</li>
+						<li>GET /api/v2/tickets</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="slide" title="">
+			<div class="slide-body">
+				<div class="slide-header-full">
+					Result Filtering
+				</div>
+				<div class="slide-content">
+						<ul>
+							<li>Allows selection of specific content</li>
+							<li>API base URL should be as lean as possible</li>
+							<li>Easily implementable</li>
+							<li>Reduces latency</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="slide" title="">
+			<div class="slide-body">
+				<div class="slide-header-full">
+					Documentation
+				</div>
+				<div class="slide-content">	
+					<ul class="slide-content">
+						<li></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="slide" title="">
+			<div class="slide-body">
+				<div class="slide-header-full">
+					Key Points
+				</div>
+				<div class="slide-content">	
+					<ul class="slide-content-small">
+						<li>REST is a set of constraints that define an architectural style</li>
+						<li>Resources should be nouns</li>
+						<li>HTTP verbs allow for CRUD</li>
+						<li>Always version your API</li>
+						<li>Good documentation!</li>
+						<li>Questions?</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+	</body>
+<!-- Include extras at the end -->
+</div>
+</html>

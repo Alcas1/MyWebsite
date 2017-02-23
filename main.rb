@@ -383,6 +383,10 @@ class Main < Sinatra::Base
     redirect 'towerdefense/index.html'
   end
 
+   get '/restapis' do
+    redirect 'RESTAPIs/index.html'
+  end
+
   get '/2014' do
     @year_number='2014'
     @my_age='19'
