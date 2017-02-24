@@ -230,12 +230,47 @@
 							<li>Resources should be nouns (not verbs!)</li>
 							<li>After defining resources, configure usages</li>
 							<li>Example resources: ticket, user, course</li>
-
 						</ul>
 					</div>
 					<div class="slide-right">
 						<a class="zoom" href="json-xml.png" data-smoothzoom="lower"><img class="slide-image" src="json-xml.png" alt="JSON vs XML Popularity"></a>
 						<img style="margin-top:10px;" class="slide-image" src="resources.png">
+					</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="slide" title="">
+			<div class="slide-body">
+				<div class="slide-header-full">
+					Resource Example
+				</div>
+				<div class="slide-content-small">
+					<div style="padding-top:10px;" class="slide-left">
+						Ticket Resource
+						<br>
+						<br>
+						Request: 
+						<br>
+						GET /tickets/2
+						<br>
+						Response:
+						<br>
+						{
+						<br>
+							&emsp;id : 2,
+							<br>
+							&emsp;subject: "Why is it called cat?"
+							<br>
+							&emsp;priority : "low",
+							<br>
+							&emsp;state : "open"
+							<br>
+
+						}
+					</div>
+					<div class="slide-right">
+						<img style="margin-top:10px;" class="image-half" src="ticket.png">
 					</div>
 					</div>
 				</div>
@@ -290,7 +325,7 @@
 		</div>
 		<div class="slide" title="">
 			<div class="center-slide">
-				<a href="http://www.ezsemester.com">EZSemester.com DEMO</a>
+				<a target="blank" href="http://www.ezsemester.com">EZSemester.com DEMO</a>
 			</div>
 		</div>
 		
@@ -326,6 +361,7 @@
 							<li>API base URL should be as lean as possible</li>
 							<li>Easily implementable</li>
 							<li>Reduces latency</li>
+							<li>GET /ticket?priority=severe</li>
 						</ul>
 					</div>
 				</div>
@@ -338,7 +374,12 @@
 				</div>
 				<div class="slide-content">	
 					<ul class="slide-content">
-						<li></li>
+						<li>These apply mainly to public APIs but should be applied internally as well</li>
+						<li>API's are only good as their documentation</li>
+						<li>Easy to find and access</li>
+						<li>Most devs read docs before integrating</li>
+						<li>Docs should include complete request/response cycles</li>
+
 					</ul>
 				</div>
 			</div>
@@ -349,13 +390,14 @@
 					Key Points
 				</div>
 				<div class="slide-content">	
-					<ul class="slide-content-small">
+					<ul class="slide-content">
 						<li>REST is a set of constraints that define an architectural style</li>
+						<li>REST APIs are made to scale</li>
 						<li>Resources should be nouns</li>
 						<li>HTTP verbs allow for CRUD</li>
 						<li>Always version your API</li>
 						<li>Good documentation!</li>
-						<li>Questions?</li>
+						<li><b>Questions?</b></li>
 					</ul>
 				</div>
 			</div>
