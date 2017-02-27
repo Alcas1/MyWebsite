@@ -101,10 +101,9 @@
 					<div class="slide-left">
 						<ul>
 							<li>Clients retrieve data through requests </li>
-							<li>Servers store and serve data</li>
-							<li>Servers don't care about state</li>
+							<li>Servers serve data through responses</li>
+							<li>Machines can act as either client or server but must choose one</li>
 							<li>Code portability</li>
-							<li>Scalability</li>
 							<li>Responsibilities seperated</li>
 						</ul>
 					</div>
@@ -122,9 +121,10 @@
 				<div class="slide-content">
 					<div class="slide-left">
 						<ul>
-							<li>RE (State) T is stateless</li>
-							<li>State information is contained within the request</li>
-							<li>Information about state is passed back through response</li>
+							<li>A state is information about where you are in a procedure</li>
+							<li>State information is contained within the request(client)</li>
+							<li>Servers should not remember information about client state</li>
+							<li>Stateful servers manage client state </li>
 							<li>Servers can handle any state</li>
 							<li>Scalability (Handle requests more efficiently)</li>
 						</ul>
@@ -167,6 +167,7 @@
 							<li>Provides a standard for interaction</li>
 							<li>Abstraction of the implementation from the interface</li>
 							<li>Gives consistency across various applications</li>
+							<li>Windows laptops, iPhones, and Unix servers all access data the same way</li>
 						</ul>
 					</div>
 					<div class="slide-right">
@@ -183,9 +184,9 @@
 				<div class="slide-content">	
 					<div class="slide-left">
 						<ul>
-							<li>Applications can have layered logic</li>
-							<li>Layers cannot see past other layers</li>
 							<li>Client can't tell whether its an intermediary server or an end server</li>
+							<li>Client does not need to know about the other layers</li>
+							<li>Allows for very complicated tasks</li>
 						</ul>
 					</div>
 					<div class="slide-right">
