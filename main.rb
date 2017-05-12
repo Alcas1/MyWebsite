@@ -391,6 +391,10 @@ class Main < Sinatra::Base
     redirect 'Alexa/index.html'
   end
 
+  get '/matchgame' do
+    redirect 'MatchGame/index.html'
+  end
+
   get '/2014' do
     @year_number='2014'
     @my_age='19'
