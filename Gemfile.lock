@@ -1,29 +1,32 @@
 GEM
   remote: http://rubygems.org/
   specs:
-    daemons (1.2.3)
-    eventmachine (1.0.8)
-    mail (2.6.3)
-      mime-types (>= 1.16, < 3)
-    mime-types (2.6.1)
-    pony (1.11)
+    daemons (1.4.1)
+    eventmachine (1.2.7-x64-mingw32)
+    mail (2.7.1)
+      mini_mime (>= 0.1.1)
+    mini_mime (1.1.1)
+    mustermann (1.1.1)
+      ruby2_keywords (~> 0.0.1)
+    pony (1.13.1)
       mail (>= 2.0)
-    rack (1.6.4)
-    rack-protection (1.5.3)
+    rack (2.2.3)
+    rack-protection (2.1.0)
       rack
-    sinatra (1.4.6)
-      rack (~> 1.4)
-      rack-protection (~> 1.4)
-      tilt (>= 1.3, < 3)
-    thin (1.6.3)
+    ruby2_keywords (0.0.5)
+    sinatra (2.1.0)
+      mustermann (~> 1.0)
+      rack (~> 2.2)
+      rack-protection (= 2.1.0)
+      tilt (~> 2.0)
+    thin (1.8.1)
       daemons (~> 1.0, >= 1.0.9)
-      eventmachine (~> 1.0)
-      rack (~> 1.0)
-    tilt (2.0.1)
+      eventmachine (~> 1.0, >= 1.0.4)
+      rack (>= 1, < 3)
+    tilt (2.0.10)
     web (0.1.0)
 
 PLATFORMS
-  ruby
   x64-mingw32
 
 DEPENDENCIES
@@ -33,7 +36,7 @@ DEPENDENCIES
   web
 
 RUBY VERSION
-   ruby 2.4.0p0
+   ruby 2.7.4p191
 
 BUNDLED WITH
-   1.14.3
+   2.1.4
