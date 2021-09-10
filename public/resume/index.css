@@ -1,12 +1,12 @@
 
 
 @font-face {
-    font-family: "Avenir";
-    src: url("Avenir.ttf");
+    font-family: "Futura";
+    src: url("FuturaPTBook.otf");
 }
 @font-face {
-    font-family: "AvenirLight";
-    src: url("AvenirLight.ttf");
+    font-family: "FuturaLight";
+    src: url("FuturaPTLight.otf");
 }
 
 html,body{
@@ -24,10 +24,10 @@ html,body{
 }
 
 #left-bar{
-	width: 500px;
+	width: 520px;
 
 	height:100%;
-	background-color: #79CCD0;
+	background-color: #01497c;
 	float:left;
 	position: relative;
 }
@@ -40,7 +40,7 @@ html,body{
 	padding-left: 105px;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	font-family: "AvenirLight";
+	font-family: "FuturaLight";
 	color:#fff;
 	position: relative;
 }
@@ -62,10 +62,10 @@ html,body{
 
 
 #main{
-	width: 1154px;
+	width: 1134px;
 	height:100%;
 	float: right;
-	position: relative;
+	position:  ;
 
 }
 
@@ -76,7 +76,7 @@ html,body{
 	padding-left: 50px;
 	text-align: center;
 	padding-top: 20px;
-	font-family: "Avenir";
+	font-family: "Futura";
 	color:#fff;
 	position: relative;
 }
@@ -90,13 +90,13 @@ html,body{
 	font-size: 54px;
 	text-align: center;
 	padding-top: 20px;
-	font-family: "AvenirLight";
+	font-family: "FuturaLight";
 	color:#fff;
 	position: relative;
 }
 
 .left-split{
-	height:3px;
+	height:2px;
 	background-color: white;
 	width:400px;
 	position: relative;
@@ -106,7 +106,7 @@ html,body{
 
 #about{
 	font-size: 40px;
-	font-family: "Avenir";
+	font-family: "Futura";
 	color: white;
 	position: relative;
 	text-align: center;
@@ -120,7 +120,7 @@ html,body{
 	text-align: center;
 	padding-top: 30px;
 	margin-bottom: 20px;
-	font-family: "AvenirLight";
+	font-family: "FuturaLight";
 	color:#fff;
 	position: relative;
 }
@@ -138,7 +138,7 @@ html,body{
 	padding-left: 30px;
 	font-size: 38px;
 	line-height: 60px;
-	font-family: "Avenir";
+	font-family: "Futura";
 	color:white;
 	float:left;
 }
@@ -146,8 +146,8 @@ html,body{
 .rating{
 	width:240px;
 	height:20px;
-	margin-top:15px;
-	margin-right: 20px;
+	margin-top:18px;
+	margin-right: 26px;
 	float:right;
 	border-radius: 20px;
 	border:solid 4px white;
@@ -159,7 +159,7 @@ html,body{
 .fill-skill{
 	padding-top: 1px;
 	height:12px;
-	border:solid 4px #79CCD0;
+	border:solid 4px #01497c;
 	border-radius: 20px;
 	background-color: white;
 }
@@ -167,17 +167,19 @@ html,body{
 
 .main-title{
 	font-size: 72px;
-	font-family: "AvenirLight";
-	color:#79CCD0;
+	font-family: "FuturaLight";
+	color:#01497c;
 	letter-spacing: 3px;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
+	margin-bottom:40px;
 	float:left;
-	width:80%;
+	width:95%;
+	border-bottom: #131516 4px solid;
 }
 
 #major{
 	font-size: 36px;
-	font-family: "AvenirLight";
+	font-family: "FuturaLight";
 	letter-spacing: 2px;
 	position: relative;
 	float:left;
@@ -185,7 +187,7 @@ html,body{
 
 #major-gpa{
 	font-size: 36px;
-	font-family: "Avenir";
+	font-family: "Futura";
 	letter-spacing: 2px;
 	position: relative;
 	/*color:#131516;*/
@@ -195,7 +197,7 @@ html,body{
 
 #lehigh{
 	font-size: 36px;
-	font-family: "Avenir";
+	font-family: "Futura";
 	letter-spacing: 2px;
 	position: relative;
 	color:#131516;
@@ -204,7 +206,7 @@ html,body{
 
 #lehigh-years{
 	font-size: 36px;
-	font-family: "Avenir";
+	font-family: "Futura";
 	letter-spacing: 2px;
 	position: relative;
 	float:right;
@@ -215,7 +217,7 @@ html,body{
 	padding-top: 10px;
 	padding-bottom: 15px;
 	font-size: 36px;
-	font-family: "AvenirLight";
+	font-family: "FuturaLight";
 	letter-spacing: 3px;
 	position: relative;
 	float:left;
@@ -224,7 +226,7 @@ html,body{
 #minor-gpa{
 	padding-top: 10px;
 	font-size: 36px;
-	font-family: "Avenir";
+	font-family: "Futura";
 	letter-spacing: 2px;
 	position: relative;
 	float:right;
@@ -236,7 +238,7 @@ html,body{
 	padding-left: 100px;
 	margin-top: 10px;
 	font-size: 36px;
-	font-family: "AvenirLight";
+	font-family: "FuturaLight";
 	position: relative;
 	margin-bottom: 0px;
 	float: left;
@@ -245,7 +247,7 @@ html,body{
 #classes-right{
 	margin-top: 10px;
 	font-size: 36px;
-	font-family: "AvenirLight";
+	font-family: "FuturaLight";
 	position: relative;
 	float: right;
 	margin-bottom: 0px;
@@ -268,8 +270,9 @@ ul li:before {
 }*/
 
 .main-split{
-	height:3px;
-	background-color: #79CCD0;
+	height:2px;
+	opacity:.2;
+	background-color: #131516;
 	width:900px;
 	float:left;
 	position: relative;
@@ -323,17 +326,17 @@ ul li:before {
 }
 
 #experience{
-	overflow:hidden;
+	overflow: hidden;
 	color:#555F61;
 	position: relative;
-	padding-top: 20px;
-	padding-left: 40px;
+	padding-top: 56px;
+	padding-left: 50px;
 	clear:left;
 }
 
 .experience-title{
 	font-size: 36px;
-	font-family: "Avenir";
+	font-family: "Futura";
 	letter-spacing: 2px;
 	position: relative;
 	color:#131516;
@@ -342,35 +345,48 @@ ul li:before {
 
 .experience-years{
 	font-size: 32px;
-	font-family: "Avenir";
+	font-family: "Futura";
 	letter-spacing: 2px;
 	position: relative;
 	float:right;
 	padding-right: 50px;
 }
 
+.experience-languages{
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom:2px;
+	color: #777;
+	font-family: "FuturaLight";
+	letter-spacing: 2.7px;
+	position: relative;
+	float:left;
+	clear:both;
+	padding-right: 50px;
+}
+
 .experience-content{
-	padding-top: 20px;
+	padding-top: 0px;
 	padding-right: 50px;
 	font-size:32px;
 	position:relative;
-	font-family: "Avenir";
+	font-family: "Futura";
 	clear:left;
-	padding-bottom: 30px;
+	padding-bottom: 40px;
 }
 
 #leadership{
 	overflow:hidden;
 	color:#555F61;
 	position: relative;
-	padding-top: 20px;
-	padding-left: 40px;
+	padding-top: 10px;
+	padding-left: 50px;
 	clear:left;
 }
 
 .experience-title{
 	font-size: 36px;
-	font-family: "Avenir";
+	font-family: "Futura";
 	letter-spacing: 2px;
 	position: relative;
 	color:#131516;
@@ -380,7 +396,7 @@ ul li:before {
 
 .leadership-title{
 	font-size: 36px;
-	font-family: "Avenir";
+	font-family: "Futura";
 	letter-spacing: 2px;
 	position: relative;
 	color:#131516;
@@ -388,7 +404,7 @@ ul li:before {
 }
 .leadership-years{
 	font-size: 36px;
-	font-family: "Avenir";
+	font-family: "Futura";
 	letter-spacing: 2px;
 	position: relative;
 	float:right;
@@ -400,23 +416,23 @@ ul li:before {
 	padding-right: 50px;
 	font-size:32px;
 	position:relative;
-	font-family: "Avenir";
+	font-family: "Futura";
 	clear:left;
-	padding-bottom: 30px;
+	padding-bottom: 50px;
 }
 
 #general-skills{
 	overflow:hidden;
 	color:#555F61;
 	position: relative;
-	padding-top: 30px;
-	padding-left: 40px;
+	padding-top: 10px;
+	padding-left: 50px;
 	clear:left;
 }
 
 .skills-left{
 	width:45%;
-	font-family: "Avenir";
+	font-family: "Futura";
 	font-size: 36px;
 	float:left;
 	position: relative;
@@ -424,7 +440,7 @@ ul li:before {
 .skills-right{
 	width:50%;
 	padding-right: 3%;
-	font-family: "Avenir";
+	font-family: "Futura";
 	font-size: 36px;
 	float:right;
 	position: relative;
@@ -452,7 +468,7 @@ ul li:before {
 	float:right;
 	margin-bottom: 20px;
 	border-radius: 20px;
-	border:solid 4px #79CCD0;
+	border:solid 4px #01497c;
 }
 
 .general-title{
@@ -471,7 +487,7 @@ ul li:before {
 	padding-top: 1px;
 	border:solid 4px white;
 	border-radius: 20px;
-	background-color: #79CCD0;
+	background-color: #01497c;
 }
 
 
