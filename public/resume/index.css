@@ -329,7 +329,7 @@ ul li:before {
 	overflow: hidden;
 	color:#555F61;
 	position: relative;
-	padding-top: 56px;
+	padding-top: 40px;
 	padding-left: 50px;
 	clear:left;
 }
@@ -372,18 +372,30 @@ ul li:before {
 	position:relative;
 	font-family: "Futura";
 	clear:left;
-	padding-bottom: 40px;
+	padding-bottom: 20px;
+}
+
+.experience-content:last-child {
+	padding-bottom: 10px;
 }
 
 #main ul li{
-	list-style: circle;
+	list-style: none;
+}
+
+li::before {
+	content: "•";
+	color: #888;
+	display: inline-block;
+	width: 1em;
+	margin-left: -1em
 }
 
 #leadership{
 	overflow:hidden;
 	color:#555F61;
 	position: relative;
-	padding-top: 10px;
+	padding-top: 0px;
 	padding-left: 50px;
 	clear:left;
 }
@@ -417,13 +429,13 @@ ul li:before {
 
 .leadership-content{
 
-	padding-top: 10px;
+	padding-top: 5px;
 	padding-right: 50px;
 	font-size:32px;
 	position:relative;
 	font-family: "Futura";
 	clear:left;
-	padding-bottom: 50px;
+	padding-bottom: 0px;
 }
 
 .leadership-content ul{
