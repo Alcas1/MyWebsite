@@ -375,6 +375,10 @@ ul li:before {
 	padding-bottom: 40px;
 }
 
+#main ul li{
+	list-style: circle;
+}
+
 #leadership{
 	overflow:hidden;
 	color:#555F61;
@@ -412,13 +416,18 @@ ul li:before {
 }
 
 .leadership-content{
-	padding-top: 20px;
+
+	padding-top: 10px;
 	padding-right: 50px;
 	font-size:32px;
 	position:relative;
 	font-family: "Futura";
 	clear:left;
 	padding-bottom: 50px;
+}
+
+.leadership-content ul{
+	margin-top: 0px;
 }
 
 #general-skills{
