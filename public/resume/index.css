@@ -167,14 +167,14 @@ html,body{
 
 .main-title{
 	font-size: 72px;
-	font-family: "FuturaLight";
+	font-family: "Futura";
 	color:#01497c;
 	letter-spacing: 3px;
 	padding-bottom: 10px;
 	margin-bottom:40px;
 	float:left;
 	width:95%;
-	border-bottom: #131516 4px solid;
+	border-bottom: #01497c 4px solid;
 }
 
 #major{
@@ -351,6 +351,14 @@ ul li:before {
 	float:right;
 	padding-right: 50px;
 }
+.experience-title a{
+	color: #01497c !important;
+}
+
+.position{
+	color: #222;
+	font-family: "FuturaLight";
+}
 
 .experience-languages{
 	font-size: 25px;
@@ -407,6 +415,7 @@ li::before {
 	position: relative;
 	color:#131516;
 	float:left;
+	display: inline-block;
 }
 
 
@@ -526,3 +535,9 @@ li::before {
 
 }
 
+#dividerbar{
+	display: inline;
+	width: 20px;
+	height:30px;
+	background-color:grey;
+}
