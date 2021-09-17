@@ -164,9 +164,9 @@ html,body{
 	width: 450px;
 	padding-top: 60px;
 	margin-left: 45px;
-	font-family: "FuturaLight";
+	font-family: "Futura";
 	font-size:33px;
-	color:#fff;
+	color:#B8E1FF;
 }
 
 
@@ -424,7 +424,7 @@ li::before {
 	letter-spacing: 2px;
 	position: relative;
 	color:#131516;
-	float:left;
+	float: left;
 	display: inline-block;
 }
 
