@@ -353,8 +353,9 @@ ul li:before {
 	float:left;
 }
 
-.experience-years{
+.years{
 	font-size: 32px;
+	color: #6A7A99;
 	font-family: "Futura";
 	letter-spacing: 2px;
 	position: relative;
@@ -374,9 +375,9 @@ ul li:before {
 	font-size: 25px;
 	padding-top: 10px;
 	padding-bottom:2px;
-	color: #555;
-	font-family: "FuturaLight";
-	letter-spacing: 2.7px;
+	color: #6A7A99;
+	font-family: "Futura";
+	letter-spacing: 2.6px;
 	position: relative;
 	float:left;
 	clear:both;
